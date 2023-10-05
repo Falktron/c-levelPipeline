@@ -3,3 +3,4 @@ services:
     name: svelkit
     env: node
     buildCommand: npm install && npm run build
+    startCommand: npm run start
