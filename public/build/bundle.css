@@ -1,0 +1,13 @@
+.open.svelte-z6lre {
+  right: 0;
+}
+
+.modal-open {
+  overflow: hidden;
+  padding-right: 0;
+}
+
+.overflow-noscroll {
+  overflow: hidden;
+  padding-right: 0px;
+}
