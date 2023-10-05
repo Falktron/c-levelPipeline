@@ -49,6 +49,13 @@
             "contacts": "Contacts"
           }
         },
+        "research": {
+          "title": "Research",
+          "list": {
+            "targetaudience": "Target Audience",
+            "marketresearch": "Market Research"
+          }
+        },
         "extrapages": {
           "title": "Extra Pages",
           "list": {
@@ -141,6 +148,9 @@
     },
     "apps": {
       "text": "Apps"
+    },
+    "pipeline": {
+      "text": "PIPELINE"
     },
     "calendar": {
       "text": "Calendar"

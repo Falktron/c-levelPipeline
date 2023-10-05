@@ -94,7 +94,6 @@
         </button>
       </Dropdown>
 
-      <NotificationDropdown />
 
       <ProfileMenu />
 

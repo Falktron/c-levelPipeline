@@ -66,22 +66,24 @@
       <div class="navbar-brand-box">
         <a href="index" class="logo logo-dark">
           <span class="logo-sm">
-            <img src="/assets/images/logo.svg" alt="" height="22" />
+            <img src="/assets/images/logoFalktron-h.png" alt="" height="22" />
           </span>
           <span class="logo-lg">
-            <img src="/assets/images/logo-dark.png" alt="" height="17" />
+            <img src="/assets/images/logoFalktron-h.png" alt="" height="17" />
           </span>
         </a>
 
         <a href="index" class="logo logo-light">
           <span class="logo-sm">
-            <img src="/assets/images/logo-light.svg" alt="" height="22" />
+            <img src="/assets/images/logoFalktron-h.png" alt="" height="22" />
           </span>
           <span class="logo-lg">
-            <img src="/assets/images/logo-light.png" alt="" height="19" />
+            <img src="/assets/images/logoFalktron-h.png" alt="" height="80" />
           </span>
         </a>
       </div>
+
+      
 
       <button
         class="btn btn-sm px-3 font-size-16 vertinav-toggle header-item waves-effect"
@@ -97,8 +99,6 @@
 
     <div class="d-flex">
       <LanguageDropdown />
-
-      <HeaderApp />
 
       <Dropdown class="d-none d-lg-inline-block ms-1">
         <button
