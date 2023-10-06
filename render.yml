@@ -1,7 +1,8 @@
 services:
   - name: app
     buildCommand: npm install && npm run build
-    startCommand: node public/build/bundle.js
+    publish_dir: public/build 
+    startCommand: npm start
     env:
       - key: NODE_ENV
         value: production
