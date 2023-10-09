@@ -97,12 +97,10 @@
         <li class="menu-title" key="t-pipeline">{$_("menuitems.pipeline.text")}</li>
 
 
-        <li class={current == "ecommerce" ? "mm-active" : ""}>
+        <li class="mm-active" >
           <a
-            href={null}
-            class="has-arrow waves-effect"
-            on:click={() => changeClassAttribute("ecommerce")}>
-            <span key="t-ecommerce">{$_("menuitems.ecommerce.text")}</span>
+            href={null}>
+            <span  color={$_("menuitems.research.color")} key="t-research">{$_("menuitems.research.text")}</span>
           </a>
           <ul
             class="sub-menu mm-collapse {current === 'ecommerce'
@@ -112,15 +110,14 @@
             <li>
               <Link class="side-nav-link-ref" to="/">
                 <i class="bx bx-calendar" />
-                <span key="t-target-audience">{$_("menuitems.targetaudience.text")}</span>
+                <span key="t-target-audience">{$_("menuitems.research.list.targetaudience")}</span>
               </Link>
             </li>
-    
     
             <li>
               <Link class="side-nav-link-ref" to="/">
                 <i class="bx bx-file" />
-                <span key="t-market-research">{$_("menuitems.marketresearch.text")}</span>
+                <span key="t-market-research">{$_("menuitems.research.list.marketresearch")}</span>
               </Link>
             </li>
           </ul>

@@ -49,13 +49,6 @@
             "contacts": "Contacts"
           }
         },
-        "research": {
-          "title": "Research",
-          "list": {
-            "targetaudience": "Target Audience",
-            "marketresearch": "Market Research"
-          }
-        },
         "extrapages": {
           "title": "Extra Pages",
           "list": {
@@ -120,6 +113,38 @@
   "menuitems": {
     "menu": {
       "text": "Menu"
+    },
+    "research": {
+      "title": "RESEARCH",
+      "color": "#F1B44C",
+      "list": {
+        "targetaudience": "TARGET AUDIENCE",
+        "marketresearch": "MARKET RESEARCH"
+      }
+    },
+    "ideation": {
+      "title": "IDEATION",
+      "color": "#E83E8C",
+      "list": {
+        "scenariobuilding": "SCNARIO BUILDING",
+        "conceptdesign": "CONCEPT DESIGN"
+      }
+    },
+    "methods": {
+      "title": "METHODS",
+      "color": "#34C38F",
+      "list": {
+        "racimatrix": "RACI MATRIX",
+        "storymapskeleton": "STORY MAP SKELETON"
+      }
+    },
+    "strategicplanning": {
+      "title": "STRATEGIC PLANNING",
+      "color": "#556EE6",
+      "list": {
+        "bussinessplan": "BUSSINESS PLAN",
+        "growthplan": "GROWTH PLAN"
+      }
     },
     "dashboards": {
       "text": "Dashboards",
