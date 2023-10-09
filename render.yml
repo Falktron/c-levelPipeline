@@ -1,7 +1,6 @@
 services:
   - name: app
     buildCommand: npm install && npm run build
-    publish_dir: public/build 
     startCommand: npm run start
     env:
       - key: NODE_ENV
