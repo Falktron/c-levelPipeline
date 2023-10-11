@@ -1,0 +1,7 @@
+/*
+NavbarLLM Svelte
+*/
+#sidebar-menu ul li  ul.pipeline li a{
+    padding: 0.4rem 1.5rem;
+}
+

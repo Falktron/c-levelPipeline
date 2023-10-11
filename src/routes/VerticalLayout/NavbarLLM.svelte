@@ -103,7 +103,7 @@
             <span  color={$_("menuitems.research.color")} key="t-research">{$_("menuitems.research.text")}</span>
           </a>
           <ul
-            class="sub-menu mm-collapse {current === 'ecommerce'
+            class="sub-menu pipeline mm-collapse {current === 'ecommerce'
               ? 'mm-show'
               : ''}"
             aria-expanded="false">

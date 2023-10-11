@@ -18,7 +18,7 @@
 	});
   
 	if (!localStorage.getItem("authUser")) {
-	  navigate('/');
+	  navigate('/login');
 	}
   
   </script>

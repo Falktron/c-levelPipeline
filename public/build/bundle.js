@@ -4964,7 +4964,7 @@ var app = (function () {
     firebase.INTERNAL.registerComponent({name:"auth-internal",instanceFactory:function(b){b=b.getProvider("auth").getImmediate();return {getUid:q(b.getUid,b),getToken:q(b.nc,b),addAuthTokenListener:q(b.cc,b),removeAuthTokenListener:q(b.Pc,b)}},multipleInstances:!1,instantiationMode:"LAZY",type:"PRIVATE"});firebase.registerVersion("@firebase/auth","0.16.8");firebase.INTERNAL.extendNamespace({User:Im});}else throw Error("Cannot find the firebase namespace; be sure to include firebase-app.js before this library.");
     })();}).apply(typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : typeof window !== 'undefined' ? window : {});
 
-    var firebaseConfig = {
+    /*var firebaseConfig = {
 
       apiKey: 'AIzaSyBUctS2mlPY58Y-E1AypSUz7OO0zhlBLC8',
       authDomain: 'themesbrand-admin.firebaseapp.com',
@@ -4975,7 +4975,17 @@ var app = (function () {
       appId: '427667224207:web:3b97af80b8b4824619a2fa',
       measurementId: 'G-S4LDYNV7FY',
       
+    };*/
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyCBPQvrKRgOT-lT2eaBBVBAR7lgjGlTMJU",
+      authDomain: "authpipeline.firebaseapp.com",
+      projectId: "authpipeline",
+      storageBucket: "authpipeline.appspot.com",
+      messagingSenderId: "114608062017",
+      appId: "1:114608062017:web:b6353799620d7e1a4650c0"
     };
+
 
     firebase.initializeApp(firebaseConfig);
 
@@ -21985,11 +21995,10 @@ var app = (function () {
     	let div1;
     	let h4;
     	let t0;
-    	let t1;
     	let div0;
     	let ol;
     	let breadcrumbitem0;
-    	let t2;
+    	let t1;
     	let breadcrumbitem1;
     	let current;
 
@@ -22014,36 +22023,33 @@ var app = (function () {
     		c: function create() {
     			div1 = element("div");
     			h4 = element("h4");
-    			t0 = text(/*breadcrumbItem*/ ctx[1]);
-    			t1 = space();
+    			t0 = space();
     			div0 = element("div");
     			ol = element("ol");
     			create_component(breadcrumbitem0.$$.fragment);
-    			t2 = space();
+    			t1 = space();
     			create_component(breadcrumbitem1.$$.fragment);
     			attr_dev(h4, "class", "mb-sm-0 font-size-18");
     			add_location(h4, file$g, 12, 6, 276);
     			attr_dev(ol, "class", "breadcrumb m-0");
-    			add_location(ol, file$g, 14, 8, 376);
+    			add_location(ol, file$g, 14, 8, 360);
     			attr_dev(div0, "class", "page-title-right");
-    			add_location(div0, file$g, 13, 6, 337);
+    			add_location(div0, file$g, 13, 6, 321);
     			attr_dev(div1, "class", "page-title-box d-sm-flex align-items-center justify-content-between");
     			add_location(div1, file$g, 11, 4, 188);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
     			append_dev(div1, h4);
-    			append_dev(h4, t0);
-    			append_dev(div1, t1);
+    			append_dev(div1, t0);
     			append_dev(div1, div0);
     			append_dev(div0, ol);
     			mount_component(breadcrumbitem0, ol, null);
-    			append_dev(ol, t2);
+    			append_dev(ol, t1);
     			mount_component(breadcrumbitem1, ol, null);
     			current = true;
     		},
     		p: function update(ctx, dirty) {
-    			if (!current || dirty & /*breadcrumbItem*/ 2) set_data_dev(t0, /*breadcrumbItem*/ ctx[1]);
     			const breadcrumbitem0_changes = {};
 
     			if (dirty & /*$$scope, title*/ 5) {
@@ -36970,9 +36976,9 @@ var app = (function () {
     			span = element("span");
     			t1 = text(t1_value);
     			attr_dev(i, "class", "bx bx-calendar");
-    			add_location(i, file$5, 111, 16, 3531);
+    			add_location(i, file$5, 111, 16, 3540);
     			attr_dev(span, "key", "t-target-audience");
-    			add_location(span, file$5, 112, 16, 3576);
+    			add_location(span, file$5, 112, 16, 3585);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, i, anchor);
@@ -37016,9 +37022,9 @@ var app = (function () {
     			span = element("span");
     			t1 = text(t1_value);
     			attr_dev(i, "class", "bx bx-file");
-    			add_location(i, file$5, 118, 16, 3792);
+    			add_location(i, file$5, 118, 16, 3801);
     			attr_dev(span, "key", "t-market-research");
-    			add_location(span, file$5, 119, 16, 3833);
+    			add_location(span, file$5, 119, 16, 3842);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, i, anchor);
@@ -37120,9 +37126,9 @@ var app = (function () {
     			add_location(span, file$5, 102, 12, 3166);
     			attr_dev(a, "href", null);
     			add_location(a, file$5, 100, 10, 3126);
-    			add_location(li1, file$5, 109, 12, 3456);
-    			add_location(li2, file$5, 116, 12, 3717);
-    			attr_dev(ul0, "class", ul0_class_value = "sub-menu mm-collapse " + (/*current*/ ctx[0] === 'ecommerce' ? 'mm-show' : ''));
+    			add_location(li1, file$5, 109, 12, 3465);
+    			add_location(li2, file$5, 116, 12, 3726);
+    			attr_dev(ul0, "class", ul0_class_value = "sub-menu pipeline mm-collapse " + (/*current*/ ctx[0] === 'ecommerce' ? 'mm-show' : ''));
     			attr_dev(ul0, "aria-expanded", "false");
     			add_location(ul0, file$5, 104, 10, 3293);
     			attr_dev(li3, "class", "mm-active");
@@ -37185,7 +37191,7 @@ var app = (function () {
 
     			link1.$set(link1_changes);
 
-    			if (!current || dirty & /*current*/ 1 && ul0_class_value !== (ul0_class_value = "sub-menu mm-collapse " + (/*current*/ ctx[0] === 'ecommerce' ? 'mm-show' : ''))) {
+    			if (!current || dirty & /*current*/ 1 && ul0_class_value !== (ul0_class_value = "sub-menu pipeline mm-collapse " + (/*current*/ ctx[0] === 'ecommerce' ? 'mm-show' : ''))) {
     				attr_dev(ul0, "class", ul0_class_value);
     			}
     		},
@@ -41147,7 +41153,7 @@ var app = (function () {
     	$({ initialLocale: "en" });
 
     	if (!localStorage.getItem("authUser")) {
-    		navigate('/');
+    		navigate('/login');
     	}
 
     	const writable_props = ['url'];
