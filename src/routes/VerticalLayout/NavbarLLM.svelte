@@ -1,12 +1,16 @@
 <script>
   import { onMount } from "svelte";
+  import { Row, Col, Card, CardBody, CardTitle } from "sveltestrap";
 
   import { Link } from "svelte-routing";
 
   import { _ } from "svelte-i18n";
 
+  import LiVerticalTimeline from "./vertical-timeline.svelte";
+
   let current = "dashboard";
   let current_child = "dashboard";
+
 
   function changeClassAttribute(attribute, child = null) {
     if (child && child === current_child) {
@@ -94,37 +98,43 @@
       <!-- Left Menu Start -->
       <ul class="metismenu list-unstyled" id="side-menu">
 
-        <li class="menu-title" key="t-pipeline">{$_("menuitems.pipeline.text")}</li>
+        <li class="menu-title" key="t-pipeline">{$_("menuitems.pipeline.text")}</li> </ul>
+        <Row>
+          <Col lg="12">       
+            <div class="mm-active" >
+
+              <ul class="verti-timeline list-unstyled  sub-menu pipeline">
+                <li class="event-headline text-uppercase menu-title">
+                  <span  style="color:{$_("menuitems.research.color")}" key="t-research">{$_("menuitems.research.text")}</span>
+                </li>
+                {#each $_("menuitems.research.list")  as pipeline}
+                  <LiVerticalTimeline {pipeline} />
+                {/each}
+                <li class="event-headline text-uppercase menu-title">
+                  <span  style="color:{$_("menuitems.ideation.color")}" key="t-ideation">{$_("menuitems.ideation.text")}</span>
+                </li>
+                {#each $_("menuitems.ideation.list")  as pipeline}
+                  <LiVerticalTimeline {pipeline} />
+                {/each}
+                <li class="event-headline text-uppercase menu-title">
+                  <span  style="color:{$_("menuitems.methods.color")}" key="t-methods">{$_("menuitems.methods.text")}</span>
+                </li>
+                {#each $_("menuitems.methods.list")  as pipeline}
+                  <LiVerticalTimeline {pipeline} />
+                {/each}
+                <li class="event-headline text-uppercase menu-title">
+                  <span  style="color:{$_("menuitems.strategicplanning.color")}" key="t-strategicplanning">{$_("menuitems.strategicplanning.text")}</span>
+                </li>
+                {#each $_("menuitems.strategicplanning.list")  as pipeline}
+                  <LiVerticalTimeline {pipeline} />
+                {/each}
+              </ul>
+            </div>      
+          </Col>
+        </Row>
 
 
-        <li class="mm-active" >
-          <a
-            href={null}>
-            <span  color={$_("menuitems.research.color")} key="t-research">{$_("menuitems.research.text")}</span>
-          </a>
-          <ul
-            class="sub-menu pipeline mm-collapse {current === 'ecommerce'
-              ? 'mm-show'
-              : ''}"
-            aria-expanded="false">
-            <li>
-              <Link class="side-nav-link-ref" to="/">
-                <i class="bx bx-calendar" />
-                <span key="t-target-audience">{$_("menuitems.research.list.targetaudience")}</span>
-              </Link>
-            </li>
-    
-            <li>
-              <Link class="side-nav-link-ref" to="/">
-                <i class="bx bx-file" />
-                <span key="t-market-research">{$_("menuitems.research.list.marketresearch")}</span>
-              </Link>
-            </li>
-          </ul>
-        </li>
-
-
-      </ul>
+     
     </div>
     <!-- Sidebar -->
   </div>

@@ -158,10 +158,87 @@
     },
     "research": {
       "text": "Research",
-      "list": {
-        "targetaudience": "Target Audience",
-        "marketresearch": "Market Research"
-      }
+      "color":"#F1B44C",
+      "list": [
+        {
+          "id": 1,
+          "name": "Target Audience",
+          "link": "/targetAudience",
+          "key": "t-target-audience",
+          "icon": "bx bx-calendar"
+        },
+        {
+          "id": 2,
+          "name": "Marketing Research",
+          "link": "/marketingresearhc",
+          "key": "t-marketing-research",
+          "icon": "bx bx-file"
+        }
+       
+      ]
+    },
+    "ideation": {
+      "text": "Ideation",
+      "color":"#E83E8C",
+      "list": [
+        {
+          "id": 1,
+          "name": "Sceneraio Building",
+          "link": "/scenarioBuilding",
+          "key": "t-scneario-building",
+          "icon": "bx bx-calendar"
+        },
+        {
+          "id": 2,
+          "name": "Concept Design",
+          "link": "/conceptDesign",
+          "key": "t-concept-desgin",
+          "icon": "bx bx-file"
+        }
+       
+      ]
+    },
+    "methods": {
+      "text": "Methods",
+      "color":"#34C38F",
+      "list": [
+        {
+          "id": 1,
+          "name": "Raci Matrix",
+          "link": "/raciMatrix",
+          "key": "t-raci-matrix",
+          "icon": "bx bx-calendar"
+        },
+        {
+          "id": 2,
+          "name": "Concept Design",
+          "link": "/conceptDesign",
+          "key": "t-concept-desgin",
+          "icon": "bx bx-file"
+        }
+       
+      ]
+    },
+    "strategicplanning": {
+      "text": "Strategic Planning",
+      "color":"#556EE6",
+      "list": [
+        {
+          "id": 1,
+          "name": "Bussines Plan",
+          "link": "/bussinessPlan",
+          "key": "t-bussiness-plan",
+          "icon": "bx bx-calendar"
+        },
+        {
+          "id": 2,
+          "name": "Growth Plan",
+          "link": "/growthPlan",
+          "key": "t-growth-plan",
+          "icon": "bx bx-file"
+        }
+       
+      ]
     },
     "ecommerce": {
       "text": "Ecommerce",
