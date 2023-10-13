@@ -17,6 +17,19 @@ NavbarLLM Svelte
 
   }
 
+
+  .headlines-global {
+    color :#556EF0;
+  }
+
+  .form-prompt {
+    height:100px;
+  }
+
+  .target-audience {
+    color :#F1B44C;
+  }
+
   .verti-timeline{
     border-left: 2px dashed var(--bs-gray-600);
     margin: 0px 20px;
@@ -31,4 +44,17 @@ NavbarLLM Svelte
 .verti-timeline .event-list {
     position: relative;
     padding: 0 0 20px 30px;
+}
+
+.header-prompt {
+    width: 100%;
+} 
+
+
+.running-going {
+    display: block;
+}
+
+.running-stop {
+    display: none;
 }

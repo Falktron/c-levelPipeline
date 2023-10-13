@@ -1,5 +1,4 @@
 
-
 function extractData(data) {
     const parsedData = JSON.parse(data);
     const extractedData = [];
@@ -11,7 +10,6 @@ function extractData(data) {
     });
 
     return extractedData;
-
     
 }
 
