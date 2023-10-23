@@ -1,3 +1,15 @@
 import { writable } from 'svelte/store';
 
-export const user = writable({ loggedIn: false });
+const user = writable({ 
+    loggedIn: false ,
+});
+
+const pipelineResults = writable({ 
+    prompt: '',
+    startPipeline: false,
+    targetAudience: null,
+    businessModel: null,
+    currentPipeline: null,
+});
+
+export { user, pipelineResults };

@@ -21,28 +21,27 @@
   let customActiveTab = "1";
   import Breadcrumb from "../../common/Breadcrumb.svelte";
 
-  import { pipelineResults } from '../../Flowise/pipelineResults.js';
+  import { pipelineResults } from '../../helpers/store.js';
 
 
-  //* results for tabs *//
 
 
   let result;
   pipelineResults.subscribe((value) => {
-    if(value) {
-      result = JSON.parse(value);
-      result = result[0];
+    if(value){
+      result = value.targetAudience;
+      console.log(typeof(result), result);
     }
-    console.log(typeof(result), result);
   });
 
 
+  
   let splitPersonas = (data) => {
     let personas = data.split(/Persona \d+: /).filter(Boolean);
     const personaDetails = [];
 
-  // Process each persona
-  for (let i = 1; i < personas.length; i++) {
+  // Process each persona to show them in the UI
+  for (let i = 0; i < personas.length; i++) {
     const persona = personas[i].trim();
     const details = persona.split("\n\n");
 
@@ -71,8 +70,6 @@
 
   }
 
-
-
   
 </script>
 
@@ -84,7 +81,7 @@
         <CardBody>
           <Row class= "p-4">
             <Col sm={8}>
-              <CardTitle  class="h4 target-audience">Target Audience</CardTitle>
+              <CardTitle  class="h4 target-audience">Business Model</CardTitle>
               <p class="card-title-desc">Intended individuals for content, products, or services based 
                 on relevant demographics and interests..</p>
             </Col>

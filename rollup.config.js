@@ -7,10 +7,13 @@ import css from 'rollup-plugin-css-only';
 import json from "@rollup/plugin-json";
 import dotenv from 'dotenv';
 import scss from 'rollup-plugin-scss';
+import replace from '@rollup/plugin-replace';
 
 dotenv.config();
 
 const production = !process.env.ROLLUP_WATCH;
+
+
 
 function serve() {
 	let server;
@@ -55,6 +58,11 @@ export default {
 
 		scss(),
 
+		commonjs({
+			exclude: ['pg-pool'],
+		}),
+
+
 		// we'll extract any component CSS out into
 		// a separate file - better for performance
 		css({ output: 'bundle.css' }),
@@ -68,7 +76,16 @@ export default {
 			browser: true,
 			dedupe: ['svelte']
 		}),
-		commonjs(),
+
+	
+
+		replace({
+			'process.env.DATABASE_USERNAME': JSON.stringify(process.env.DATABASE_USERNAME),
+			'process.env.DATABASE_PASSWORD': JSON.stringify(process.env.DATABASE_PASSWORD),
+			'process.env.DATABASE_HOST': JSON.stringify(process.env.DATABASE_HOST),
+			'process.env.DATABASE_NAME': JSON.stringify(process.env.DATABASE_NAME),
+			'process.env.DATABASE_PORT': JSON.stringify(process.env.DATABASE_PORT),
+		}),
 
 		// In dev mode, call `npm run start` once
 		// the bundle has been generated

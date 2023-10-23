@@ -164,14 +164,14 @@
           "id": 1,
           "name": "Target Audience",
           "link": "/targetAudience",
-          "key": "t-target-audience",
+          "key": "targetAudience",
           "icon": "bx bx-calendar"
         },
         {
           "id": 2,
           "name": "Marketing Research",
           "link": "/marketingresearhc",
-          "key": "t-marketing-research",
+          "key": "marketingResearch",
           "icon": "bx bx-file"
         }
        
@@ -185,14 +185,14 @@
           "id": 1,
           "name": "Sceneraio Building",
           "link": "/scenarioBuilding",
-          "key": "t-scneario-building",
+          "key": "scnearioBuilding",
           "icon": "bx bx-calendar"
         },
         {
           "id": 2,
           "name": "Concept Design",
           "link": "/conceptDesign",
-          "key": "t-concept-desgin",
+          "key": "conceptDesgin",
           "icon": "bx bx-file"
         }
        
@@ -206,14 +206,14 @@
           "id": 1,
           "name": "Raci Matrix",
           "link": "/raciMatrix",
-          "key": "t-raci-matrix",
+          "key": "raciMatrix",
           "icon": "bx bx-calendar"
         },
         {
           "id": 2,
           "name": "Concept Design",
           "link": "/conceptDesign",
-          "key": "t-concept-desgin",
+          "key": "conceptDesgin",
           "icon": "bx bx-file"
         }
        
@@ -225,9 +225,9 @@
       "list": [
         {
           "id": 1,
-          "name": "Bussines Plan",
-          "link": "/bussinessPlan",
-          "key": "t-bussiness-plan",
+          "name": "Bussines Model",
+          "link": "/bussinessModel",
+          "key": "bussinessModel",
           "icon": "bx bx-calendar"
         },
         {

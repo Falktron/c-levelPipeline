@@ -1,6 +1,6 @@
 async function queryTargetUsers(data) {
-    const response = await fetch(
-        "http://75.119.157.23:3001/api/v1/prediction/44801c30-8b94-4c38-a372-01b84ccee1b4",
+     const response = await fetch(
+        "http://75.119.157.23:3001/api/v1/prediction/df3a83b7-60da-43d6-ac2f-8939a5e86b72",
         {
             headers: {
                 Authorization: "Bearer gDqzGFaOSHeOKe4Sc6Js1iZg1RuQERr8po8TgDKMGHE=",
@@ -14,4 +14,40 @@ async function queryTargetUsers(data) {
     return result;
 
 }
-export { queryTargetUsers };
+
+
+async function queryTargetDB(projectId, pipelineName) {
+    try {
+      const response = await fetch(`https://api-service-v26r.onrender.com/result?project_id=${projectId}&pipeline_name=${pipelineName}`);
+      
+      if (response.ok) {
+        const data = await response.json();
+        return data[0].results[0];
+      } else {
+        throw new Error('Error fetching data from the API');
+      }
+    } catch (error) {
+      console.error('Error:', error.message);
+      return null; // or you can return an error object/message
+    }
+  }
+  
+
+
+async function queryBussinesModel(data) {
+    const response = await fetch(
+       "http://75.119.157.23:3001/api/v1/prediction/58f9feec-0b72-4f4a-9d29-bf5671c976a2",
+       {
+           headers: {
+               Authorization: "Bearer gDqzGFaOSHeOKe4Sc6Js1iZg1RuQERr8po8TgDKMGHE=",
+               "Content-Type": "application/json"
+           },
+           method: "POST",
+           body: JSON.stringify(data)
+       }
+   );
+   const result = await response.json();
+   return result;
+
+}
+export {queryTargetUsers, queryTargetDB, queryBussinesModel};

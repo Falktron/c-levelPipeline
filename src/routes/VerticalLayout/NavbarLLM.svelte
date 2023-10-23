@@ -111,6 +111,12 @@
                   <LiVerticalTimeline {pipeline} />
                 {/each}
                 <li class="event-headline text-uppercase menu-title">
+                  <span  style="color:{$_("menuitems.strategicplanning.color")}" key="t-strategicplanning">{$_("menuitems.strategicplanning.text")}</span>
+                </li>
+                {#each $_("menuitems.strategicplanning.list")  as pipeline}
+                  <LiVerticalTimeline {pipeline} />
+                {/each}
+                <li class="event-headline text-uppercase menu-title">
                   <span  style="color:{$_("menuitems.ideation.color")}" key="t-ideation">{$_("menuitems.ideation.text")}</span>
                 </li>
                 {#each $_("menuitems.ideation.list")  as pipeline}
@@ -120,12 +126,6 @@
                   <span  style="color:{$_("menuitems.methods.color")}" key="t-methods">{$_("menuitems.methods.text")}</span>
                 </li>
                 {#each $_("menuitems.methods.list")  as pipeline}
-                  <LiVerticalTimeline {pipeline} />
-                {/each}
-                <li class="event-headline text-uppercase menu-title">
-                  <span  style="color:{$_("menuitems.strategicplanning.color")}" key="t-strategicplanning">{$_("menuitems.strategicplanning.text")}</span>
-                </li>
-                {#each $_("menuitems.strategicplanning.list")  as pipeline}
                   <LiVerticalTimeline {pipeline} />
                 {/each}
               </ul>
