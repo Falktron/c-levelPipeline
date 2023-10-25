@@ -34,10 +34,10 @@
             console.log(data);
             updateVariable("currentPipeline", "targetAudience");
             updateVariable("startPipeline", true);
-
-            let jsonTemp;
+            let response;
             try {
-                const response = await queryTest(data);
+                response = await queryTargetUsers(data);
+                console.log(response);
             } catch (error) {
                 throw error;
             }
@@ -51,10 +51,9 @@
             console.log(audienceInfo);
             const data = { "question": JSON.stringify(audienceInfo) };
             updateVariable("currentPipeline", "businessModel");
-
-            let jsonTemp;
+            let response;
             try {
-                const response = await queryBusinessModel(data);
+                response = await queryBusinessModel(data);
                 console.log(response);
             } catch (error) {
                
@@ -78,13 +77,12 @@
                 value_proposition_short: businessInfo.value_proposition_short,
                 business_success: businessInfo.business_success
             };
-
+            
             const data = { "question": JSON.stringify(audienceInfo) };
             updateVariable("currentPipeline", "marketingResearch");
-
-            let jsonTemp;
+            let response;
             try {
-                const response = await queryMarketingResearch(data);
+                response = await queryMarketingResearch(data);
                 console.log(response);
                 
             } catch (error) {
@@ -114,18 +112,18 @@
     ];
 
     async function executeFunctionChain() {
-    try {
-        for (const func of functionChain) {
-        await func.func();
-        console.log(`Function ${func.name} executed successfully`);
+        try {
+            for (const func of functionChain) {
+            await func.func();
+            console.log(`Function ${func.name} executed successfully`);
+            }
+            console.log("Function chain execution completed");
+        } catch (error) {
+            updateVariable("startPipeline", false);
+            console.error(`Error in function chain: ${error}`);
         }
-        console.log("Function chain execution completed");
-    } catch (error) {
-        updateVariable("startPipeline", false);
-        console.error(`Error in function chain: ${error.func.name}`, error);
-        
     }
-    }
+    
 
 
 
