@@ -50303,27 +50303,81 @@ var app = (function () {
     	}
     }
 
-    async function queryTargetUsers(data) {
-         const response = await fetch(
-            "http://75.119.157.23:3001/api/v1/prediction/df3a83b7-60da-43d6-ac2f-8939a5e86b72",
-            {
-                headers: {
-                    Authorization: "Bearer gDqzGFaOSHeOKe4Sc6Js1iZg1RuQERr8po8TgDKMGHE=",
-                    "Content-Type": "application/json"
-                },
-                method: "POST",
-                body: JSON.stringify(data)
-            }
-        );
-        const result = await response.json();
-        return result;
-
+    /*async function queryTargetUsers(prompt) {
+      try {
+        const response = await fetch("https://api-service-v26r.onrender.com/target-users", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+            ,Authorization: "Bearer gDqzGFaOSHeOKe4Sc6Js1iZg1RuQERr8po8TgDKMGHE="
+          },
+          body: JSON.stringify(prompt)
+        });
+        
+        if (response.ok) {
+          const data = await response.json();
+          return data[0].results[0];
+        } else {
+          throw new Error('Error fetching data from the API');
+        }
+      } catch (error) {
+        console.error('Error:', error.message);
+        return null; // or you can return an error object/message
+      }
     }
 
 
+
+    async function queryBusinessModel(prompt) {
+      try {
+        const response = await fetch("https://api-service-v26r.onrender.com/business-model", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+            ,Authorization: "Bearer gDqzGFaOSHeOKe4Sc6Js1iZg1RuQERr8po8TgDKMGHE="
+          },
+          body: JSON.stringify(prompt)
+        });
+        
+        if (response.ok) {
+          const data = await response.json();
+          return data[0].results[0];
+        } else {
+          throw new Error('Error fetching data from the API');
+        }
+      } catch (error) {
+        console.error('Error:', error.message);
+        return null; // or you can return an error object/message
+      }
+    }
+
+    async function queryMarketingResearch(prompt) {
+      try {
+        const response = await fetch("https://api-service-v26r.onrender.com/marketing-research", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+            ,Authorization: "Bearer gDqzGFaOSHeOKe4Sc6Js1iZg1RuQERr8po8TgDKMGHE="
+          },
+          body: JSON.stringify(prompt)
+        });
+        
+        if (response.ok) {
+          const data = await response.json();
+          return data[0].results[0];
+        } else {
+          throw new Error('Error fetching data from the API');
+        }
+      } catch (error) {
+        console.error('Error:', error.message);
+        return null; // or you can return an error object/message
+      }
+    }
+    */
+
     async function queryTargetDB(projectId, pipelineName) {
         try {
-          const response = await fetch(`https://api-service-v26r.onrender.com/result?project_id=${projectId}&pipeline_name=${pipelineName}`);
+          const response = await fetch(`https://api-service-v26r.onrender.com/audience?project_id=${projectId}&pipeline_name=${pipelineName}`);
           
           if (response.ok) {
             const data = await response.json();
@@ -50339,7 +50393,24 @@ var app = (function () {
       
 
 
-    async function queryBussinesModel(data) {
+
+      async function queryTargetUsers(data) {
+         const response = await fetch(
+            "http://75.119.157.23:3001/api/v1/prediction/df3a83b7-60da-43d6-ac2f-8939a5e86b72",
+            {
+                headers: {
+                    Authorization: "Bearer gDqzGFaOSHeOKe4Sc6Js1iZg1RuQERr8po8TgDKMGHE=",
+                    "Content-Type": "application/json"
+                },
+                method: "POST",
+                body: JSON.stringify(data)
+            }
+        );
+        const result = await response.json();
+        return result;
+
+    }
+      async function queryBusinessModel(data) {
         const response = await fetch(
            "http://75.119.157.23:3001/api/v1/prediction/58f9feec-0b72-4f4a-9d29-bf5671c976a2",
            {
@@ -50395,7 +50466,7 @@ var app = (function () {
     const { console: console_1 } = globals;
     const file$2 = "src/routes/VerticalLayout/PromptField.svelte";
 
-    // (166:20) <Col lg={4} >
+    // (168:20) <Col lg={4} >
     function create_default_slot_13(ctx) {
     	let h5;
     	let t1;
@@ -50422,15 +50493,15 @@ var app = (function () {
     			i1 = element("i");
     			t4 = text("\n                            Simple inputs for wealth generation.");
     			attr_dev(h5, "class", "font-size-15 headlines-global");
-    			add_location(h5, file$2, 166, 20, 4791);
+    			add_location(h5, file$2, 168, 20, 4791);
     			attr_dev(i0, "class", "mdi mdi-chevron-right text-primary me-1");
-    			add_location(i0, file$2, 171, 28, 5012);
-    			add_location(p0, file$2, 170, 28, 4980);
+    			add_location(i0, file$2, 173, 28, 5012);
+    			add_location(p0, file$2, 172, 28, 4980);
     			attr_dev(i1, "class", "mdi mdi-chevron-right text-primary me-1");
-    			add_location(i1, file$2, 175, 28, 5221);
-    			add_location(p1, file$2, 174, 28, 5189);
+    			add_location(i1, file$2, 177, 28, 5221);
+    			add_location(p1, file$2, 176, 28, 5189);
     			attr_dev(div, "class", "text-muted mt-4");
-    			add_location(div, file$2, 169, 20, 4922);
+    			add_location(div, file$2, 171, 20, 4922);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h5, anchor);
@@ -50456,14 +50527,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_13.name,
     		type: "slot",
-    		source: "(166:20) <Col lg={4} >",
+    		source: "(168:20) <Col lg={4} >",
     		ctx
     	});
 
     	return block;
     }
 
-    // (183:24) <CardTitle class="h4 mb-4">
+    // (185:24) <CardTitle class="h4 mb-4">
     function create_default_slot_12(ctx) {
     	let t;
 
@@ -50483,14 +50554,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_12.name,
     		type: "slot",
-    		source: "(183:24) <CardTitle class=\\\"h4 mb-4\\\">",
+    		source: "(185:24) <CardTitle class=\\\"h4 mb-4\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (182:20) <Col lg={8} class="text-sm-end">
+    // (184:20) <Col lg={8} class="text-sm-end">
     function create_default_slot_11(ctx) {
     	let cardtitle;
     	let t0;
@@ -50529,14 +50600,14 @@ var app = (function () {
     			attr_dev(textarea, "class", "form-control form-prompt");
     			attr_dev(textarea, "id", "formrow-prompt-input");
     			textarea.disabled = textarea_disabled_value = /*$pipelineResults*/ ctx[2].startPipeline;
-    			add_location(textarea, file$2, 185, 28, 5733);
+    			add_location(textarea, file$2, 187, 28, 5733);
     			attr_dev(div, "class", "mb-3");
-    			add_location(div, file$2, 184, 28, 5686);
+    			add_location(div, file$2, 186, 28, 5686);
     			button.disabled = button_disabled_value = !/*question*/ ctx[0] || /*$pipelineResults*/ ctx[2].startPipeline;
     			attr_dev(button, "class", "btn btn-primary w-md");
     			attr_dev(button, "type", "submit");
-    			add_location(button, file$2, 188, 28, 6069);
-    			add_location(form, file$2, 183, 24, 5603);
+    			add_location(button, file$2, 190, 28, 6069);
+    			add_location(form, file$2, 185, 24, 5603);
     		},
     		m: function mount(target, anchor) {
     			mount_component(cardtitle, target, anchor);
@@ -50614,14 +50685,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_11.name,
     		type: "slot",
-    		source: "(182:20) <Col lg={8} class=\\\"text-sm-end\\\">",
+    		source: "(184:20) <Col lg={8} class=\\\"text-sm-end\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (165:16) <Row class="p-4">
+    // (167:16) <Row class="p-4">
     function create_default_slot_10(ctx) {
     	let col0;
     	let t;
@@ -50697,14 +50768,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_10.name,
     		type: "slot",
-    		source: "(165:16) <Row class=\\\"p-4\\\">",
+    		source: "(167:16) <Row class=\\\"p-4\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (151:12) <AccordionItem active>
+    // (153:12) <AccordionItem active>
     function create_default_slot_9(ctx) {
     	let div;
     	let row;
@@ -50724,7 +50795,7 @@ var app = (function () {
     			div = element("div");
     			create_component(row.$$.fragment);
     			attr_dev(div, "class", "text-muted");
-    			add_location(div, file$2, 163, 16, 4678);
+    			add_location(div, file$2, 165, 16, 4678);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -50759,14 +50830,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_9.name,
     		type: "slot",
-    		source: "(151:12) <AccordionItem active>",
+    		source: "(153:12) <AccordionItem active>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (154:20) <Col sm={2}>
+    // (156:20) <Col sm={2}>
     function create_default_slot_8(ctx) {
     	let t;
 
@@ -50786,14 +50857,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_8.name,
     		type: "slot",
-    		source: "(154:20) <Col sm={2}>",
+    		source: "(156:20) <Col sm={2}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (157:20) <Col sm={8} class="text-sm-center "  >
+    // (159:20) <Col sm={8} class="text-sm-center "  >
     function create_default_slot_7(ctx) {
     	let h5;
     	let i;
@@ -50806,9 +50877,9 @@ var app = (function () {
     			i = element("i");
     			t = text("BUILDING RESULTS");
     			attr_dev(i, "class", "mdi mdi-alert-circle-outline me-3");
-    			add_location(i, file$2, 158, 24, 4499);
+    			add_location(i, file$2, 160, 24, 4499);
     			attr_dev(h5, "class", h5_class_value = "h6 " + (/*isLoading*/ ctx[1] ? "running-going" : "running-stop") + "");
-    			add_location(h5, file$2, 157, 20, 4413);
+    			add_location(h5, file$2, 159, 20, 4413);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h5, anchor);
@@ -50829,14 +50900,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_7.name,
     		type: "slot",
-    		source: "(157:20) <Col sm={8} class=\\\"text-sm-center \\\"  >",
+    		source: "(159:20) <Col sm={8} class=\\\"text-sm-center \\\"  >",
     		ctx
     	});
 
     	return block;
     }
 
-    // (153:16) <Row>
+    // (155:16) <Row>
     function create_default_slot_6(ctx) {
     	let col0;
     	let t;
@@ -50912,14 +50983,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_6.name,
     		type: "slot",
-    		source: "(153:16) <Row>",
+    		source: "(155:16) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (152:16) 
+    // (154:16) 
     function create_header_slot(ctx) {
     	let div;
     	let row;
@@ -50939,7 +51010,7 @@ var app = (function () {
     			create_component(row.$$.fragment);
     			attr_dev(div, "class", "header-prompt");
     			attr_dev(div, "slot", "header");
-    			add_location(div, file$2, 151, 16, 4176);
+    			add_location(div, file$2, 153, 16, 4176);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -50974,14 +51045,14 @@ var app = (function () {
     		block,
     		id: create_header_slot.name,
     		type: "slot",
-    		source: "(152:16) ",
+    		source: "(154:16) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (150:12) <Accordion class="custom-accordion">
+    // (152:12) <Accordion class="custom-accordion">
     function create_default_slot_5(ctx) {
     	let accordionitem;
     	let current;
@@ -51033,14 +51104,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_5.name,
     		type: "slot",
-    		source: "(150:12) <Accordion class=\\\"custom-accordion\\\">",
+    		source: "(152:12) <Accordion class=\\\"custom-accordion\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (145:8) <Col lg={12}>
+    // (147:8) <Col lg={12}>
     function create_default_slot_4(ctx) {
     	let h5;
     	let t1;
@@ -51068,9 +51139,9 @@ var app = (function () {
     			t3 = space();
     			create_component(accordion.$$.fragment);
     			attr_dev(h5, "class", "font-size-14");
-    			add_location(h5, file$2, 145, 12, 3905);
+    			add_location(h5, file$2, 147, 12, 3905);
     			attr_dev(p, "class", "card-title-desc");
-    			add_location(p, file$2, 146, 12, 3958);
+    			add_location(p, file$2, 148, 12, 3958);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h5, anchor);
@@ -51111,14 +51182,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_4.name,
     		type: "slot",
-    		source: "(145:8) <Col lg={12}>",
+    		source: "(147:8) <Col lg={12}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (144:8) <Row>
+    // (146:8) <Row>
     function create_default_slot_3$1(ctx) {
     	let col;
     	let current;
@@ -51167,14 +51238,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_3$1.name,
     		type: "slot",
-    		source: "(144:8) <Row>",
+    		source: "(146:8) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (143:4) <CardBody>
+    // (145:4) <CardBody>
     function create_default_slot_2$1(ctx) {
     	let row;
     	let current;
@@ -51222,14 +51293,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_2$1.name,
     		type: "slot",
-    		source: "(143:4) <CardBody>",
+    		source: "(145:4) <CardBody>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (142:4) <Card>
+    // (144:4) <Card>
     function create_default_slot_1$1(ctx) {
     	let cardbody;
     	let current;
@@ -51277,14 +51348,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_1$1.name,
     		type: "slot",
-    		source: "(142:4) <Card>",
+    		source: "(144:4) <Card>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (141:0) <Row>
+    // (143:0) <Row>
     function create_default_slot$2(ctx) {
     	let card;
     	let current;
@@ -51332,7 +51403,7 @@ var app = (function () {
     		block,
     		id: create_default_slot$2.name,
     		type: "slot",
-    		source: "(141:0) <Row>",
+    		source: "(143:0) <Row>",
     		ctx
     	});
 
@@ -51409,6 +51480,7 @@ var app = (function () {
 
     	async function targetAudience() {
     		const data = { "question": $pipelineResults.prompt };
+    		console.log(data);
     		updateVariable("currentPipeline", "targetAudience");
     		updateVariable("startPipeline", true);
     		let jsonTemp;
@@ -51432,11 +51504,10 @@ var app = (function () {
     			let jsonTemp;
 
     			try {
-    				const response = await queryBussinesModel(data);
+    				const response = await queryBusinessModel(data);
     				console.log(response);
     				jsonTemp = JSON.parse(response);
     			} catch(error) {
-    				updateVariable("startPipeline", false);
     				throw error;
     			}
 
@@ -51502,8 +51573,8 @@ var app = (function () {
 
     			console.log("Function chain execution completed");
     		} catch(error) {
-    			console.error(`Error in function chain: ${error.func.name}`, error);
     			updateVariable("startPipeline", false);
+    			console.error(`Error in function chain: ${error.func.name}`, error);
     		}
     	}
 
@@ -51546,7 +51617,7 @@ var app = (function () {
     		InputGroup,
     		queryTargetUsers,
     		queryTargetDB,
-    		queryBussinesModel,
+    		queryBusinessModel,
     		queryMarketingResearch,
     		pipelineResults,
     		executeSequence,

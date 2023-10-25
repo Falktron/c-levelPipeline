@@ -18,7 +18,7 @@
   } from "sveltestrap";
 
 
-  import { queryTargetUsers, queryTargetDB, queryBussinesModel, queryMarketingResearch} from '../../Flowise/flowiseServices.js';
+  import { queryTargetUsers, queryTargetDB, queryBusinessModel, queryMarketingResearch} from '../../Flowise/flowiseServices.js';
   import { pipelineResults } from '../../helpers/store.js';
   import { executeSequence } from '../../Flowise/executeSequence.js';
 
@@ -31,6 +31,7 @@
 
     async function targetAudience() {
             const data = { "question": $pipelineResults.prompt };
+            console.log(data);
             updateVariable("currentPipeline", "targetAudience");
             updateVariable("startPipeline", true);
 
@@ -54,11 +55,11 @@
 
             let jsonTemp;
             try {
-                const response = await queryBussinesModel(data);
+                const response = await queryBusinessModel(data);
                 console.log(response);
                 jsonTemp = JSON.parse(response);
             } catch (error) {
-                updateVariable("startPipeline", false);
+               
                 throw error;
             }
 
@@ -117,8 +118,9 @@
         }
         console.log("Function chain execution completed");
     } catch (error) {
-        console.error(`Error in function chain: ${error.func.name}`, error);
         updateVariable("startPipeline", false);
+        console.error(`Error in function chain: ${error.func.name}`, error);
+        
     }
     }
 
