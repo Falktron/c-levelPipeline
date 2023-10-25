@@ -52,9 +52,9 @@ async function queryBussinesModel(data) {
 }
 
 async function queryMarketingResearch(data) {
-  const response = await fetch(
-     "http://75.119.157.23:3001/api/v1/prediction/58f9feec-0b72-4f4a-9d29-bf5671c976a2",
-     {
+    const response = await fetch(
+      "http://75.119.157.23:3001/api/v1/prediction/afa6f22a-60f4-4a13-a644-d522ed749562",
+      {
          headers: {
              Authorization: "Bearer gDqzGFaOSHeOKe4Sc6Js1iZg1RuQERr8po8TgDKMGHE=",
              "Content-Type": "application/json"

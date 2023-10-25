@@ -39,8 +39,6 @@
                 const response = await queryTargetUsers(data);
                 jsonTemp = JSON.parse(response);
             } catch (error) {
-                console.error("Error targeting audience:", error);
-                updateVariable("startPipeline", false);
                 throw error;
             }
 
@@ -60,14 +58,12 @@
                 console.log(response);
                 jsonTemp = JSON.parse(response);
             } catch (error) {
-                console.error("Error on business model:", error);
                 updateVariable("startPipeline", false);
                 throw error;
             }
 
             updateVariable("businessModel", jsonTemp[0]);
         } catch (error) {
-            console.error("Error in businessModel function:", error);
             throw error;
         }
     }
@@ -93,20 +89,14 @@
                 console.log(response);
                 jsonTemp = JSON.parse(response);
             } catch (error) {
-                console.error("Error on marketing reseatch:", error);
-                updateVariable("startPipeline", false);
                 throw error;
             }
 
             updateVariable("marketingResearch", jsonTemp[0]);
         } catch (error) {
-            console.error("Error on marketing reseatch", error);
             throw error;
         }
     }
-
-
-
 
 
 
@@ -120,12 +110,14 @@
     ];
 
     function executeFunctionChain() {
-        executeSequence(functionChain)
+        executeSequence(functionChain.func)
         .then(() => {
-            console.log("Function chain execution completed");
+            console.log("Function chain execution completed", functionChain.name);
         })
         .catch(error => {
-            console.error("Error in function chain:", error);
+            console.error(`Error in function chain: ${functionChain.name}`, error);
+            updateVariable("startPipeline", false);
+
         });
     }
 
@@ -190,9 +182,9 @@
                         <form on:submit|preventDefault={executeFunctionChain}>
                             <div class="mb-3">
                             <textarea bind:value={question} on:input={updateVariable("prompt",question)}  placeholder= "Describe the product of service of your company"
-                            class="form-control form-prompt"  id="formrow-prompt-input" disabled={isLoading}/>
+                            class="form-control form-prompt"  id="formrow-prompt-input" disabled={$pipelineResults.startPipeline}/>
                             </div>
-                            <button disabled={!question || isLoading}  class="btn btn-primary w-md" type="submit"> Submit </button>
+                            <button disabled={!question || $pipelineResults.startPipeline}  class="btn btn-primary w-md" type="submit"> Submit </button>
                         </form>
                     
                     </Col>
