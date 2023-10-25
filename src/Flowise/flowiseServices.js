@@ -1,6 +1,6 @@
 
 
-/*async function queryTargetUsers(prompt) {
+async function queryTargetUsers(prompt) {
   try {
     const response = await fetch("https://api-service-v26r.onrender.com/target-users", {
       method: "POST",
@@ -70,11 +70,11 @@ async function queryMarketingResearch(prompt) {
     return null; // or you can return an error object/message
   }
 }
-*/
+
 
 async function queryTargetDB(projectId, pipelineName) {
     try {
-      const response = await fetch(`https://api-service-v26r.onrender.com/audience?project_id=${projectId}&pipeline_name=${pipelineName}`);
+      const response = await fetch(`https://api-service-v26r.onrender.com/result?project_id=${projectId}&pipeline_name=${pipelineName}`);
       
       if (response.ok) {
         const data = await response.json();
@@ -90,7 +90,7 @@ async function queryTargetDB(projectId, pipelineName) {
   
 
 
-
+/*
   async function queryTargetUsers(data) {
      const response = await fetch(
         "http://75.119.157.23:3001/api/v1/prediction/df3a83b7-60da-43d6-ac2f-8939a5e86b72",
@@ -107,7 +107,7 @@ async function queryTargetDB(projectId, pipelineName) {
     return result;
 
 }
-  async function queryBusinessModel(data) {
+  async function queryBussinesModel(data) {
     const response = await fetch(
        "http://75.119.157.23:3001/api/v1/prediction/58f9feec-0b72-4f4a-9d29-bf5671c976a2",
        {
@@ -139,5 +139,5 @@ async function queryMarketingResearch(data) {
  const result = await response.json();
  return result;
 
-}
+}*/
 export {queryTargetUsers, queryTargetDB, queryBusinessModel, queryMarketingResearch};
