@@ -18,7 +18,7 @@
   } from "sveltestrap";
 
 
-  import { queryTargetUsers, queryTargetDB, queryBusinessModel, queryMarketingResearch} from '../../Flowise/flowiseServices.js';
+  import { queryTargetUsers, queryTargetDB, queryBusinessModel, queryMarketingResearch, queryTest} from '../../Flowise/flowiseServices.js';
   import { pipelineResults } from '../../helpers/store.js';
   import { executeSequence } from '../../Flowise/executeSequence.js';
 
@@ -37,13 +37,12 @@
 
             let jsonTemp;
             try {
-                const response = await queryTargetUsers(data);
-                jsonTemp = JSON.parse(response);
+                const response = await queryTest(data);
             } catch (error) {
                 throw error;
             }
 
-            updateVariable("targetAudience", jsonTemp[0]);
+            updateVariable("targetAudience", response);
     }
 
     async function businessModel() {
@@ -57,13 +56,12 @@
             try {
                 const response = await queryBusinessModel(data);
                 console.log(response);
-                jsonTemp = JSON.parse(response);
             } catch (error) {
                
                 throw error;
             }
 
-            updateVariable("businessModel", jsonTemp[0]);
+            updateVariable("businessModel", response);
         } catch (error) {
             throw error;
         }
@@ -88,12 +86,12 @@
             try {
                 const response = await queryMarketingResearch(data);
                 console.log(response);
-                jsonTemp = JSON.parse(response);
+                
             } catch (error) {
                 throw error;
             }
 
-            updateVariable("marketingResearch", jsonTemp[0]);
+            updateVariable("marketingResearch", response);
         } catch (error) {
             throw error;
         }
@@ -104,10 +102,15 @@
 
 
     // Example usage with executeSequence
-    const functionChain = [
+    /*const functionChain = [
     { func: targetAudience, name: 'targetAudience' },
     { func: businessModel, name: 'businessModel' },
     { func: marketingResearch, name: 'marketingResearch' }
+    ];*/
+
+    const functionChain = [
+    { func: targetAudience, name: 'targetAudience' }
+   
     ];
 
     async function executeFunctionChain() {

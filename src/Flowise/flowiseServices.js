@@ -12,8 +12,9 @@ async function queryTargetUsers(prompt) {
     });
     
     if (response.ok) {
-      const data = await response.json();
-      return data[0].results[0];
+      const jsonData = await response.json();
+      const data = JSON.parse(jsonData);    
+      return data[0];
     } else {
       throw new Error('Error fetching data from the API');
     }
@@ -37,8 +38,34 @@ async function queryBusinessModel(prompt) {
     });
     
     if (response.ok) {
-      const data = await response.json();
-      return data[0].results[0];
+      const jsonData = await response.json();
+      const data = JSON.parse(jsonData);    
+      return data[0];
+    } else {
+      throw new Error('Error fetching data from the API');
+    }
+  } catch (error) {
+    console.error('Error:', error.message);
+    return null; // or you can return an error object/message
+  }
+}
+
+
+async function queryTest(prompt) {
+  try {
+    const response = await fetch("https://api-service-v26r.onrender.com/testa", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+        ,Authorization: "Bearer gDqzGFaOSHeOKe4Sc6Js1iZg1RuQERr8po8TgDKMGHE="
+      },
+      body: JSON.stringify(prompt)
+    });
+    
+    if (response.ok) {
+      const jsonData = await response.json();
+      const data = JSON.parse(jsonData);    
+      return data[0];
     } else {
       throw new Error('Error fetching data from the API');
     }
@@ -140,4 +167,4 @@ async function queryMarketingResearch(data) {
  return result;
 
 }*/
-export {queryTargetUsers, queryTargetDB, queryBusinessModel, queryMarketingResearch};
+export {queryTargetUsers, queryTargetDB, queryBusinessModel, queryMarketingResearch, queryTest};
