@@ -35,15 +35,15 @@
 
 <div class="page-flow">
   <Container fluid>
-    <Breadcrumb title="Dashboard" breadcrumbItem="Business Model" />
+    <Breadcrumb title="Dashboard" breadcrumbItem="Brand Identity" />
     <Col xl={12}>
       <Card>
         <CardBody>
           <Row class= "p-4">
             <Col sm={8}>
               <CardTitle  class="h4 target-audience">Business Model</CardTitle>
-              <p class="card-title-desc">Comprehensive document outlining business goals, 
-                strategies, operations, and financial projections.</p>
+              <p class="card-title-desc">Distinctive visual, verbal, and experiential elements that 
+                define and represent a brand's essence and values.</p>
             </Col>
             <Col sm={4} class="text-sm-end">
               <CardTitle class="h2">Status</CardTitle>
@@ -71,7 +71,7 @@
                 <span class="d-block d-sm-none">
                   <i class="fas fa-home" />
                 </span>
-                <span class="d-none d-sm-block"> 1. Business Model</span>
+                <span class="d-none d-sm-block"> 1. Brand name</span>
               </NavLink>
             </NavItem>
             <NavItem>
@@ -81,9 +81,9 @@
                 active={customActiveTab == "2"}
               >
                 <span class="d-block d-sm-none">
-                  <i class="far fa-user" />
+                  <i class="fas fa-home" />
                 </span>
-                <span class="d-none d-sm-block">2.Metrics that Matter KPIs</span>
+                <span class="d-none d-sm-block"> 2. Unique Sell proposition</span>
               </NavLink>
             </NavItem>
             <NavItem>
@@ -95,20 +95,34 @@
                 <span class="d-block d-sm-none">
                   <i class="far fa-user" />
                 </span>
-                <span class="d-none d-sm-block">3. Business Goals</span>
+                <span class="d-none d-sm-block">3. Voice and Tone</span>
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                style="cursor: pointer"
+                on:click={() => (customActiveTab = "4")}
+                active={customActiveTab == "4"}
+              >
+                <span class="d-block d-sm-none">
+                  <i class="far fa-user" />
+                </span>
+                <span class="d-none d-sm-block">4. Brand Guidelines</span>
               </NavLink>
             </NavItem>
           </Nav>
+
+          
 
           <TabContent activeTab={customActiveTab} class="p-3 text-muted">
             <TabPane tabId="1" class="{customActiveTab == "1" ? 'active': ''}">
               <Row>
                 <Col sm="12">
                   <CardText class="mb-0">
-                    {#if result && result.business_model!== null}
-                        {result.business_model}
+                    {#if result && result.brand_name!== null}
+                        {result.brand_name}
                     {:else}
-                        No Bussiness Model available
+                        No brand name
                     {/if}
                   </CardText>
                 </Col>
@@ -118,10 +132,10 @@
               <Row>
                 <Col sm="12">
                   <CardText class="mb-0">
-                    {#if result && result.kpi== null}
-                        {result.kpi}
+                    {#if result && result.usp== null}
+                        {result.usp}
                     {:else}
-                        No KPIs available
+                        No Unique Value Proposition avalaible.
                     {/if}
                   </CardText>
                 </Col>
@@ -131,15 +145,28 @@
               <Row>
                 <Col sm="12">
                   <CardText class="mb-0">
-                    {#if result && result.business_goals!== null}
-                        {result.business_goals}
+                    {#if result && result.voice_and_tone!== null}
+                        {result.voice_and_tone}
                     {:else}
-                        No Business goals avaliable
+                        No voice and tone.
                     {/if}
                   </CardText>
                 </Col>
               </Row>
-            </TabPane>  
+            </TabPane> 
+            <TabPane tabId="4" class="{customActiveTab == "4" ? 'active': ''}">
+              <Row>
+                <Col sm="12">
+                  <CardText class="mb-0">
+                    {#if result && result.brand_guidelines!== null}
+                        {result.brand_guidelines}
+                    {:else}
+                        No brand guidelines avaliable.
+                    {/if}
+                  </CardText>
+                </Col>
+              </Row>
+            </TabPane>   
           </TabContent>
         </CardBody>
       </Card>

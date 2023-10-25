@@ -169,9 +169,23 @@
         },
         {
           "id": 2,
+          "name": "Business Model",
+          "link": "/businessModel",
+          "key": "businessModel",
+          "icon": "bx bx-calendar"
+        },
+        {
+          "id": 3,
           "name": "Marketing Research",
-          "link": "/marketingresearhc",
+          "link": "/marketingResearch",
           "key": "marketingResearch",
+          "icon": "bx bx-file"
+        },
+        {
+          "id": 4,
+          "name": "Brand Identity",
+          "link": "/brandIdentity",
+          "key": "brandIdentity",
           "icon": "bx bx-file"
         }
        
@@ -225,13 +239,6 @@
       "list": [
         {
           "id": 1,
-          "name": "Bussines Model",
-          "link": "/bussinessModel",
-          "key": "bussinessModel",
-          "icon": "bx bx-calendar"
-        },
-        {
-          "id": 2,
           "name": "Growth Plan",
           "link": "/growthPlan",
           "key": "t-growth-plan",

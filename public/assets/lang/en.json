@@ -119,7 +119,9 @@
       "color": "#F1B44C",
       "list": {
         "targetaudience": "TARGET AUDIENCE",
-        "marketresearch": "MARKET RESEARCH"
+        "businessplan": "BUSINESS PLAN",
+        "marketresearch": "MARKET RESEARCH",
+        "brandidentity": "BRAND IDENTITY"
       }
     },
     "ideation": {
@@ -142,7 +144,6 @@
       "title": "STRATEGIC PLANNING",
       "color": "#556EE6",
       "list": {
-        "bussinessplan": "BUSSINESS PLAN",
         "growthplan": "GROWTH PLAN"
       }
     },

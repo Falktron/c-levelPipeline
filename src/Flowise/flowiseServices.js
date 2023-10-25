@@ -50,4 +50,21 @@ async function queryBussinesModel(data) {
    return result;
 
 }
-export {queryTargetUsers, queryTargetDB, queryBussinesModel};
+
+async function queryMarketingResearch(data) {
+  const response = await fetch(
+     "http://75.119.157.23:3001/api/v1/prediction/58f9feec-0b72-4f4a-9d29-bf5671c976a2",
+     {
+         headers: {
+             Authorization: "Bearer gDqzGFaOSHeOKe4Sc6Js1iZg1RuQERr8po8TgDKMGHE=",
+             "Content-Type": "application/json"
+         },
+         method: "POST",
+         body: JSON.stringify(data)
+     }
+ );
+ const result = await response.json();
+ return result;
+
+}
+export {queryTargetUsers, queryTargetDB, queryBussinesModel, queryMarketingResearch};

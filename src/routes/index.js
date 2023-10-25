@@ -9,6 +9,8 @@ import Dashboard from "../pages/Dashboard/index.svelte";
 // Pipelines
 import targetAudience from "../pages/Pipelines/targetAudience.svelte";
 import businessModel from "../pages/Pipelines/businessModel.svelte";
+import marketingResearch from "../pages/Pipelines/marketingResearch.svelte";
+import brandIdentity from "../pages/Pipelines/brandIdentity.svelte";
 
 
 
@@ -20,7 +22,10 @@ const authProtectedRoutes = [
 
   // Pipeline
   { path: "/targetAudience", component: targetAudience },
-  { path: "/businessModel", component: businessModel }
+  { path: "/businessModel", component: businessModel },
+  { path: "/marketingResearch", component: marketingResearch},
+  { path: "/brandIdentity", component: brandIdentity}
+
 
 ];
 

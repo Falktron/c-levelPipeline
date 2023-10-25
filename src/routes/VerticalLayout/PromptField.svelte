@@ -18,7 +18,7 @@
   } from "sveltestrap";
 
 
-  import { queryTargetUsers, queryTargetDB, queryBussinesModel} from '../../Flowise/flowiseServices.js';
+  import { queryTargetUsers, queryTargetDB, queryBussinesModel, queryMarketingResearch} from '../../Flowise/flowiseServices.js';
   import { pipelineResults } from '../../helpers/store.js';
   import { executeSequence } from '../../Flowise/executeSequence.js';
 
@@ -27,9 +27,6 @@
    let isLoading = false;
 
    const projectId = 123;
-
-   businessModel();
-
   
 
     async function targetAudience() {
@@ -52,7 +49,7 @@
 
     async function businessModel() {
         try {
-            let audienceInfo = await queryTargetDB(projectId, 'buyer_persona');
+            let audienceInfo = await queryTargetDB(projectId, 'target_audience');
             console.log(audienceInfo);
             const data = { "question": JSON.stringify(audienceInfo) };
             updateVariable("currentPipeline", "businessModel");
@@ -61,25 +58,65 @@
             try {
                 const response = await queryBussinesModel(data);
                 console.log(response);
-                //jsonTemp = JSON.parse(response);
+                jsonTemp = JSON.parse(response);
             } catch (error) {
                 console.error("Error on business model:", error);
                 updateVariable("startPipeline", false);
                 throw error;
             }
 
-            //updateVariable("businessModel", jsonTemp[0]);
+            updateVariable("businessModel", jsonTemp[0]);
         } catch (error) {
             console.error("Error in businessModel function:", error);
             throw error;
         }
     }
 
+    async function marketingResearch() {
+        try {
+
+            // prpate infor for quering
+            let businessInfo = await queryTargetDB(projectId, 'business_model');
+            let audienceInfo = await queryTargetDB(projectId, 'target_audience');
+            audienceInfo = {
+                ...audienceInfo,
+                value_proposition_short: businessInfo.value_proposition_short,
+                business_success: businessInfo.business_success
+            };
+
+            const data = { "question": JSON.stringify(audienceInfo) };
+            updateVariable("currentPipeline", "marketingResearch");
+
+            let jsonTemp;
+            try {
+                const response = await queryMarketingResearch(data);
+                console.log(response);
+                jsonTemp = JSON.parse(response);
+            } catch (error) {
+                console.error("Error on marketing reseatch:", error);
+                updateVariable("startPipeline", false);
+                throw error;
+            }
+
+            updateVariable("marketingResearch", jsonTemp[0]);
+        } catch (error) {
+            console.error("Error on marketing reseatch", error);
+            throw error;
+        }
+    }
+
+
+
+
+
+
+
 
     // Example usage with executeSequence
     const functionChain = [
     { func: targetAudience, name: 'targetAudience' },
-    { func: businessModel, name: 'businessModel' }
+    { func: businessModel, name: 'businessModel' },
+    { func: marketingResearch, name: 'marketingResearch' }
     ];
 
     function executeFunctionChain() {

@@ -9,6 +9,7 @@ const pipelineResults = writable({
     startPipeline: false,
     targetAudience: null,
     businessModel: null,
+    marketingResearch: null,
     currentPipeline: null,
 });
 
