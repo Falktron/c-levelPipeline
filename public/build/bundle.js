@@ -50395,7 +50395,7 @@ var app = (function () {
     const { console: console_1 } = globals;
     const file$2 = "src/routes/VerticalLayout/PromptField.svelte";
 
-    // (164:20) <Col lg={4} >
+    // (166:20) <Col lg={4} >
     function create_default_slot_13(ctx) {
     	let h5;
     	let t1;
@@ -50422,15 +50422,15 @@ var app = (function () {
     			i1 = element("i");
     			t4 = text("\n                            Simple inputs for wealth generation.");
     			attr_dev(h5, "class", "font-size-15 headlines-global");
-    			add_location(h5, file$2, 164, 20, 4748);
+    			add_location(h5, file$2, 166, 20, 4791);
     			attr_dev(i0, "class", "mdi mdi-chevron-right text-primary me-1");
-    			add_location(i0, file$2, 169, 28, 4969);
-    			add_location(p0, file$2, 168, 28, 4937);
+    			add_location(i0, file$2, 171, 28, 5012);
+    			add_location(p0, file$2, 170, 28, 4980);
     			attr_dev(i1, "class", "mdi mdi-chevron-right text-primary me-1");
-    			add_location(i1, file$2, 173, 28, 5178);
-    			add_location(p1, file$2, 172, 28, 5146);
+    			add_location(i1, file$2, 175, 28, 5221);
+    			add_location(p1, file$2, 174, 28, 5189);
     			attr_dev(div, "class", "text-muted mt-4");
-    			add_location(div, file$2, 167, 20, 4879);
+    			add_location(div, file$2, 169, 20, 4922);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h5, anchor);
@@ -50456,14 +50456,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_13.name,
     		type: "slot",
-    		source: "(164:20) <Col lg={4} >",
+    		source: "(166:20) <Col lg={4} >",
     		ctx
     	});
 
     	return block;
     }
 
-    // (181:24) <CardTitle class="h4 mb-4">
+    // (183:24) <CardTitle class="h4 mb-4">
     function create_default_slot_12(ctx) {
     	let t;
 
@@ -50483,14 +50483,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_12.name,
     		type: "slot",
-    		source: "(181:24) <CardTitle class=\\\"h4 mb-4\\\">",
+    		source: "(183:24) <CardTitle class=\\\"h4 mb-4\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (180:20) <Col lg={8} class="text-sm-end">
+    // (182:20) <Col lg={8} class="text-sm-end">
     function create_default_slot_11(ctx) {
     	let cardtitle;
     	let t0;
@@ -50529,14 +50529,14 @@ var app = (function () {
     			attr_dev(textarea, "class", "form-control form-prompt");
     			attr_dev(textarea, "id", "formrow-prompt-input");
     			textarea.disabled = textarea_disabled_value = /*$pipelineResults*/ ctx[2].startPipeline;
-    			add_location(textarea, file$2, 183, 28, 5690);
+    			add_location(textarea, file$2, 185, 28, 5733);
     			attr_dev(div, "class", "mb-3");
-    			add_location(div, file$2, 182, 28, 5643);
+    			add_location(div, file$2, 184, 28, 5686);
     			button.disabled = button_disabled_value = !/*question*/ ctx[0] || /*$pipelineResults*/ ctx[2].startPipeline;
     			attr_dev(button, "class", "btn btn-primary w-md");
     			attr_dev(button, "type", "submit");
-    			add_location(button, file$2, 186, 28, 6026);
-    			add_location(form, file$2, 181, 24, 5560);
+    			add_location(button, file$2, 188, 28, 6069);
+    			add_location(form, file$2, 183, 24, 5603);
     		},
     		m: function mount(target, anchor) {
     			mount_component(cardtitle, target, anchor);
@@ -50614,14 +50614,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_11.name,
     		type: "slot",
-    		source: "(180:20) <Col lg={8} class=\\\"text-sm-end\\\">",
+    		source: "(182:20) <Col lg={8} class=\\\"text-sm-end\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (163:16) <Row class="p-4">
+    // (165:16) <Row class="p-4">
     function create_default_slot_10(ctx) {
     	let col0;
     	let t;
@@ -50697,14 +50697,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_10.name,
     		type: "slot",
-    		source: "(163:16) <Row class=\\\"p-4\\\">",
+    		source: "(165:16) <Row class=\\\"p-4\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (149:12) <AccordionItem active>
+    // (151:12) <AccordionItem active>
     function create_default_slot_9(ctx) {
     	let div;
     	let row;
@@ -50724,7 +50724,7 @@ var app = (function () {
     			div = element("div");
     			create_component(row.$$.fragment);
     			attr_dev(div, "class", "text-muted");
-    			add_location(div, file$2, 161, 16, 4635);
+    			add_location(div, file$2, 163, 16, 4678);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -50759,14 +50759,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_9.name,
     		type: "slot",
-    		source: "(149:12) <AccordionItem active>",
+    		source: "(151:12) <AccordionItem active>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (152:20) <Col sm={2}>
+    // (154:20) <Col sm={2}>
     function create_default_slot_8(ctx) {
     	let t;
 
@@ -50786,14 +50786,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_8.name,
     		type: "slot",
-    		source: "(152:20) <Col sm={2}>",
+    		source: "(154:20) <Col sm={2}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (155:20) <Col sm={8} class="text-sm-center "  >
+    // (157:20) <Col sm={8} class="text-sm-center "  >
     function create_default_slot_7(ctx) {
     	let h5;
     	let i;
@@ -50806,9 +50806,9 @@ var app = (function () {
     			i = element("i");
     			t = text("BUILDING RESULTS");
     			attr_dev(i, "class", "mdi mdi-alert-circle-outline me-3");
-    			add_location(i, file$2, 156, 24, 4456);
+    			add_location(i, file$2, 158, 24, 4499);
     			attr_dev(h5, "class", h5_class_value = "h6 " + (/*isLoading*/ ctx[1] ? "running-going" : "running-stop") + "");
-    			add_location(h5, file$2, 155, 20, 4370);
+    			add_location(h5, file$2, 157, 20, 4413);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h5, anchor);
@@ -50829,14 +50829,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_7.name,
     		type: "slot",
-    		source: "(155:20) <Col sm={8} class=\\\"text-sm-center \\\"  >",
+    		source: "(157:20) <Col sm={8} class=\\\"text-sm-center \\\"  >",
     		ctx
     	});
 
     	return block;
     }
 
-    // (151:16) <Row>
+    // (153:16) <Row>
     function create_default_slot_6(ctx) {
     	let col0;
     	let t;
@@ -50912,14 +50912,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_6.name,
     		type: "slot",
-    		source: "(151:16) <Row>",
+    		source: "(153:16) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (150:16) 
+    // (152:16) 
     function create_header_slot(ctx) {
     	let div;
     	let row;
@@ -50939,7 +50939,7 @@ var app = (function () {
     			create_component(row.$$.fragment);
     			attr_dev(div, "class", "header-prompt");
     			attr_dev(div, "slot", "header");
-    			add_location(div, file$2, 149, 16, 4133);
+    			add_location(div, file$2, 151, 16, 4176);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -50974,14 +50974,14 @@ var app = (function () {
     		block,
     		id: create_header_slot.name,
     		type: "slot",
-    		source: "(150:16) ",
+    		source: "(152:16) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (148:12) <Accordion class="custom-accordion">
+    // (150:12) <Accordion class="custom-accordion">
     function create_default_slot_5(ctx) {
     	let accordionitem;
     	let current;
@@ -51033,14 +51033,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_5.name,
     		type: "slot",
-    		source: "(148:12) <Accordion class=\\\"custom-accordion\\\">",
+    		source: "(150:12) <Accordion class=\\\"custom-accordion\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (143:8) <Col lg={12}>
+    // (145:8) <Col lg={12}>
     function create_default_slot_4(ctx) {
     	let h5;
     	let t1;
@@ -51068,9 +51068,9 @@ var app = (function () {
     			t3 = space();
     			create_component(accordion.$$.fragment);
     			attr_dev(h5, "class", "font-size-14");
-    			add_location(h5, file$2, 143, 12, 3862);
+    			add_location(h5, file$2, 145, 12, 3905);
     			attr_dev(p, "class", "card-title-desc");
-    			add_location(p, file$2, 144, 12, 3915);
+    			add_location(p, file$2, 146, 12, 3958);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h5, anchor);
@@ -51111,14 +51111,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_4.name,
     		type: "slot",
-    		source: "(143:8) <Col lg={12}>",
+    		source: "(145:8) <Col lg={12}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (142:8) <Row>
+    // (144:8) <Row>
     function create_default_slot_3$1(ctx) {
     	let col;
     	let current;
@@ -51167,14 +51167,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_3$1.name,
     		type: "slot",
-    		source: "(142:8) <Row>",
+    		source: "(144:8) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (141:4) <CardBody>
+    // (143:4) <CardBody>
     function create_default_slot_2$1(ctx) {
     	let row;
     	let current;
@@ -51222,14 +51222,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_2$1.name,
     		type: "slot",
-    		source: "(141:4) <CardBody>",
+    		source: "(143:4) <CardBody>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (140:4) <Card>
+    // (142:4) <Card>
     function create_default_slot_1$1(ctx) {
     	let cardbody;
     	let current;
@@ -51277,14 +51277,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_1$1.name,
     		type: "slot",
-    		source: "(140:4) <Card>",
+    		source: "(142:4) <Card>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (139:0) <Row>
+    // (141:0) <Row>
     function create_default_slot$2(ctx) {
     	let card;
     	let current;
@@ -51332,7 +51332,7 @@ var app = (function () {
     		block,
     		id: create_default_slot$2.name,
     		type: "slot",
-    		source: "(139:0) <Row>",
+    		source: "(141:0) <Row>",
     		ctx
     	});
 
@@ -51493,13 +51493,18 @@ var app = (function () {
     		}
     	];
 
-    	function executeFunctionChain() {
-    		executeSequence(functionChain.func).then(() => {
-    			console.log("Function chain execution completed", functionChain.name);
-    		}).catch(error => {
-    			console.error(`Error in function chain: ${functionChain.name}`, error);
+    	async function executeFunctionChain() {
+    		try {
+    			for (const func of functionChain) {
+    				await func.func();
+    				console.log(`Function ${func.name} executed successfully`);
+    			}
+
+    			console.log("Function chain execution completed");
+    		} catch(error) {
+    			console.error(`Error in function chain: ${error.func.name}`, error);
     			updateVariable("startPipeline", false);
-    		});
+    		}
     	}
 
     	function updateVariable(variable, newValue) {

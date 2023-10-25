@@ -109,17 +109,19 @@
     { func: marketingResearch, name: 'marketingResearch' }
     ];
 
-    function executeFunctionChain() {
-        executeSequence(functionChain.func)
-        .then(() => {
-            console.log("Function chain execution completed", functionChain.name);
-        })
-        .catch(error => {
-            console.error(`Error in function chain: ${functionChain.name}`, error);
-            updateVariable("startPipeline", false);
-
-        });
+    async function executeFunctionChain() {
+    try {
+        for (const func of functionChain) {
+        await func.func();
+        console.log(`Function ${func.name} executed successfully`);
+        }
+        console.log("Function chain execution completed");
+    } catch (error) {
+        console.error(`Error in function chain: ${error.func.name}`, error);
+        updateVariable("startPipeline", false);
     }
+    }
+
 
 
 
