@@ -50309,14 +50309,14 @@ var app = (function () {
           method: "POST",
           headers: {
             "Content-Type": "application/json"
-            ,Authorization: "Bearer gDqzGFaOSHeOKe4Sc6Js1iZg1RuQERr8po8TgDKMGHE="
           },
           body: JSON.stringify(prompt)
         });
         
         if (response.ok) {
           const jsonData = await response.json();
-          const data = JSON.parse(jsonData);    
+          const data = JSON.parse(jsonData);  
+          console.log(data);  
           return data[0];
         } else {
           throw new Error('Error fetching data from the API');
@@ -50335,7 +50335,6 @@ var app = (function () {
           method: "POST",
           headers: {
             "Content-Type": "application/json"
-            ,Authorization: "Bearer gDqzGFaOSHeOKe4Sc6Js1iZg1RuQERr8po8TgDKMGHE="
           },
           body: JSON.stringify(prompt)
         });
@@ -50360,7 +50359,6 @@ var app = (function () {
           method: "POST",
           headers: {
             "Content-Type": "application/json"
-            ,Authorization: "Bearer gDqzGFaOSHeOKe4Sc6Js1iZg1RuQERr8po8TgDKMGHE="
           },
           body: JSON.stringify(prompt)
         });

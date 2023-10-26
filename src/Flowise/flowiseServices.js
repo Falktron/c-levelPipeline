@@ -6,14 +6,14 @@ async function queryTargetUsers(prompt) {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
-        ,Authorization: "Bearer gDqzGFaOSHeOKe4Sc6Js1iZg1RuQERr8po8TgDKMGHE="
       },
       body: JSON.stringify(prompt)
     });
     
     if (response.ok) {
       const jsonData = await response.json();
-      const data = JSON.parse(jsonData);    
+      const data = JSON.parse(jsonData);  
+      console.log(data);  
       return data[0];
     } else {
       throw new Error('Error fetching data from the API');
@@ -32,7 +32,6 @@ async function queryBusinessModel(prompt) {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
-        ,Authorization: "Bearer gDqzGFaOSHeOKe4Sc6Js1iZg1RuQERr8po8TgDKMGHE="
       },
       body: JSON.stringify(prompt)
     });
@@ -50,30 +49,6 @@ async function queryBusinessModel(prompt) {
   }
 }
 
-
-async function queryTest(prompt) {
-  try {
-    const response = await fetch("https://api-service-v26r.onrender.com/testa", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-        ,Authorization: "Bearer gDqzGFaOSHeOKe4Sc6Js1iZg1RuQERr8po8TgDKMGHE="
-      },
-      body: JSON.stringify(prompt)
-    });
-    
-    if (response.ok) {
-      const jsonData = await response.json();
-      const data = JSON.parse(jsonData);    
-      return data[0];
-    } else {
-      throw new Error('Error fetching data from the API');
-    }
-  } catch (error) {
-    console.error('Error:', error.message);
-    return null; // or you can return an error object/message
-  }
-}
 
 async function queryMarketingResearch(prompt) {
   try {
@@ -81,7 +56,6 @@ async function queryMarketingResearch(prompt) {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
-        ,Authorization: "Bearer gDqzGFaOSHeOKe4Sc6Js1iZg1RuQERr8po8TgDKMGHE="
       },
       body: JSON.stringify(prompt)
     });
