@@ -51,18 +51,19 @@
     async function businessModel() {
         try {
             let audienceInfo = await queryTargetDB(projectId, 'target_audience');
-            console.log(audienceInfo);
-            const data = { "question": JSON.stringify(audienceInfo) };
+            const { product_service, psycological_summary,audience_summary,target_audience } = audienceInfo;
+            const reqInfo = { product_service, psycological_summary,audience_summary,target_audience };
+            const data = { "question": JSON.stringify(reqInfo) };
             updateVariable("currentPipeline", "businessModel");
             let response;
-            /*try {
+            try {
                 response = await queryBusinessModel(data);
                 console.log(response);
                 updateVariable("businessModel", response);
             } catch (error) {
                
                 throw error;
-            }*/
+            }
 
            
         } catch (error) {
@@ -112,6 +113,7 @@
 
     const functionChain = [
     { func: targetAudience, name: 'targetAudience' },
+    { func: businessModel, name: 'businessModel' }
     ];
 
     async function executeFunctionChain() {
