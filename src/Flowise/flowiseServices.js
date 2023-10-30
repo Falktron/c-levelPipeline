@@ -2,7 +2,7 @@
 
 async function queryTargetUsers(prompt) {
   try {
-    const response = await fetch("https://api-service-v26r.onrender.com/target-users", {
+    const response = await fetch("https://api-service-v26r.onrender.com/result/target-users-local", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -141,4 +141,4 @@ async function queryMarketingResearch(data) {
  return result;
 
 }*/
-export {queryTargetUsers, queryTargetDB, queryBusinessModel, queryMarketingResearch, queryTest};
+export {queryTargetUsers, queryTargetDB, queryBusinessModel, queryMarketingResearch};

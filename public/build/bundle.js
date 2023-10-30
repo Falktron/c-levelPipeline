@@ -50305,7 +50305,7 @@ var app = (function () {
 
     async function queryTargetUsers(prompt) {
       try {
-        const response = await fetch("https://api-service-v26r.onrender.com/target-users", {
+        const response = await fetch("https://api-service-v26r.onrender.com/result/target-users-local", {
           method: "POST",
           headers: {
             "Content-Type": "application/json"
@@ -50353,36 +50353,12 @@ var app = (function () {
     }
 
 
-    async function queryTest(prompt) {
-      try {
-        const response = await fetch("https://api-service-v26r.onrender.com/testa", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json"
-          },
-          body: JSON.stringify(prompt)
-        });
-        
-        if (response.ok) {
-          const jsonData = await response.json();
-          const data = JSON.parse(jsonData);    
-          return data[0];
-        } else {
-          throw new Error('Error fetching data from the API');
-        }
-      } catch (error) {
-        console.error('Error:', error.message);
-        return null; // or you can return an error object/message
-      }
-    }
-
     async function queryMarketingResearch(prompt) {
       try {
         const response = await fetch("https://api-service-v26r.onrender.com/marketing-research", {
           method: "POST",
           headers: {
             "Content-Type": "application/json"
-            ,Authorization: "Bearer gDqzGFaOSHeOKe4Sc6Js1iZg1RuQERr8po8TgDKMGHE="
           },
           body: JSON.stringify(prompt)
         });
@@ -50465,15 +50441,15 @@ var app = (function () {
     			i1 = element("i");
     			t4 = text("\n                            Simple inputs for wealth generation.");
     			attr_dev(h5, "class", "font-size-15 headlines-global");
-    			add_location(h5, file$2, 169, 20, 4809);
+    			add_location(h5, file$2, 169, 20, 4798);
     			attr_dev(i0, "class", "mdi mdi-chevron-right text-primary me-1");
-    			add_location(i0, file$2, 174, 28, 5030);
-    			add_location(p0, file$2, 173, 28, 4998);
+    			add_location(i0, file$2, 174, 28, 5019);
+    			add_location(p0, file$2, 173, 28, 4987);
     			attr_dev(i1, "class", "mdi mdi-chevron-right text-primary me-1");
-    			add_location(i1, file$2, 178, 28, 5239);
-    			add_location(p1, file$2, 177, 28, 5207);
+    			add_location(i1, file$2, 178, 28, 5228);
+    			add_location(p1, file$2, 177, 28, 5196);
     			attr_dev(div, "class", "text-muted mt-4");
-    			add_location(div, file$2, 172, 20, 4940);
+    			add_location(div, file$2, 172, 20, 4929);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h5, anchor);
@@ -50572,14 +50548,14 @@ var app = (function () {
     			attr_dev(textarea, "class", "form-control form-prompt");
     			attr_dev(textarea, "id", "formrow-prompt-input");
     			textarea.disabled = textarea_disabled_value = /*$pipelineResults*/ ctx[2].startPipeline;
-    			add_location(textarea, file$2, 188, 28, 5751);
+    			add_location(textarea, file$2, 188, 28, 5740);
     			attr_dev(div, "class", "mb-3");
-    			add_location(div, file$2, 187, 28, 5704);
+    			add_location(div, file$2, 187, 28, 5693);
     			button.disabled = button_disabled_value = !/*question*/ ctx[0] || /*$pipelineResults*/ ctx[2].startPipeline;
     			attr_dev(button, "class", "btn btn-primary w-md");
     			attr_dev(button, "type", "submit");
-    			add_location(button, file$2, 191, 28, 6087);
-    			add_location(form, file$2, 186, 24, 5621);
+    			add_location(button, file$2, 191, 28, 6076);
+    			add_location(form, file$2, 186, 24, 5610);
     		},
     		m: function mount(target, anchor) {
     			mount_component(cardtitle, target, anchor);
@@ -50767,7 +50743,7 @@ var app = (function () {
     			div = element("div");
     			create_component(row.$$.fragment);
     			attr_dev(div, "class", "text-muted");
-    			add_location(div, file$2, 166, 16, 4696);
+    			add_location(div, file$2, 166, 16, 4685);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -50849,9 +50825,9 @@ var app = (function () {
     			i = element("i");
     			t = text("BUILDING RESULTS");
     			attr_dev(i, "class", "mdi mdi-alert-circle-outline me-3");
-    			add_location(i, file$2, 161, 24, 4517);
+    			add_location(i, file$2, 161, 24, 4506);
     			attr_dev(h5, "class", h5_class_value = "h6 " + (/*isLoading*/ ctx[1] ? "running-going" : "running-stop") + "");
-    			add_location(h5, file$2, 160, 20, 4431);
+    			add_location(h5, file$2, 160, 20, 4420);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h5, anchor);
@@ -50982,7 +50958,7 @@ var app = (function () {
     			create_component(row.$$.fragment);
     			attr_dev(div, "class", "header-prompt");
     			attr_dev(div, "slot", "header");
-    			add_location(div, file$2, 154, 16, 4194);
+    			add_location(div, file$2, 154, 16, 4183);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -51111,9 +51087,9 @@ var app = (function () {
     			t3 = space();
     			create_component(accordion.$$.fragment);
     			attr_dev(h5, "class", "font-size-14");
-    			add_location(h5, file$2, 148, 12, 3923);
+    			add_location(h5, file$2, 148, 12, 3912);
     			attr_dev(p, "class", "card-title-desc");
-    			add_location(p, file$2, 149, 12, 3976);
+    			add_location(p, file$2, 149, 12, 3965);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h5, anchor);
@@ -51586,7 +51562,6 @@ var app = (function () {
     		queryTargetDB,
     		queryBusinessModel,
     		queryMarketingResearch,
-    		queryTest,
     		pipelineResults,
     		executeSequence,
     		question,

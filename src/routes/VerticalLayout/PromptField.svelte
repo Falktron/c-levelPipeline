@@ -18,7 +18,7 @@
   } from "sveltestrap";
 
 
-  import { queryTargetUsers, queryTargetDB, queryBusinessModel, queryMarketingResearch, queryTest} from '../../Flowise/flowiseServices.js';
+  import { queryTargetUsers, queryTargetDB, queryBusinessModel, queryMarketingResearch} from '../../Flowise/flowiseServices.js';
   import { pipelineResults } from '../../helpers/store.js';
   import { executeSequence } from '../../Flowise/executeSequence.js';
 
