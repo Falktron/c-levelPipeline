@@ -53888,7 +53888,7 @@ var app = (function () {
 
     async function queryTargetDB(projectId, pipelineName) {
         try {
-          const response = await fetch(`https://api-service-v26r.onrender.com/result?project_id=${projectId}&pipeline_name=${pipelineName}`);
+          const response = await fetch(`https://api-service-v26r.onrender.com/audience?project_id=${projectId}&pipeline_name=${pipelineName}`);
           
           if (response.ok) {
             const data = await response.json();
@@ -53951,15 +53951,15 @@ var app = (function () {
     			i1 = element("i");
     			t4 = text("\n                            Simple inputs for wealth generation.");
     			attr_dev(h5, "class", "font-size-15 headlines-global");
-    			add_location(h5, file$2, 172, 20, 4880);
+    			add_location(h5, file$2, 172, 20, 4831);
     			attr_dev(i0, "class", "mdi mdi-chevron-right text-primary me-1");
-    			add_location(i0, file$2, 177, 28, 5101);
-    			add_location(p0, file$2, 176, 28, 5069);
+    			add_location(i0, file$2, 177, 28, 5052);
+    			add_location(p0, file$2, 176, 28, 5020);
     			attr_dev(i1, "class", "mdi mdi-chevron-right text-primary me-1");
-    			add_location(i1, file$2, 181, 28, 5310);
-    			add_location(p1, file$2, 180, 28, 5278);
+    			add_location(i1, file$2, 181, 28, 5261);
+    			add_location(p1, file$2, 180, 28, 5229);
     			attr_dev(div, "class", "text-muted mt-4");
-    			add_location(div, file$2, 175, 20, 5011);
+    			add_location(div, file$2, 175, 20, 4962);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h5, anchor);
@@ -54058,14 +54058,14 @@ var app = (function () {
     			attr_dev(textarea, "class", "form-control form-prompt");
     			attr_dev(textarea, "id", "formrow-prompt-input");
     			textarea.disabled = textarea_disabled_value = /*$pipelineResults*/ ctx[2].startPipeline;
-    			add_location(textarea, file$2, 191, 28, 5822);
+    			add_location(textarea, file$2, 191, 28, 5773);
     			attr_dev(div, "class", "mb-3");
-    			add_location(div, file$2, 190, 28, 5775);
+    			add_location(div, file$2, 190, 28, 5726);
     			button.disabled = button_disabled_value = !/*question*/ ctx[0] || /*$pipelineResults*/ ctx[2].startPipeline;
     			attr_dev(button, "class", "btn btn-primary w-md");
     			attr_dev(button, "type", "submit");
-    			add_location(button, file$2, 194, 28, 6158);
-    			add_location(form, file$2, 189, 24, 5692);
+    			add_location(button, file$2, 194, 28, 6109);
+    			add_location(form, file$2, 189, 24, 5643);
     		},
     		m: function mount(target, anchor) {
     			mount_component(cardtitle, target, anchor);
@@ -54253,7 +54253,7 @@ var app = (function () {
     			div = element("div");
     			create_component(row.$$.fragment);
     			attr_dev(div, "class", "text-muted");
-    			add_location(div, file$2, 169, 16, 4767);
+    			add_location(div, file$2, 169, 16, 4718);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -54335,9 +54335,9 @@ var app = (function () {
     			i = element("i");
     			t = text("BUILDING RESULTS");
     			attr_dev(i, "class", "mdi mdi-alert-circle-outline me-3");
-    			add_location(i, file$2, 164, 24, 4588);
+    			add_location(i, file$2, 164, 24, 4539);
     			attr_dev(h5, "class", h5_class_value = "h6 " + (/*isLoading*/ ctx[1] ? "running-going" : "running-stop") + "");
-    			add_location(h5, file$2, 163, 20, 4502);
+    			add_location(h5, file$2, 163, 20, 4453);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h5, anchor);
@@ -54468,7 +54468,7 @@ var app = (function () {
     			create_component(row.$$.fragment);
     			attr_dev(div, "class", "header-prompt");
     			attr_dev(div, "slot", "header");
-    			add_location(div, file$2, 157, 16, 4265);
+    			add_location(div, file$2, 157, 16, 4216);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -54597,9 +54597,9 @@ var app = (function () {
     			t3 = space();
     			create_component(accordion.$$.fragment);
     			attr_dev(h5, "class", "font-size-14");
-    			add_location(h5, file$2, 151, 12, 3994);
+    			add_location(h5, file$2, 151, 12, 3945);
     			attr_dev(p, "class", "card-title-desc");
-    			add_location(p, file$2, 152, 12, 4047);
+    			add_location(p, file$2, 152, 12, 3998);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h5, anchor);
@@ -54959,16 +54959,15 @@ var app = (function () {
     			const data = { "question": JSON.stringify(audienceInfo) };
     			updateVariable("currentPipeline", "businessModel");
     			let response;
-
-    			try {
-    				response = await queryBusinessModel(data);
-    				console.log(response);
-    				updateVariable("businessModel", response);
-    			} catch(error) {
-    				throw error;
-    			}
     		} catch(error) {
-    			throw error;
+    			throw error; /*try {
+        response = await queryBusinessModel(data);
+        console.log(response);
+        updateVariable("businessModel", response);
+    } catch (error) {
+       
+        throw error;
+    }*/
     		}
     	}
 
@@ -55012,10 +55011,6 @@ var app = (function () {
     		{
     			func: targetAudience,
     			name: 'targetAudience'
-    		},
-    		{
-    			func: businessModel,
-    			name: 'businessModel'
     		}
     	];
 

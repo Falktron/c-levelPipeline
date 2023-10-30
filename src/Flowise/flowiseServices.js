@@ -75,7 +75,7 @@ async function queryMarketingResearch(prompt) {
 
 async function queryTargetDB(projectId, pipelineName) {
     try {
-      const response = await fetch(`https://api-service-v26r.onrender.com/result?project_id=${projectId}&pipeline_name=${pipelineName}`);
+      const response = await fetch(`https://api-service-v26r.onrender.com/audience?project_id=${projectId}&pipeline_name=${pipelineName}`);
       
       if (response.ok) {
         const data = await response.json();

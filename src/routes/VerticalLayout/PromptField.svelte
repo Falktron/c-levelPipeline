@@ -46,6 +46,8 @@
          
     }
 
+
+
     async function businessModel() {
         try {
             let audienceInfo = await queryTargetDB(projectId, 'target_audience');
@@ -53,14 +55,14 @@
             const data = { "question": JSON.stringify(audienceInfo) };
             updateVariable("currentPipeline", "businessModel");
             let response;
-            try {
+            /*try {
                 response = await queryBusinessModel(data);
                 console.log(response);
                 updateVariable("businessModel", response);
             } catch (error) {
                
                 throw error;
-            }
+            }*/
 
            
         } catch (error) {
@@ -110,8 +112,6 @@
 
     const functionChain = [
     { func: targetAudience, name: 'targetAudience' },
-    { func: businessModel, name: 'businessModel' }
-   
     ];
 
     async function executeFunctionChain() {
