@@ -58,8 +58,9 @@
             let response;
             try {
                 response = await queryBusinessModel(data);
-                console.log(response);
                 updateVariable("businessModel", response);
+                console.log(response);
+              
             } catch (error) {
                
                 throw error;
@@ -77,24 +78,24 @@
             // prpate infor for quering
             let businessInfo = await queryTargetDB(projectId, 'business_model');
             let audienceInfo = await queryTargetDB(projectId, 'target_audience');
-            audienceInfo = {
-                ...audienceInfo,
-                value_proposition_short: businessInfo.value_proposition_short,
-                business_success: businessInfo.business_success
-            };
-            
-            const data = { "question": JSON.stringify(audienceInfo) };
+
+
+            const { product_service, psycological_summary,audience_summary,target_audience } = audienceInfo;
+            const { value_proposition_short,business_success } = businessInfo;
+            let reqInfo = { product_service, psycological_summary,audience_summary,target_audience , value_proposition_short,business_success};
+            const data = { "question": JSON.stringify(reqInfo) };
             updateVariable("currentPipeline", "marketingResearch");
             let response;
             try {
                 response = await queryMarketingResearch(data);
+                updateVariable("marketingResearch", response);
                 console.log(response);
                 
             } catch (error) {
                 throw error;
             }
 
-            updateVariable("marketingResearch", response);
+           
         } catch (error) {
             throw error;
         }
@@ -105,16 +106,12 @@
 
 
     // Example usage with executeSequence
-    /*const functionChain = [
+    const functionChain = [
     { func: targetAudience, name: 'targetAudience' },
     { func: businessModel, name: 'businessModel' },
     { func: marketingResearch, name: 'marketingResearch' }
-    ];*/
-
-    const functionChain = [
-    { func: targetAudience, name: 'targetAudience' },
-    { func: businessModel, name: 'businessModel' }
     ];
+
 
     async function executeFunctionChain() {
         try {
