@@ -2,7 +2,7 @@
 
 async function queryTargetUsers(prompt) {
   try {
-    const response = await fetch("https://api-service-v26r.onrender.com/result/target-users-local", {
+    const response = await fetch("https://api-service-v26r.onrender.com/target-users-local", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
