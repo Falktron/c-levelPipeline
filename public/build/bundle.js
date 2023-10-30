@@ -21021,7 +21021,7 @@ var app = (function () {
     		c: function create() {
     			i = element("i");
     			attr_dev(i, "class", "bx bx-home h2");
-    			add_location(i, file$o, 42, 3, 902);
+    			add_location(i, file$o, 42, 3, 900);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, i, anchor);
@@ -21059,10 +21059,10 @@ var app = (function () {
     			p = element("p");
     			p.textContent = "Sign in to continue to Skote.";
     			attr_dev(h5, "class", "text-primary");
-    			add_location(h5, file$o, 54, 5, 1221);
-    			add_location(p, file$o, 55, 5, 1271);
+    			add_location(h5, file$o, 54, 5, 1219);
+    			add_location(p, file$o, 55, 5, 1269);
     			attr_dev(div, "class", "text-primary p-4");
-    			add_location(div, file$o, 53, 6, 1185);
+    			add_location(div, file$o, 53, 6, 1183);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -21098,7 +21098,7 @@ var app = (function () {
     			if (!src_url_equal(img.src, img_src_value = "assets/images/profile-img.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "");
     			attr_dev(img, "class", "img-fluid");
-    			add_location(img, file$o, 59, 6, 1377);
+    			add_location(img, file$o, 59, 6, 1375);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -21218,11 +21218,11 @@ var app = (function () {
     			attr_dev(img, "alt", "");
     			attr_dev(img, "class", "rounded-circle");
     			attr_dev(img, "height", "34");
-    			add_location(img, file$o, 72, 7, 1714);
+    			add_location(img, file$o, 72, 7, 1712);
     			attr_dev(span, "class", "avatar-title rounded-circle bg-light");
-    			add_location(span, file$o, 71, 5, 1655);
+    			add_location(span, file$o, 71, 5, 1653);
     			attr_dev(div, "class", "avatar-md profile-user-wid mb-4");
-    			add_location(div, file$o, 70, 6, 1604);
+    			add_location(div, file$o, 70, 6, 1602);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -21262,11 +21262,11 @@ var app = (function () {
     			attr_dev(img, "alt", "");
     			attr_dev(img, "class", "rounded-circle");
     			attr_dev(img, "height", "34");
-    			add_location(img, file$o, 84, 7, 2029);
+    			add_location(img, file$o, 84, 7, 2027);
     			attr_dev(span, "class", "avatar-title rounded-circle bg-light");
-    			add_location(span, file$o, 83, 5, 1970);
+    			add_location(span, file$o, 83, 5, 1968);
     			attr_dev(div, "class", "avatar-md profile-user-wid mb-4");
-    			add_location(div, file$o, 82, 6, 1919);
+    			add_location(div, file$o, 82, 6, 1917);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -21352,7 +21352,7 @@ var app = (function () {
     		c: function create() {
     			i = element("i");
     			attr_dev(i, "class", "mdi mdi-eye-outline");
-    			add_location(i, file$o, 120, 7, 2925);
+    			add_location(i, file$o, 120, 7, 2923);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, i, anchor);
@@ -21411,7 +21411,7 @@ var app = (function () {
     			i = element("i");
     			t = text(" Forgot your password?");
     			attr_dev(i, "class", "mdi mdi-lock me-1");
-    			add_location(i, file$o, 176, 8, 4273);
+    			add_location(i, file$o, 176, 8, 4271);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, i, anchor);
@@ -21649,56 +21649,56 @@ var app = (function () {
     			div7 = element("div");
     			create_component(link2.$$.fragment);
     			attr_dev(div0, "class", "auth-logo");
-    			add_location(div0, file$o, 68, 5, 1532);
+    			add_location(div0, file$o, 68, 5, 1530);
     			attr_dev(div1, "class", "mb-3");
-    			add_location(div1, file$o, 96, 6, 2252);
+    			add_location(div1, file$o, 96, 6, 2250);
     			attr_dev(div2, "class", "input-group auth-pass-inputgroup");
-    			add_location(div2, file$o, 109, 5, 2584);
+    			add_location(div2, file$o, 109, 5, 2582);
     			attr_dev(div3, "class", "mb-3");
-    			add_location(div3, file$o, 107, 6, 2497);
+    			add_location(div3, file$o, 107, 6, 2495);
     			attr_dev(input2, "class", "form-check-input");
     			attr_dev(input2, "type", "checkbox");
     			attr_dev(input2, "id", "remember-check");
-    			add_location(input2, file$o, 126, 5, 3040);
+    			add_location(input2, file$o, 126, 5, 3038);
     			attr_dev(div4, "class", "form-check");
-    			add_location(div4, file$o, 125, 6, 3010);
+    			add_location(div4, file$o, 125, 6, 3008);
     			attr_dev(button1, "class", "btn btn-primary w-md waves-effect waves-light");
-    			add_location(button1, file$o, 137, 5, 3282);
+    			add_location(button1, file$o, 137, 5, 3280);
     			attr_dev(div5, "class", "mt-3 d-grid");
-    			add_location(div5, file$o, 136, 6, 3251);
+    			add_location(div5, file$o, 136, 6, 3249);
     			attr_dev(h5, "class", "font-size-14 mb-3");
-    			add_location(h5, file$o, 144, 5, 3463);
+    			add_location(h5, file$o, 144, 5, 3461);
     			attr_dev(i0, "class", "mdi mdi-facebook");
-    			add_location(i0, file$o, 152, 8, 3695);
+    			add_location(i0, file$o, 152, 8, 3693);
     			attr_dev(a0, "href", "#");
     			attr_dev(a0, "class", "social-list-item bg-primary text-white border-primary");
-    			add_location(a0, file$o, 148, 6, 3587);
+    			add_location(a0, file$o, 148, 6, 3585);
     			attr_dev(li0, "class", "list-inline-item");
-    			add_location(li0, file$o, 147, 7, 3551);
+    			add_location(li0, file$o, 147, 7, 3549);
     			attr_dev(i1, "class", "mdi mdi-twitter");
-    			add_location(i1, file$o, 160, 8, 3895);
+    			add_location(i1, file$o, 160, 8, 3893);
     			attr_dev(a1, "href", "#");
     			attr_dev(a1, "class", "social-list-item bg-info text-white border-info");
-    			add_location(a1, file$o, 156, 6, 3793);
+    			add_location(a1, file$o, 156, 6, 3791);
     			attr_dev(li1, "class", "list-inline-item");
-    			add_location(li1, file$o, 155, 7, 3757);
+    			add_location(li1, file$o, 155, 7, 3755);
     			attr_dev(i2, "class", "mdi mdi-google");
-    			add_location(i2, file$o, 168, 8, 4098);
+    			add_location(i2, file$o, 168, 8, 4096);
     			attr_dev(a2, "href", "#");
     			attr_dev(a2, "class", "social-list-item bg-danger text-white border-danger");
-    			add_location(a2, file$o, 164, 6, 3992);
+    			add_location(a2, file$o, 164, 6, 3990);
     			attr_dev(li2, "class", "list-inline-item");
-    			add_location(li2, file$o, 163, 7, 3956);
+    			add_location(li2, file$o, 163, 7, 3954);
     			attr_dev(ul, "class", "list-inline");
-    			add_location(ul, file$o, 146, 5, 3519);
+    			add_location(ul, file$o, 146, 5, 3517);
     			attr_dev(div6, "class", "mt-4 text-center");
-    			add_location(div6, file$o, 143, 6, 3427);
+    			add_location(div6, file$o, 143, 6, 3425);
     			attr_dev(div7, "class", "mt-4 text-center");
-    			add_location(div7, file$o, 174, 6, 4184);
+    			add_location(div7, file$o, 174, 6, 4182);
     			attr_dev(div8, "class", "form-horizontal");
-    			add_location(div8, file$o, 95, 4, 2216);
+    			add_location(div8, file$o, 95, 4, 2214);
     			attr_dev(div9, "class", "p-2");
-    			add_location(div9, file$o, 94, 5, 2194);
+    			add_location(div9, file$o, 94, 5, 2192);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div0, anchor);
@@ -21909,7 +21909,7 @@ var app = (function () {
     			t = space();
     			create_component(cardbody.$$.fragment);
     			attr_dev(div, "class", "bg-primary bg-soft");
-    			add_location(div, file$o, 50, 3, 1111);
+    			add_location(div, file$o, 50, 3, 1109);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -22071,12 +22071,12 @@ var app = (function () {
     			t10 = space();
     			i = element("i");
     			t11 = text(" by Themesbrand");
-    			add_location(p0, file$o, 184, 3, 4441);
+    			add_location(p0, file$o, 184, 3, 4439);
     			attr_dev(i, "class", "mdi mdi-heart text-danger");
-    			add_location(i, file$o, 193, 5, 4668);
-    			add_location(p1, file$o, 191, 3, 4600);
+    			add_location(i, file$o, 193, 5, 4666);
+    			add_location(p1, file$o, 191, 3, 4598);
     			attr_dev(div, "class", "mt-5 text-center");
-    			add_location(div, file$o, 183, 4, 4407);
+    			add_location(div, file$o, 183, 4, 4405);
     		},
     		m: function mount(target, anchor) {
     			mount_component(card, target, anchor);
@@ -22293,9 +22293,9 @@ var app = (function () {
     			div1 = element("div");
     			create_component(container.$$.fragment);
     			attr_dev(div0, "class", "home-btn d-none d-sm-block");
-    			add_location(div0, file$o, 40, 0, 825);
+    			add_location(div0, file$o, 40, 0, 823);
     			attr_dev(div1, "class", "account-pages my-5 pt-sm-5");
-    			add_location(div1, file$o, 45, 2, 950);
+    			add_location(div1, file$o, 45, 2, 948);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -22361,8 +22361,8 @@ var app = (function () {
     	component_subscribe($$self, user, $$value => $$invalidate(5, $user = $$value));
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('Login', slots, []);
-    	let email = 'admin@themesbrand.com';
-    	let password = '123456';
+    	let email = 'youremail@company.com';
+    	let password = '1234';
 
     	// Destructuring to obtain email and password from form via Event
     	const handleLoginForm = () => {
@@ -26234,7 +26234,7 @@ var app = (function () {
     }
 
     // (244:18) <CardText class="mb-0">
-    function create_default_slot_40$1(ctx) {
+    function create_default_slot_40$2(ctx) {
     	let if_block_anchor;
 
     	function select_block_type_2(ctx, dirty) {
@@ -26275,7 +26275,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_40$1.name,
+    		id: create_default_slot_40$2.name,
     		type: "slot",
     		source: "(244:18) <CardText class=\\\"mb-0\\\">",
     		ctx
@@ -26285,14 +26285,14 @@ var app = (function () {
     }
 
     // (243:16) <Col sm="12">
-    function create_default_slot_39$1(ctx) {
+    function create_default_slot_39$2(ctx) {
     	let cardtext;
     	let current;
 
     	cardtext = new CardText({
     			props: {
     				class: "mb-0",
-    				$$slots: { default: [create_default_slot_40$1] },
+    				$$slots: { default: [create_default_slot_40$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -26331,7 +26331,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_39$1.name,
+    		id: create_default_slot_39$2.name,
     		type: "slot",
     		source: "(243:16) <Col sm=\\\"12\\\">",
     		ctx
@@ -26341,14 +26341,14 @@ var app = (function () {
     }
 
     // (242:14) <Row>
-    function create_default_slot_38$1(ctx) {
+    function create_default_slot_38$2(ctx) {
     	let col;
     	let current;
 
     	col = new Col({
     			props: {
     				sm: "12",
-    				$$slots: { default: [create_default_slot_39$1] },
+    				$$slots: { default: [create_default_slot_39$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -26387,7 +26387,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_38$1.name,
+    		id: create_default_slot_38$2.name,
     		type: "slot",
     		source: "(242:14) <Row>",
     		ctx
@@ -26397,13 +26397,13 @@ var app = (function () {
     }
 
     // (241:12) <TabPane tabId="2" class="{customActiveTab == "2" ? 'active': ''}">
-    function create_default_slot_37$1(ctx) {
+    function create_default_slot_37$2(ctx) {
     	let row;
     	let current;
 
     	row = new Row({
     			props: {
-    				$$slots: { default: [create_default_slot_38$1] },
+    				$$slots: { default: [create_default_slot_38$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -26442,7 +26442,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_37$1.name,
+    		id: create_default_slot_37$2.name,
     		type: "slot",
     		source: "(241:12) <TabPane tabId=\\\"2\\\" class=\\\"{customActiveTab == \\\"2\\\" ? 'active': ''}\\\">",
     		ctx
@@ -26511,7 +26511,7 @@ var app = (function () {
     }
 
     // (257:18) <CardText class="mb-0">
-    function create_default_slot_36$1(ctx) {
+    function create_default_slot_36$2(ctx) {
     	let if_block_anchor;
 
     	function select_block_type_3(ctx, dirty) {
@@ -26552,7 +26552,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_36$1.name,
+    		id: create_default_slot_36$2.name,
     		type: "slot",
     		source: "(257:18) <CardText class=\\\"mb-0\\\">",
     		ctx
@@ -26562,14 +26562,14 @@ var app = (function () {
     }
 
     // (256:16) <Col sm="12">
-    function create_default_slot_35$1(ctx) {
+    function create_default_slot_35$2(ctx) {
     	let cardtext;
     	let current;
 
     	cardtext = new CardText({
     			props: {
     				class: "mb-0",
-    				$$slots: { default: [create_default_slot_36$1] },
+    				$$slots: { default: [create_default_slot_36$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -26608,7 +26608,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_35$1.name,
+    		id: create_default_slot_35$2.name,
     		type: "slot",
     		source: "(256:16) <Col sm=\\\"12\\\">",
     		ctx
@@ -26618,14 +26618,14 @@ var app = (function () {
     }
 
     // (255:14) <Row>
-    function create_default_slot_34$2(ctx) {
+    function create_default_slot_34$3(ctx) {
     	let col;
     	let current;
 
     	col = new Col({
     			props: {
     				sm: "12",
-    				$$slots: { default: [create_default_slot_35$1] },
+    				$$slots: { default: [create_default_slot_35$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -26664,7 +26664,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_34$2.name,
+    		id: create_default_slot_34$3.name,
     		type: "slot",
     		source: "(255:14) <Row>",
     		ctx
@@ -26674,13 +26674,13 @@ var app = (function () {
     }
 
     // (254:12) <TabPane tabId="3" class="{customActiveTab == "3" ? 'active': ''}">
-    function create_default_slot_33$2(ctx) {
+    function create_default_slot_33$3(ctx) {
     	let row;
     	let current;
 
     	row = new Row({
     			props: {
-    				$$slots: { default: [create_default_slot_34$2] },
+    				$$slots: { default: [create_default_slot_34$3] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -26719,7 +26719,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_33$2.name,
+    		id: create_default_slot_33$3.name,
     		type: "slot",
     		source: "(254:12) <TabPane tabId=\\\"3\\\" class=\\\"{customActiveTab == \\\"3\\\" ? 'active': ''}\\\">",
     		ctx
@@ -26788,7 +26788,7 @@ var app = (function () {
     }
 
     // (270:18) <CardText class="mb-0">
-    function create_default_slot_32$2(ctx) {
+    function create_default_slot_32$3(ctx) {
     	let if_block_anchor;
 
     	function select_block_type_4(ctx, dirty) {
@@ -26829,7 +26829,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_32$2.name,
+    		id: create_default_slot_32$3.name,
     		type: "slot",
     		source: "(270:18) <CardText class=\\\"mb-0\\\">",
     		ctx
@@ -26839,14 +26839,14 @@ var app = (function () {
     }
 
     // (269:16) <Col sm="12">
-    function create_default_slot_31$2(ctx) {
+    function create_default_slot_31$3(ctx) {
     	let cardtext;
     	let current;
 
     	cardtext = new CardText({
     			props: {
     				class: "mb-0",
-    				$$slots: { default: [create_default_slot_32$2] },
+    				$$slots: { default: [create_default_slot_32$3] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -26885,7 +26885,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_31$2.name,
+    		id: create_default_slot_31$3.name,
     		type: "slot",
     		source: "(269:16) <Col sm=\\\"12\\\">",
     		ctx
@@ -26895,14 +26895,14 @@ var app = (function () {
     }
 
     // (268:14) <Row>
-    function create_default_slot_30$2(ctx) {
+    function create_default_slot_30$3(ctx) {
     	let col;
     	let current;
 
     	col = new Col({
     			props: {
     				sm: "12",
-    				$$slots: { default: [create_default_slot_31$2] },
+    				$$slots: { default: [create_default_slot_31$3] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -26941,7 +26941,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_30$2.name,
+    		id: create_default_slot_30$3.name,
     		type: "slot",
     		source: "(268:14) <Row>",
     		ctx
@@ -26951,13 +26951,13 @@ var app = (function () {
     }
 
     // (267:12) <TabPane tabId="4" class="{customActiveTab == "4" ? 'active': ''}">
-    function create_default_slot_29$2(ctx) {
+    function create_default_slot_29$3(ctx) {
     	let row;
     	let current;
 
     	row = new Row({
     			props: {
-    				$$slots: { default: [create_default_slot_30$2] },
+    				$$slots: { default: [create_default_slot_30$3] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -26996,7 +26996,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_29$2.name,
+    		id: create_default_slot_29$3.name,
     		type: "slot",
     		source: "(267:12) <TabPane tabId=\\\"4\\\" class=\\\"{customActiveTab == \\\"4\\\" ? 'active': ''}\\\">",
     		ctx
@@ -28952,7 +28952,7 @@ var app = (function () {
     			props: {
     				tabId: "2",
     				class: /*customActiveTab*/ ctx[0] == "2" ? 'active' : '',
-    				$$slots: { default: [create_default_slot_37$1] },
+    				$$slots: { default: [create_default_slot_37$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -28962,7 +28962,7 @@ var app = (function () {
     			props: {
     				tabId: "3",
     				class: /*customActiveTab*/ ctx[0] == "3" ? 'active' : '',
-    				$$slots: { default: [create_default_slot_33$2] },
+    				$$slots: { default: [create_default_slot_33$3] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -28972,7 +28972,7 @@ var app = (function () {
     			props: {
     				tabId: "4",
     				class: /*customActiveTab*/ ctx[0] == "4" ? 'active' : '',
-    				$$slots: { default: [create_default_slot_29$2] },
+    				$$slots: { default: [create_default_slot_29$3] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -29731,7 +29731,7 @@ var app = (function () {
     const file$j = "src/pages/Pipelines/businessModel.svelte";
 
     // (44:14) <CardTitle  class="h4 target-audience">
-    function create_default_slot_28$3(ctx) {
+    function create_default_slot_40$1(ctx) {
     	let t;
 
     	const block = {
@@ -29748,7 +29748,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_28$3.name,
+    		id: create_default_slot_40$1.name,
     		type: "slot",
     		source: "(44:14) <CardTitle  class=\\\"h4 target-audience\\\">",
     		ctx
@@ -29758,7 +29758,7 @@ var app = (function () {
     }
 
     // (43:12) <Col sm={8}>
-    function create_default_slot_27$3(ctx) {
+    function create_default_slot_39$1(ctx) {
     	let cardtitle;
     	let t0;
     	let p;
@@ -29767,7 +29767,7 @@ var app = (function () {
     	cardtitle = new CardTitle({
     			props: {
     				class: "h4 target-audience",
-    				$$slots: { default: [create_default_slot_28$3] },
+    				$$slots: { default: [create_default_slot_40$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -29791,7 +29791,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const cardtitle_changes = {};
 
-    			if (dirty & /*$$scope*/ 32) {
+    			if (dirty & /*$$scope*/ 2048) {
     				cardtitle_changes.$$scope = { dirty, ctx };
     			}
 
@@ -29815,7 +29815,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_27$3.name,
+    		id: create_default_slot_39$1.name,
     		type: "slot",
     		source: "(43:12) <Col sm={8}>",
     		ctx
@@ -29825,7 +29825,7 @@ var app = (function () {
     }
 
     // (49:14) <CardTitle class="h2">
-    function create_default_slot_26$3(ctx) {
+    function create_default_slot_38$1(ctx) {
     	let t;
 
     	const block = {
@@ -29842,7 +29842,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_26$3.name,
+    		id: create_default_slot_38$1.name,
     		type: "slot",
     		source: "(49:14) <CardTitle class=\\\"h2\\\">",
     		ctx
@@ -29912,7 +29912,7 @@ var app = (function () {
     }
 
     // (48:12) <Col sm={4} class="text-sm-end">
-    function create_default_slot_25$3(ctx) {
+    function create_default_slot_37$1(ctx) {
     	let cardtitle;
     	let t;
     	let if_block_anchor;
@@ -29921,7 +29921,7 @@ var app = (function () {
     	cardtitle = new CardTitle({
     			props: {
     				class: "h2",
-    				$$slots: { default: [create_default_slot_26$3] },
+    				$$slots: { default: [create_default_slot_38$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -29952,7 +29952,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const cardtitle_changes = {};
 
-    			if (dirty & /*$$scope*/ 32) {
+    			if (dirty & /*$$scope*/ 2048) {
     				cardtitle_changes.$$scope = { dirty, ctx };
     			}
 
@@ -29987,7 +29987,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_25$3.name,
+    		id: create_default_slot_37$1.name,
     		type: "slot",
     		source: "(48:12) <Col sm={4} class=\\\"text-sm-end\\\">",
     		ctx
@@ -29997,7 +29997,7 @@ var app = (function () {
     }
 
     // (42:10) <Row class= "p-4">
-    function create_default_slot_24$3(ctx) {
+    function create_default_slot_36$1(ctx) {
     	let col0;
     	let t;
     	let col1;
@@ -30006,7 +30006,7 @@ var app = (function () {
     	col0 = new Col({
     			props: {
     				sm: 8,
-    				$$slots: { default: [create_default_slot_27$3] },
+    				$$slots: { default: [create_default_slot_39$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -30016,7 +30016,7 @@ var app = (function () {
     			props: {
     				sm: 4,
     				class: "text-sm-end",
-    				$$slots: { default: [create_default_slot_25$3] },
+    				$$slots: { default: [create_default_slot_37$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -30037,14 +30037,14 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const col0_changes = {};
 
-    			if (dirty & /*$$scope*/ 32) {
+    			if (dirty & /*$$scope*/ 2048) {
     				col0_changes.$$scope = { dirty, ctx };
     			}
 
     			col0.$set(col0_changes);
     			const col1_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 34) {
+    			if (dirty & /*$$scope, result*/ 2050) {
     				col1_changes.$$scope = { dirty, ctx };
     			}
 
@@ -30070,7 +30070,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_24$3.name,
+    		id: create_default_slot_36$1.name,
     		type: "slot",
     		source: "(42:10) <Row class= \\\"p-4\\\">",
     		ctx
@@ -30080,7 +30080,7 @@ var app = (function () {
     }
 
     // (66:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "1")}                 active={customActiveTab == "1"}               >
-    function create_default_slot_23$3(ctx) {
+    function create_default_slot_35$1(ctx) {
     	let span0;
     	let i;
     	let t0;
@@ -30092,7 +30092,7 @@ var app = (function () {
     			i = element("i");
     			t0 = space();
     			span1 = element("span");
-    			span1.textContent = "1. Business Model";
+    			span1.textContent = "1. Mission Statement";
     			attr_dev(i, "class", "fas fa-home");
     			add_location(i, file$j, 71, 18, 1948);
     			attr_dev(span0, "class", "d-block d-sm-none");
@@ -30116,7 +30116,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_23$3.name,
+    		id: create_default_slot_35$1.name,
     		type: "slot",
     		source: "(66:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"1\\\")}                 active={customActiveTab == \\\"1\\\"}               >",
     		ctx
@@ -30126,7 +30126,7 @@ var app = (function () {
     }
 
     // (65:12) <NavItem>
-    function create_default_slot_22$3(ctx) {
+    function create_default_slot_34$2(ctx) {
     	let navlink;
     	let current;
 
@@ -30134,7 +30134,7 @@ var app = (function () {
     			props: {
     				style: "cursor: pointer",
     				active: /*customActiveTab*/ ctx[0] == "1",
-    				$$slots: { default: [create_default_slot_23$3] },
+    				$$slots: { default: [create_default_slot_35$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -30154,7 +30154,643 @@ var app = (function () {
     			const navlink_changes = {};
     			if (dirty & /*customActiveTab*/ 1) navlink_changes.active = /*customActiveTab*/ ctx[0] == "1";
 
-    			if (dirty & /*$$scope*/ 32) {
+    			if (dirty & /*$$scope*/ 2048) {
+    				navlink_changes.$$scope = { dirty, ctx };
+    			}
+
+    			navlink.$set(navlink_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(navlink.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(navlink.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(navlink, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_34$2.name,
+    		type: "slot",
+    		source: "(65:12) <NavItem>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (78:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "2")}                 active={customActiveTab == "2"}               >
+    function create_default_slot_33$2(ctx) {
+    	let span0;
+    	let i;
+    	let t0;
+    	let span1;
+
+    	const block = {
+    		c: function create() {
+    			span0 = element("span");
+    			i = element("i");
+    			t0 = space();
+    			span1 = element("span");
+    			span1.textContent = "2. Vision Statement";
+    			attr_dev(i, "class", "fas fa-home");
+    			add_location(i, file$j, 83, 18, 2396);
+    			attr_dev(span0, "class", "d-block d-sm-none");
+    			add_location(span0, file$j, 82, 16, 2345);
+    			attr_dev(span1, "class", "d-none d-sm-block");
+    			add_location(span1, file$j, 85, 16, 2462);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, span0, anchor);
+    			append_dev(span0, i);
+    			insert_dev(target, t0, anchor);
+    			insert_dev(target, span1, anchor);
+    		},
+    		p: noop$1,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(span0);
+    			if (detaching) detach_dev(t0);
+    			if (detaching) detach_dev(span1);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_33$2.name,
+    		type: "slot",
+    		source: "(78:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"2\\\")}                 active={customActiveTab == \\\"2\\\"}               >",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (77:12) <NavItem>
+    function create_default_slot_32$2(ctx) {
+    	let navlink;
+    	let current;
+
+    	navlink = new NavLink({
+    			props: {
+    				style: "cursor: pointer",
+    				active: /*customActiveTab*/ ctx[0] == "2",
+    				$$slots: { default: [create_default_slot_33$2] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	navlink.$on("click", /*click_handler_1*/ ctx[3]);
+
+    	const block = {
+    		c: function create() {
+    			create_component(navlink.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(navlink, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const navlink_changes = {};
+    			if (dirty & /*customActiveTab*/ 1) navlink_changes.active = /*customActiveTab*/ ctx[0] == "2";
+
+    			if (dirty & /*$$scope*/ 2048) {
+    				navlink_changes.$$scope = { dirty, ctx };
+    			}
+
+    			navlink.$set(navlink_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(navlink.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(navlink.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(navlink, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_32$2.name,
+    		type: "slot",
+    		source: "(77:12) <NavItem>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (90:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "3")}                 active={customActiveTab == "3"}               >
+    function create_default_slot_31$2(ctx) {
+    	let span0;
+    	let i;
+    	let t0;
+    	let span1;
+
+    	const block = {
+    		c: function create() {
+    			span0 = element("span");
+    			i = element("i");
+    			t0 = space();
+    			span1 = element("span");
+    			span1.textContent = "3. Value Proposition";
+    			attr_dev(i, "class", "fas fa-home");
+    			add_location(i, file$j, 95, 18, 2843);
+    			attr_dev(span0, "class", "d-block d-sm-none");
+    			add_location(span0, file$j, 94, 16, 2792);
+    			attr_dev(span1, "class", "d-none d-sm-block");
+    			add_location(span1, file$j, 97, 16, 2909);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, span0, anchor);
+    			append_dev(span0, i);
+    			insert_dev(target, t0, anchor);
+    			insert_dev(target, span1, anchor);
+    		},
+    		p: noop$1,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(span0);
+    			if (detaching) detach_dev(t0);
+    			if (detaching) detach_dev(span1);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_31$2.name,
+    		type: "slot",
+    		source: "(90:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"3\\\")}                 active={customActiveTab == \\\"3\\\"}               >",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (89:12) <NavItem>
+    function create_default_slot_30$2(ctx) {
+    	let navlink;
+    	let current;
+
+    	navlink = new NavLink({
+    			props: {
+    				style: "cursor: pointer",
+    				active: /*customActiveTab*/ ctx[0] == "3",
+    				$$slots: { default: [create_default_slot_31$2] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	navlink.$on("click", /*click_handler_2*/ ctx[4]);
+
+    	const block = {
+    		c: function create() {
+    			create_component(navlink.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(navlink, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const navlink_changes = {};
+    			if (dirty & /*customActiveTab*/ 1) navlink_changes.active = /*customActiveTab*/ ctx[0] == "3";
+
+    			if (dirty & /*$$scope*/ 2048) {
+    				navlink_changes.$$scope = { dirty, ctx };
+    			}
+
+    			navlink.$set(navlink_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(navlink.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(navlink.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(navlink, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_30$2.name,
+    		type: "slot",
+    		source: "(89:12) <NavItem>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (102:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "4")}                 active={customActiveTab == "4"}               >
+    function create_default_slot_29$2(ctx) {
+    	let span0;
+    	let i;
+    	let t0;
+    	let span1;
+
+    	const block = {
+    		c: function create() {
+    			span0 = element("span");
+    			i = element("i");
+    			t0 = space();
+    			span1 = element("span");
+    			span1.textContent = "4. Value Proposition short";
+    			attr_dev(i, "class", "fas fa-home");
+    			add_location(i, file$j, 107, 18, 3291);
+    			attr_dev(span0, "class", "d-block d-sm-none");
+    			add_location(span0, file$j, 106, 16, 3240);
+    			attr_dev(span1, "class", "d-none d-sm-block");
+    			add_location(span1, file$j, 109, 16, 3357);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, span0, anchor);
+    			append_dev(span0, i);
+    			insert_dev(target, t0, anchor);
+    			insert_dev(target, span1, anchor);
+    		},
+    		p: noop$1,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(span0);
+    			if (detaching) detach_dev(t0);
+    			if (detaching) detach_dev(span1);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_29$2.name,
+    		type: "slot",
+    		source: "(102:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"4\\\")}                 active={customActiveTab == \\\"4\\\"}               >",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (101:12) <NavItem>
+    function create_default_slot_28$3(ctx) {
+    	let navlink;
+    	let current;
+
+    	navlink = new NavLink({
+    			props: {
+    				style: "cursor: pointer",
+    				active: /*customActiveTab*/ ctx[0] == "4",
+    				$$slots: { default: [create_default_slot_29$2] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	navlink.$on("click", /*click_handler_3*/ ctx[5]);
+
+    	const block = {
+    		c: function create() {
+    			create_component(navlink.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(navlink, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const navlink_changes = {};
+    			if (dirty & /*customActiveTab*/ 1) navlink_changes.active = /*customActiveTab*/ ctx[0] == "4";
+
+    			if (dirty & /*$$scope*/ 2048) {
+    				navlink_changes.$$scope = { dirty, ctx };
+    			}
+
+    			navlink.$set(navlink_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(navlink.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(navlink.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(navlink, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_28$3.name,
+    		type: "slot",
+    		source: "(101:12) <NavItem>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (114:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "5")}                 active={customActiveTab == "5"}               >
+    function create_default_slot_27$3(ctx) {
+    	let span0;
+    	let i;
+    	let t0;
+    	let span1;
+
+    	const block = {
+    		c: function create() {
+    			span0 = element("span");
+    			i = element("i");
+    			t0 = space();
+    			span1 = element("span");
+    			span1.textContent = "5.What is Success for This Business";
+    			attr_dev(i, "class", "far fa-user");
+    			add_location(i, file$j, 119, 18, 3745);
+    			attr_dev(span0, "class", "d-block d-sm-none");
+    			add_location(span0, file$j, 118, 16, 3694);
+    			attr_dev(span1, "class", "d-none d-sm-block");
+    			add_location(span1, file$j, 121, 16, 3811);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, span0, anchor);
+    			append_dev(span0, i);
+    			insert_dev(target, t0, anchor);
+    			insert_dev(target, span1, anchor);
+    		},
+    		p: noop$1,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(span0);
+    			if (detaching) detach_dev(t0);
+    			if (detaching) detach_dev(span1);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_27$3.name,
+    		type: "slot",
+    		source: "(114:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"5\\\")}                 active={customActiveTab == \\\"5\\\"}               >",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (113:12) <NavItem>
+    function create_default_slot_26$3(ctx) {
+    	let navlink;
+    	let current;
+
+    	navlink = new NavLink({
+    			props: {
+    				style: "cursor: pointer",
+    				active: /*customActiveTab*/ ctx[0] == "5",
+    				$$slots: { default: [create_default_slot_27$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	navlink.$on("click", /*click_handler_4*/ ctx[6]);
+
+    	const block = {
+    		c: function create() {
+    			create_component(navlink.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(navlink, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const navlink_changes = {};
+    			if (dirty & /*customActiveTab*/ 1) navlink_changes.active = /*customActiveTab*/ ctx[0] == "5";
+
+    			if (dirty & /*$$scope*/ 2048) {
+    				navlink_changes.$$scope = { dirty, ctx };
+    			}
+
+    			navlink.$set(navlink_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(navlink.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(navlink.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(navlink, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_26$3.name,
+    		type: "slot",
+    		source: "(113:12) <NavItem>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (126:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "6")}                 active={customActiveTab == "6"}               >
+    function create_default_slot_25$3(ctx) {
+    	let span0;
+    	let i;
+    	let t0;
+    	let span1;
+
+    	const block = {
+    		c: function create() {
+    			span0 = element("span");
+    			i = element("i");
+    			t0 = space();
+    			span1 = element("span");
+    			span1.textContent = "6.Explaination of Business Model";
+    			attr_dev(i, "class", "far fa-user");
+    			add_location(i, file$j, 131, 18, 4207);
+    			attr_dev(span0, "class", "d-block d-sm-none");
+    			add_location(span0, file$j, 130, 16, 4156);
+    			attr_dev(span1, "class", "d-none d-sm-block");
+    			add_location(span1, file$j, 133, 16, 4273);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, span0, anchor);
+    			append_dev(span0, i);
+    			insert_dev(target, t0, anchor);
+    			insert_dev(target, span1, anchor);
+    		},
+    		p: noop$1,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(span0);
+    			if (detaching) detach_dev(t0);
+    			if (detaching) detach_dev(span1);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_25$3.name,
+    		type: "slot",
+    		source: "(126:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"6\\\")}                 active={customActiveTab == \\\"6\\\"}               >",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (125:12) <NavItem>
+    function create_default_slot_24$3(ctx) {
+    	let navlink;
+    	let current;
+
+    	navlink = new NavLink({
+    			props: {
+    				style: "cursor: pointer",
+    				active: /*customActiveTab*/ ctx[0] == "6",
+    				$$slots: { default: [create_default_slot_25$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	navlink.$on("click", /*click_handler_5*/ ctx[7]);
+
+    	const block = {
+    		c: function create() {
+    			create_component(navlink.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(navlink, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const navlink_changes = {};
+    			if (dirty & /*customActiveTab*/ 1) navlink_changes.active = /*customActiveTab*/ ctx[0] == "6";
+
+    			if (dirty & /*$$scope*/ 2048) {
+    				navlink_changes.$$scope = { dirty, ctx };
+    			}
+
+    			navlink.$set(navlink_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(navlink.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(navlink.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(navlink, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_24$3.name,
+    		type: "slot",
+    		source: "(125:12) <NavItem>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (138:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "7")}                 active={customActiveTab == "7"}               >
+    function create_default_slot_23$3(ctx) {
+    	let span0;
+    	let i;
+    	let t0;
+    	let span1;
+
+    	const block = {
+    		c: function create() {
+    			span0 = element("span");
+    			i = element("i");
+    			t0 = space();
+    			span1 = element("span");
+    			span1.textContent = "7.Explaination of Business Model";
+    			attr_dev(i, "class", "far fa-user");
+    			add_location(i, file$j, 143, 18, 4666);
+    			attr_dev(span0, "class", "d-block d-sm-none");
+    			add_location(span0, file$j, 142, 16, 4615);
+    			attr_dev(span1, "class", "d-none d-sm-block");
+    			add_location(span1, file$j, 145, 16, 4732);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, span0, anchor);
+    			append_dev(span0, i);
+    			insert_dev(target, t0, anchor);
+    			insert_dev(target, span1, anchor);
+    		},
+    		p: noop$1,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(span0);
+    			if (detaching) detach_dev(t0);
+    			if (detaching) detach_dev(span1);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_23$3.name,
+    		type: "slot",
+    		source: "(138:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"7\\\")}                 active={customActiveTab == \\\"7\\\"}               >",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (137:12) <NavItem>
+    function create_default_slot_22$3(ctx) {
+    	let navlink;
+    	let current;
+
+    	navlink = new NavLink({
+    			props: {
+    				style: "cursor: pointer",
+    				active: /*customActiveTab*/ ctx[0] == "7",
+    				$$slots: { default: [create_default_slot_23$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	navlink.$on("click", /*click_handler_6*/ ctx[8]);
+
+    	const block = {
+    		c: function create() {
+    			create_component(navlink.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(navlink, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const navlink_changes = {};
+    			if (dirty & /*customActiveTab*/ 1) navlink_changes.active = /*customActiveTab*/ ctx[0] == "7";
+
+    			if (dirty & /*$$scope*/ 2048) {
     				navlink_changes.$$scope = { dirty, ctx };
     			}
 
@@ -30178,14 +30814,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_22$3.name,
     		type: "slot",
-    		source: "(65:12) <NavItem>",
+    		source: "(137:12) <NavItem>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (78:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "2")}                 active={customActiveTab == "2"}               >
+    // (150:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "2")}                 active={customActiveTab == "2"}               >
     function create_default_slot_21$3(ctx) {
     	let span0;
     	let i;
@@ -30200,11 +30836,11 @@ var app = (function () {
     			span1 = element("span");
     			span1.textContent = "2.Metrics that Matter KPIs";
     			attr_dev(i, "class", "far fa-user");
-    			add_location(i, file$j, 83, 18, 2393);
+    			add_location(i, file$j, 155, 18, 5125);
     			attr_dev(span0, "class", "d-block d-sm-none");
-    			add_location(span0, file$j, 82, 16, 2342);
+    			add_location(span0, file$j, 154, 16, 5074);
     			attr_dev(span1, "class", "d-none d-sm-block");
-    			add_location(span1, file$j, 85, 16, 2459);
+    			add_location(span1, file$j, 157, 16, 5191);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span0, anchor);
@@ -30224,14 +30860,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_21$3.name,
     		type: "slot",
-    		source: "(78:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"2\\\")}                 active={customActiveTab == \\\"2\\\"}               >",
+    		source: "(150:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"2\\\")}                 active={customActiveTab == \\\"2\\\"}               >",
     		ctx
     	});
 
     	return block;
     }
 
-    // (77:12) <NavItem>
+    // (149:12) <NavItem>
     function create_default_slot_20$3(ctx) {
     	let navlink;
     	let current;
@@ -30246,7 +30882,7 @@ var app = (function () {
     			$$inline: true
     		});
 
-    	navlink.$on("click", /*click_handler_1*/ ctx[3]);
+    	navlink.$on("click", /*click_handler_7*/ ctx[9]);
 
     	const block = {
     		c: function create() {
@@ -30260,7 +30896,7 @@ var app = (function () {
     			const navlink_changes = {};
     			if (dirty & /*customActiveTab*/ 1) navlink_changes.active = /*customActiveTab*/ ctx[0] == "2";
 
-    			if (dirty & /*$$scope*/ 32) {
+    			if (dirty & /*$$scope*/ 2048) {
     				navlink_changes.$$scope = { dirty, ctx };
     			}
 
@@ -30284,14 +30920,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_20$3.name,
     		type: "slot",
-    		source: "(77:12) <NavItem>",
+    		source: "(149:12) <NavItem>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (90:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "3")}                 active={customActiveTab == "3"}               >
+    // (162:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "3")}                 active={customActiveTab == "3"}               >
     function create_default_slot_19$3(ctx) {
     	let span0;
     	let i;
@@ -30306,11 +30942,11 @@ var app = (function () {
     			span1 = element("span");
     			span1.textContent = "3. Business Goals";
     			attr_dev(i, "class", "far fa-user");
-    			add_location(i, file$j, 95, 18, 2846);
+    			add_location(i, file$j, 167, 18, 5578);
     			attr_dev(span0, "class", "d-block d-sm-none");
-    			add_location(span0, file$j, 94, 16, 2795);
+    			add_location(span0, file$j, 166, 16, 5527);
     			attr_dev(span1, "class", "d-none d-sm-block");
-    			add_location(span1, file$j, 97, 16, 2912);
+    			add_location(span1, file$j, 169, 16, 5644);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span0, anchor);
@@ -30330,14 +30966,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_19$3.name,
     		type: "slot",
-    		source: "(90:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"3\\\")}                 active={customActiveTab == \\\"3\\\"}               >",
+    		source: "(162:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"3\\\")}                 active={customActiveTab == \\\"3\\\"}               >",
     		ctx
     	});
 
     	return block;
     }
 
-    // (89:12) <NavItem>
+    // (161:12) <NavItem>
     function create_default_slot_18$3(ctx) {
     	let navlink;
     	let current;
@@ -30352,7 +30988,7 @@ var app = (function () {
     			$$inline: true
     		});
 
-    	navlink.$on("click", /*click_handler_2*/ ctx[4]);
+    	navlink.$on("click", /*click_handler_8*/ ctx[10]);
 
     	const block = {
     		c: function create() {
@@ -30366,7 +31002,7 @@ var app = (function () {
     			const navlink_changes = {};
     			if (dirty & /*customActiveTab*/ 1) navlink_changes.active = /*customActiveTab*/ ctx[0] == "3";
 
-    			if (dirty & /*$$scope*/ 32) {
+    			if (dirty & /*$$scope*/ 2048) {
     				navlink_changes.$$scope = { dirty, ctx };
     			}
 
@@ -30390,7 +31026,7 @@ var app = (function () {
     		block,
     		id: create_default_slot_18$3.name,
     		type: "slot",
-    		source: "(89:12) <NavItem>",
+    		source: "(161:12) <NavItem>",
     		ctx
     	});
 
@@ -30404,11 +31040,23 @@ var app = (function () {
     	let navitem1;
     	let t1;
     	let navitem2;
+    	let t2;
+    	let navitem3;
+    	let t3;
+    	let navitem4;
+    	let t4;
+    	let navitem5;
+    	let t5;
+    	let navitem6;
+    	let t6;
+    	let navitem7;
+    	let t7;
+    	let navitem8;
     	let current;
 
     	navitem0 = new NavItem({
     			props: {
-    				$$slots: { default: [create_default_slot_22$3] },
+    				$$slots: { default: [create_default_slot_34$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -30416,13 +31064,61 @@ var app = (function () {
 
     	navitem1 = new NavItem({
     			props: {
-    				$$slots: { default: [create_default_slot_20$3] },
+    				$$slots: { default: [create_default_slot_32$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
     		});
 
     	navitem2 = new NavItem({
+    			props: {
+    				$$slots: { default: [create_default_slot_30$2] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	navitem3 = new NavItem({
+    			props: {
+    				$$slots: { default: [create_default_slot_28$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	navitem4 = new NavItem({
+    			props: {
+    				$$slots: { default: [create_default_slot_26$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	navitem5 = new NavItem({
+    			props: {
+    				$$slots: { default: [create_default_slot_24$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	navitem6 = new NavItem({
+    			props: {
+    				$$slots: { default: [create_default_slot_22$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	navitem7 = new NavItem({
+    			props: {
+    				$$slots: { default: [create_default_slot_20$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	navitem8 = new NavItem({
     			props: {
     				$$slots: { default: [create_default_slot_18$3] },
     				$$scope: { ctx }
@@ -30437,6 +31133,18 @@ var app = (function () {
     			create_component(navitem1.$$.fragment);
     			t1 = space();
     			create_component(navitem2.$$.fragment);
+    			t2 = space();
+    			create_component(navitem3.$$.fragment);
+    			t3 = space();
+    			create_component(navitem4.$$.fragment);
+    			t4 = space();
+    			create_component(navitem5.$$.fragment);
+    			t5 = space();
+    			create_component(navitem6.$$.fragment);
+    			t6 = space();
+    			create_component(navitem7.$$.fragment);
+    			t7 = space();
+    			create_component(navitem8.$$.fragment);
     		},
     		m: function mount(target, anchor) {
     			mount_component(navitem0, target, anchor);
@@ -30444,42 +31152,108 @@ var app = (function () {
     			mount_component(navitem1, target, anchor);
     			insert_dev(target, t1, anchor);
     			mount_component(navitem2, target, anchor);
+    			insert_dev(target, t2, anchor);
+    			mount_component(navitem3, target, anchor);
+    			insert_dev(target, t3, anchor);
+    			mount_component(navitem4, target, anchor);
+    			insert_dev(target, t4, anchor);
+    			mount_component(navitem5, target, anchor);
+    			insert_dev(target, t5, anchor);
+    			mount_component(navitem6, target, anchor);
+    			insert_dev(target, t6, anchor);
+    			mount_component(navitem7, target, anchor);
+    			insert_dev(target, t7, anchor);
+    			mount_component(navitem8, target, anchor);
     			current = true;
     		},
     		p: function update(ctx, dirty) {
     			const navitem0_changes = {};
 
-    			if (dirty & /*$$scope, customActiveTab*/ 33) {
+    			if (dirty & /*$$scope, customActiveTab*/ 2049) {
     				navitem0_changes.$$scope = { dirty, ctx };
     			}
 
     			navitem0.$set(navitem0_changes);
     			const navitem1_changes = {};
 
-    			if (dirty & /*$$scope, customActiveTab*/ 33) {
+    			if (dirty & /*$$scope, customActiveTab*/ 2049) {
     				navitem1_changes.$$scope = { dirty, ctx };
     			}
 
     			navitem1.$set(navitem1_changes);
     			const navitem2_changes = {};
 
-    			if (dirty & /*$$scope, customActiveTab*/ 33) {
+    			if (dirty & /*$$scope, customActiveTab*/ 2049) {
     				navitem2_changes.$$scope = { dirty, ctx };
     			}
 
     			navitem2.$set(navitem2_changes);
+    			const navitem3_changes = {};
+
+    			if (dirty & /*$$scope, customActiveTab*/ 2049) {
+    				navitem3_changes.$$scope = { dirty, ctx };
+    			}
+
+    			navitem3.$set(navitem3_changes);
+    			const navitem4_changes = {};
+
+    			if (dirty & /*$$scope, customActiveTab*/ 2049) {
+    				navitem4_changes.$$scope = { dirty, ctx };
+    			}
+
+    			navitem4.$set(navitem4_changes);
+    			const navitem5_changes = {};
+
+    			if (dirty & /*$$scope, customActiveTab*/ 2049) {
+    				navitem5_changes.$$scope = { dirty, ctx };
+    			}
+
+    			navitem5.$set(navitem5_changes);
+    			const navitem6_changes = {};
+
+    			if (dirty & /*$$scope, customActiveTab*/ 2049) {
+    				navitem6_changes.$$scope = { dirty, ctx };
+    			}
+
+    			navitem6.$set(navitem6_changes);
+    			const navitem7_changes = {};
+
+    			if (dirty & /*$$scope, customActiveTab*/ 2049) {
+    				navitem7_changes.$$scope = { dirty, ctx };
+    			}
+
+    			navitem7.$set(navitem7_changes);
+    			const navitem8_changes = {};
+
+    			if (dirty & /*$$scope, customActiveTab*/ 2049) {
+    				navitem8_changes.$$scope = { dirty, ctx };
+    			}
+
+    			navitem8.$set(navitem8_changes);
     		},
     		i: function intro(local) {
     			if (current) return;
     			transition_in(navitem0.$$.fragment, local);
     			transition_in(navitem1.$$.fragment, local);
     			transition_in(navitem2.$$.fragment, local);
+    			transition_in(navitem3.$$.fragment, local);
+    			transition_in(navitem4.$$.fragment, local);
+    			transition_in(navitem5.$$.fragment, local);
+    			transition_in(navitem6.$$.fragment, local);
+    			transition_in(navitem7.$$.fragment, local);
+    			transition_in(navitem8.$$.fragment, local);
     			current = true;
     		},
     		o: function outro(local) {
     			transition_out(navitem0.$$.fragment, local);
     			transition_out(navitem1.$$.fragment, local);
     			transition_out(navitem2.$$.fragment, local);
+    			transition_out(navitem3.$$.fragment, local);
+    			transition_out(navitem4.$$.fragment, local);
+    			transition_out(navitem5.$$.fragment, local);
+    			transition_out(navitem6.$$.fragment, local);
+    			transition_out(navitem7.$$.fragment, local);
+    			transition_out(navitem8.$$.fragment, local);
     			current = false;
     		},
     		d: function destroy(detaching) {
@@ -30488,6 +31262,18 @@ var app = (function () {
     			destroy_component(navitem1, detaching);
     			if (detaching) detach_dev(t1);
     			destroy_component(navitem2, detaching);
+    			if (detaching) detach_dev(t2);
+    			destroy_component(navitem3, detaching);
+    			if (detaching) detach_dev(t3);
+    			destroy_component(navitem4, detaching);
+    			if (detaching) detach_dev(t4);
+    			destroy_component(navitem5, detaching);
+    			if (detaching) detach_dev(t5);
+    			destroy_component(navitem6, detaching);
+    			if (detaching) detach_dev(t6);
+    			destroy_component(navitem7, detaching);
+    			if (detaching) detach_dev(t7);
+    			destroy_component(navitem8, detaching);
     		}
     	};
 
@@ -30502,7 +31288,7 @@ var app = (function () {
     	return block;
     }
 
-    // (110:20) {:else}
+    // (182:20) {:else}
     function create_else_block_2$2(ctx) {
     	let t;
 
@@ -30523,14 +31309,14 @@ var app = (function () {
     		block,
     		id: create_else_block_2$2.name,
     		type: "else",
-    		source: "(110:20) {:else}",
+    		source: "(182:20) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (108:20) {#if result && result.business_model!== null}
+    // (180:20) {#if result && result.business_model!== null}
     function create_if_block_2$2(ctx) {
     	let t_value = /*result*/ ctx[1].business_model + "";
     	let t;
@@ -30554,14 +31340,14 @@ var app = (function () {
     		block,
     		id: create_if_block_2$2.name,
     		type: "if",
-    		source: "(108:20) {#if result && result.business_model!== null}",
+    		source: "(180:20) {#if result && result.business_model!== null}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (107:18) <CardText class="mb-0">
+    // (179:18) <CardText class="mb-0">
     function create_default_slot_16$3(ctx) {
     	let if_block_anchor;
 
@@ -30605,14 +31391,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_16$3.name,
     		type: "slot",
-    		source: "(107:18) <CardText class=\\\"mb-0\\\">",
+    		source: "(179:18) <CardText class=\\\"mb-0\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (106:16) <Col sm="12">
+    // (178:16) <Col sm="12">
     function create_default_slot_15$3(ctx) {
     	let cardtext;
     	let current;
@@ -30637,7 +31423,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const cardtext_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 34) {
+    			if (dirty & /*$$scope, result*/ 2050) {
     				cardtext_changes.$$scope = { dirty, ctx };
     			}
 
@@ -30661,14 +31447,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_15$3.name,
     		type: "slot",
-    		source: "(106:16) <Col sm=\\\"12\\\">",
+    		source: "(178:16) <Col sm=\\\"12\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (105:14) <Row>
+    // (177:14) <Row>
     function create_default_slot_14$3(ctx) {
     	let col;
     	let current;
@@ -30693,7 +31479,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const col_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 34) {
+    			if (dirty & /*$$scope, result*/ 2050) {
     				col_changes.$$scope = { dirty, ctx };
     			}
 
@@ -30717,14 +31503,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_14$3.name,
     		type: "slot",
-    		source: "(105:14) <Row>",
+    		source: "(177:14) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (104:12) <TabPane tabId="1" class="{customActiveTab == "1" ? 'active': ''}">
+    // (176:12) <TabPane tabId="1" class="{customActiveTab == "1" ? 'active': ''}">
     function create_default_slot_13$4(ctx) {
     	let row;
     	let current;
@@ -30748,7 +31534,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const row_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 34) {
+    			if (dirty & /*$$scope, result*/ 2050) {
     				row_changes.$$scope = { dirty, ctx };
     			}
 
@@ -30772,14 +31558,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_13$4.name,
     		type: "slot",
-    		source: "(104:12) <TabPane tabId=\\\"1\\\" class=\\\"{customActiveTab == \\\"1\\\" ? 'active': ''}\\\">",
+    		source: "(176:12) <TabPane tabId=\\\"1\\\" class=\\\"{customActiveTab == \\\"1\\\" ? 'active': ''}\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (123:20) {:else}
+    // (195:20) {:else}
     function create_else_block_1$2(ctx) {
     	let t;
 
@@ -30800,14 +31586,14 @@ var app = (function () {
     		block,
     		id: create_else_block_1$2.name,
     		type: "else",
-    		source: "(123:20) {:else}",
+    		source: "(195:20) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (121:20) {#if result && result.kpi== null}
+    // (193:20) {#if result && result.kpi== null}
     function create_if_block_1$2(ctx) {
     	let t_value = /*result*/ ctx[1].kpi + "";
     	let t;
@@ -30831,14 +31617,14 @@ var app = (function () {
     		block,
     		id: create_if_block_1$2.name,
     		type: "if",
-    		source: "(121:20) {#if result && result.kpi== null}",
+    		source: "(193:20) {#if result && result.kpi== null}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (120:18) <CardText class="mb-0">
+    // (192:18) <CardText class="mb-0">
     function create_default_slot_12$4(ctx) {
     	let if_block_anchor;
 
@@ -30882,14 +31668,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_12$4.name,
     		type: "slot",
-    		source: "(120:18) <CardText class=\\\"mb-0\\\">",
+    		source: "(192:18) <CardText class=\\\"mb-0\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (119:16) <Col sm="12">
+    // (191:16) <Col sm="12">
     function create_default_slot_11$4(ctx) {
     	let cardtext;
     	let current;
@@ -30914,7 +31700,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const cardtext_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 34) {
+    			if (dirty & /*$$scope, result*/ 2050) {
     				cardtext_changes.$$scope = { dirty, ctx };
     			}
 
@@ -30938,14 +31724,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_11$4.name,
     		type: "slot",
-    		source: "(119:16) <Col sm=\\\"12\\\">",
+    		source: "(191:16) <Col sm=\\\"12\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (118:14) <Row>
+    // (190:14) <Row>
     function create_default_slot_10$5(ctx) {
     	let col;
     	let current;
@@ -30970,7 +31756,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const col_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 34) {
+    			if (dirty & /*$$scope, result*/ 2050) {
     				col_changes.$$scope = { dirty, ctx };
     			}
 
@@ -30994,14 +31780,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_10$5.name,
     		type: "slot",
-    		source: "(118:14) <Row>",
+    		source: "(190:14) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (117:12) <TabPane tabId="2" class="{customActiveTab == "2" ? 'active': ''}">
+    // (189:12) <TabPane tabId="2" class="{customActiveTab == "2" ? 'active': ''}">
     function create_default_slot_9$5(ctx) {
     	let row;
     	let current;
@@ -31025,7 +31811,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const row_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 34) {
+    			if (dirty & /*$$scope, result*/ 2050) {
     				row_changes.$$scope = { dirty, ctx };
     			}
 
@@ -31049,14 +31835,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_9$5.name,
     		type: "slot",
-    		source: "(117:12) <TabPane tabId=\\\"2\\\" class=\\\"{customActiveTab == \\\"2\\\" ? 'active': ''}\\\">",
+    		source: "(189:12) <TabPane tabId=\\\"2\\\" class=\\\"{customActiveTab == \\\"2\\\" ? 'active': ''}\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (136:20) {:else}
+    // (208:20) {:else}
     function create_else_block$2(ctx) {
     	let t;
 
@@ -31077,14 +31863,14 @@ var app = (function () {
     		block,
     		id: create_else_block$2.name,
     		type: "else",
-    		source: "(136:20) {:else}",
+    		source: "(208:20) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (134:20) {#if result && result.business_goals!== null}
+    // (206:20) {#if result && result.business_goals!== null}
     function create_if_block$3(ctx) {
     	let t_value = /*result*/ ctx[1].business_goals + "";
     	let t;
@@ -31108,14 +31894,14 @@ var app = (function () {
     		block,
     		id: create_if_block$3.name,
     		type: "if",
-    		source: "(134:20) {#if result && result.business_goals!== null}",
+    		source: "(206:20) {#if result && result.business_goals!== null}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (133:18) <CardText class="mb-0">
+    // (205:18) <CardText class="mb-0">
     function create_default_slot_8$5(ctx) {
     	let if_block_anchor;
 
@@ -31159,14 +31945,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_8$5.name,
     		type: "slot",
-    		source: "(133:18) <CardText class=\\\"mb-0\\\">",
+    		source: "(205:18) <CardText class=\\\"mb-0\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (132:16) <Col sm="12">
+    // (204:16) <Col sm="12">
     function create_default_slot_7$6(ctx) {
     	let cardtext;
     	let current;
@@ -31191,7 +31977,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const cardtext_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 34) {
+    			if (dirty & /*$$scope, result*/ 2050) {
     				cardtext_changes.$$scope = { dirty, ctx };
     			}
 
@@ -31215,14 +32001,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_7$6.name,
     		type: "slot",
-    		source: "(132:16) <Col sm=\\\"12\\\">",
+    		source: "(204:16) <Col sm=\\\"12\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (131:14) <Row>
+    // (203:14) <Row>
     function create_default_slot_6$6(ctx) {
     	let col;
     	let current;
@@ -31247,7 +32033,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const col_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 34) {
+    			if (dirty & /*$$scope, result*/ 2050) {
     				col_changes.$$scope = { dirty, ctx };
     			}
 
@@ -31271,14 +32057,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_6$6.name,
     		type: "slot",
-    		source: "(131:14) <Row>",
+    		source: "(203:14) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (130:12) <TabPane tabId="3" class="{customActiveTab == "3" ? 'active': ''}">
+    // (202:12) <TabPane tabId="3" class="{customActiveTab == "3" ? 'active': ''}">
     function create_default_slot_5$6(ctx) {
     	let row;
     	let current;
@@ -31302,7 +32088,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const row_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 34) {
+    			if (dirty & /*$$scope, result*/ 2050) {
     				row_changes.$$scope = { dirty, ctx };
     			}
 
@@ -31326,14 +32112,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_5$6.name,
     		type: "slot",
-    		source: "(130:12) <TabPane tabId=\\\"3\\\" class=\\\"{customActiveTab == \\\"3\\\" ? 'active': ''}\\\">",
+    		source: "(202:12) <TabPane tabId=\\\"3\\\" class=\\\"{customActiveTab == \\\"3\\\" ? 'active': ''}\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (103:10) <TabContent activeTab={customActiveTab} class="p-3 text-muted">
+    // (175:10) <TabContent activeTab={customActiveTab} class="p-3 text-muted">
     function create_default_slot_4$6(ctx) {
     	let tabpane0;
     	let t0;
@@ -31392,7 +32178,7 @@ var app = (function () {
     			const tabpane0_changes = {};
     			if (dirty & /*customActiveTab*/ 1) tabpane0_changes.class = /*customActiveTab*/ ctx[0] == "1" ? 'active' : '';
 
-    			if (dirty & /*$$scope, result*/ 34) {
+    			if (dirty & /*$$scope, result*/ 2050) {
     				tabpane0_changes.$$scope = { dirty, ctx };
     			}
 
@@ -31400,7 +32186,7 @@ var app = (function () {
     			const tabpane1_changes = {};
     			if (dirty & /*customActiveTab*/ 1) tabpane1_changes.class = /*customActiveTab*/ ctx[0] == "2" ? 'active' : '';
 
-    			if (dirty & /*$$scope, result*/ 34) {
+    			if (dirty & /*$$scope, result*/ 2050) {
     				tabpane1_changes.$$scope = { dirty, ctx };
     			}
 
@@ -31408,7 +32194,7 @@ var app = (function () {
     			const tabpane2_changes = {};
     			if (dirty & /*customActiveTab*/ 1) tabpane2_changes.class = /*customActiveTab*/ ctx[0] == "3" ? 'active' : '';
 
-    			if (dirty & /*$$scope, result*/ 34) {
+    			if (dirty & /*$$scope, result*/ 2050) {
     				tabpane2_changes.$$scope = { dirty, ctx };
     			}
 
@@ -31440,7 +32226,7 @@ var app = (function () {
     		block,
     		id: create_default_slot_4$6.name,
     		type: "slot",
-    		source: "(103:10) <TabContent activeTab={customActiveTab} class=\\\"p-3 text-muted\\\">",
+    		source: "(175:10) <TabContent activeTab={customActiveTab} class=\\\"p-3 text-muted\\\">",
     		ctx
     	});
 
@@ -31459,7 +32245,7 @@ var app = (function () {
     	row = new Row({
     			props: {
     				class: "p-4",
-    				$$slots: { default: [create_default_slot_24$3] },
+    				$$slots: { default: [create_default_slot_36$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -31505,14 +32291,14 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const row_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 34) {
+    			if (dirty & /*$$scope, result*/ 2050) {
     				row_changes.$$scope = { dirty, ctx };
     			}
 
     			row.$set(row_changes);
     			const nav_changes = {};
 
-    			if (dirty & /*$$scope, customActiveTab*/ 33) {
+    			if (dirty & /*$$scope, customActiveTab*/ 2049) {
     				nav_changes.$$scope = { dirty, ctx };
     			}
 
@@ -31520,7 +32306,7 @@ var app = (function () {
     			const tabcontent_changes = {};
     			if (dirty & /*customActiveTab*/ 1) tabcontent_changes.activeTab = /*customActiveTab*/ ctx[0];
 
-    			if (dirty & /*$$scope, customActiveTab, result*/ 35) {
+    			if (dirty & /*$$scope, customActiveTab, result*/ 2051) {
     				tabcontent_changes.$$scope = { dirty, ctx };
     			}
 
@@ -31583,7 +32369,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const cardbody_changes = {};
 
-    			if (dirty & /*$$scope, customActiveTab, result*/ 35) {
+    			if (dirty & /*$$scope, customActiveTab, result*/ 2051) {
     				cardbody_changes.$$scope = { dirty, ctx };
     			}
 
@@ -31638,7 +32424,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const card_changes = {};
 
-    			if (dirty & /*$$scope, customActiveTab, result*/ 35) {
+    			if (dirty & /*$$scope, customActiveTab, result*/ 2051) {
     				card_changes.$$scope = { dirty, ctx };
     			}
 
@@ -31708,7 +32494,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const col_changes = {};
 
-    			if (dirty & /*$$scope, customActiveTab, result*/ 35) {
+    			if (dirty & /*$$scope, customActiveTab, result*/ 2051) {
     				col_changes.$$scope = { dirty, ctx };
     			}
 
@@ -31775,7 +32561,7 @@ var app = (function () {
     		p: function update(ctx, [dirty]) {
     			const container_changes = {};
 
-    			if (dirty & /*$$scope, customActiveTab, result*/ 35) {
+    			if (dirty & /*$$scope, customActiveTab, result*/ 2051) {
     				container_changes.$$scope = { dirty, ctx };
     			}
 
@@ -31829,6 +32615,12 @@ var app = (function () {
     	const click_handler = () => $$invalidate(0, customActiveTab = "1");
     	const click_handler_1 = () => $$invalidate(0, customActiveTab = "2");
     	const click_handler_2 = () => $$invalidate(0, customActiveTab = "3");
+    	const click_handler_3 = () => $$invalidate(0, customActiveTab = "4");
+    	const click_handler_4 = () => $$invalidate(0, customActiveTab = "5");
+    	const click_handler_5 = () => $$invalidate(0, customActiveTab = "6");
+    	const click_handler_6 = () => $$invalidate(0, customActiveTab = "7");
+    	const click_handler_7 = () => $$invalidate(0, customActiveTab = "2");
+    	const click_handler_8 = () => $$invalidate(0, customActiveTab = "3");
 
     	$$self.$capture_state = () => ({
     		Link,
@@ -31863,7 +32655,19 @@ var app = (function () {
     		$$self.$inject_state($$props.$$inject);
     	}
 
-    	return [customActiveTab, result, click_handler, click_handler_1, click_handler_2];
+    	return [
+    		customActiveTab,
+    		result,
+    		click_handler,
+    		click_handler_1,
+    		click_handler_2,
+    		click_handler_3,
+    		click_handler_4,
+    		click_handler_5,
+    		click_handler_6,
+    		click_handler_7,
+    		click_handler_8
+    	];
     }
 
     class BusinessModel extends SvelteComponentDev {

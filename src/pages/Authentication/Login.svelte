@@ -15,8 +15,8 @@
   } from "sveltestrap";
 	import { Link } from 'svelte-routing';
 
-	let email = 'admin@themesbrand.com';
-	let password = '123456';
+	let email = 'youremail@company.com';
+	let password = '1234';
 
 	// Destructuring to obtain email and password from form via Event
 	const handleLoginForm = () => {

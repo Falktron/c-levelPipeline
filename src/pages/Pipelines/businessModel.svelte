@@ -71,7 +71,79 @@
                 <span class="d-block d-sm-none">
                   <i class="fas fa-home" />
                 </span>
-                <span class="d-none d-sm-block"> 1. Business Model</span>
+                <span class="d-none d-sm-block"> 1. Mission Statement</span>
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                style="cursor: pointer"
+                on:click={() => (customActiveTab = "2")}
+                active={customActiveTab == "2"}
+              >
+                <span class="d-block d-sm-none">
+                  <i class="fas fa-home" />
+                </span>
+                <span class="d-none d-sm-block"> 2. Vision Statement</span>
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                style="cursor: pointer"
+                on:click={() => (customActiveTab = "3")}
+                active={customActiveTab == "3"}
+              >
+                <span class="d-block d-sm-none">
+                  <i class="fas fa-home" />
+                </span>
+                <span class="d-none d-sm-block"> 3. Value Proposition</span>
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                style="cursor: pointer"
+                on:click={() => (customActiveTab = "4")}
+                active={customActiveTab == "4"}
+              >
+                <span class="d-block d-sm-none">
+                  <i class="fas fa-home" />
+                </span>
+                <span class="d-none d-sm-block"> 4. Value Proposition short</span>
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                style="cursor: pointer"
+                on:click={() => (customActiveTab = "5")}
+                active={customActiveTab == "5"}
+              >
+                <span class="d-block d-sm-none">
+                  <i class="far fa-user" />
+                </span>
+                <span class="d-none d-sm-block">5.What is Success for This Business</span>
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                style="cursor: pointer"
+                on:click={() => (customActiveTab = "6")}
+                active={customActiveTab == "6"}
+              >
+                <span class="d-block d-sm-none">
+                  <i class="far fa-user" />
+                </span>
+                <span class="d-none d-sm-block">6.Explaination of Business Model</span>
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                style="cursor: pointer"
+                on:click={() => (customActiveTab = "7")}
+                active={customActiveTab == "7"}
+              >
+                <span class="d-block d-sm-none">
+                  <i class="far fa-user" />
+                </span>
+                <span class="d-none d-sm-block">7.Explaination of Business Model</span>
               </NavLink>
             </NavItem>
             <NavItem>
