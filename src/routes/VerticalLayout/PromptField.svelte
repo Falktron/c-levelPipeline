@@ -37,12 +37,13 @@
             let response;
             try {
                 response = await queryTargetUsers(data);
+                updateVariable("targetAudience", response);
                 console.log(response);
             } catch (error) {
                 throw error;
             }
 
-            updateVariable("targetAudience", response);
+         
     }
 
     async function businessModel() {
@@ -55,12 +56,13 @@
             try {
                 response = await queryBusinessModel(data);
                 console.log(response);
+                updateVariable("businessModel", response);
             } catch (error) {
                
                 throw error;
             }
 
-            updateVariable("businessModel", response);
+           
         } catch (error) {
             throw error;
         }
@@ -107,7 +109,8 @@
     ];*/
 
     const functionChain = [
-    { func: targetAudience, name: 'targetAudience' }
+    { func: targetAudience, name: 'targetAudience' },
+    { func: businessModel, name: 'businessModel' }
    
     ];
 
