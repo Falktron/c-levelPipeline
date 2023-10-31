@@ -167,7 +167,7 @@
               <Row>
                 <Col sm="12">
                   <CardText class="mb-0">
-                    {#if result && result.market_size== null}
+                    {#if result && result.market_size !== null}
                         {result.market_size}
                     {:else}
                         No Market Size avalaible.

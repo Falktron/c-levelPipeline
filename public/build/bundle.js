@@ -36562,7 +36562,7 @@ var app = (function () {
     	return block;
     }
 
-    // (170:20) {#if result && result.market_size== null}
+    // (170:20) {#if result && result.market_size !== null}
     function create_if_block_5$1(ctx) {
     	let t_value = /*result*/ ctx[1].market_size + "";
     	let t;
@@ -36586,7 +36586,7 @@ var app = (function () {
     		block,
     		id: create_if_block_5$1.name,
     		type: "if",
-    		source: "(170:20) {#if result && result.market_size== null}",
+    		source: "(170:20) {#if result && result.market_size !== null}",
     		ctx
     	});
 
@@ -36598,7 +36598,7 @@ var app = (function () {
     	let if_block_anchor;
 
     	function select_block_type_2(ctx, dirty) {
-    		if (/*result*/ ctx[1] && /*result*/ ctx[1].market_size == null) return create_if_block_5$1;
+    		if (/*result*/ ctx[1] && /*result*/ ctx[1].market_size !== null) return create_if_block_5$1;
     		return create_else_block_5$1;
     	}
 
