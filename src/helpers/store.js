@@ -10,7 +10,11 @@ const pipelineResults = writable({
     targetAudience: null,
     businessModel: null,
     marketingResearch: null,
+    brandIdentity: null,
+    marketingPlan: null,
+    marketingMessage: null,
     currentPipeline: null,
+    infoUpdated: false,
 });
 
 export { user, pipelineResults };

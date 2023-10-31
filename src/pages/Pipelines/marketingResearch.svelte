@@ -21,7 +21,7 @@
   let customActiveTab = "1";
   import Breadcrumb from "../../common/Breadcrumb.svelte";
   import { pipelineResults } from '../../helpers/store.js';
-  import { getClosestAvailableLocale } from "svelte-i18n/types/runtime/stores/dictionary";
+
 
   let result;
   pipelineResults.subscribe((value) => {
@@ -84,7 +84,7 @@
                 <span class="d-block d-sm-none">
                   <i class="fas fa-home" />
                 </span>
-                <span class="d-none d-sm-block"> 2. Market Trend Analysis </span>
+                <span class="d-none d-sm-block"> 2. Market Size Analysis </span>
               </NavLink>
             </NavItem>
             <NavItem>
@@ -96,7 +96,7 @@
                 <span class="d-block d-sm-none">
                   <i class="fas fa-home" />
                 </span>
-                <span class="d-none d-sm-block"> 3. Competitive Analysis</span>
+                <span class="d-none d-sm-block"> 3. Market Trend Analysis</span>
               </NavLink>
             </NavItem>
             <NavItem>
@@ -108,7 +108,7 @@
                 <span class="d-block d-sm-none">
                   <i class="fas fa-home" />
                 </span>
-                <span class="d-none d-sm-block"> 4. Market Research Summary</span>
+                <span class="d-none d-sm-block"> 4. Competitive Analysis</span>
               </NavLink>
             </NavItem>
             <NavItem>
@@ -120,7 +120,7 @@
                 <span class="d-block d-sm-none">
                   <i class="fas fa-home" />
                 </span>
-                <span class="d-none d-sm-block"> 5. Customer Journey</span>
+                <span class="d-none d-sm-block"> 5. Market Research Summary</span>
               </NavLink>
             </NavItem>
             <NavItem>
@@ -132,7 +132,7 @@
                 <span class="d-block d-sm-none">
                   <i class="fas fa-home" />
                 </span>
-                <span class="d-none d-sm-block"> 6. Brand Position</span>
+                <span class="d-none d-sm-block"> 6. Customer Journey</span>
               </NavLink>
             </NavItem>
             <NavItem>
@@ -196,7 +196,7 @@
                     {#if result && result.competetive_analysis!== null}
                         {result.competetive_analysis}
                     {:else}
-                        No Market Trend avaliable.
+                        No Competitive Analysis avaliable.
                     {/if}
                   </CardText>
                 </Col>
@@ -235,7 +235,7 @@
                     {#if result && result.brand_positioning!== null}
                         {result.brand_positioning}
                     {:else}
-                        No Customer Journey avaliable.
+                        No Brand Position avaliable.
                     {/if}
                   </CardText>
                 </Col>

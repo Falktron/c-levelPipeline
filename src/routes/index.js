@@ -11,6 +11,8 @@ import targetAudience from "../pages/Pipelines/targetAudience.svelte";
 import businessModel from "../pages/Pipelines/businessModel.svelte";
 import marketingResearch from "../pages/Pipelines/marketingResearch.svelte";
 import brandIdentity from "../pages/Pipelines/brandIdentity.svelte";
+import marketingPlan from "../pages/Pipelines/marketingPlan.svelte";
+import marketingMessage from "../pages/Pipelines/marketingMessage.svelte";
 
 
 
@@ -24,7 +26,9 @@ const authProtectedRoutes = [
   { path: "/targetAudience", component: targetAudience },
   { path: "/businessModel", component: businessModel },
   { path: "/marketingResearch", component: marketingResearch},
-  { path: "/brandIdentity", component: brandIdentity}
+  { path: "/brandIdentity", component: brandIdentity},
+  { path: "/marketingPlan", component: marketingPlan},
+  { path: "/marketingMessage", component: marketingMessage}
 
 
 ];

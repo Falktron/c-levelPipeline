@@ -81,7 +81,7 @@
         <CardBody>
           <Row class= "p-4">
             <Col sm={8}>
-              <CardTitle  class="h4 target-audience">Business Model</CardTitle>
+              <CardTitle  class="h4 target-audience">Target Audience</CardTitle>
               <p class="card-title-desc">Intended individuals for content, products, or services based 
                 on relevant demographics and interests..</p>
             </Col>

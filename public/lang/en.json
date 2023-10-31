@@ -187,6 +187,20 @@
           "link": "/brandIdentity",
           "key": "brandIdentity",
           "icon": "bx bx-file"
+        },
+        {
+          "id": 5,
+          "name": "Marketing Plan",
+          "link": "/marketingPlan",
+          "key": "marketingPlan",
+          "icon": "bx bx-file"
+        },
+        {
+          "id": 6,
+          "name": "Marketing Message",
+          "link": "/marketingMessage",
+          "key": "marketingMessage",
+          "icon": "bx bx-file"
         }
        
       ]

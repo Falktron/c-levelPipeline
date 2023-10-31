@@ -25,7 +25,7 @@
   let result;
   pipelineResults.subscribe((value) => {
     if(value){
-      result = value.brandIdentity;
+      result = value.marketingPlan;
       console.log(typeof(result), result);
     }
   });
@@ -35,13 +35,13 @@
 
 <div class="page-flow">
   <Container fluid>
-    <Breadcrumb title="Dashboard" breadcrumbItem="Brand Identity" />
+    <Breadcrumb title="Dashboard" breadcrumbItem="Marketing Plan" />
     <Col xl={12}>
       <Card>
         <CardBody>
           <Row class= "p-4">
             <Col sm={8}>
-              <CardTitle  class="h4 target-audience">Brand Indentity</CardTitle>
+              <CardTitle  class="h4 target-audience">Marketing Plan</CardTitle>
               <p class="card-title-desc">Distinctive visual, verbal, and experiential elements that 
                 define and represent a brand's essence and values.</p>
             </Col>
@@ -83,7 +83,7 @@
                 <span class="d-block d-sm-none">
                   <i class="fas fa-home" />
                 </span>
-                <span class="d-none d-sm-block"> 2. Tag line</span>
+                <span class="d-none d-sm-block"> 2. Unique Sell proposition</span>
               </NavLink>
             </NavItem>
             <NavItem>
@@ -93,9 +93,9 @@
                 active={customActiveTab == "3"}
               >
                 <span class="d-block d-sm-none">
-                  <i class="fas fa-home" />
+                  <i class="far fa-user" />
                 </span>
-                <span class="d-none d-sm-block"> 3. Unique Sell proposition</span>
+                <span class="d-none d-sm-block">3. Voice and Tone</span>
               </NavLink>
             </NavItem>
             <NavItem>
@@ -107,55 +107,7 @@
                 <span class="d-block d-sm-none">
                   <i class="far fa-user" />
                 </span>
-                <span class="d-none d-sm-block">4. Logo</span>
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink
-                style="cursor: pointer"
-                on:click={() => (customActiveTab = "5")}
-                active={customActiveTab == "5"}
-              >
-                <span class="d-block d-sm-none">
-                  <i class="far fa-user" />
-                </span>
-                <span class="d-none d-sm-block">5. Colors</span>
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink
-                style="cursor: pointer"
-                on:click={() => (customActiveTab = "6")}
-                active={customActiveTab == "6"}
-              >
-                <span class="d-block d-sm-none">
-                  <i class="far fa-user" />
-                </span>
-                <span class="d-none d-sm-block">6. Imagery</span>
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink
-                style="cursor: pointer"
-                on:click={() => (customActiveTab = "7")}
-                active={customActiveTab == "7"}
-              >
-                <span class="d-block d-sm-none">
-                  <i class="far fa-user" />
-                </span>
-                <span class="d-none d-sm-block">7. Voice and Tone</span>
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink
-                style="cursor: pointer"
-                on:click={() => (customActiveTab = "8")}
-                active={customActiveTab == "8"}
-              >
-                <span class="d-block d-sm-none">
-                  <i class="far fa-user" />
-                </span>
-                <span class="d-none d-sm-block">8. Brand Guidelines</span>
+                <span class="d-none d-sm-block">4. Brand Guidelines</span>
               </NavLink>
             </NavItem>
           </Nav>
@@ -180,10 +132,10 @@
               <Row>
                 <Col sm="12">
                   <CardText class="mb-0">
-                    {#if result && result.tag_line !== null}
-                        {result.tag_line}
+                    {#if result && result.usp== null}
+                        {result.usp}
                     {:else}
-                        No Tag Line avalaible.
+                        No Unique Value Proposition avalaible.
                     {/if}
                   </CardText>
                 </Col>
@@ -193,10 +145,10 @@
               <Row>
                 <Col sm="12">
                   <CardText class="mb-0">
-                    {#if result && result.USP!== null}
-                        {result.USP}
+                    {#if result && result.voice_and_tone!== null}
+                        {result.voice_and_tone}
                     {:else}
-                        No Unique value proposition avaliable .
+                        No voice and tone.
                     {/if}
                   </CardText>
                 </Col>
@@ -206,62 +158,10 @@
               <Row>
                 <Col sm="12">
                   <CardText class="mb-0">
-                    {#if result && result.logo!== null}
-                        {result.logo}
-                    {:else}
-                        No Logo  avaliable.
-                    {/if}
-                  </CardText>
-                </Col>
-              </Row>
-            </TabPane>  
-            <TabPane tabId="5" class="{customActiveTab == "5" ? 'active': ''}">
-              <Row>
-                <Col sm="12">
-                  <CardText class="mb-0">
-                    {#if result && result.colors!== null}
-                        {result.colors}
-                    {:else}
-                        No colors  avaliable.
-                    {/if}
-                  </CardText>
-                </Col>
-              </Row>
-            </TabPane> 
-            <TabPane tabId="6" class="{customActiveTab == "6" ? 'active': ''}">
-              <Row>
-                <Col sm="12">
-                  <CardText class="mb-0">
-                    {#if result && result.imagery!== null}
-                        {result.imagery}
-                    {:else}
-                        No Imagery  avaliable.
-                    {/if}
-                  </CardText>
-                </Col>
-              </Row>
-            </TabPane>  
-            <TabPane tabId="7" class="{customActiveTab == "7" ? 'active': ''}">
-              <Row>
-                <Col sm="12">
-                  <CardText class="mb-0">
-                    {#if result && result.voice_and_tone!== null}
-                        {result.voice_and_tone}
-                    {:else}
-                        No Voice and Tone avaliable.
-                    {/if}
-                  </CardText>
-                </Col>
-              </Row>
-            </TabPane>    
-            <TabPane tabId="8" class="{customActiveTab == "8" ? 'active': ''}">
-              <Row>
-                <Col sm="12">
-                  <CardText class="mb-0">
                     {#if result && result.brand_guidelines!== null}
                         {result.brand_guidelines}
                     {:else}
-                        No Brand Guidelines avaliable.
+                        No brand guidelines avaliable.
                     {/if}
                   </CardText>
                 </Col>

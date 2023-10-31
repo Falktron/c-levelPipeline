@@ -18,15 +18,45 @@
   } from "sveltestrap";
 
 
-  import { queryTargetUsers, queryTargetDB, queryBusinessModel, queryMarketingResearch} from '../../Flowise/flowiseServices.js';
+  import { queryTargetUsers, queryTargetDB, queryBusinessModel, queryMarketingResearch, queryBrandIdentity} from '../../Flowise/flowiseServices.js';
   import { pipelineResults } from '../../helpers/store.js';
-  import { executeSequence } from '../../Flowise/executeSequence.js';
+  import { onMount } from 'svelte';
 
 
    let question = $pipelineResults.prompt;
    let isLoading = false;
 
    const projectId = 123;
+
+  
+   const queries = [
+    { key: "targetAudience", type: "target_audience" },
+    { key: "businessModel", type: "business_model" },
+    { key: "marketingResearch", type: "market_research" },
+    { key: "brandIdentity", type: "brand_identity" }
+  ];
+
+  onMount(async () => {
+    if (!$pipelineResults.infoUpdated) {
+      try {
+        console.log('Project loaded!');
+
+        for (const query of queries) {
+          const data = await queryTargetDB(projectId, query.type);
+          if (data) {
+            updateVariable(query.key, data);
+          }
+        }
+
+        updateVariable("infoUpdated", true);
+      } catch (error) {
+        console.error('Error:', error);
+      }
+    }
+  });
+
+
+
   
 
     async function targetAudience() {
@@ -101,6 +131,36 @@
     }
 
 
+    async function brandIdentity() {
+        try {
+
+            // prpate infor for quering
+            let businessInfo = await queryTargetDB(projectId, 'business_model');
+            let audienceInfo = await queryTargetDB(projectId, 'target_audience');
+
+
+            const { product_service,audience_summary } = audienceInfo;
+            const { value_proposition,competitive_analysis, mission_statement, vision_statement} = businessInfo;
+            let reqInfo = { product_service, audience_summary, value_proposition,competitive_analysis, mission_statement, vision_statement};
+            const data = { "question": JSON.stringify(reqInfo) };
+            updateVariable("currentPipeline", "brandIdentity");
+            let response;
+            try {
+                response = await queryBrandIdentity(data);
+                updateVariable("brandIdentity", response);
+                console.log(response);
+                
+            } catch (error) {
+                throw error;
+            }
+
+           
+        } catch (error) {
+            throw error;
+        }
+    }
+
+
 
 
 
@@ -108,7 +168,8 @@
     const functionChain = [
     { func: targetAudience, name: 'targetAudience' },
     { func: businessModel, name: 'businessModel' },
-    { func: marketingResearch, name: 'marketingResearch' }
+    { func: marketingResearch, name: 'marketingResearch' },
+    { func: brandIdentity, name: 'brandIdentity'}
     ];
 
 

@@ -119,7 +119,7 @@
                 <span class="d-block d-sm-none">
                   <i class="far fa-user" />
                 </span>
-                <span class="d-none d-sm-block">5.What is Success for This Business</span>
+                <span class="d-none d-sm-block">5. Business Description</span>
               </NavLink>
             </NavItem>
             <NavItem>
@@ -131,7 +131,7 @@
                 <span class="d-block d-sm-none">
                   <i class="far fa-user" />
                 </span>
-                <span class="d-none d-sm-block">6.Explaination of Business Model</span>
+                <span class="d-none d-sm-block">6.What is Success for This Business</span>
               </NavLink>
             </NavItem>
             <NavItem>
@@ -202,7 +202,7 @@
               <Row>
                 <Col sm="12">
                   <CardText class="mb-0">
-                    {#if result && result.vision_statement== null}
+                    {#if result && result.vision_statement !== null}
                         {result.vision_statement}
                     {:else}
                         No Vision Statement available
@@ -211,19 +211,6 @@
                 </Col>
               </Row>
             </TabPane> 
-            <TabPane tabId="3" class="{customActiveTab == "3" ? 'active': ''}">
-              <Row>
-                <Col sm="12">
-                  <CardText class="mb-0">
-                    {#if result && result.value_proposition!== null}
-                        {result.value_proposition}
-                    {:else}
-                        No Value Prposition avaliable
-                    {/if}
-                  </CardText>
-                </Col>
-              </Row>
-            </TabPane>
             <TabPane tabId="3" class="{customActiveTab == "3" ? 'active': ''}">
               <Row>
                 <Col sm="12">
@@ -296,7 +283,7 @@
                     {#if result && result.kpi!== null}
                         {result.kpi}
                     {:else}
-                        No Business Explanation avaliable
+                        No KPI´s avaliable
                     {/if}
                   </CardText>
                 </Col>
@@ -322,7 +309,7 @@
                     {#if result && result.business_goals!== null}
                         {result.business_goals}
                     {:else}
-                        No Core Problems avaliable
+                        No Business Goals avaliable
                     {/if}
                   </CardText>
                 </Col>
