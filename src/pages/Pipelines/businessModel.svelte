@@ -149,25 +149,37 @@
             <NavItem>
               <NavLink
                 style="cursor: pointer"
-                on:click={() => (customActiveTab = "2")}
-                active={customActiveTab == "2"}
+                on:click={() => (customActiveTab = "8")}
+                active={customActiveTab == "8"}
               >
                 <span class="d-block d-sm-none">
                   <i class="far fa-user" />
                 </span>
-                <span class="d-none d-sm-block">2.Metrics that Matter KPIs</span>
+                <span class="d-none d-sm-block">8.Metrics that Matter KPIs</span>
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink
                 style="cursor: pointer"
-                on:click={() => (customActiveTab = "3")}
-                active={customActiveTab == "3"}
+                on:click={() => (customActiveTab = "9")}
+                active={customActiveTab == "9"}
               >
                 <span class="d-block d-sm-none">
                   <i class="far fa-user" />
                 </span>
-                <span class="d-none d-sm-block">3. Business Goals</span>
+                <span class="d-none d-sm-block">9. Core Problems</span>
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                style="cursor: pointer"
+                on:click={() => (customActiveTab = "10")}
+                active={customActiveTab == "10"}
+              >
+                <span class="d-block d-sm-none">
+                  <i class="far fa-user" />
+                </span>
+                <span class="d-none d-sm-block">10. Business goals</span>
               </NavLink>
             </NavItem>
           </Nav>
@@ -177,10 +189,10 @@
               <Row>
                 <Col sm="12">
                   <CardText class="mb-0">
-                    {#if result && result.business_model!== null}
-                        {result.business_model}
+                    {#if result && result.mission_statement!== null}
+                        {result.mission_statement}
                     {:else}
-                        No Bussiness Model available
+                        No Mission Statement available
                     {/if}
                   </CardText>
                 </Col>
@@ -190,10 +202,10 @@
               <Row>
                 <Col sm="12">
                   <CardText class="mb-0">
-                    {#if result && result.kpi== null}
-                        {result.kpi}
+                    {#if result && result.vision_statement== null}
+                        {result.vision_statement}
                     {:else}
-                        No KPIs available
+                        No Vision Statement available
                     {/if}
                   </CardText>
                 </Col>
@@ -203,22 +215,123 @@
               <Row>
                 <Col sm="12">
                   <CardText class="mb-0">
-                    {#if result && result.business_goals!== null}
-                        {result.business_goals}
+                    {#if result && result.value_proposition!== null}
+                        {result.value_proposition}
                     {:else}
-                        No Business goals avaliable
+                        No Value Prposition avaliable
+                    {/if}
+                  </CardText>
+                </Col>
+              </Row>
+            </TabPane>
+            <TabPane tabId="3" class="{customActiveTab == "3" ? 'active': ''}">
+              <Row>
+                <Col sm="12">
+                  <CardText class="mb-0">
+                    {#if result && result.value_proposition!== null}
+                        {result.value_proposition}
+                    {:else}
+                        No Value Prposition avaliable
+                    {/if}
+                  </CardText>
+                </Col>
+              </Row>
+            </TabPane>
+            <TabPane tabId="4" class="{customActiveTab == "4" ? 'active': ''}">
+              <Row>
+                <Col sm="12">
+                  <CardText class="mb-0">
+                    {#if result && result.value_proposition_short!== null}
+                        {result.value_proposition_short}
+                    {:else}
+                        No Value Prposition Short avaliable
+                    {/if}
+                  </CardText>
+                </Col>
+              </Row>
+            </TabPane>
+            <TabPane tabId="5" class="{customActiveTab == "5" ? 'active': ''}">
+              <Row>
+                <Col sm="12">
+                  <CardText class="mb-0">
+                    {#if result && result.business_description!== null}
+                        {result.business_description}
+                    {:else}
+                        No Business Description avaliable
+                    {/if}
+                  </CardText>
+                </Col>
+              </Row>
+            </TabPane> 
+            <TabPane tabId="6" class="{customActiveTab == "6" ? 'active': ''}">
+              <Row>
+                <Col sm="12">
+                  <CardText class="mb-0">
+                    {#if result && result.business_success!== null}
+                        {result.business_success}
+                    {:else}
+                        No Business Success avaliable
                     {/if}
                   </CardText>
                 </Col>
               </Row>
             </TabPane>  
+            <TabPane tabId="7" class="{customActiveTab == "7" ? 'active': ''}">
+              <Row>
+                <Col sm="12">
+                  <CardText class="mb-0">
+                    {#if result && result.business_explanation!== null}
+                        {result.business_explanation}
+                    {:else}
+                        No Business Explanation avaliable
+                    {/if}
+                  </CardText>
+                </Col>
+              </Row>
+            </TabPane> 
+            <TabPane tabId="8" class="{customActiveTab == "8" ? 'active': ''}">
+              <Row>
+                <Col sm="12">
+                  <CardText class="mb-0">
+                    {#if result && result.kpi!== null}
+                        {result.kpi}
+                    {:else}
+                        No Business Explanation avaliable
+                    {/if}
+                  </CardText>
+                </Col>
+              </Row>
+            </TabPane>
+            <TabPane tabId="9" class="{customActiveTab == "9" ? 'active': ''}">
+              <Row>
+                <Col sm="12">
+                  <CardText class="mb-0">
+                    {#if result && result.core_problems!== null}
+                        {result.core_problems}
+                    {:else}
+                        No Core Problems avaliable
+                    {/if}
+                  </CardText>
+                </Col>
+              </Row>
+            </TabPane>
+            <TabPane tabId="10" class="{customActiveTab == "10" ? 'active': ''}">
+              <Row>
+                <Col sm="12">
+                  <CardText class="mb-0">
+                    {#if result && result.business_goals!== null}
+                        {result.business_goals}
+                    {:else}
+                        No Core Problems avaliable
+                    {/if}
+                  </CardText>
+                </Col>
+              </Row>
+            </TabPane>          
           </TabContent>
         </CardBody>
       </Card>
     </Col>
-  
-
-   
   </Container>
 </div>
 

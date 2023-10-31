@@ -1,6 +1,6 @@
 
 (function(l, r) { if (l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (window.location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(window.document);
-var app = (function () {
+var app = (function (dictionary) {
     'use strict';
 
     function noop$1() { }
@@ -14844,14 +14844,14 @@ var app = (function () {
 
     	const if_block_creators = [
     		create_if_block_3$4,
-    		create_if_block_4$2,
-    		create_if_block_5$1,
-    		create_if_block_6$1,
-    		create_if_block_7$1,
-    		create_if_block_8$1,
-    		create_if_block_9$1,
-    		create_if_block_10$1,
-    		create_if_block_11,
+    		create_if_block_4$4,
+    		create_if_block_5$3,
+    		create_if_block_6$3,
+    		create_if_block_7$3,
+    		create_if_block_8$2,
+    		create_if_block_9$2,
+    		create_if_block_10$2,
+    		create_if_block_11$1,
     		create_if_block_12,
     		create_if_block_13,
     		create_if_block_14,
@@ -15813,7 +15813,7 @@ var app = (function () {
     }
 
     // (261:28) 
-    function create_if_block_11(ctx) {
+    function create_if_block_11$1(ctx) {
     	let input;
     	let mounted;
     	let dispose;
@@ -15888,7 +15888,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_11.name,
+    		id: create_if_block_11$1.name,
     		type: "if",
     		source: "(261:28) ",
     		ctx
@@ -15898,7 +15898,7 @@ var app = (function () {
     }
 
     // (242:30) 
-    function create_if_block_10$1(ctx) {
+    function create_if_block_10$2(ctx) {
     	let input;
     	let mounted;
     	let dispose;
@@ -15973,7 +15973,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_10$1.name,
+    		id: create_if_block_10$2.name,
     		type: "if",
     		source: "(242:30) ",
     		ctx
@@ -15983,7 +15983,7 @@ var app = (function () {
     }
 
     // (222:27) 
-    function create_if_block_9$1(ctx) {
+    function create_if_block_9$2(ctx) {
     	let input;
     	let mounted;
     	let dispose;
@@ -16060,7 +16060,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_9$1.name,
+    		id: create_if_block_9$2.name,
     		type: "if",
     		source: "(222:27) ",
     		ctx
@@ -16070,7 +16070,7 @@ var app = (function () {
     }
 
     // (197:73) 
-    function create_if_block_8$1(ctx) {
+    function create_if_block_8$2(ctx) {
     	let formcheck;
     	let updating_checked;
     	let updating_inner;
@@ -16210,7 +16210,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_8$1.name,
+    		id: create_if_block_8$2.name,
     		type: "if",
     		source: "(197:73) ",
     		ctx
@@ -16220,7 +16220,7 @@ var app = (function () {
     }
 
     // (174:28) 
-    function create_if_block_7$1(ctx) {
+    function create_if_block_7$3(ctx) {
     	let input;
     	let mounted;
     	let dispose;
@@ -16296,7 +16296,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_7$1.name,
+    		id: create_if_block_7$3.name,
     		type: "if",
     		source: "(174:28) ",
     		ctx
@@ -16306,7 +16306,7 @@ var app = (function () {
     }
 
     // (153:29) 
-    function create_if_block_6$1(ctx) {
+    function create_if_block_6$3(ctx) {
     	let input;
     	let mounted;
     	let dispose;
@@ -16385,7 +16385,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_6$1.name,
+    		id: create_if_block_6$3.name,
     		type: "if",
     		source: "(153:29) ",
     		ctx
@@ -16395,7 +16395,7 @@ var app = (function () {
     }
 
     // (134:29) 
-    function create_if_block_5$1(ctx) {
+    function create_if_block_5$3(ctx) {
     	let input;
     	let mounted;
     	let dispose;
@@ -16470,7 +16470,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_5$1.name,
+    		id: create_if_block_5$3.name,
     		type: "if",
     		source: "(134:29) ",
     		ctx
@@ -16480,7 +16480,7 @@ var app = (function () {
     }
 
     // (114:32) 
-    function create_if_block_4$2(ctx) {
+    function create_if_block_4$4(ctx) {
     	let input;
     	let mounted;
     	let dispose;
@@ -16557,7 +16557,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_4$2.name,
+    		id: create_if_block_4$4.name,
     		type: "if",
     		source: "(114:32) ",
     		ctx
@@ -24209,7 +24209,7 @@ var app = (function () {
     }
 
     // (84:14) <CardTitle  class="h4 target-audience">
-    function create_default_slot_70$1(ctx) {
+    function create_default_slot_70$2(ctx) {
     	let t;
 
     	const block = {
@@ -24226,7 +24226,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_70$1.name,
+    		id: create_default_slot_70$2.name,
     		type: "slot",
     		source: "(84:14) <CardTitle  class=\\\"h4 target-audience\\\">",
     		ctx
@@ -24236,7 +24236,7 @@ var app = (function () {
     }
 
     // (83:12) <Col sm={8}>
-    function create_default_slot_69$1(ctx) {
+    function create_default_slot_69$2(ctx) {
     	let cardtitle;
     	let t0;
     	let p;
@@ -24245,7 +24245,7 @@ var app = (function () {
     	cardtitle = new CardTitle({
     			props: {
     				class: "h4 target-audience",
-    				$$slots: { default: [create_default_slot_70$1] },
+    				$$slots: { default: [create_default_slot_70$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -24293,7 +24293,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_69$1.name,
+    		id: create_default_slot_69$2.name,
     		type: "slot",
     		source: "(83:12) <Col sm={8}>",
     		ctx
@@ -24303,7 +24303,7 @@ var app = (function () {
     }
 
     // (89:14) <CardTitle class="h2">
-    function create_default_slot_68$1(ctx) {
+    function create_default_slot_68$2(ctx) {
     	let t;
 
     	const block = {
@@ -24320,7 +24320,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_68$1.name,
+    		id: create_default_slot_68$2.name,
     		type: "slot",
     		source: "(89:14) <CardTitle class=\\\"h2\\\">",
     		ctx
@@ -24330,7 +24330,7 @@ var app = (function () {
     }
 
     // (94:14) {:else}
-    function create_else_block_10(ctx) {
+    function create_else_block_10$1(ctx) {
     	let span;
 
     	const block = {
@@ -24350,7 +24350,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_else_block_10.name,
+    		id: create_else_block_10$1.name,
     		type: "else",
     		source: "(94:14) {:else}",
     		ctx
@@ -24360,7 +24360,7 @@ var app = (function () {
     }
 
     // (90:14) {#if result}
-    function create_if_block_10(ctx) {
+    function create_if_block_10$1(ctx) {
     	let span;
 
     	const block = {
@@ -24380,7 +24380,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_10.name,
+    		id: create_if_block_10$1.name,
     		type: "if",
     		source: "(90:14) {#if result}",
     		ctx
@@ -24390,7 +24390,7 @@ var app = (function () {
     }
 
     // (88:12) <Col sm={4} class="text-sm-end">
-    function create_default_slot_67$1(ctx) {
+    function create_default_slot_67$2(ctx) {
     	let cardtitle;
     	let t;
     	let if_block_anchor;
@@ -24399,15 +24399,15 @@ var app = (function () {
     	cardtitle = new CardTitle({
     			props: {
     				class: "h2",
-    				$$slots: { default: [create_default_slot_68$1] },
+    				$$slots: { default: [create_default_slot_68$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
     		});
 
     	function select_block_type(ctx, dirty) {
-    		if (/*result*/ ctx[1]) return create_if_block_10;
-    		return create_else_block_10;
+    		if (/*result*/ ctx[1]) return create_if_block_10$1;
+    		return create_else_block_10$1;
     	}
 
     	let current_block_type = select_block_type(ctx);
@@ -24465,7 +24465,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_67$1.name,
+    		id: create_default_slot_67$2.name,
     		type: "slot",
     		source: "(88:12) <Col sm={4} class=\\\"text-sm-end\\\">",
     		ctx
@@ -24475,7 +24475,7 @@ var app = (function () {
     }
 
     // (82:10) <Row class= "p-4">
-    function create_default_slot_66$1(ctx) {
+    function create_default_slot_66$2(ctx) {
     	let col0;
     	let t;
     	let col1;
@@ -24484,7 +24484,7 @@ var app = (function () {
     	col0 = new Col({
     			props: {
     				sm: 8,
-    				$$slots: { default: [create_default_slot_69$1] },
+    				$$slots: { default: [create_default_slot_69$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -24494,7 +24494,7 @@ var app = (function () {
     			props: {
     				sm: 4,
     				class: "text-sm-end",
-    				$$slots: { default: [create_default_slot_67$1] },
+    				$$slots: { default: [create_default_slot_67$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -24548,7 +24548,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_66$1.name,
+    		id: create_default_slot_66$2.name,
     		type: "slot",
     		source: "(82:10) <Row class= \\\"p-4\\\">",
     		ctx
@@ -24558,7 +24558,7 @@ var app = (function () {
     }
 
     // (106:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "1")}                 active={customActiveTab == "1"}               >
-    function create_default_slot_65$1(ctx) {
+    function create_default_slot_65$2(ctx) {
     	let span0;
     	let i;
     	let t0;
@@ -24594,7 +24594,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_65$1.name,
+    		id: create_default_slot_65$2.name,
     		type: "slot",
     		source: "(106:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"1\\\")}                 active={customActiveTab == \\\"1\\\"}               >",
     		ctx
@@ -24604,7 +24604,7 @@ var app = (function () {
     }
 
     // (105:12) <NavItem>
-    function create_default_slot_64$1(ctx) {
+    function create_default_slot_64$2(ctx) {
     	let navlink;
     	let current;
 
@@ -24612,7 +24612,7 @@ var app = (function () {
     			props: {
     				style: "cursor: pointer",
     				active: /*customActiveTab*/ ctx[0] == "1",
-    				$$slots: { default: [create_default_slot_65$1] },
+    				$$slots: { default: [create_default_slot_65$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -24654,7 +24654,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_64$1.name,
+    		id: create_default_slot_64$2.name,
     		type: "slot",
     		source: "(105:12) <NavItem>",
     		ctx
@@ -24664,7 +24664,7 @@ var app = (function () {
     }
 
     // (118:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "2")}                 active={customActiveTab == "2"}               >
-    function create_default_slot_63$1(ctx) {
+    function create_default_slot_63$2(ctx) {
     	let span0;
     	let i;
     	let t0;
@@ -24700,7 +24700,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_63$1.name,
+    		id: create_default_slot_63$2.name,
     		type: "slot",
     		source: "(118:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"2\\\")}                 active={customActiveTab == \\\"2\\\"}               >",
     		ctx
@@ -24710,7 +24710,7 @@ var app = (function () {
     }
 
     // (117:12) <NavItem>
-    function create_default_slot_62$1(ctx) {
+    function create_default_slot_62$2(ctx) {
     	let navlink;
     	let current;
 
@@ -24718,7 +24718,7 @@ var app = (function () {
     			props: {
     				style: "cursor: pointer",
     				active: /*customActiveTab*/ ctx[0] == "2",
-    				$$slots: { default: [create_default_slot_63$1] },
+    				$$slots: { default: [create_default_slot_63$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -24760,7 +24760,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_62$1.name,
+    		id: create_default_slot_62$2.name,
     		type: "slot",
     		source: "(117:12) <NavItem>",
     		ctx
@@ -24770,7 +24770,7 @@ var app = (function () {
     }
 
     // (130:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "3")}                 active={customActiveTab == "3"}               >
-    function create_default_slot_61$1(ctx) {
+    function create_default_slot_61$2(ctx) {
     	let span0;
     	let i;
     	let t0;
@@ -24806,7 +24806,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_61$1.name,
+    		id: create_default_slot_61$2.name,
     		type: "slot",
     		source: "(130:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"3\\\")}                 active={customActiveTab == \\\"3\\\"}               >",
     		ctx
@@ -24816,7 +24816,7 @@ var app = (function () {
     }
 
     // (129:12) <NavItem>
-    function create_default_slot_60$1(ctx) {
+    function create_default_slot_60$2(ctx) {
     	let navlink;
     	let current;
 
@@ -24824,7 +24824,7 @@ var app = (function () {
     			props: {
     				style: "cursor: pointer",
     				active: /*customActiveTab*/ ctx[0] == "3",
-    				$$slots: { default: [create_default_slot_61$1] },
+    				$$slots: { default: [create_default_slot_61$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -24866,7 +24866,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_60$1.name,
+    		id: create_default_slot_60$2.name,
     		type: "slot",
     		source: "(129:12) <NavItem>",
     		ctx
@@ -24876,7 +24876,7 @@ var app = (function () {
     }
 
     // (142:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "4")}                 active={customActiveTab == "4"}               >
-    function create_default_slot_59$1(ctx) {
+    function create_default_slot_59$2(ctx) {
     	let span0;
     	let i;
     	let t0;
@@ -24912,7 +24912,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_59$1.name,
+    		id: create_default_slot_59$2.name,
     		type: "slot",
     		source: "(142:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"4\\\")}                 active={customActiveTab == \\\"4\\\"}               >",
     		ctx
@@ -24922,7 +24922,7 @@ var app = (function () {
     }
 
     // (141:12) <NavItem>
-    function create_default_slot_58$1(ctx) {
+    function create_default_slot_58$2(ctx) {
     	let navlink;
     	let current;
 
@@ -24930,7 +24930,7 @@ var app = (function () {
     			props: {
     				style: "cursor: pointer",
     				active: /*customActiveTab*/ ctx[0] == "4",
-    				$$slots: { default: [create_default_slot_59$1] },
+    				$$slots: { default: [create_default_slot_59$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -24972,7 +24972,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_58$1.name,
+    		id: create_default_slot_58$2.name,
     		type: "slot",
     		source: "(141:12) <NavItem>",
     		ctx
@@ -24982,7 +24982,7 @@ var app = (function () {
     }
 
     // (154:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "5")}                 active={customActiveTab == "5"}               >
-    function create_default_slot_57$1(ctx) {
+    function create_default_slot_57$2(ctx) {
     	let span0;
     	let i;
     	let t0;
@@ -25018,7 +25018,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_57$1.name,
+    		id: create_default_slot_57$2.name,
     		type: "slot",
     		source: "(154:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"5\\\")}                 active={customActiveTab == \\\"5\\\"}               >",
     		ctx
@@ -25028,7 +25028,7 @@ var app = (function () {
     }
 
     // (153:12) <NavItem>
-    function create_default_slot_56$1(ctx) {
+    function create_default_slot_56$2(ctx) {
     	let navlink;
     	let current;
 
@@ -25036,7 +25036,7 @@ var app = (function () {
     			props: {
     				style: "cursor: pointer",
     				active: /*customActiveTab*/ ctx[0] == "5",
-    				$$slots: { default: [create_default_slot_57$1] },
+    				$$slots: { default: [create_default_slot_57$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -25078,7 +25078,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_56$1.name,
+    		id: create_default_slot_56$2.name,
     		type: "slot",
     		source: "(153:12) <NavItem>",
     		ctx
@@ -25088,7 +25088,7 @@ var app = (function () {
     }
 
     // (166:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "6")}                 active={customActiveTab == "6"}               >
-    function create_default_slot_55$1(ctx) {
+    function create_default_slot_55$2(ctx) {
     	let span0;
     	let i;
     	let t0;
@@ -25124,7 +25124,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_55$1.name,
+    		id: create_default_slot_55$2.name,
     		type: "slot",
     		source: "(166:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"6\\\")}                 active={customActiveTab == \\\"6\\\"}               >",
     		ctx
@@ -25134,7 +25134,7 @@ var app = (function () {
     }
 
     // (165:12) <NavItem>
-    function create_default_slot_54$1(ctx) {
+    function create_default_slot_54$2(ctx) {
     	let navlink;
     	let current;
 
@@ -25142,7 +25142,7 @@ var app = (function () {
     			props: {
     				style: "cursor: pointer",
     				active: /*customActiveTab*/ ctx[0] == "6",
-    				$$slots: { default: [create_default_slot_55$1] },
+    				$$slots: { default: [create_default_slot_55$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -25184,7 +25184,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_54$1.name,
+    		id: create_default_slot_54$2.name,
     		type: "slot",
     		source: "(165:12) <NavItem>",
     		ctx
@@ -25194,7 +25194,7 @@ var app = (function () {
     }
 
     // (178:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "7")}                 active={customActiveTab == "7"}               >
-    function create_default_slot_53$1(ctx) {
+    function create_default_slot_53$2(ctx) {
     	let span0;
     	let i;
     	let t0;
@@ -25230,7 +25230,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_53$1.name,
+    		id: create_default_slot_53$2.name,
     		type: "slot",
     		source: "(178:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"7\\\")}                 active={customActiveTab == \\\"7\\\"}               >",
     		ctx
@@ -25240,7 +25240,7 @@ var app = (function () {
     }
 
     // (177:12) <NavItem>
-    function create_default_slot_52$1(ctx) {
+    function create_default_slot_52$3(ctx) {
     	let navlink;
     	let current;
 
@@ -25248,7 +25248,7 @@ var app = (function () {
     			props: {
     				style: "cursor: pointer",
     				active: /*customActiveTab*/ ctx[0] == "7",
-    				$$slots: { default: [create_default_slot_53$1] },
+    				$$slots: { default: [create_default_slot_53$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -25290,7 +25290,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_52$1.name,
+    		id: create_default_slot_52$3.name,
     		type: "slot",
     		source: "(177:12) <NavItem>",
     		ctx
@@ -25300,7 +25300,7 @@ var app = (function () {
     }
 
     // (190:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "8")}                 active={customActiveTab == "8"}               >
-    function create_default_slot_51$1(ctx) {
+    function create_default_slot_51$3(ctx) {
     	let span0;
     	let i;
     	let t0;
@@ -25336,7 +25336,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_51$1.name,
+    		id: create_default_slot_51$3.name,
     		type: "slot",
     		source: "(190:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"8\\\")}                 active={customActiveTab == \\\"8\\\"}               >",
     		ctx
@@ -25346,7 +25346,7 @@ var app = (function () {
     }
 
     // (189:12) <NavItem>
-    function create_default_slot_50$1(ctx) {
+    function create_default_slot_50$3(ctx) {
     	let navlink;
     	let current;
 
@@ -25354,7 +25354,7 @@ var app = (function () {
     			props: {
     				style: "cursor: pointer",
     				active: /*customActiveTab*/ ctx[0] == "8",
-    				$$slots: { default: [create_default_slot_51$1] },
+    				$$slots: { default: [create_default_slot_51$3] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -25396,7 +25396,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_50$1.name,
+    		id: create_default_slot_50$3.name,
     		type: "slot",
     		source: "(189:12) <NavItem>",
     		ctx
@@ -25406,7 +25406,7 @@ var app = (function () {
     }
 
     // (202:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "9")}                 active={customActiveTab == "9"}               >
-    function create_default_slot_49$1(ctx) {
+    function create_default_slot_49$3(ctx) {
     	let span0;
     	let i;
     	let t0;
@@ -25442,7 +25442,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_49$1.name,
+    		id: create_default_slot_49$3.name,
     		type: "slot",
     		source: "(202:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"9\\\")}                 active={customActiveTab == \\\"9\\\"}               >",
     		ctx
@@ -25452,7 +25452,7 @@ var app = (function () {
     }
 
     // (201:12) <NavItem>
-    function create_default_slot_48$1(ctx) {
+    function create_default_slot_48$3(ctx) {
     	let navlink;
     	let current;
 
@@ -25460,7 +25460,7 @@ var app = (function () {
     			props: {
     				style: "cursor: pointer",
     				active: /*customActiveTab*/ ctx[0] == "9",
-    				$$slots: { default: [create_default_slot_49$1] },
+    				$$slots: { default: [create_default_slot_49$3] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -25502,7 +25502,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_48$1.name,
+    		id: create_default_slot_48$3.name,
     		type: "slot",
     		source: "(201:12) <NavItem>",
     		ctx
@@ -25512,7 +25512,7 @@ var app = (function () {
     }
 
     // (214:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "10")}                 active={customActiveTab == "10"}               >
-    function create_default_slot_47$1(ctx) {
+    function create_default_slot_47$3(ctx) {
     	let span0;
     	let i;
     	let t0;
@@ -25548,7 +25548,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_47$1.name,
+    		id: create_default_slot_47$3.name,
     		type: "slot",
     		source: "(214:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"10\\\")}                 active={customActiveTab == \\\"10\\\"}               >",
     		ctx
@@ -25558,7 +25558,7 @@ var app = (function () {
     }
 
     // (213:12) <NavItem>
-    function create_default_slot_46$1(ctx) {
+    function create_default_slot_46$3(ctx) {
     	let navlink;
     	let current;
 
@@ -25566,7 +25566,7 @@ var app = (function () {
     			props: {
     				style: "cursor: pointer",
     				active: /*customActiveTab*/ ctx[0] == "10",
-    				$$slots: { default: [create_default_slot_47$1] },
+    				$$slots: { default: [create_default_slot_47$3] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -25608,7 +25608,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_46$1.name,
+    		id: create_default_slot_46$3.name,
     		type: "slot",
     		source: "(213:12) <NavItem>",
     		ctx
@@ -25618,7 +25618,7 @@ var app = (function () {
     }
 
     // (103:10) <Nav tabs class="nav nav-tabs nav-tabs-custom justify-content-center pt-2"           role="tablist">
-    function create_default_slot_45$1(ctx) {
+    function create_default_slot_45$3(ctx) {
     	let navitem0;
     	let t0;
     	let navitem1;
@@ -25642,7 +25642,7 @@ var app = (function () {
 
     	navitem0 = new NavItem({
     			props: {
-    				$$slots: { default: [create_default_slot_64$1] },
+    				$$slots: { default: [create_default_slot_64$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -25650,7 +25650,7 @@ var app = (function () {
 
     	navitem1 = new NavItem({
     			props: {
-    				$$slots: { default: [create_default_slot_62$1] },
+    				$$slots: { default: [create_default_slot_62$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -25658,7 +25658,7 @@ var app = (function () {
 
     	navitem2 = new NavItem({
     			props: {
-    				$$slots: { default: [create_default_slot_60$1] },
+    				$$slots: { default: [create_default_slot_60$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -25666,7 +25666,7 @@ var app = (function () {
 
     	navitem3 = new NavItem({
     			props: {
-    				$$slots: { default: [create_default_slot_58$1] },
+    				$$slots: { default: [create_default_slot_58$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -25674,7 +25674,7 @@ var app = (function () {
 
     	navitem4 = new NavItem({
     			props: {
-    				$$slots: { default: [create_default_slot_56$1] },
+    				$$slots: { default: [create_default_slot_56$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -25682,7 +25682,7 @@ var app = (function () {
 
     	navitem5 = new NavItem({
     			props: {
-    				$$slots: { default: [create_default_slot_54$1] },
+    				$$slots: { default: [create_default_slot_54$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -25690,7 +25690,7 @@ var app = (function () {
 
     	navitem6 = new NavItem({
     			props: {
-    				$$slots: { default: [create_default_slot_52$1] },
+    				$$slots: { default: [create_default_slot_52$3] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -25698,7 +25698,7 @@ var app = (function () {
 
     	navitem7 = new NavItem({
     			props: {
-    				$$slots: { default: [create_default_slot_50$1] },
+    				$$slots: { default: [create_default_slot_50$3] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -25706,7 +25706,7 @@ var app = (function () {
 
     	navitem8 = new NavItem({
     			props: {
-    				$$slots: { default: [create_default_slot_48$1] },
+    				$$slots: { default: [create_default_slot_48$3] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -25714,7 +25714,7 @@ var app = (function () {
 
     	navitem9 = new NavItem({
     			props: {
-    				$$slots: { default: [create_default_slot_46$1] },
+    				$$slots: { default: [create_default_slot_46$3] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -25888,7 +25888,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_45$1.name,
+    		id: create_default_slot_45$3.name,
     		type: "slot",
     		source: "(103:10) <Nav tabs class=\\\"nav nav-tabs nav-tabs-custom justify-content-center pt-2\\\"           role=\\\"tablist\\\">",
     		ctx
@@ -25898,7 +25898,7 @@ var app = (function () {
     }
 
     // (234:20) {:else}
-    function create_else_block_9(ctx) {
+    function create_else_block_9$1(ctx) {
     	let t;
 
     	const block = {
@@ -25916,7 +25916,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_else_block_9.name,
+    		id: create_else_block_9$1.name,
     		type: "else",
     		source: "(234:20) {:else}",
     		ctx
@@ -25926,7 +25926,7 @@ var app = (function () {
     }
 
     // (232:20) {#if result && result.target_audience!== null}
-    function create_if_block_9(ctx) {
+    function create_if_block_9$1(ctx) {
     	let t_value = /*result*/ ctx[1].target_audience + "";
     	let t;
 
@@ -25947,7 +25947,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_9.name,
+    		id: create_if_block_9$1.name,
     		type: "if",
     		source: "(232:20) {#if result && result.target_audience!== null}",
     		ctx
@@ -25957,12 +25957,12 @@ var app = (function () {
     }
 
     // (231:18) <CardText class="mb-0">
-    function create_default_slot_44$1(ctx) {
+    function create_default_slot_44$3(ctx) {
     	let if_block_anchor;
 
     	function select_block_type_1(ctx, dirty) {
-    		if (/*result*/ ctx[1] && /*result*/ ctx[1].target_audience !== null) return create_if_block_9;
-    		return create_else_block_9;
+    		if (/*result*/ ctx[1] && /*result*/ ctx[1].target_audience !== null) return create_if_block_9$1;
+    		return create_else_block_9$1;
     	}
 
     	let current_block_type = select_block_type_1(ctx);
@@ -25998,7 +25998,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_44$1.name,
+    		id: create_default_slot_44$3.name,
     		type: "slot",
     		source: "(231:18) <CardText class=\\\"mb-0\\\">",
     		ctx
@@ -26008,14 +26008,14 @@ var app = (function () {
     }
 
     // (230:16) <Col sm="12">
-    function create_default_slot_43$1(ctx) {
+    function create_default_slot_43$3(ctx) {
     	let cardtext;
     	let current;
 
     	cardtext = new CardText({
     			props: {
     				class: "mb-0",
-    				$$slots: { default: [create_default_slot_44$1] },
+    				$$slots: { default: [create_default_slot_44$3] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -26054,7 +26054,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_43$1.name,
+    		id: create_default_slot_43$3.name,
     		type: "slot",
     		source: "(230:16) <Col sm=\\\"12\\\">",
     		ctx
@@ -26064,14 +26064,14 @@ var app = (function () {
     }
 
     // (229:14) <Row>
-    function create_default_slot_42$1(ctx) {
+    function create_default_slot_42$3(ctx) {
     	let col;
     	let current;
 
     	col = new Col({
     			props: {
     				sm: "12",
-    				$$slots: { default: [create_default_slot_43$1] },
+    				$$slots: { default: [create_default_slot_43$3] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -26110,7 +26110,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_42$1.name,
+    		id: create_default_slot_42$3.name,
     		type: "slot",
     		source: "(229:14) <Row>",
     		ctx
@@ -26120,13 +26120,13 @@ var app = (function () {
     }
 
     // (228:12) <TabPane tabId="1" class="{customActiveTab == "1" ? 'active': ''}">
-    function create_default_slot_41$1(ctx) {
+    function create_default_slot_41$3(ctx) {
     	let row;
     	let current;
 
     	row = new Row({
     			props: {
-    				$$slots: { default: [create_default_slot_42$1] },
+    				$$slots: { default: [create_default_slot_42$3] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -26165,7 +26165,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_41$1.name,
+    		id: create_default_slot_41$3.name,
     		type: "slot",
     		source: "(228:12) <TabPane tabId=\\\"1\\\" class=\\\"{customActiveTab == \\\"1\\\" ? 'active': ''}\\\">",
     		ctx
@@ -26175,7 +26175,7 @@ var app = (function () {
     }
 
     // (247:20) {:else}
-    function create_else_block_8(ctx) {
+    function create_else_block_8$1(ctx) {
     	let t;
 
     	const block = {
@@ -26193,7 +26193,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_else_block_8.name,
+    		id: create_else_block_8$1.name,
     		type: "else",
     		source: "(247:20) {:else}",
     		ctx
@@ -26203,7 +26203,7 @@ var app = (function () {
     }
 
     // (245:20) {#if result && result.psycho_segmentation!== null}
-    function create_if_block_8(ctx) {
+    function create_if_block_8$1(ctx) {
     	let t_value = /*result*/ ctx[1].psycho_segmentation + "";
     	let t;
 
@@ -26224,7 +26224,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_8.name,
+    		id: create_if_block_8$1.name,
     		type: "if",
     		source: "(245:20) {#if result && result.psycho_segmentation!== null}",
     		ctx
@@ -26234,12 +26234,12 @@ var app = (function () {
     }
 
     // (244:18) <CardText class="mb-0">
-    function create_default_slot_40$2(ctx) {
+    function create_default_slot_40$3(ctx) {
     	let if_block_anchor;
 
     	function select_block_type_2(ctx, dirty) {
-    		if (/*result*/ ctx[1] && /*result*/ ctx[1].psycho_segmentation !== null) return create_if_block_8;
-    		return create_else_block_8;
+    		if (/*result*/ ctx[1] && /*result*/ ctx[1].psycho_segmentation !== null) return create_if_block_8$1;
+    		return create_else_block_8$1;
     	}
 
     	let current_block_type = select_block_type_2(ctx);
@@ -26275,7 +26275,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_40$2.name,
+    		id: create_default_slot_40$3.name,
     		type: "slot",
     		source: "(244:18) <CardText class=\\\"mb-0\\\">",
     		ctx
@@ -26285,14 +26285,14 @@ var app = (function () {
     }
 
     // (243:16) <Col sm="12">
-    function create_default_slot_39$2(ctx) {
+    function create_default_slot_39$3(ctx) {
     	let cardtext;
     	let current;
 
     	cardtext = new CardText({
     			props: {
     				class: "mb-0",
-    				$$slots: { default: [create_default_slot_40$2] },
+    				$$slots: { default: [create_default_slot_40$3] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -26331,7 +26331,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_39$2.name,
+    		id: create_default_slot_39$3.name,
     		type: "slot",
     		source: "(243:16) <Col sm=\\\"12\\\">",
     		ctx
@@ -26341,14 +26341,14 @@ var app = (function () {
     }
 
     // (242:14) <Row>
-    function create_default_slot_38$2(ctx) {
+    function create_default_slot_38$3(ctx) {
     	let col;
     	let current;
 
     	col = new Col({
     			props: {
     				sm: "12",
-    				$$slots: { default: [create_default_slot_39$2] },
+    				$$slots: { default: [create_default_slot_39$3] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -26387,7 +26387,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_38$2.name,
+    		id: create_default_slot_38$3.name,
     		type: "slot",
     		source: "(242:14) <Row>",
     		ctx
@@ -26397,13 +26397,13 @@ var app = (function () {
     }
 
     // (241:12) <TabPane tabId="2" class="{customActiveTab == "2" ? 'active': ''}">
-    function create_default_slot_37$2(ctx) {
+    function create_default_slot_37$3(ctx) {
     	let row;
     	let current;
 
     	row = new Row({
     			props: {
-    				$$slots: { default: [create_default_slot_38$2] },
+    				$$slots: { default: [create_default_slot_38$3] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -26442,7 +26442,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_37$2.name,
+    		id: create_default_slot_37$3.name,
     		type: "slot",
     		source: "(241:12) <TabPane tabId=\\\"2\\\" class=\\\"{customActiveTab == \\\"2\\\" ? 'active': ''}\\\">",
     		ctx
@@ -26452,7 +26452,7 @@ var app = (function () {
     }
 
     // (260:20) {:else}
-    function create_else_block_7(ctx) {
+    function create_else_block_7$2(ctx) {
     	let t;
 
     	const block = {
@@ -26470,7 +26470,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_else_block_7.name,
+    		id: create_else_block_7$2.name,
     		type: "else",
     		source: "(260:20) {:else}",
     		ctx
@@ -26480,7 +26480,7 @@ var app = (function () {
     }
 
     // (258:20) {#if result && result.latent_points!== null}
-    function create_if_block_7(ctx) {
+    function create_if_block_7$2(ctx) {
     	let t_value = /*result*/ ctx[1].latent_points + "";
     	let t;
 
@@ -26501,7 +26501,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_7.name,
+    		id: create_if_block_7$2.name,
     		type: "if",
     		source: "(258:20) {#if result && result.latent_points!== null}",
     		ctx
@@ -26511,12 +26511,12 @@ var app = (function () {
     }
 
     // (257:18) <CardText class="mb-0">
-    function create_default_slot_36$2(ctx) {
+    function create_default_slot_36$3(ctx) {
     	let if_block_anchor;
 
     	function select_block_type_3(ctx, dirty) {
-    		if (/*result*/ ctx[1] && /*result*/ ctx[1].latent_points !== null) return create_if_block_7;
-    		return create_else_block_7;
+    		if (/*result*/ ctx[1] && /*result*/ ctx[1].latent_points !== null) return create_if_block_7$2;
+    		return create_else_block_7$2;
     	}
 
     	let current_block_type = select_block_type_3(ctx);
@@ -26552,7 +26552,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_36$2.name,
+    		id: create_default_slot_36$3.name,
     		type: "slot",
     		source: "(257:18) <CardText class=\\\"mb-0\\\">",
     		ctx
@@ -26562,14 +26562,14 @@ var app = (function () {
     }
 
     // (256:16) <Col sm="12">
-    function create_default_slot_35$2(ctx) {
+    function create_default_slot_35$3(ctx) {
     	let cardtext;
     	let current;
 
     	cardtext = new CardText({
     			props: {
     				class: "mb-0",
-    				$$slots: { default: [create_default_slot_36$2] },
+    				$$slots: { default: [create_default_slot_36$3] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -26608,7 +26608,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_35$2.name,
+    		id: create_default_slot_35$3.name,
     		type: "slot",
     		source: "(256:16) <Col sm=\\\"12\\\">",
     		ctx
@@ -26618,14 +26618,14 @@ var app = (function () {
     }
 
     // (255:14) <Row>
-    function create_default_slot_34$3(ctx) {
+    function create_default_slot_34$4(ctx) {
     	let col;
     	let current;
 
     	col = new Col({
     			props: {
     				sm: "12",
-    				$$slots: { default: [create_default_slot_35$2] },
+    				$$slots: { default: [create_default_slot_35$3] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -26664,7 +26664,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_34$3.name,
+    		id: create_default_slot_34$4.name,
     		type: "slot",
     		source: "(255:14) <Row>",
     		ctx
@@ -26674,13 +26674,13 @@ var app = (function () {
     }
 
     // (254:12) <TabPane tabId="3" class="{customActiveTab == "3" ? 'active': ''}">
-    function create_default_slot_33$3(ctx) {
+    function create_default_slot_33$4(ctx) {
     	let row;
     	let current;
 
     	row = new Row({
     			props: {
-    				$$slots: { default: [create_default_slot_34$3] },
+    				$$slots: { default: [create_default_slot_34$4] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -26719,7 +26719,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_33$3.name,
+    		id: create_default_slot_33$4.name,
     		type: "slot",
     		source: "(254:12) <TabPane tabId=\\\"3\\\" class=\\\"{customActiveTab == \\\"3\\\" ? 'active': ''}\\\">",
     		ctx
@@ -26729,7 +26729,7 @@ var app = (function () {
     }
 
     // (273:20) {:else}
-    function create_else_block_6(ctx) {
+    function create_else_block_6$2(ctx) {
     	let t;
 
     	const block = {
@@ -26747,7 +26747,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_else_block_6.name,
+    		id: create_else_block_6$2.name,
     		type: "else",
     		source: "(273:20) {:else}",
     		ctx
@@ -26757,7 +26757,7 @@ var app = (function () {
     }
 
     // (271:20) {#if result && result.dream_state!== null}
-    function create_if_block_6(ctx) {
+    function create_if_block_6$2(ctx) {
     	let t_value = /*result*/ ctx[1].dream_state + "";
     	let t;
 
@@ -26778,7 +26778,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_6.name,
+    		id: create_if_block_6$2.name,
     		type: "if",
     		source: "(271:20) {#if result && result.dream_state!== null}",
     		ctx
@@ -26788,12 +26788,12 @@ var app = (function () {
     }
 
     // (270:18) <CardText class="mb-0">
-    function create_default_slot_32$3(ctx) {
+    function create_default_slot_32$4(ctx) {
     	let if_block_anchor;
 
     	function select_block_type_4(ctx, dirty) {
-    		if (/*result*/ ctx[1] && /*result*/ ctx[1].dream_state !== null) return create_if_block_6;
-    		return create_else_block_6;
+    		if (/*result*/ ctx[1] && /*result*/ ctx[1].dream_state !== null) return create_if_block_6$2;
+    		return create_else_block_6$2;
     	}
 
     	let current_block_type = select_block_type_4(ctx);
@@ -26829,7 +26829,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_32$3.name,
+    		id: create_default_slot_32$4.name,
     		type: "slot",
     		source: "(270:18) <CardText class=\\\"mb-0\\\">",
     		ctx
@@ -26839,14 +26839,14 @@ var app = (function () {
     }
 
     // (269:16) <Col sm="12">
-    function create_default_slot_31$3(ctx) {
+    function create_default_slot_31$4(ctx) {
     	let cardtext;
     	let current;
 
     	cardtext = new CardText({
     			props: {
     				class: "mb-0",
-    				$$slots: { default: [create_default_slot_32$3] },
+    				$$slots: { default: [create_default_slot_32$4] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -26885,7 +26885,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_31$3.name,
+    		id: create_default_slot_31$4.name,
     		type: "slot",
     		source: "(269:16) <Col sm=\\\"12\\\">",
     		ctx
@@ -26895,14 +26895,14 @@ var app = (function () {
     }
 
     // (268:14) <Row>
-    function create_default_slot_30$3(ctx) {
+    function create_default_slot_30$4(ctx) {
     	let col;
     	let current;
 
     	col = new Col({
     			props: {
     				sm: "12",
-    				$$slots: { default: [create_default_slot_31$3] },
+    				$$slots: { default: [create_default_slot_31$4] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -26941,7 +26941,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_30$3.name,
+    		id: create_default_slot_30$4.name,
     		type: "slot",
     		source: "(268:14) <Row>",
     		ctx
@@ -26951,13 +26951,13 @@ var app = (function () {
     }
 
     // (267:12) <TabPane tabId="4" class="{customActiveTab == "4" ? 'active': ''}">
-    function create_default_slot_29$3(ctx) {
+    function create_default_slot_29$4(ctx) {
     	let row;
     	let current;
 
     	row = new Row({
     			props: {
-    				$$slots: { default: [create_default_slot_30$3] },
+    				$$slots: { default: [create_default_slot_30$4] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -26996,7 +26996,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_29$3.name,
+    		id: create_default_slot_29$4.name,
     		type: "slot",
     		source: "(267:12) <TabPane tabId=\\\"4\\\" class=\\\"{customActiveTab == \\\"4\\\" ? 'active': ''}\\\">",
     		ctx
@@ -27006,7 +27006,7 @@ var app = (function () {
     }
 
     // (286:20) {:else}
-    function create_else_block_5(ctx) {
+    function create_else_block_5$2(ctx) {
     	let t;
 
     	const block = {
@@ -27024,7 +27024,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_else_block_5.name,
+    		id: create_else_block_5$2.name,
     		type: "else",
     		source: "(286:20) {:else}",
     		ctx
@@ -27034,7 +27034,7 @@ var app = (function () {
     }
 
     // (284:20) {#if result && result.human_desire!== null}
-    function create_if_block_5(ctx) {
+    function create_if_block_5$2(ctx) {
     	let t_value = /*result*/ ctx[1].human_desire + "";
     	let t;
 
@@ -27055,7 +27055,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_5.name,
+    		id: create_if_block_5$2.name,
     		type: "if",
     		source: "(284:20) {#if result && result.human_desire!== null}",
     		ctx
@@ -27069,8 +27069,8 @@ var app = (function () {
     	let if_block_anchor;
 
     	function select_block_type_5(ctx, dirty) {
-    		if (/*result*/ ctx[1] && /*result*/ ctx[1].human_desire !== null) return create_if_block_5;
-    		return create_else_block_5;
+    		if (/*result*/ ctx[1] && /*result*/ ctx[1].human_desire !== null) return create_if_block_5$2;
+    		return create_else_block_5$2;
     	}
 
     	let current_block_type = select_block_type_5(ctx);
@@ -27283,7 +27283,7 @@ var app = (function () {
     }
 
     // (299:20) {:else}
-    function create_else_block_4$1(ctx) {
+    function create_else_block_4$3(ctx) {
     	let t;
 
     	const block = {
@@ -27301,7 +27301,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_else_block_4$1.name,
+    		id: create_else_block_4$3.name,
     		type: "else",
     		source: "(299:20) {:else}",
     		ctx
@@ -27311,7 +27311,7 @@ var app = (function () {
     }
 
     // (297:20) {#if result && result.freud_theory!== null}
-    function create_if_block_4$1(ctx) {
+    function create_if_block_4$3(ctx) {
     	let t_value = /*result*/ ctx[1].freud_theory + "";
     	let t;
 
@@ -27332,7 +27332,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_4$1.name,
+    		id: create_if_block_4$3.name,
     		type: "if",
     		source: "(297:20) {#if result && result.freud_theory!== null}",
     		ctx
@@ -27346,8 +27346,8 @@ var app = (function () {
     	let if_block_anchor;
 
     	function select_block_type_6(ctx, dirty) {
-    		if (/*result*/ ctx[1] && /*result*/ ctx[1].freud_theory !== null) return create_if_block_4$1;
-    		return create_else_block_4$1;
+    		if (/*result*/ ctx[1] && /*result*/ ctx[1].freud_theory !== null) return create_if_block_4$3;
+    		return create_else_block_4$3;
     	}
 
     	let current_block_type = select_block_type_6(ctx);
@@ -28942,7 +28942,7 @@ var app = (function () {
     			props: {
     				tabId: "1",
     				class: /*customActiveTab*/ ctx[0] == "1" ? 'active' : '',
-    				$$slots: { default: [create_default_slot_41$1] },
+    				$$slots: { default: [create_default_slot_41$3] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -28952,7 +28952,7 @@ var app = (function () {
     			props: {
     				tabId: "2",
     				class: /*customActiveTab*/ ctx[0] == "2" ? 'active' : '',
-    				$$slots: { default: [create_default_slot_37$2] },
+    				$$slots: { default: [create_default_slot_37$3] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -28962,7 +28962,7 @@ var app = (function () {
     			props: {
     				tabId: "3",
     				class: /*customActiveTab*/ ctx[0] == "3" ? 'active' : '',
-    				$$slots: { default: [create_default_slot_33$3] },
+    				$$slots: { default: [create_default_slot_33$4] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -28972,7 +28972,7 @@ var app = (function () {
     			props: {
     				tabId: "4",
     				class: /*customActiveTab*/ ctx[0] == "4" ? 'active' : '',
-    				$$slots: { default: [create_default_slot_29$3] },
+    				$$slots: { default: [create_default_slot_29$4] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -29237,7 +29237,7 @@ var app = (function () {
     	row = new Row({
     			props: {
     				class: "p-4",
-    				$$slots: { default: [create_default_slot_66$1] },
+    				$$slots: { default: [create_default_slot_66$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -29248,7 +29248,7 @@ var app = (function () {
     				tabs: true,
     				class: "nav nav-tabs nav-tabs-custom justify-content-center pt-2",
     				role: "tablist",
-    				$$slots: { default: [create_default_slot_45$1] },
+    				$$slots: { default: [create_default_slot_45$3] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -29731,7 +29731,7 @@ var app = (function () {
     const file$j = "src/pages/Pipelines/businessModel.svelte";
 
     // (44:14) <CardTitle  class="h4 target-audience">
-    function create_default_slot_40$1(ctx) {
+    function create_default_slot_74$1(ctx) {
     	let t;
 
     	const block = {
@@ -29748,7 +29748,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_40$1.name,
+    		id: create_default_slot_74$1.name,
     		type: "slot",
     		source: "(44:14) <CardTitle  class=\\\"h4 target-audience\\\">",
     		ctx
@@ -29758,7 +29758,7 @@ var app = (function () {
     }
 
     // (43:12) <Col sm={8}>
-    function create_default_slot_39$1(ctx) {
+    function create_default_slot_73$1(ctx) {
     	let cardtitle;
     	let t0;
     	let p;
@@ -29767,7 +29767,7 @@ var app = (function () {
     	cardtitle = new CardTitle({
     			props: {
     				class: "h4 target-audience",
-    				$$slots: { default: [create_default_slot_40$1] },
+    				$$slots: { default: [create_default_slot_74$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -29791,7 +29791,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const cardtitle_changes = {};
 
-    			if (dirty & /*$$scope*/ 2048) {
+    			if (dirty & /*$$scope*/ 4096) {
     				cardtitle_changes.$$scope = { dirty, ctx };
     			}
 
@@ -29815,7 +29815,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_39$1.name,
+    		id: create_default_slot_73$1.name,
     		type: "slot",
     		source: "(43:12) <Col sm={8}>",
     		ctx
@@ -29825,7 +29825,7 @@ var app = (function () {
     }
 
     // (49:14) <CardTitle class="h2">
-    function create_default_slot_38$1(ctx) {
+    function create_default_slot_72$1(ctx) {
     	let t;
 
     	const block = {
@@ -29842,7 +29842,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_38$1.name,
+    		id: create_default_slot_72$1.name,
     		type: "slot",
     		source: "(49:14) <CardTitle class=\\\"h2\\\">",
     		ctx
@@ -29852,7 +29852,7 @@ var app = (function () {
     }
 
     // (54:14) {:else}
-    function create_else_block_3$2(ctx) {
+    function create_else_block_11(ctx) {
     	let span;
 
     	const block = {
@@ -29872,7 +29872,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_else_block_3$2.name,
+    		id: create_else_block_11.name,
     		type: "else",
     		source: "(54:14) {:else}",
     		ctx
@@ -29882,7 +29882,7 @@ var app = (function () {
     }
 
     // (50:14) {#if result}
-    function create_if_block_3$2(ctx) {
+    function create_if_block_11(ctx) {
     	let span;
 
     	const block = {
@@ -29902,7 +29902,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_3$2.name,
+    		id: create_if_block_11.name,
     		type: "if",
     		source: "(50:14) {#if result}",
     		ctx
@@ -29912,7 +29912,7 @@ var app = (function () {
     }
 
     // (48:12) <Col sm={4} class="text-sm-end">
-    function create_default_slot_37$1(ctx) {
+    function create_default_slot_71$1(ctx) {
     	let cardtitle;
     	let t;
     	let if_block_anchor;
@@ -29921,15 +29921,15 @@ var app = (function () {
     	cardtitle = new CardTitle({
     			props: {
     				class: "h2",
-    				$$slots: { default: [create_default_slot_38$1] },
+    				$$slots: { default: [create_default_slot_72$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
     		});
 
     	function select_block_type(ctx, dirty) {
-    		if (/*result*/ ctx[1]) return create_if_block_3$2;
-    		return create_else_block_3$2;
+    		if (/*result*/ ctx[1]) return create_if_block_11;
+    		return create_else_block_11;
     	}
 
     	let current_block_type = select_block_type(ctx);
@@ -29952,7 +29952,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const cardtitle_changes = {};
 
-    			if (dirty & /*$$scope*/ 2048) {
+    			if (dirty & /*$$scope*/ 4096) {
     				cardtitle_changes.$$scope = { dirty, ctx };
     			}
 
@@ -29987,7 +29987,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_37$1.name,
+    		id: create_default_slot_71$1.name,
     		type: "slot",
     		source: "(48:12) <Col sm={4} class=\\\"text-sm-end\\\">",
     		ctx
@@ -29997,7 +29997,7 @@ var app = (function () {
     }
 
     // (42:10) <Row class= "p-4">
-    function create_default_slot_36$1(ctx) {
+    function create_default_slot_70$1(ctx) {
     	let col0;
     	let t;
     	let col1;
@@ -30006,7 +30006,7 @@ var app = (function () {
     	col0 = new Col({
     			props: {
     				sm: 8,
-    				$$slots: { default: [create_default_slot_39$1] },
+    				$$slots: { default: [create_default_slot_73$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -30016,7 +30016,7 @@ var app = (function () {
     			props: {
     				sm: 4,
     				class: "text-sm-end",
-    				$$slots: { default: [create_default_slot_37$1] },
+    				$$slots: { default: [create_default_slot_71$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -30037,14 +30037,14 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const col0_changes = {};
 
-    			if (dirty & /*$$scope*/ 2048) {
+    			if (dirty & /*$$scope*/ 4096) {
     				col0_changes.$$scope = { dirty, ctx };
     			}
 
     			col0.$set(col0_changes);
     			const col1_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 2050) {
+    			if (dirty & /*$$scope, result*/ 4098) {
     				col1_changes.$$scope = { dirty, ctx };
     			}
 
@@ -30070,7 +30070,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_36$1.name,
+    		id: create_default_slot_70$1.name,
     		type: "slot",
     		source: "(42:10) <Row class= \\\"p-4\\\">",
     		ctx
@@ -30080,7 +30080,7 @@ var app = (function () {
     }
 
     // (66:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "1")}                 active={customActiveTab == "1"}               >
-    function create_default_slot_35$1(ctx) {
+    function create_default_slot_69$1(ctx) {
     	let span0;
     	let i;
     	let t0;
@@ -30116,7 +30116,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_35$1.name,
+    		id: create_default_slot_69$1.name,
     		type: "slot",
     		source: "(66:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"1\\\")}                 active={customActiveTab == \\\"1\\\"}               >",
     		ctx
@@ -30126,7 +30126,7 @@ var app = (function () {
     }
 
     // (65:12) <NavItem>
-    function create_default_slot_34$2(ctx) {
+    function create_default_slot_68$1(ctx) {
     	let navlink;
     	let current;
 
@@ -30134,7 +30134,7 @@ var app = (function () {
     			props: {
     				style: "cursor: pointer",
     				active: /*customActiveTab*/ ctx[0] == "1",
-    				$$slots: { default: [create_default_slot_35$1] },
+    				$$slots: { default: [create_default_slot_69$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -30154,7 +30154,7 @@ var app = (function () {
     			const navlink_changes = {};
     			if (dirty & /*customActiveTab*/ 1) navlink_changes.active = /*customActiveTab*/ ctx[0] == "1";
 
-    			if (dirty & /*$$scope*/ 2048) {
+    			if (dirty & /*$$scope*/ 4096) {
     				navlink_changes.$$scope = { dirty, ctx };
     			}
 
@@ -30176,7 +30176,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_34$2.name,
+    		id: create_default_slot_68$1.name,
     		type: "slot",
     		source: "(65:12) <NavItem>",
     		ctx
@@ -30186,7 +30186,7 @@ var app = (function () {
     }
 
     // (78:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "2")}                 active={customActiveTab == "2"}               >
-    function create_default_slot_33$2(ctx) {
+    function create_default_slot_67$1(ctx) {
     	let span0;
     	let i;
     	let t0;
@@ -30222,7 +30222,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_33$2.name,
+    		id: create_default_slot_67$1.name,
     		type: "slot",
     		source: "(78:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"2\\\")}                 active={customActiveTab == \\\"2\\\"}               >",
     		ctx
@@ -30232,7 +30232,7 @@ var app = (function () {
     }
 
     // (77:12) <NavItem>
-    function create_default_slot_32$2(ctx) {
+    function create_default_slot_66$1(ctx) {
     	let navlink;
     	let current;
 
@@ -30240,7 +30240,7 @@ var app = (function () {
     			props: {
     				style: "cursor: pointer",
     				active: /*customActiveTab*/ ctx[0] == "2",
-    				$$slots: { default: [create_default_slot_33$2] },
+    				$$slots: { default: [create_default_slot_67$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -30260,7 +30260,7 @@ var app = (function () {
     			const navlink_changes = {};
     			if (dirty & /*customActiveTab*/ 1) navlink_changes.active = /*customActiveTab*/ ctx[0] == "2";
 
-    			if (dirty & /*$$scope*/ 2048) {
+    			if (dirty & /*$$scope*/ 4096) {
     				navlink_changes.$$scope = { dirty, ctx };
     			}
 
@@ -30282,7 +30282,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_32$2.name,
+    		id: create_default_slot_66$1.name,
     		type: "slot",
     		source: "(77:12) <NavItem>",
     		ctx
@@ -30292,7 +30292,7 @@ var app = (function () {
     }
 
     // (90:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "3")}                 active={customActiveTab == "3"}               >
-    function create_default_slot_31$2(ctx) {
+    function create_default_slot_65$1(ctx) {
     	let span0;
     	let i;
     	let t0;
@@ -30328,7 +30328,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_31$2.name,
+    		id: create_default_slot_65$1.name,
     		type: "slot",
     		source: "(90:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"3\\\")}                 active={customActiveTab == \\\"3\\\"}               >",
     		ctx
@@ -30338,7 +30338,7 @@ var app = (function () {
     }
 
     // (89:12) <NavItem>
-    function create_default_slot_30$2(ctx) {
+    function create_default_slot_64$1(ctx) {
     	let navlink;
     	let current;
 
@@ -30346,7 +30346,7 @@ var app = (function () {
     			props: {
     				style: "cursor: pointer",
     				active: /*customActiveTab*/ ctx[0] == "3",
-    				$$slots: { default: [create_default_slot_31$2] },
+    				$$slots: { default: [create_default_slot_65$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -30366,7 +30366,7 @@ var app = (function () {
     			const navlink_changes = {};
     			if (dirty & /*customActiveTab*/ 1) navlink_changes.active = /*customActiveTab*/ ctx[0] == "3";
 
-    			if (dirty & /*$$scope*/ 2048) {
+    			if (dirty & /*$$scope*/ 4096) {
     				navlink_changes.$$scope = { dirty, ctx };
     			}
 
@@ -30388,7 +30388,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_30$2.name,
+    		id: create_default_slot_64$1.name,
     		type: "slot",
     		source: "(89:12) <NavItem>",
     		ctx
@@ -30398,7 +30398,7 @@ var app = (function () {
     }
 
     // (102:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "4")}                 active={customActiveTab == "4"}               >
-    function create_default_slot_29$2(ctx) {
+    function create_default_slot_63$1(ctx) {
     	let span0;
     	let i;
     	let t0;
@@ -30434,7 +30434,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_29$2.name,
+    		id: create_default_slot_63$1.name,
     		type: "slot",
     		source: "(102:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"4\\\")}                 active={customActiveTab == \\\"4\\\"}               >",
     		ctx
@@ -30444,7 +30444,7 @@ var app = (function () {
     }
 
     // (101:12) <NavItem>
-    function create_default_slot_28$3(ctx) {
+    function create_default_slot_62$1(ctx) {
     	let navlink;
     	let current;
 
@@ -30452,7 +30452,7 @@ var app = (function () {
     			props: {
     				style: "cursor: pointer",
     				active: /*customActiveTab*/ ctx[0] == "4",
-    				$$slots: { default: [create_default_slot_29$2] },
+    				$$slots: { default: [create_default_slot_63$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -30472,7 +30472,7 @@ var app = (function () {
     			const navlink_changes = {};
     			if (dirty & /*customActiveTab*/ 1) navlink_changes.active = /*customActiveTab*/ ctx[0] == "4";
 
-    			if (dirty & /*$$scope*/ 2048) {
+    			if (dirty & /*$$scope*/ 4096) {
     				navlink_changes.$$scope = { dirty, ctx };
     			}
 
@@ -30494,7 +30494,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_28$3.name,
+    		id: create_default_slot_62$1.name,
     		type: "slot",
     		source: "(101:12) <NavItem>",
     		ctx
@@ -30504,7 +30504,7 @@ var app = (function () {
     }
 
     // (114:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "5")}                 active={customActiveTab == "5"}               >
-    function create_default_slot_27$3(ctx) {
+    function create_default_slot_61$1(ctx) {
     	let span0;
     	let i;
     	let t0;
@@ -30540,7 +30540,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_27$3.name,
+    		id: create_default_slot_61$1.name,
     		type: "slot",
     		source: "(114:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"5\\\")}                 active={customActiveTab == \\\"5\\\"}               >",
     		ctx
@@ -30550,7 +30550,7 @@ var app = (function () {
     }
 
     // (113:12) <NavItem>
-    function create_default_slot_26$3(ctx) {
+    function create_default_slot_60$1(ctx) {
     	let navlink;
     	let current;
 
@@ -30558,7 +30558,7 @@ var app = (function () {
     			props: {
     				style: "cursor: pointer",
     				active: /*customActiveTab*/ ctx[0] == "5",
-    				$$slots: { default: [create_default_slot_27$3] },
+    				$$slots: { default: [create_default_slot_61$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -30578,7 +30578,7 @@ var app = (function () {
     			const navlink_changes = {};
     			if (dirty & /*customActiveTab*/ 1) navlink_changes.active = /*customActiveTab*/ ctx[0] == "5";
 
-    			if (dirty & /*$$scope*/ 2048) {
+    			if (dirty & /*$$scope*/ 4096) {
     				navlink_changes.$$scope = { dirty, ctx };
     			}
 
@@ -30600,7 +30600,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_26$3.name,
+    		id: create_default_slot_60$1.name,
     		type: "slot",
     		source: "(113:12) <NavItem>",
     		ctx
@@ -30610,7 +30610,7 @@ var app = (function () {
     }
 
     // (126:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "6")}                 active={customActiveTab == "6"}               >
-    function create_default_slot_25$3(ctx) {
+    function create_default_slot_59$1(ctx) {
     	let span0;
     	let i;
     	let t0;
@@ -30646,7 +30646,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_25$3.name,
+    		id: create_default_slot_59$1.name,
     		type: "slot",
     		source: "(126:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"6\\\")}                 active={customActiveTab == \\\"6\\\"}               >",
     		ctx
@@ -30656,7 +30656,7 @@ var app = (function () {
     }
 
     // (125:12) <NavItem>
-    function create_default_slot_24$3(ctx) {
+    function create_default_slot_58$1(ctx) {
     	let navlink;
     	let current;
 
@@ -30664,7 +30664,7 @@ var app = (function () {
     			props: {
     				style: "cursor: pointer",
     				active: /*customActiveTab*/ ctx[0] == "6",
-    				$$slots: { default: [create_default_slot_25$3] },
+    				$$slots: { default: [create_default_slot_59$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -30684,7 +30684,7 @@ var app = (function () {
     			const navlink_changes = {};
     			if (dirty & /*customActiveTab*/ 1) navlink_changes.active = /*customActiveTab*/ ctx[0] == "6";
 
-    			if (dirty & /*$$scope*/ 2048) {
+    			if (dirty & /*$$scope*/ 4096) {
     				navlink_changes.$$scope = { dirty, ctx };
     			}
 
@@ -30706,7 +30706,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_24$3.name,
+    		id: create_default_slot_58$1.name,
     		type: "slot",
     		source: "(125:12) <NavItem>",
     		ctx
@@ -30716,7 +30716,7 @@ var app = (function () {
     }
 
     // (138:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "7")}                 active={customActiveTab == "7"}               >
-    function create_default_slot_23$3(ctx) {
+    function create_default_slot_57$1(ctx) {
     	let span0;
     	let i;
     	let t0;
@@ -30752,7 +30752,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_23$3.name,
+    		id: create_default_slot_57$1.name,
     		type: "slot",
     		source: "(138:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"7\\\")}                 active={customActiveTab == \\\"7\\\"}               >",
     		ctx
@@ -30762,7 +30762,7 @@ var app = (function () {
     }
 
     // (137:12) <NavItem>
-    function create_default_slot_22$3(ctx) {
+    function create_default_slot_56$1(ctx) {
     	let navlink;
     	let current;
 
@@ -30770,7 +30770,7 @@ var app = (function () {
     			props: {
     				style: "cursor: pointer",
     				active: /*customActiveTab*/ ctx[0] == "7",
-    				$$slots: { default: [create_default_slot_23$3] },
+    				$$slots: { default: [create_default_slot_57$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -30790,7 +30790,7 @@ var app = (function () {
     			const navlink_changes = {};
     			if (dirty & /*customActiveTab*/ 1) navlink_changes.active = /*customActiveTab*/ ctx[0] == "7";
 
-    			if (dirty & /*$$scope*/ 2048) {
+    			if (dirty & /*$$scope*/ 4096) {
     				navlink_changes.$$scope = { dirty, ctx };
     			}
 
@@ -30812,7 +30812,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_22$3.name,
+    		id: create_default_slot_56$1.name,
     		type: "slot",
     		source: "(137:12) <NavItem>",
     		ctx
@@ -30821,8 +30821,8 @@ var app = (function () {
     	return block;
     }
 
-    // (150:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "2")}                 active={customActiveTab == "2"}               >
-    function create_default_slot_21$3(ctx) {
+    // (150:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "8")}                 active={customActiveTab == "8"}               >
+    function create_default_slot_55$1(ctx) {
     	let span0;
     	let i;
     	let t0;
@@ -30834,7 +30834,7 @@ var app = (function () {
     			i = element("i");
     			t0 = space();
     			span1 = element("span");
-    			span1.textContent = "2.Metrics that Matter KPIs";
+    			span1.textContent = "8.Metrics that Matter KPIs";
     			attr_dev(i, "class", "far fa-user");
     			add_location(i, file$j, 155, 18, 5125);
     			attr_dev(span0, "class", "d-block d-sm-none");
@@ -30858,9 +30858,9 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_21$3.name,
+    		id: create_default_slot_55$1.name,
     		type: "slot",
-    		source: "(150:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"2\\\")}                 active={customActiveTab == \\\"2\\\"}               >",
+    		source: "(150:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"8\\\")}                 active={customActiveTab == \\\"8\\\"}               >",
     		ctx
     	});
 
@@ -30868,15 +30868,15 @@ var app = (function () {
     }
 
     // (149:12) <NavItem>
-    function create_default_slot_20$3(ctx) {
+    function create_default_slot_54$1(ctx) {
     	let navlink;
     	let current;
 
     	navlink = new NavLink({
     			props: {
     				style: "cursor: pointer",
-    				active: /*customActiveTab*/ ctx[0] == "2",
-    				$$slots: { default: [create_default_slot_21$3] },
+    				active: /*customActiveTab*/ ctx[0] == "8",
+    				$$slots: { default: [create_default_slot_55$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -30894,9 +30894,9 @@ var app = (function () {
     		},
     		p: function update(ctx, dirty) {
     			const navlink_changes = {};
-    			if (dirty & /*customActiveTab*/ 1) navlink_changes.active = /*customActiveTab*/ ctx[0] == "2";
+    			if (dirty & /*customActiveTab*/ 1) navlink_changes.active = /*customActiveTab*/ ctx[0] == "8";
 
-    			if (dirty & /*$$scope*/ 2048) {
+    			if (dirty & /*$$scope*/ 4096) {
     				navlink_changes.$$scope = { dirty, ctx };
     			}
 
@@ -30918,7 +30918,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_20$3.name,
+    		id: create_default_slot_54$1.name,
     		type: "slot",
     		source: "(149:12) <NavItem>",
     		ctx
@@ -30927,8 +30927,8 @@ var app = (function () {
     	return block;
     }
 
-    // (162:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "3")}                 active={customActiveTab == "3"}               >
-    function create_default_slot_19$3(ctx) {
+    // (162:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "9")}                 active={customActiveTab == "9"}               >
+    function create_default_slot_53$1(ctx) {
     	let span0;
     	let i;
     	let t0;
@@ -30940,7 +30940,7 @@ var app = (function () {
     			i = element("i");
     			t0 = space();
     			span1 = element("span");
-    			span1.textContent = "3. Business Goals";
+    			span1.textContent = "9. Core Problems";
     			attr_dev(i, "class", "far fa-user");
     			add_location(i, file$j, 167, 18, 5578);
     			attr_dev(span0, "class", "d-block d-sm-none");
@@ -30964,9 +30964,9 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_19$3.name,
+    		id: create_default_slot_53$1.name,
     		type: "slot",
-    		source: "(162:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"3\\\")}                 active={customActiveTab == \\\"3\\\"}               >",
+    		source: "(162:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"9\\\")}                 active={customActiveTab == \\\"9\\\"}               >",
     		ctx
     	});
 
@@ -30974,15 +30974,15 @@ var app = (function () {
     }
 
     // (161:12) <NavItem>
-    function create_default_slot_18$3(ctx) {
+    function create_default_slot_52$2(ctx) {
     	let navlink;
     	let current;
 
     	navlink = new NavLink({
     			props: {
     				style: "cursor: pointer",
-    				active: /*customActiveTab*/ ctx[0] == "3",
-    				$$slots: { default: [create_default_slot_19$3] },
+    				active: /*customActiveTab*/ ctx[0] == "9",
+    				$$slots: { default: [create_default_slot_53$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -31000,9 +31000,9 @@ var app = (function () {
     		},
     		p: function update(ctx, dirty) {
     			const navlink_changes = {};
-    			if (dirty & /*customActiveTab*/ 1) navlink_changes.active = /*customActiveTab*/ ctx[0] == "3";
+    			if (dirty & /*customActiveTab*/ 1) navlink_changes.active = /*customActiveTab*/ ctx[0] == "9";
 
-    			if (dirty & /*$$scope*/ 2048) {
+    			if (dirty & /*$$scope*/ 4096) {
     				navlink_changes.$$scope = { dirty, ctx };
     			}
 
@@ -31024,7 +31024,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_18$3.name,
+    		id: create_default_slot_52$2.name,
     		type: "slot",
     		source: "(161:12) <NavItem>",
     		ctx
@@ -31033,8 +31033,114 @@ var app = (function () {
     	return block;
     }
 
+    // (174:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "10")}                 active={customActiveTab == "10"}               >
+    function create_default_slot_51$2(ctx) {
+    	let span0;
+    	let i;
+    	let t0;
+    	let span1;
+
+    	const block = {
+    		c: function create() {
+    			span0 = element("span");
+    			i = element("i");
+    			t0 = space();
+    			span1 = element("span");
+    			span1.textContent = "10. Business goals";
+    			attr_dev(i, "class", "far fa-user");
+    			add_location(i, file$j, 179, 18, 6023);
+    			attr_dev(span0, "class", "d-block d-sm-none");
+    			add_location(span0, file$j, 178, 16, 5972);
+    			attr_dev(span1, "class", "d-none d-sm-block");
+    			add_location(span1, file$j, 181, 16, 6089);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, span0, anchor);
+    			append_dev(span0, i);
+    			insert_dev(target, t0, anchor);
+    			insert_dev(target, span1, anchor);
+    		},
+    		p: noop$1,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(span0);
+    			if (detaching) detach_dev(t0);
+    			if (detaching) detach_dev(span1);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_51$2.name,
+    		type: "slot",
+    		source: "(174:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"10\\\")}                 active={customActiveTab == \\\"10\\\"}               >",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (173:12) <NavItem>
+    function create_default_slot_50$2(ctx) {
+    	let navlink;
+    	let current;
+
+    	navlink = new NavLink({
+    			props: {
+    				style: "cursor: pointer",
+    				active: /*customActiveTab*/ ctx[0] == "10",
+    				$$slots: { default: [create_default_slot_51$2] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	navlink.$on("click", /*click_handler_9*/ ctx[11]);
+
+    	const block = {
+    		c: function create() {
+    			create_component(navlink.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(navlink, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const navlink_changes = {};
+    			if (dirty & /*customActiveTab*/ 1) navlink_changes.active = /*customActiveTab*/ ctx[0] == "10";
+
+    			if (dirty & /*$$scope*/ 4096) {
+    				navlink_changes.$$scope = { dirty, ctx };
+    			}
+
+    			navlink.$set(navlink_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(navlink.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(navlink.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(navlink, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_50$2.name,
+    		type: "slot",
+    		source: "(173:12) <NavItem>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
     // (63:10) <Nav tabs class="nav nav-tabs nav-tabs-custom justify-content-center pt-2"           role="tablist">
-    function create_default_slot_17$3(ctx) {
+    function create_default_slot_49$2(ctx) {
     	let navitem0;
     	let t0;
     	let navitem1;
@@ -31052,11 +31158,13 @@ var app = (function () {
     	let navitem7;
     	let t7;
     	let navitem8;
+    	let t8;
+    	let navitem9;
     	let current;
 
     	navitem0 = new NavItem({
     			props: {
-    				$$slots: { default: [create_default_slot_34$2] },
+    				$$slots: { default: [create_default_slot_68$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -31064,7 +31172,7 @@ var app = (function () {
 
     	navitem1 = new NavItem({
     			props: {
-    				$$slots: { default: [create_default_slot_32$2] },
+    				$$slots: { default: [create_default_slot_66$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -31072,7 +31180,7 @@ var app = (function () {
 
     	navitem2 = new NavItem({
     			props: {
-    				$$slots: { default: [create_default_slot_30$2] },
+    				$$slots: { default: [create_default_slot_64$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -31080,7 +31188,7 @@ var app = (function () {
 
     	navitem3 = new NavItem({
     			props: {
-    				$$slots: { default: [create_default_slot_28$3] },
+    				$$slots: { default: [create_default_slot_62$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -31088,7 +31196,7 @@ var app = (function () {
 
     	navitem4 = new NavItem({
     			props: {
-    				$$slots: { default: [create_default_slot_26$3] },
+    				$$slots: { default: [create_default_slot_60$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -31096,7 +31204,7 @@ var app = (function () {
 
     	navitem5 = new NavItem({
     			props: {
-    				$$slots: { default: [create_default_slot_24$3] },
+    				$$slots: { default: [create_default_slot_58$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -31104,7 +31212,7 @@ var app = (function () {
 
     	navitem6 = new NavItem({
     			props: {
-    				$$slots: { default: [create_default_slot_22$3] },
+    				$$slots: { default: [create_default_slot_56$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -31112,7 +31220,7 @@ var app = (function () {
 
     	navitem7 = new NavItem({
     			props: {
-    				$$slots: { default: [create_default_slot_20$3] },
+    				$$slots: { default: [create_default_slot_54$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -31120,7 +31228,15 @@ var app = (function () {
 
     	navitem8 = new NavItem({
     			props: {
-    				$$slots: { default: [create_default_slot_18$3] },
+    				$$slots: { default: [create_default_slot_52$2] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	navitem9 = new NavItem({
+    			props: {
+    				$$slots: { default: [create_default_slot_50$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -31145,6 +31261,8 @@ var app = (function () {
     			create_component(navitem7.$$.fragment);
     			t7 = space();
     			create_component(navitem8.$$.fragment);
+    			t8 = space();
+    			create_component(navitem9.$$.fragment);
     		},
     		m: function mount(target, anchor) {
     			mount_component(navitem0, target, anchor);
@@ -31164,72 +31282,81 @@ var app = (function () {
     			mount_component(navitem7, target, anchor);
     			insert_dev(target, t7, anchor);
     			mount_component(navitem8, target, anchor);
+    			insert_dev(target, t8, anchor);
+    			mount_component(navitem9, target, anchor);
     			current = true;
     		},
     		p: function update(ctx, dirty) {
     			const navitem0_changes = {};
 
-    			if (dirty & /*$$scope, customActiveTab*/ 2049) {
+    			if (dirty & /*$$scope, customActiveTab*/ 4097) {
     				navitem0_changes.$$scope = { dirty, ctx };
     			}
 
     			navitem0.$set(navitem0_changes);
     			const navitem1_changes = {};
 
-    			if (dirty & /*$$scope, customActiveTab*/ 2049) {
+    			if (dirty & /*$$scope, customActiveTab*/ 4097) {
     				navitem1_changes.$$scope = { dirty, ctx };
     			}
 
     			navitem1.$set(navitem1_changes);
     			const navitem2_changes = {};
 
-    			if (dirty & /*$$scope, customActiveTab*/ 2049) {
+    			if (dirty & /*$$scope, customActiveTab*/ 4097) {
     				navitem2_changes.$$scope = { dirty, ctx };
     			}
 
     			navitem2.$set(navitem2_changes);
     			const navitem3_changes = {};
 
-    			if (dirty & /*$$scope, customActiveTab*/ 2049) {
+    			if (dirty & /*$$scope, customActiveTab*/ 4097) {
     				navitem3_changes.$$scope = { dirty, ctx };
     			}
 
     			navitem3.$set(navitem3_changes);
     			const navitem4_changes = {};
 
-    			if (dirty & /*$$scope, customActiveTab*/ 2049) {
+    			if (dirty & /*$$scope, customActiveTab*/ 4097) {
     				navitem4_changes.$$scope = { dirty, ctx };
     			}
 
     			navitem4.$set(navitem4_changes);
     			const navitem5_changes = {};
 
-    			if (dirty & /*$$scope, customActiveTab*/ 2049) {
+    			if (dirty & /*$$scope, customActiveTab*/ 4097) {
     				navitem5_changes.$$scope = { dirty, ctx };
     			}
 
     			navitem5.$set(navitem5_changes);
     			const navitem6_changes = {};
 
-    			if (dirty & /*$$scope, customActiveTab*/ 2049) {
+    			if (dirty & /*$$scope, customActiveTab*/ 4097) {
     				navitem6_changes.$$scope = { dirty, ctx };
     			}
 
     			navitem6.$set(navitem6_changes);
     			const navitem7_changes = {};
 
-    			if (dirty & /*$$scope, customActiveTab*/ 2049) {
+    			if (dirty & /*$$scope, customActiveTab*/ 4097) {
     				navitem7_changes.$$scope = { dirty, ctx };
     			}
 
     			navitem7.$set(navitem7_changes);
     			const navitem8_changes = {};
 
-    			if (dirty & /*$$scope, customActiveTab*/ 2049) {
+    			if (dirty & /*$$scope, customActiveTab*/ 4097) {
     				navitem8_changes.$$scope = { dirty, ctx };
     			}
 
     			navitem8.$set(navitem8_changes);
+    			const navitem9_changes = {};
+
+    			if (dirty & /*$$scope, customActiveTab*/ 4097) {
+    				navitem9_changes.$$scope = { dirty, ctx };
+    			}
+
+    			navitem9.$set(navitem9_changes);
     		},
     		i: function intro(local) {
     			if (current) return;
@@ -31242,6 +31369,7 @@ var app = (function () {
     			transition_in(navitem6.$$.fragment, local);
     			transition_in(navitem7.$$.fragment, local);
     			transition_in(navitem8.$$.fragment, local);
+    			transition_in(navitem9.$$.fragment, local);
     			current = true;
     		},
     		o: function outro(local) {
@@ -31254,6 +31382,7 @@ var app = (function () {
     			transition_out(navitem6.$$.fragment, local);
     			transition_out(navitem7.$$.fragment, local);
     			transition_out(navitem8.$$.fragment, local);
+    			transition_out(navitem9.$$.fragment, local);
     			current = false;
     		},
     		d: function destroy(detaching) {
@@ -31274,12 +31403,14 @@ var app = (function () {
     			destroy_component(navitem7, detaching);
     			if (detaching) detach_dev(t7);
     			destroy_component(navitem8, detaching);
+    			if (detaching) detach_dev(t8);
+    			destroy_component(navitem9, detaching);
     		}
     	};
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_17$3.name,
+    		id: create_default_slot_49$2.name,
     		type: "slot",
     		source: "(63:10) <Nav tabs class=\\\"nav nav-tabs nav-tabs-custom justify-content-center pt-2\\\"           role=\\\"tablist\\\">",
     		ctx
@@ -31288,13 +31419,13 @@ var app = (function () {
     	return block;
     }
 
-    // (182:20) {:else}
-    function create_else_block_2$2(ctx) {
+    // (194:20) {:else}
+    function create_else_block_10(ctx) {
     	let t;
 
     	const block = {
     		c: function create() {
-    			t = text("No Bussiness Model available");
+    			t = text("No Mission Statement available");
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, t, anchor);
@@ -31307,18 +31438,18 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_else_block_2$2.name,
+    		id: create_else_block_10.name,
     		type: "else",
-    		source: "(182:20) {:else}",
+    		source: "(194:20) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (180:20) {#if result && result.business_model!== null}
-    function create_if_block_2$2(ctx) {
-    	let t_value = /*result*/ ctx[1].business_model + "";
+    // (192:20) {#if result && result.mission_statement!== null}
+    function create_if_block_10(ctx) {
+    	let t_value = /*result*/ ctx[1].mission_statement + "";
     	let t;
 
     	const block = {
@@ -31329,7 +31460,7 @@ var app = (function () {
     			insert_dev(target, t, anchor);
     		},
     		p: function update(ctx, dirty) {
-    			if (dirty & /*result*/ 2 && t_value !== (t_value = /*result*/ ctx[1].business_model + "")) set_data_dev(t, t_value);
+    			if (dirty & /*result*/ 2 && t_value !== (t_value = /*result*/ ctx[1].mission_statement + "")) set_data_dev(t, t_value);
     		},
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(t);
@@ -31338,22 +31469,22 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_2$2.name,
+    		id: create_if_block_10.name,
     		type: "if",
-    		source: "(180:20) {#if result && result.business_model!== null}",
+    		source: "(192:20) {#if result && result.mission_statement!== null}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (179:18) <CardText class="mb-0">
-    function create_default_slot_16$3(ctx) {
+    // (191:18) <CardText class="mb-0">
+    function create_default_slot_48$2(ctx) {
     	let if_block_anchor;
 
     	function select_block_type_1(ctx, dirty) {
-    		if (/*result*/ ctx[1] && /*result*/ ctx[1].business_model !== null) return create_if_block_2$2;
-    		return create_else_block_2$2;
+    		if (/*result*/ ctx[1] && /*result*/ ctx[1].mission_statement !== null) return create_if_block_10;
+    		return create_else_block_10;
     	}
 
     	let current_block_type = select_block_type_1(ctx);
@@ -31389,24 +31520,24 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_16$3.name,
+    		id: create_default_slot_48$2.name,
     		type: "slot",
-    		source: "(179:18) <CardText class=\\\"mb-0\\\">",
+    		source: "(191:18) <CardText class=\\\"mb-0\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (178:16) <Col sm="12">
-    function create_default_slot_15$3(ctx) {
+    // (190:16) <Col sm="12">
+    function create_default_slot_47$2(ctx) {
     	let cardtext;
     	let current;
 
     	cardtext = new CardText({
     			props: {
     				class: "mb-0",
-    				$$slots: { default: [create_default_slot_16$3] },
+    				$$slots: { default: [create_default_slot_48$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -31423,7 +31554,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const cardtext_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 2050) {
+    			if (dirty & /*$$scope, result*/ 4098) {
     				cardtext_changes.$$scope = { dirty, ctx };
     			}
 
@@ -31445,24 +31576,24 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_15$3.name,
+    		id: create_default_slot_47$2.name,
     		type: "slot",
-    		source: "(178:16) <Col sm=\\\"12\\\">",
+    		source: "(190:16) <Col sm=\\\"12\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (177:14) <Row>
-    function create_default_slot_14$3(ctx) {
+    // (189:14) <Row>
+    function create_default_slot_46$2(ctx) {
     	let col;
     	let current;
 
     	col = new Col({
     			props: {
     				sm: "12",
-    				$$slots: { default: [create_default_slot_15$3] },
+    				$$slots: { default: [create_default_slot_47$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -31479,7 +31610,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const col_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 2050) {
+    			if (dirty & /*$$scope, result*/ 4098) {
     				col_changes.$$scope = { dirty, ctx };
     			}
 
@@ -31501,23 +31632,23 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_14$3.name,
+    		id: create_default_slot_46$2.name,
     		type: "slot",
-    		source: "(177:14) <Row>",
+    		source: "(189:14) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (176:12) <TabPane tabId="1" class="{customActiveTab == "1" ? 'active': ''}">
-    function create_default_slot_13$4(ctx) {
+    // (188:12) <TabPane tabId="1" class="{customActiveTab == "1" ? 'active': ''}">
+    function create_default_slot_45$2(ctx) {
     	let row;
     	let current;
 
     	row = new Row({
     			props: {
-    				$$slots: { default: [create_default_slot_14$3] },
+    				$$slots: { default: [create_default_slot_46$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -31534,7 +31665,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const row_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 2050) {
+    			if (dirty & /*$$scope, result*/ 4098) {
     				row_changes.$$scope = { dirty, ctx };
     			}
 
@@ -31556,22 +31687,22 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_13$4.name,
+    		id: create_default_slot_45$2.name,
     		type: "slot",
-    		source: "(176:12) <TabPane tabId=\\\"1\\\" class=\\\"{customActiveTab == \\\"1\\\" ? 'active': ''}\\\">",
+    		source: "(188:12) <TabPane tabId=\\\"1\\\" class=\\\"{customActiveTab == \\\"1\\\" ? 'active': ''}\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (195:20) {:else}
-    function create_else_block_1$2(ctx) {
+    // (207:20) {:else}
+    function create_else_block_9(ctx) {
     	let t;
 
     	const block = {
     		c: function create() {
-    			t = text("No KPIs available");
+    			t = text("No Vision Statement available");
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, t, anchor);
@@ -31584,18 +31715,18 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_else_block_1$2.name,
+    		id: create_else_block_9.name,
     		type: "else",
-    		source: "(195:20) {:else}",
+    		source: "(207:20) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (193:20) {#if result && result.kpi== null}
-    function create_if_block_1$2(ctx) {
-    	let t_value = /*result*/ ctx[1].kpi + "";
+    // (205:20) {#if result && result.vision_statement== null}
+    function create_if_block_9(ctx) {
+    	let t_value = /*result*/ ctx[1].vision_statement + "";
     	let t;
 
     	const block = {
@@ -31606,7 +31737,7 @@ var app = (function () {
     			insert_dev(target, t, anchor);
     		},
     		p: function update(ctx, dirty) {
-    			if (dirty & /*result*/ 2 && t_value !== (t_value = /*result*/ ctx[1].kpi + "")) set_data_dev(t, t_value);
+    			if (dirty & /*result*/ 2 && t_value !== (t_value = /*result*/ ctx[1].vision_statement + "")) set_data_dev(t, t_value);
     		},
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(t);
@@ -31615,22 +31746,22 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_1$2.name,
+    		id: create_if_block_9.name,
     		type: "if",
-    		source: "(193:20) {#if result && result.kpi== null}",
+    		source: "(205:20) {#if result && result.vision_statement== null}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (192:18) <CardText class="mb-0">
-    function create_default_slot_12$4(ctx) {
+    // (204:18) <CardText class="mb-0">
+    function create_default_slot_44$2(ctx) {
     	let if_block_anchor;
 
     	function select_block_type_2(ctx, dirty) {
-    		if (/*result*/ ctx[1] && /*result*/ ctx[1].kpi == null) return create_if_block_1$2;
-    		return create_else_block_1$2;
+    		if (/*result*/ ctx[1] && /*result*/ ctx[1].vision_statement == null) return create_if_block_9;
+    		return create_else_block_9;
     	}
 
     	let current_block_type = select_block_type_2(ctx);
@@ -31666,24 +31797,24 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_12$4.name,
+    		id: create_default_slot_44$2.name,
     		type: "slot",
-    		source: "(192:18) <CardText class=\\\"mb-0\\\">",
+    		source: "(204:18) <CardText class=\\\"mb-0\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (191:16) <Col sm="12">
-    function create_default_slot_11$4(ctx) {
+    // (203:16) <Col sm="12">
+    function create_default_slot_43$2(ctx) {
     	let cardtext;
     	let current;
 
     	cardtext = new CardText({
     			props: {
     				class: "mb-0",
-    				$$slots: { default: [create_default_slot_12$4] },
+    				$$slots: { default: [create_default_slot_44$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -31700,7 +31831,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const cardtext_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 2050) {
+    			if (dirty & /*$$scope, result*/ 4098) {
     				cardtext_changes.$$scope = { dirty, ctx };
     			}
 
@@ -31722,24 +31853,24 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_11$4.name,
+    		id: create_default_slot_43$2.name,
     		type: "slot",
-    		source: "(191:16) <Col sm=\\\"12\\\">",
+    		source: "(203:16) <Col sm=\\\"12\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (190:14) <Row>
-    function create_default_slot_10$5(ctx) {
+    // (202:14) <Row>
+    function create_default_slot_42$2(ctx) {
     	let col;
     	let current;
 
     	col = new Col({
     			props: {
     				sm: "12",
-    				$$slots: { default: [create_default_slot_11$4] },
+    				$$slots: { default: [create_default_slot_43$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -31756,7 +31887,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const col_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 2050) {
+    			if (dirty & /*$$scope, result*/ 4098) {
     				col_changes.$$scope = { dirty, ctx };
     			}
 
@@ -31778,23 +31909,23 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_10$5.name,
+    		id: create_default_slot_42$2.name,
     		type: "slot",
-    		source: "(190:14) <Row>",
+    		source: "(202:14) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (189:12) <TabPane tabId="2" class="{customActiveTab == "2" ? 'active': ''}">
-    function create_default_slot_9$5(ctx) {
+    // (201:12) <TabPane tabId="2" class="{customActiveTab == "2" ? 'active': ''}">
+    function create_default_slot_41$2(ctx) {
     	let row;
     	let current;
 
     	row = new Row({
     			props: {
-    				$$slots: { default: [create_default_slot_10$5] },
+    				$$slots: { default: [create_default_slot_42$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -31811,7 +31942,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const row_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 2050) {
+    			if (dirty & /*$$scope, result*/ 4098) {
     				row_changes.$$scope = { dirty, ctx };
     			}
 
@@ -31833,22 +31964,22 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_9$5.name,
+    		id: create_default_slot_41$2.name,
     		type: "slot",
-    		source: "(189:12) <TabPane tabId=\\\"2\\\" class=\\\"{customActiveTab == \\\"2\\\" ? 'active': ''}\\\">",
+    		source: "(201:12) <TabPane tabId=\\\"2\\\" class=\\\"{customActiveTab == \\\"2\\\" ? 'active': ''}\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (208:20) {:else}
-    function create_else_block$2(ctx) {
+    // (220:20) {:else}
+    function create_else_block_8(ctx) {
     	let t;
 
     	const block = {
     		c: function create() {
-    			t = text("No Business goals avaliable");
+    			t = text("No Value Prposition avaliable");
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, t, anchor);
@@ -31861,18 +31992,18 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_else_block$2.name,
+    		id: create_else_block_8.name,
     		type: "else",
-    		source: "(208:20) {:else}",
+    		source: "(220:20) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (206:20) {#if result && result.business_goals!== null}
-    function create_if_block$3(ctx) {
-    	let t_value = /*result*/ ctx[1].business_goals + "";
+    // (218:20) {#if result && result.value_proposition!== null}
+    function create_if_block_8(ctx) {
+    	let t_value = /*result*/ ctx[1].value_proposition + "";
     	let t;
 
     	const block = {
@@ -31883,7 +32014,7 @@ var app = (function () {
     			insert_dev(target, t, anchor);
     		},
     		p: function update(ctx, dirty) {
-    			if (dirty & /*result*/ 2 && t_value !== (t_value = /*result*/ ctx[1].business_goals + "")) set_data_dev(t, t_value);
+    			if (dirty & /*result*/ 2 && t_value !== (t_value = /*result*/ ctx[1].value_proposition + "")) set_data_dev(t, t_value);
     		},
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(t);
@@ -31892,22 +32023,22 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block$3.name,
+    		id: create_if_block_8.name,
     		type: "if",
-    		source: "(206:20) {#if result && result.business_goals!== null}",
+    		source: "(218:20) {#if result && result.value_proposition!== null}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (205:18) <CardText class="mb-0">
-    function create_default_slot_8$5(ctx) {
+    // (217:18) <CardText class="mb-0">
+    function create_default_slot_40$2(ctx) {
     	let if_block_anchor;
 
     	function select_block_type_3(ctx, dirty) {
-    		if (/*result*/ ctx[1] && /*result*/ ctx[1].business_goals !== null) return create_if_block$3;
-    		return create_else_block$2;
+    		if (/*result*/ ctx[1] && /*result*/ ctx[1].value_proposition !== null) return create_if_block_8;
+    		return create_else_block_8;
     	}
 
     	let current_block_type = select_block_type_3(ctx);
@@ -31943,16 +32074,2232 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_8$5.name,
+    		id: create_default_slot_40$2.name,
     		type: "slot",
-    		source: "(205:18) <CardText class=\\\"mb-0\\\">",
+    		source: "(217:18) <CardText class=\\\"mb-0\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (204:16) <Col sm="12">
+    // (216:16) <Col sm="12">
+    function create_default_slot_39$2(ctx) {
+    	let cardtext;
+    	let current;
+
+    	cardtext = new CardText({
+    			props: {
+    				class: "mb-0",
+    				$$slots: { default: [create_default_slot_40$2] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(cardtext.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(cardtext, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const cardtext_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 4098) {
+    				cardtext_changes.$$scope = { dirty, ctx };
+    			}
+
+    			cardtext.$set(cardtext_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(cardtext.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(cardtext.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(cardtext, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_39$2.name,
+    		type: "slot",
+    		source: "(216:16) <Col sm=\\\"12\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (215:14) <Row>
+    function create_default_slot_38$2(ctx) {
+    	let col;
+    	let current;
+
+    	col = new Col({
+    			props: {
+    				sm: "12",
+    				$$slots: { default: [create_default_slot_39$2] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(col.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(col, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const col_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 4098) {
+    				col_changes.$$scope = { dirty, ctx };
+    			}
+
+    			col.$set(col_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(col.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(col.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(col, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_38$2.name,
+    		type: "slot",
+    		source: "(215:14) <Row>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (214:12) <TabPane tabId="3" class="{customActiveTab == "3" ? 'active': ''}">
+    function create_default_slot_37$2(ctx) {
+    	let row;
+    	let current;
+
+    	row = new Row({
+    			props: {
+    				$$slots: { default: [create_default_slot_38$2] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(row.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(row, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const row_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 4098) {
+    				row_changes.$$scope = { dirty, ctx };
+    			}
+
+    			row.$set(row_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(row.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(row.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(row, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_37$2.name,
+    		type: "slot",
+    		source: "(214:12) <TabPane tabId=\\\"3\\\" class=\\\"{customActiveTab == \\\"3\\\" ? 'active': ''}\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (233:20) {:else}
+    function create_else_block_7$1(ctx) {
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text("No Value Prposition avaliable");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		p: noop$1,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_else_block_7$1.name,
+    		type: "else",
+    		source: "(233:20) {:else}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (231:20) {#if result && result.value_proposition!== null}
+    function create_if_block_7$1(ctx) {
+    	let t_value = /*result*/ ctx[1].value_proposition + "";
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text(t_value);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		p: function update(ctx, dirty) {
+    			if (dirty & /*result*/ 2 && t_value !== (t_value = /*result*/ ctx[1].value_proposition + "")) set_data_dev(t, t_value);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_7$1.name,
+    		type: "if",
+    		source: "(231:20) {#if result && result.value_proposition!== null}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (230:18) <CardText class="mb-0">
+    function create_default_slot_36$2(ctx) {
+    	let if_block_anchor;
+
+    	function select_block_type_4(ctx, dirty) {
+    		if (/*result*/ ctx[1] && /*result*/ ctx[1].value_proposition !== null) return create_if_block_7$1;
+    		return create_else_block_7$1;
+    	}
+
+    	let current_block_type = select_block_type_4(ctx);
+    	let if_block = current_block_type(ctx);
+
+    	const block = {
+    		c: function create() {
+    			if_block.c();
+    			if_block_anchor = empty();
+    		},
+    		m: function mount(target, anchor) {
+    			if_block.m(target, anchor);
+    			insert_dev(target, if_block_anchor, anchor);
+    		},
+    		p: function update(ctx, dirty) {
+    			if (current_block_type === (current_block_type = select_block_type_4(ctx)) && if_block) {
+    				if_block.p(ctx, dirty);
+    			} else {
+    				if_block.d(1);
+    				if_block = current_block_type(ctx);
+
+    				if (if_block) {
+    					if_block.c();
+    					if_block.m(if_block_anchor.parentNode, if_block_anchor);
+    				}
+    			}
+    		},
+    		d: function destroy(detaching) {
+    			if_block.d(detaching);
+    			if (detaching) detach_dev(if_block_anchor);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_36$2.name,
+    		type: "slot",
+    		source: "(230:18) <CardText class=\\\"mb-0\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (229:16) <Col sm="12">
+    function create_default_slot_35$2(ctx) {
+    	let cardtext;
+    	let current;
+
+    	cardtext = new CardText({
+    			props: {
+    				class: "mb-0",
+    				$$slots: { default: [create_default_slot_36$2] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(cardtext.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(cardtext, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const cardtext_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 4098) {
+    				cardtext_changes.$$scope = { dirty, ctx };
+    			}
+
+    			cardtext.$set(cardtext_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(cardtext.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(cardtext.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(cardtext, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_35$2.name,
+    		type: "slot",
+    		source: "(229:16) <Col sm=\\\"12\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (228:14) <Row>
+    function create_default_slot_34$3(ctx) {
+    	let col;
+    	let current;
+
+    	col = new Col({
+    			props: {
+    				sm: "12",
+    				$$slots: { default: [create_default_slot_35$2] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(col.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(col, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const col_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 4098) {
+    				col_changes.$$scope = { dirty, ctx };
+    			}
+
+    			col.$set(col_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(col.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(col.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(col, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_34$3.name,
+    		type: "slot",
+    		source: "(228:14) <Row>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (227:12) <TabPane tabId="3" class="{customActiveTab == "3" ? 'active': ''}">
+    function create_default_slot_33$3(ctx) {
+    	let row;
+    	let current;
+
+    	row = new Row({
+    			props: {
+    				$$slots: { default: [create_default_slot_34$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(row.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(row, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const row_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 4098) {
+    				row_changes.$$scope = { dirty, ctx };
+    			}
+
+    			row.$set(row_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(row.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(row.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(row, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_33$3.name,
+    		type: "slot",
+    		source: "(227:12) <TabPane tabId=\\\"3\\\" class=\\\"{customActiveTab == \\\"3\\\" ? 'active': ''}\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (246:20) {:else}
+    function create_else_block_6$1(ctx) {
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text("No Value Prposition Short avaliable");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		p: noop$1,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_else_block_6$1.name,
+    		type: "else",
+    		source: "(246:20) {:else}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (244:20) {#if result && result.value_proposition_short!== null}
+    function create_if_block_6$1(ctx) {
+    	let t_value = /*result*/ ctx[1].value_proposition_short + "";
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text(t_value);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		p: function update(ctx, dirty) {
+    			if (dirty & /*result*/ 2 && t_value !== (t_value = /*result*/ ctx[1].value_proposition_short + "")) set_data_dev(t, t_value);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_6$1.name,
+    		type: "if",
+    		source: "(244:20) {#if result && result.value_proposition_short!== null}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (243:18) <CardText class="mb-0">
+    function create_default_slot_32$3(ctx) {
+    	let if_block_anchor;
+
+    	function select_block_type_5(ctx, dirty) {
+    		if (/*result*/ ctx[1] && /*result*/ ctx[1].value_proposition_short !== null) return create_if_block_6$1;
+    		return create_else_block_6$1;
+    	}
+
+    	let current_block_type = select_block_type_5(ctx);
+    	let if_block = current_block_type(ctx);
+
+    	const block = {
+    		c: function create() {
+    			if_block.c();
+    			if_block_anchor = empty();
+    		},
+    		m: function mount(target, anchor) {
+    			if_block.m(target, anchor);
+    			insert_dev(target, if_block_anchor, anchor);
+    		},
+    		p: function update(ctx, dirty) {
+    			if (current_block_type === (current_block_type = select_block_type_5(ctx)) && if_block) {
+    				if_block.p(ctx, dirty);
+    			} else {
+    				if_block.d(1);
+    				if_block = current_block_type(ctx);
+
+    				if (if_block) {
+    					if_block.c();
+    					if_block.m(if_block_anchor.parentNode, if_block_anchor);
+    				}
+    			}
+    		},
+    		d: function destroy(detaching) {
+    			if_block.d(detaching);
+    			if (detaching) detach_dev(if_block_anchor);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_32$3.name,
+    		type: "slot",
+    		source: "(243:18) <CardText class=\\\"mb-0\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (242:16) <Col sm="12">
+    function create_default_slot_31$3(ctx) {
+    	let cardtext;
+    	let current;
+
+    	cardtext = new CardText({
+    			props: {
+    				class: "mb-0",
+    				$$slots: { default: [create_default_slot_32$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(cardtext.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(cardtext, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const cardtext_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 4098) {
+    				cardtext_changes.$$scope = { dirty, ctx };
+    			}
+
+    			cardtext.$set(cardtext_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(cardtext.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(cardtext.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(cardtext, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_31$3.name,
+    		type: "slot",
+    		source: "(242:16) <Col sm=\\\"12\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (241:14) <Row>
+    function create_default_slot_30$3(ctx) {
+    	let col;
+    	let current;
+
+    	col = new Col({
+    			props: {
+    				sm: "12",
+    				$$slots: { default: [create_default_slot_31$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(col.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(col, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const col_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 4098) {
+    				col_changes.$$scope = { dirty, ctx };
+    			}
+
+    			col.$set(col_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(col.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(col.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(col, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_30$3.name,
+    		type: "slot",
+    		source: "(241:14) <Row>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (240:12) <TabPane tabId="4" class="{customActiveTab == "4" ? 'active': ''}">
+    function create_default_slot_29$3(ctx) {
+    	let row;
+    	let current;
+
+    	row = new Row({
+    			props: {
+    				$$slots: { default: [create_default_slot_30$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(row.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(row, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const row_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 4098) {
+    				row_changes.$$scope = { dirty, ctx };
+    			}
+
+    			row.$set(row_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(row.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(row.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(row, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_29$3.name,
+    		type: "slot",
+    		source: "(240:12) <TabPane tabId=\\\"4\\\" class=\\\"{customActiveTab == \\\"4\\\" ? 'active': ''}\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (259:20) {:else}
+    function create_else_block_5$1(ctx) {
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text("No Business Description avaliable");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		p: noop$1,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_else_block_5$1.name,
+    		type: "else",
+    		source: "(259:20) {:else}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (257:20) {#if result && result.business_description!== null}
+    function create_if_block_5$1(ctx) {
+    	let t_value = /*result*/ ctx[1].business_description + "";
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text(t_value);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		p: function update(ctx, dirty) {
+    			if (dirty & /*result*/ 2 && t_value !== (t_value = /*result*/ ctx[1].business_description + "")) set_data_dev(t, t_value);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_5$1.name,
+    		type: "if",
+    		source: "(257:20) {#if result && result.business_description!== null}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (256:18) <CardText class="mb-0">
+    function create_default_slot_28$3(ctx) {
+    	let if_block_anchor;
+
+    	function select_block_type_6(ctx, dirty) {
+    		if (/*result*/ ctx[1] && /*result*/ ctx[1].business_description !== null) return create_if_block_5$1;
+    		return create_else_block_5$1;
+    	}
+
+    	let current_block_type = select_block_type_6(ctx);
+    	let if_block = current_block_type(ctx);
+
+    	const block = {
+    		c: function create() {
+    			if_block.c();
+    			if_block_anchor = empty();
+    		},
+    		m: function mount(target, anchor) {
+    			if_block.m(target, anchor);
+    			insert_dev(target, if_block_anchor, anchor);
+    		},
+    		p: function update(ctx, dirty) {
+    			if (current_block_type === (current_block_type = select_block_type_6(ctx)) && if_block) {
+    				if_block.p(ctx, dirty);
+    			} else {
+    				if_block.d(1);
+    				if_block = current_block_type(ctx);
+
+    				if (if_block) {
+    					if_block.c();
+    					if_block.m(if_block_anchor.parentNode, if_block_anchor);
+    				}
+    			}
+    		},
+    		d: function destroy(detaching) {
+    			if_block.d(detaching);
+    			if (detaching) detach_dev(if_block_anchor);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_28$3.name,
+    		type: "slot",
+    		source: "(256:18) <CardText class=\\\"mb-0\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (255:16) <Col sm="12">
+    function create_default_slot_27$3(ctx) {
+    	let cardtext;
+    	let current;
+
+    	cardtext = new CardText({
+    			props: {
+    				class: "mb-0",
+    				$$slots: { default: [create_default_slot_28$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(cardtext.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(cardtext, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const cardtext_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 4098) {
+    				cardtext_changes.$$scope = { dirty, ctx };
+    			}
+
+    			cardtext.$set(cardtext_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(cardtext.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(cardtext.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(cardtext, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_27$3.name,
+    		type: "slot",
+    		source: "(255:16) <Col sm=\\\"12\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (254:14) <Row>
+    function create_default_slot_26$3(ctx) {
+    	let col;
+    	let current;
+
+    	col = new Col({
+    			props: {
+    				sm: "12",
+    				$$slots: { default: [create_default_slot_27$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(col.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(col, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const col_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 4098) {
+    				col_changes.$$scope = { dirty, ctx };
+    			}
+
+    			col.$set(col_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(col.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(col.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(col, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_26$3.name,
+    		type: "slot",
+    		source: "(254:14) <Row>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (253:12) <TabPane tabId="5" class="{customActiveTab == "5" ? 'active': ''}">
+    function create_default_slot_25$3(ctx) {
+    	let row;
+    	let current;
+
+    	row = new Row({
+    			props: {
+    				$$slots: { default: [create_default_slot_26$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(row.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(row, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const row_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 4098) {
+    				row_changes.$$scope = { dirty, ctx };
+    			}
+
+    			row.$set(row_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(row.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(row.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(row, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_25$3.name,
+    		type: "slot",
+    		source: "(253:12) <TabPane tabId=\\\"5\\\" class=\\\"{customActiveTab == \\\"5\\\" ? 'active': ''}\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (272:20) {:else}
+    function create_else_block_4$2(ctx) {
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text("No Business Success avaliable");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		p: noop$1,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_else_block_4$2.name,
+    		type: "else",
+    		source: "(272:20) {:else}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (270:20) {#if result && result.business_success!== null}
+    function create_if_block_4$2(ctx) {
+    	let t_value = /*result*/ ctx[1].business_success + "";
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text(t_value);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		p: function update(ctx, dirty) {
+    			if (dirty & /*result*/ 2 && t_value !== (t_value = /*result*/ ctx[1].business_success + "")) set_data_dev(t, t_value);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_4$2.name,
+    		type: "if",
+    		source: "(270:20) {#if result && result.business_success!== null}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (269:18) <CardText class="mb-0">
+    function create_default_slot_24$3(ctx) {
+    	let if_block_anchor;
+
+    	function select_block_type_7(ctx, dirty) {
+    		if (/*result*/ ctx[1] && /*result*/ ctx[1].business_success !== null) return create_if_block_4$2;
+    		return create_else_block_4$2;
+    	}
+
+    	let current_block_type = select_block_type_7(ctx);
+    	let if_block = current_block_type(ctx);
+
+    	const block = {
+    		c: function create() {
+    			if_block.c();
+    			if_block_anchor = empty();
+    		},
+    		m: function mount(target, anchor) {
+    			if_block.m(target, anchor);
+    			insert_dev(target, if_block_anchor, anchor);
+    		},
+    		p: function update(ctx, dirty) {
+    			if (current_block_type === (current_block_type = select_block_type_7(ctx)) && if_block) {
+    				if_block.p(ctx, dirty);
+    			} else {
+    				if_block.d(1);
+    				if_block = current_block_type(ctx);
+
+    				if (if_block) {
+    					if_block.c();
+    					if_block.m(if_block_anchor.parentNode, if_block_anchor);
+    				}
+    			}
+    		},
+    		d: function destroy(detaching) {
+    			if_block.d(detaching);
+    			if (detaching) detach_dev(if_block_anchor);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_24$3.name,
+    		type: "slot",
+    		source: "(269:18) <CardText class=\\\"mb-0\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (268:16) <Col sm="12">
+    function create_default_slot_23$3(ctx) {
+    	let cardtext;
+    	let current;
+
+    	cardtext = new CardText({
+    			props: {
+    				class: "mb-0",
+    				$$slots: { default: [create_default_slot_24$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(cardtext.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(cardtext, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const cardtext_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 4098) {
+    				cardtext_changes.$$scope = { dirty, ctx };
+    			}
+
+    			cardtext.$set(cardtext_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(cardtext.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(cardtext.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(cardtext, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_23$3.name,
+    		type: "slot",
+    		source: "(268:16) <Col sm=\\\"12\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (267:14) <Row>
+    function create_default_slot_22$3(ctx) {
+    	let col;
+    	let current;
+
+    	col = new Col({
+    			props: {
+    				sm: "12",
+    				$$slots: { default: [create_default_slot_23$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(col.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(col, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const col_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 4098) {
+    				col_changes.$$scope = { dirty, ctx };
+    			}
+
+    			col.$set(col_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(col.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(col.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(col, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_22$3.name,
+    		type: "slot",
+    		source: "(267:14) <Row>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (266:12) <TabPane tabId="6" class="{customActiveTab == "6" ? 'active': ''}">
+    function create_default_slot_21$3(ctx) {
+    	let row;
+    	let current;
+
+    	row = new Row({
+    			props: {
+    				$$slots: { default: [create_default_slot_22$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(row.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(row, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const row_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 4098) {
+    				row_changes.$$scope = { dirty, ctx };
+    			}
+
+    			row.$set(row_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(row.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(row.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(row, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_21$3.name,
+    		type: "slot",
+    		source: "(266:12) <TabPane tabId=\\\"6\\\" class=\\\"{customActiveTab == \\\"6\\\" ? 'active': ''}\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (285:20) {:else}
+    function create_else_block_3$2(ctx) {
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text("No Business Explanation avaliable");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		p: noop$1,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_else_block_3$2.name,
+    		type: "else",
+    		source: "(285:20) {:else}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (283:20) {#if result && result.business_explanation!== null}
+    function create_if_block_3$2(ctx) {
+    	let t_value = /*result*/ ctx[1].business_explanation + "";
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text(t_value);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		p: function update(ctx, dirty) {
+    			if (dirty & /*result*/ 2 && t_value !== (t_value = /*result*/ ctx[1].business_explanation + "")) set_data_dev(t, t_value);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_3$2.name,
+    		type: "if",
+    		source: "(283:20) {#if result && result.business_explanation!== null}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (282:18) <CardText class="mb-0">
+    function create_default_slot_20$3(ctx) {
+    	let if_block_anchor;
+
+    	function select_block_type_8(ctx, dirty) {
+    		if (/*result*/ ctx[1] && /*result*/ ctx[1].business_explanation !== null) return create_if_block_3$2;
+    		return create_else_block_3$2;
+    	}
+
+    	let current_block_type = select_block_type_8(ctx);
+    	let if_block = current_block_type(ctx);
+
+    	const block = {
+    		c: function create() {
+    			if_block.c();
+    			if_block_anchor = empty();
+    		},
+    		m: function mount(target, anchor) {
+    			if_block.m(target, anchor);
+    			insert_dev(target, if_block_anchor, anchor);
+    		},
+    		p: function update(ctx, dirty) {
+    			if (current_block_type === (current_block_type = select_block_type_8(ctx)) && if_block) {
+    				if_block.p(ctx, dirty);
+    			} else {
+    				if_block.d(1);
+    				if_block = current_block_type(ctx);
+
+    				if (if_block) {
+    					if_block.c();
+    					if_block.m(if_block_anchor.parentNode, if_block_anchor);
+    				}
+    			}
+    		},
+    		d: function destroy(detaching) {
+    			if_block.d(detaching);
+    			if (detaching) detach_dev(if_block_anchor);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_20$3.name,
+    		type: "slot",
+    		source: "(282:18) <CardText class=\\\"mb-0\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (281:16) <Col sm="12">
+    function create_default_slot_19$3(ctx) {
+    	let cardtext;
+    	let current;
+
+    	cardtext = new CardText({
+    			props: {
+    				class: "mb-0",
+    				$$slots: { default: [create_default_slot_20$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(cardtext.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(cardtext, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const cardtext_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 4098) {
+    				cardtext_changes.$$scope = { dirty, ctx };
+    			}
+
+    			cardtext.$set(cardtext_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(cardtext.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(cardtext.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(cardtext, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_19$3.name,
+    		type: "slot",
+    		source: "(281:16) <Col sm=\\\"12\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (280:14) <Row>
+    function create_default_slot_18$3(ctx) {
+    	let col;
+    	let current;
+
+    	col = new Col({
+    			props: {
+    				sm: "12",
+    				$$slots: { default: [create_default_slot_19$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(col.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(col, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const col_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 4098) {
+    				col_changes.$$scope = { dirty, ctx };
+    			}
+
+    			col.$set(col_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(col.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(col.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(col, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_18$3.name,
+    		type: "slot",
+    		source: "(280:14) <Row>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (279:12) <TabPane tabId="7" class="{customActiveTab == "7" ? 'active': ''}">
+    function create_default_slot_17$3(ctx) {
+    	let row;
+    	let current;
+
+    	row = new Row({
+    			props: {
+    				$$slots: { default: [create_default_slot_18$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(row.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(row, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const row_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 4098) {
+    				row_changes.$$scope = { dirty, ctx };
+    			}
+
+    			row.$set(row_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(row.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(row.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(row, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_17$3.name,
+    		type: "slot",
+    		source: "(279:12) <TabPane tabId=\\\"7\\\" class=\\\"{customActiveTab == \\\"7\\\" ? 'active': ''}\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (298:20) {:else}
+    function create_else_block_2$2(ctx) {
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text("No Business Explanation avaliable");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		p: noop$1,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_else_block_2$2.name,
+    		type: "else",
+    		source: "(298:20) {:else}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (296:20) {#if result && result.kpi!== null}
+    function create_if_block_2$2(ctx) {
+    	let t_value = /*result*/ ctx[1].kpi + "";
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text(t_value);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		p: function update(ctx, dirty) {
+    			if (dirty & /*result*/ 2 && t_value !== (t_value = /*result*/ ctx[1].kpi + "")) set_data_dev(t, t_value);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_2$2.name,
+    		type: "if",
+    		source: "(296:20) {#if result && result.kpi!== null}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (295:18) <CardText class="mb-0">
+    function create_default_slot_16$3(ctx) {
+    	let if_block_anchor;
+
+    	function select_block_type_9(ctx, dirty) {
+    		if (/*result*/ ctx[1] && /*result*/ ctx[1].kpi !== null) return create_if_block_2$2;
+    		return create_else_block_2$2;
+    	}
+
+    	let current_block_type = select_block_type_9(ctx);
+    	let if_block = current_block_type(ctx);
+
+    	const block = {
+    		c: function create() {
+    			if_block.c();
+    			if_block_anchor = empty();
+    		},
+    		m: function mount(target, anchor) {
+    			if_block.m(target, anchor);
+    			insert_dev(target, if_block_anchor, anchor);
+    		},
+    		p: function update(ctx, dirty) {
+    			if (current_block_type === (current_block_type = select_block_type_9(ctx)) && if_block) {
+    				if_block.p(ctx, dirty);
+    			} else {
+    				if_block.d(1);
+    				if_block = current_block_type(ctx);
+
+    				if (if_block) {
+    					if_block.c();
+    					if_block.m(if_block_anchor.parentNode, if_block_anchor);
+    				}
+    			}
+    		},
+    		d: function destroy(detaching) {
+    			if_block.d(detaching);
+    			if (detaching) detach_dev(if_block_anchor);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_16$3.name,
+    		type: "slot",
+    		source: "(295:18) <CardText class=\\\"mb-0\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (294:16) <Col sm="12">
+    function create_default_slot_15$3(ctx) {
+    	let cardtext;
+    	let current;
+
+    	cardtext = new CardText({
+    			props: {
+    				class: "mb-0",
+    				$$slots: { default: [create_default_slot_16$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(cardtext.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(cardtext, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const cardtext_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 4098) {
+    				cardtext_changes.$$scope = { dirty, ctx };
+    			}
+
+    			cardtext.$set(cardtext_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(cardtext.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(cardtext.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(cardtext, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_15$3.name,
+    		type: "slot",
+    		source: "(294:16) <Col sm=\\\"12\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (293:14) <Row>
+    function create_default_slot_14$3(ctx) {
+    	let col;
+    	let current;
+
+    	col = new Col({
+    			props: {
+    				sm: "12",
+    				$$slots: { default: [create_default_slot_15$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(col.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(col, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const col_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 4098) {
+    				col_changes.$$scope = { dirty, ctx };
+    			}
+
+    			col.$set(col_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(col.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(col.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(col, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_14$3.name,
+    		type: "slot",
+    		source: "(293:14) <Row>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (292:12) <TabPane tabId="8" class="{customActiveTab == "8" ? 'active': ''}">
+    function create_default_slot_13$4(ctx) {
+    	let row;
+    	let current;
+
+    	row = new Row({
+    			props: {
+    				$$slots: { default: [create_default_slot_14$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(row.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(row, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const row_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 4098) {
+    				row_changes.$$scope = { dirty, ctx };
+    			}
+
+    			row.$set(row_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(row.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(row.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(row, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_13$4.name,
+    		type: "slot",
+    		source: "(292:12) <TabPane tabId=\\\"8\\\" class=\\\"{customActiveTab == \\\"8\\\" ? 'active': ''}\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (311:20) {:else}
+    function create_else_block_1$2(ctx) {
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text("No Core Problems avaliable");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		p: noop$1,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_else_block_1$2.name,
+    		type: "else",
+    		source: "(311:20) {:else}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (309:20) {#if result && result.core_problems!== null}
+    function create_if_block_1$2(ctx) {
+    	let t_value = /*result*/ ctx[1].core_problems + "";
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text(t_value);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		p: function update(ctx, dirty) {
+    			if (dirty & /*result*/ 2 && t_value !== (t_value = /*result*/ ctx[1].core_problems + "")) set_data_dev(t, t_value);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_1$2.name,
+    		type: "if",
+    		source: "(309:20) {#if result && result.core_problems!== null}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (308:18) <CardText class="mb-0">
+    function create_default_slot_12$4(ctx) {
+    	let if_block_anchor;
+
+    	function select_block_type_10(ctx, dirty) {
+    		if (/*result*/ ctx[1] && /*result*/ ctx[1].core_problems !== null) return create_if_block_1$2;
+    		return create_else_block_1$2;
+    	}
+
+    	let current_block_type = select_block_type_10(ctx);
+    	let if_block = current_block_type(ctx);
+
+    	const block = {
+    		c: function create() {
+    			if_block.c();
+    			if_block_anchor = empty();
+    		},
+    		m: function mount(target, anchor) {
+    			if_block.m(target, anchor);
+    			insert_dev(target, if_block_anchor, anchor);
+    		},
+    		p: function update(ctx, dirty) {
+    			if (current_block_type === (current_block_type = select_block_type_10(ctx)) && if_block) {
+    				if_block.p(ctx, dirty);
+    			} else {
+    				if_block.d(1);
+    				if_block = current_block_type(ctx);
+
+    				if (if_block) {
+    					if_block.c();
+    					if_block.m(if_block_anchor.parentNode, if_block_anchor);
+    				}
+    			}
+    		},
+    		d: function destroy(detaching) {
+    			if_block.d(detaching);
+    			if (detaching) detach_dev(if_block_anchor);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_12$4.name,
+    		type: "slot",
+    		source: "(308:18) <CardText class=\\\"mb-0\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (307:16) <Col sm="12">
+    function create_default_slot_11$4(ctx) {
+    	let cardtext;
+    	let current;
+
+    	cardtext = new CardText({
+    			props: {
+    				class: "mb-0",
+    				$$slots: { default: [create_default_slot_12$4] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(cardtext.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(cardtext, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const cardtext_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 4098) {
+    				cardtext_changes.$$scope = { dirty, ctx };
+    			}
+
+    			cardtext.$set(cardtext_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(cardtext.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(cardtext.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(cardtext, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_11$4.name,
+    		type: "slot",
+    		source: "(307:16) <Col sm=\\\"12\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (306:14) <Row>
+    function create_default_slot_10$5(ctx) {
+    	let col;
+    	let current;
+
+    	col = new Col({
+    			props: {
+    				sm: "12",
+    				$$slots: { default: [create_default_slot_11$4] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(col.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(col, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const col_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 4098) {
+    				col_changes.$$scope = { dirty, ctx };
+    			}
+
+    			col.$set(col_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(col.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(col.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(col, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_10$5.name,
+    		type: "slot",
+    		source: "(306:14) <Row>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (305:12) <TabPane tabId="9" class="{customActiveTab == "9" ? 'active': ''}">
+    function create_default_slot_9$5(ctx) {
+    	let row;
+    	let current;
+
+    	row = new Row({
+    			props: {
+    				$$slots: { default: [create_default_slot_10$5] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(row.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(row, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const row_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 4098) {
+    				row_changes.$$scope = { dirty, ctx };
+    			}
+
+    			row.$set(row_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(row.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(row.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(row, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_9$5.name,
+    		type: "slot",
+    		source: "(305:12) <TabPane tabId=\\\"9\\\" class=\\\"{customActiveTab == \\\"9\\\" ? 'active': ''}\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (324:20) {:else}
+    function create_else_block$2(ctx) {
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text("No Core Problems avaliable");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		p: noop$1,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_else_block$2.name,
+    		type: "else",
+    		source: "(324:20) {:else}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (322:20) {#if result && result.business_goals!== null}
+    function create_if_block$3(ctx) {
+    	let t_value = /*result*/ ctx[1].business_goals + "";
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text(t_value);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		p: function update(ctx, dirty) {
+    			if (dirty & /*result*/ 2 && t_value !== (t_value = /*result*/ ctx[1].business_goals + "")) set_data_dev(t, t_value);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block$3.name,
+    		type: "if",
+    		source: "(322:20) {#if result && result.business_goals!== null}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (321:18) <CardText class="mb-0">
+    function create_default_slot_8$5(ctx) {
+    	let if_block_anchor;
+
+    	function select_block_type_11(ctx, dirty) {
+    		if (/*result*/ ctx[1] && /*result*/ ctx[1].business_goals !== null) return create_if_block$3;
+    		return create_else_block$2;
+    	}
+
+    	let current_block_type = select_block_type_11(ctx);
+    	let if_block = current_block_type(ctx);
+
+    	const block = {
+    		c: function create() {
+    			if_block.c();
+    			if_block_anchor = empty();
+    		},
+    		m: function mount(target, anchor) {
+    			if_block.m(target, anchor);
+    			insert_dev(target, if_block_anchor, anchor);
+    		},
+    		p: function update(ctx, dirty) {
+    			if (current_block_type === (current_block_type = select_block_type_11(ctx)) && if_block) {
+    				if_block.p(ctx, dirty);
+    			} else {
+    				if_block.d(1);
+    				if_block = current_block_type(ctx);
+
+    				if (if_block) {
+    					if_block.c();
+    					if_block.m(if_block_anchor.parentNode, if_block_anchor);
+    				}
+    			}
+    		},
+    		d: function destroy(detaching) {
+    			if_block.d(detaching);
+    			if (detaching) detach_dev(if_block_anchor);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_8$5.name,
+    		type: "slot",
+    		source: "(321:18) <CardText class=\\\"mb-0\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (320:16) <Col sm="12">
     function create_default_slot_7$6(ctx) {
     	let cardtext;
     	let current;
@@ -31977,7 +34324,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const cardtext_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 2050) {
+    			if (dirty & /*$$scope, result*/ 4098) {
     				cardtext_changes.$$scope = { dirty, ctx };
     			}
 
@@ -32001,14 +34348,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_7$6.name,
     		type: "slot",
-    		source: "(204:16) <Col sm=\\\"12\\\">",
+    		source: "(320:16) <Col sm=\\\"12\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (203:14) <Row>
+    // (319:14) <Row>
     function create_default_slot_6$6(ctx) {
     	let col;
     	let current;
@@ -32033,7 +34380,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const col_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 2050) {
+    			if (dirty & /*$$scope, result*/ 4098) {
     				col_changes.$$scope = { dirty, ctx };
     			}
 
@@ -32057,14 +34404,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_6$6.name,
     		type: "slot",
-    		source: "(203:14) <Row>",
+    		source: "(319:14) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (202:12) <TabPane tabId="3" class="{customActiveTab == "3" ? 'active': ''}">
+    // (318:12) <TabPane tabId="10" class="{customActiveTab == "10" ? 'active': ''}">
     function create_default_slot_5$6(ctx) {
     	let row;
     	let current;
@@ -32088,7 +34435,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const row_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 2050) {
+    			if (dirty & /*$$scope, result*/ 4098) {
     				row_changes.$$scope = { dirty, ctx };
     			}
 
@@ -32112,27 +34459,43 @@ var app = (function () {
     		block,
     		id: create_default_slot_5$6.name,
     		type: "slot",
-    		source: "(202:12) <TabPane tabId=\\\"3\\\" class=\\\"{customActiveTab == \\\"3\\\" ? 'active': ''}\\\">",
+    		source: "(318:12) <TabPane tabId=\\\"10\\\" class=\\\"{customActiveTab == \\\"10\\\" ? 'active': ''}\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (175:10) <TabContent activeTab={customActiveTab} class="p-3 text-muted">
+    // (187:10) <TabContent activeTab={customActiveTab} class="p-3 text-muted">
     function create_default_slot_4$6(ctx) {
     	let tabpane0;
     	let t0;
     	let tabpane1;
     	let t1;
     	let tabpane2;
+    	let t2;
+    	let tabpane3;
+    	let t3;
+    	let tabpane4;
+    	let t4;
+    	let tabpane5;
+    	let t5;
+    	let tabpane6;
+    	let t6;
+    	let tabpane7;
+    	let t7;
+    	let tabpane8;
+    	let t8;
+    	let tabpane9;
+    	let t9;
+    	let tabpane10;
     	let current;
 
     	tabpane0 = new TabPane({
     			props: {
     				tabId: "1",
     				class: /*customActiveTab*/ ctx[0] == "1" ? 'active' : '',
-    				$$slots: { default: [create_default_slot_13$4] },
+    				$$slots: { default: [create_default_slot_45$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -32142,7 +34505,7 @@ var app = (function () {
     			props: {
     				tabId: "2",
     				class: /*customActiveTab*/ ctx[0] == "2" ? 'active' : '',
-    				$$slots: { default: [create_default_slot_9$5] },
+    				$$slots: { default: [create_default_slot_41$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -32152,6 +34515,86 @@ var app = (function () {
     			props: {
     				tabId: "3",
     				class: /*customActiveTab*/ ctx[0] == "3" ? 'active' : '',
+    				$$slots: { default: [create_default_slot_37$2] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	tabpane3 = new TabPane({
+    			props: {
+    				tabId: "3",
+    				class: /*customActiveTab*/ ctx[0] == "3" ? 'active' : '',
+    				$$slots: { default: [create_default_slot_33$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	tabpane4 = new TabPane({
+    			props: {
+    				tabId: "4",
+    				class: /*customActiveTab*/ ctx[0] == "4" ? 'active' : '',
+    				$$slots: { default: [create_default_slot_29$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	tabpane5 = new TabPane({
+    			props: {
+    				tabId: "5",
+    				class: /*customActiveTab*/ ctx[0] == "5" ? 'active' : '',
+    				$$slots: { default: [create_default_slot_25$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	tabpane6 = new TabPane({
+    			props: {
+    				tabId: "6",
+    				class: /*customActiveTab*/ ctx[0] == "6" ? 'active' : '',
+    				$$slots: { default: [create_default_slot_21$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	tabpane7 = new TabPane({
+    			props: {
+    				tabId: "7",
+    				class: /*customActiveTab*/ ctx[0] == "7" ? 'active' : '',
+    				$$slots: { default: [create_default_slot_17$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	tabpane8 = new TabPane({
+    			props: {
+    				tabId: "8",
+    				class: /*customActiveTab*/ ctx[0] == "8" ? 'active' : '',
+    				$$slots: { default: [create_default_slot_13$4] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	tabpane9 = new TabPane({
+    			props: {
+    				tabId: "9",
+    				class: /*customActiveTab*/ ctx[0] == "9" ? 'active' : '',
+    				$$slots: { default: [create_default_slot_9$5] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	tabpane10 = new TabPane({
+    			props: {
+    				tabId: "10",
+    				class: /*customActiveTab*/ ctx[0] == "10" ? 'active' : '',
     				$$slots: { default: [create_default_slot_5$6] },
     				$$scope: { ctx }
     			},
@@ -32165,6 +34608,22 @@ var app = (function () {
     			create_component(tabpane1.$$.fragment);
     			t1 = space();
     			create_component(tabpane2.$$.fragment);
+    			t2 = space();
+    			create_component(tabpane3.$$.fragment);
+    			t3 = space();
+    			create_component(tabpane4.$$.fragment);
+    			t4 = space();
+    			create_component(tabpane5.$$.fragment);
+    			t5 = space();
+    			create_component(tabpane6.$$.fragment);
+    			t6 = space();
+    			create_component(tabpane7.$$.fragment);
+    			t7 = space();
+    			create_component(tabpane8.$$.fragment);
+    			t8 = space();
+    			create_component(tabpane9.$$.fragment);
+    			t9 = space();
+    			create_component(tabpane10.$$.fragment);
     		},
     		m: function mount(target, anchor) {
     			mount_component(tabpane0, target, anchor);
@@ -32172,13 +34631,29 @@ var app = (function () {
     			mount_component(tabpane1, target, anchor);
     			insert_dev(target, t1, anchor);
     			mount_component(tabpane2, target, anchor);
+    			insert_dev(target, t2, anchor);
+    			mount_component(tabpane3, target, anchor);
+    			insert_dev(target, t3, anchor);
+    			mount_component(tabpane4, target, anchor);
+    			insert_dev(target, t4, anchor);
+    			mount_component(tabpane5, target, anchor);
+    			insert_dev(target, t5, anchor);
+    			mount_component(tabpane6, target, anchor);
+    			insert_dev(target, t6, anchor);
+    			mount_component(tabpane7, target, anchor);
+    			insert_dev(target, t7, anchor);
+    			mount_component(tabpane8, target, anchor);
+    			insert_dev(target, t8, anchor);
+    			mount_component(tabpane9, target, anchor);
+    			insert_dev(target, t9, anchor);
+    			mount_component(tabpane10, target, anchor);
     			current = true;
     		},
     		p: function update(ctx, dirty) {
     			const tabpane0_changes = {};
     			if (dirty & /*customActiveTab*/ 1) tabpane0_changes.class = /*customActiveTab*/ ctx[0] == "1" ? 'active' : '';
 
-    			if (dirty & /*$$scope, result*/ 2050) {
+    			if (dirty & /*$$scope, result*/ 4098) {
     				tabpane0_changes.$$scope = { dirty, ctx };
     			}
 
@@ -32186,7 +34661,7 @@ var app = (function () {
     			const tabpane1_changes = {};
     			if (dirty & /*customActiveTab*/ 1) tabpane1_changes.class = /*customActiveTab*/ ctx[0] == "2" ? 'active' : '';
 
-    			if (dirty & /*$$scope, result*/ 2050) {
+    			if (dirty & /*$$scope, result*/ 4098) {
     				tabpane1_changes.$$scope = { dirty, ctx };
     			}
 
@@ -32194,23 +34669,103 @@ var app = (function () {
     			const tabpane2_changes = {};
     			if (dirty & /*customActiveTab*/ 1) tabpane2_changes.class = /*customActiveTab*/ ctx[0] == "3" ? 'active' : '';
 
-    			if (dirty & /*$$scope, result*/ 2050) {
+    			if (dirty & /*$$scope, result*/ 4098) {
     				tabpane2_changes.$$scope = { dirty, ctx };
     			}
 
     			tabpane2.$set(tabpane2_changes);
+    			const tabpane3_changes = {};
+    			if (dirty & /*customActiveTab*/ 1) tabpane3_changes.class = /*customActiveTab*/ ctx[0] == "3" ? 'active' : '';
+
+    			if (dirty & /*$$scope, result*/ 4098) {
+    				tabpane3_changes.$$scope = { dirty, ctx };
+    			}
+
+    			tabpane3.$set(tabpane3_changes);
+    			const tabpane4_changes = {};
+    			if (dirty & /*customActiveTab*/ 1) tabpane4_changes.class = /*customActiveTab*/ ctx[0] == "4" ? 'active' : '';
+
+    			if (dirty & /*$$scope, result*/ 4098) {
+    				tabpane4_changes.$$scope = { dirty, ctx };
+    			}
+
+    			tabpane4.$set(tabpane4_changes);
+    			const tabpane5_changes = {};
+    			if (dirty & /*customActiveTab*/ 1) tabpane5_changes.class = /*customActiveTab*/ ctx[0] == "5" ? 'active' : '';
+
+    			if (dirty & /*$$scope, result*/ 4098) {
+    				tabpane5_changes.$$scope = { dirty, ctx };
+    			}
+
+    			tabpane5.$set(tabpane5_changes);
+    			const tabpane6_changes = {};
+    			if (dirty & /*customActiveTab*/ 1) tabpane6_changes.class = /*customActiveTab*/ ctx[0] == "6" ? 'active' : '';
+
+    			if (dirty & /*$$scope, result*/ 4098) {
+    				tabpane6_changes.$$scope = { dirty, ctx };
+    			}
+
+    			tabpane6.$set(tabpane6_changes);
+    			const tabpane7_changes = {};
+    			if (dirty & /*customActiveTab*/ 1) tabpane7_changes.class = /*customActiveTab*/ ctx[0] == "7" ? 'active' : '';
+
+    			if (dirty & /*$$scope, result*/ 4098) {
+    				tabpane7_changes.$$scope = { dirty, ctx };
+    			}
+
+    			tabpane7.$set(tabpane7_changes);
+    			const tabpane8_changes = {};
+    			if (dirty & /*customActiveTab*/ 1) tabpane8_changes.class = /*customActiveTab*/ ctx[0] == "8" ? 'active' : '';
+
+    			if (dirty & /*$$scope, result*/ 4098) {
+    				tabpane8_changes.$$scope = { dirty, ctx };
+    			}
+
+    			tabpane8.$set(tabpane8_changes);
+    			const tabpane9_changes = {};
+    			if (dirty & /*customActiveTab*/ 1) tabpane9_changes.class = /*customActiveTab*/ ctx[0] == "9" ? 'active' : '';
+
+    			if (dirty & /*$$scope, result*/ 4098) {
+    				tabpane9_changes.$$scope = { dirty, ctx };
+    			}
+
+    			tabpane9.$set(tabpane9_changes);
+    			const tabpane10_changes = {};
+    			if (dirty & /*customActiveTab*/ 1) tabpane10_changes.class = /*customActiveTab*/ ctx[0] == "10" ? 'active' : '';
+
+    			if (dirty & /*$$scope, result*/ 4098) {
+    				tabpane10_changes.$$scope = { dirty, ctx };
+    			}
+
+    			tabpane10.$set(tabpane10_changes);
     		},
     		i: function intro(local) {
     			if (current) return;
     			transition_in(tabpane0.$$.fragment, local);
     			transition_in(tabpane1.$$.fragment, local);
     			transition_in(tabpane2.$$.fragment, local);
+    			transition_in(tabpane3.$$.fragment, local);
+    			transition_in(tabpane4.$$.fragment, local);
+    			transition_in(tabpane5.$$.fragment, local);
+    			transition_in(tabpane6.$$.fragment, local);
+    			transition_in(tabpane7.$$.fragment, local);
+    			transition_in(tabpane8.$$.fragment, local);
+    			transition_in(tabpane9.$$.fragment, local);
+    			transition_in(tabpane10.$$.fragment, local);
     			current = true;
     		},
     		o: function outro(local) {
     			transition_out(tabpane0.$$.fragment, local);
     			transition_out(tabpane1.$$.fragment, local);
     			transition_out(tabpane2.$$.fragment, local);
+    			transition_out(tabpane3.$$.fragment, local);
+    			transition_out(tabpane4.$$.fragment, local);
+    			transition_out(tabpane5.$$.fragment, local);
+    			transition_out(tabpane6.$$.fragment, local);
+    			transition_out(tabpane7.$$.fragment, local);
+    			transition_out(tabpane8.$$.fragment, local);
+    			transition_out(tabpane9.$$.fragment, local);
+    			transition_out(tabpane10.$$.fragment, local);
     			current = false;
     		},
     		d: function destroy(detaching) {
@@ -32219,6 +34774,22 @@ var app = (function () {
     			destroy_component(tabpane1, detaching);
     			if (detaching) detach_dev(t1);
     			destroy_component(tabpane2, detaching);
+    			if (detaching) detach_dev(t2);
+    			destroy_component(tabpane3, detaching);
+    			if (detaching) detach_dev(t3);
+    			destroy_component(tabpane4, detaching);
+    			if (detaching) detach_dev(t4);
+    			destroy_component(tabpane5, detaching);
+    			if (detaching) detach_dev(t5);
+    			destroy_component(tabpane6, detaching);
+    			if (detaching) detach_dev(t6);
+    			destroy_component(tabpane7, detaching);
+    			if (detaching) detach_dev(t7);
+    			destroy_component(tabpane8, detaching);
+    			if (detaching) detach_dev(t8);
+    			destroy_component(tabpane9, detaching);
+    			if (detaching) detach_dev(t9);
+    			destroy_component(tabpane10, detaching);
     		}
     	};
 
@@ -32226,7 +34797,7 @@ var app = (function () {
     		block,
     		id: create_default_slot_4$6.name,
     		type: "slot",
-    		source: "(175:10) <TabContent activeTab={customActiveTab} class=\\\"p-3 text-muted\\\">",
+    		source: "(187:10) <TabContent activeTab={customActiveTab} class=\\\"p-3 text-muted\\\">",
     		ctx
     	});
 
@@ -32245,7 +34816,7 @@ var app = (function () {
     	row = new Row({
     			props: {
     				class: "p-4",
-    				$$slots: { default: [create_default_slot_36$1] },
+    				$$slots: { default: [create_default_slot_70$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -32256,7 +34827,7 @@ var app = (function () {
     				tabs: true,
     				class: "nav nav-tabs nav-tabs-custom justify-content-center pt-2",
     				role: "tablist",
-    				$$slots: { default: [create_default_slot_17$3] },
+    				$$slots: { default: [create_default_slot_49$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -32291,14 +34862,14 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const row_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 2050) {
+    			if (dirty & /*$$scope, result*/ 4098) {
     				row_changes.$$scope = { dirty, ctx };
     			}
 
     			row.$set(row_changes);
     			const nav_changes = {};
 
-    			if (dirty & /*$$scope, customActiveTab*/ 2049) {
+    			if (dirty & /*$$scope, customActiveTab*/ 4097) {
     				nav_changes.$$scope = { dirty, ctx };
     			}
 
@@ -32306,7 +34877,7 @@ var app = (function () {
     			const tabcontent_changes = {};
     			if (dirty & /*customActiveTab*/ 1) tabcontent_changes.activeTab = /*customActiveTab*/ ctx[0];
 
-    			if (dirty & /*$$scope, customActiveTab, result*/ 2051) {
+    			if (dirty & /*$$scope, customActiveTab, result*/ 4099) {
     				tabcontent_changes.$$scope = { dirty, ctx };
     			}
 
@@ -32369,7 +34940,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const cardbody_changes = {};
 
-    			if (dirty & /*$$scope, customActiveTab, result*/ 2051) {
+    			if (dirty & /*$$scope, customActiveTab, result*/ 4099) {
     				cardbody_changes.$$scope = { dirty, ctx };
     			}
 
@@ -32424,7 +34995,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const card_changes = {};
 
-    			if (dirty & /*$$scope, customActiveTab, result*/ 2051) {
+    			if (dirty & /*$$scope, customActiveTab, result*/ 4099) {
     				card_changes.$$scope = { dirty, ctx };
     			}
 
@@ -32494,7 +35065,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const col_changes = {};
 
-    			if (dirty & /*$$scope, customActiveTab, result*/ 2051) {
+    			if (dirty & /*$$scope, customActiveTab, result*/ 4099) {
     				col_changes.$$scope = { dirty, ctx };
     			}
 
@@ -32561,7 +35132,7 @@ var app = (function () {
     		p: function update(ctx, [dirty]) {
     			const container_changes = {};
 
-    			if (dirty & /*$$scope, customActiveTab, result*/ 2051) {
+    			if (dirty & /*$$scope, customActiveTab, result*/ 4099) {
     				container_changes.$$scope = { dirty, ctx };
     			}
 
@@ -32619,8 +35190,9 @@ var app = (function () {
     	const click_handler_4 = () => $$invalidate(0, customActiveTab = "5");
     	const click_handler_5 = () => $$invalidate(0, customActiveTab = "6");
     	const click_handler_6 = () => $$invalidate(0, customActiveTab = "7");
-    	const click_handler_7 = () => $$invalidate(0, customActiveTab = "2");
-    	const click_handler_8 = () => $$invalidate(0, customActiveTab = "3");
+    	const click_handler_7 = () => $$invalidate(0, customActiveTab = "8");
+    	const click_handler_8 = () => $$invalidate(0, customActiveTab = "9");
+    	const click_handler_9 = () => $$invalidate(0, customActiveTab = "10");
 
     	$$self.$capture_state = () => ({
     		Link,
@@ -32666,7 +35238,8 @@ var app = (function () {
     		click_handler_5,
     		click_handler_6,
     		click_handler_7,
-    		click_handler_8
+    		click_handler_8,
+    		click_handler_9
     	];
     }
 
@@ -32687,10 +35260,11 @@ var app = (function () {
     /* src/pages/Pipelines/marketingResearch.svelte generated by Svelte v3.59.2 */
 
     const { console: console_1$3 } = globals;
+
     const file$i = "src/pages/Pipelines/marketingResearch.svelte";
 
-    // (44:14) <CardTitle  class="h4 target-audience">
-    function create_default_slot_28$2(ctx) {
+    // (45:14) <CardTitle  class="h4 target-audience">
+    function create_default_slot_52$1(ctx) {
     	let t;
 
     	const block = {
@@ -32707,17 +35281,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_28$2.name,
+    		id: create_default_slot_52$1.name,
     		type: "slot",
-    		source: "(44:14) <CardTitle  class=\\\"h4 target-audience\\\">",
+    		source: "(45:14) <CardTitle  class=\\\"h4 target-audience\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (43:12) <Col sm={8}>
-    function create_default_slot_27$2(ctx) {
+    // (44:12) <Col sm={8}>
+    function create_default_slot_51$1(ctx) {
     	let cardtitle;
     	let t0;
     	let p;
@@ -32726,7 +35300,7 @@ var app = (function () {
     	cardtitle = new CardTitle({
     			props: {
     				class: "h4 target-audience",
-    				$$slots: { default: [create_default_slot_28$2] },
+    				$$slots: { default: [create_default_slot_52$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -32739,7 +35313,7 @@ var app = (function () {
     			p = element("p");
     			p.textContent = "Market trends, consumer preferences, and make informed\n                business decisions.";
     			attr_dev(p, "class", "card-title-desc");
-    			add_location(p, file$i, 44, 14, 941);
+    			add_location(p, file$i, 45, 14, 1032);
     		},
     		m: function mount(target, anchor) {
     			mount_component(cardtitle, target, anchor);
@@ -32750,7 +35324,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const cardtitle_changes = {};
 
-    			if (dirty & /*$$scope*/ 32) {
+    			if (dirty & /*$$scope*/ 512) {
     				cardtitle_changes.$$scope = { dirty, ctx };
     			}
 
@@ -32774,17 +35348,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_27$2.name,
+    		id: create_default_slot_51$1.name,
     		type: "slot",
-    		source: "(43:12) <Col sm={8}>",
+    		source: "(44:12) <Col sm={8}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (49:14) <CardTitle class="h2">
-    function create_default_slot_26$2(ctx) {
+    // (50:14) <CardTitle class="h2">
+    function create_default_slot_50$1(ctx) {
     	let t;
 
     	const block = {
@@ -32801,17 +35375,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_26$2.name,
+    		id: create_default_slot_50$1.name,
     		type: "slot",
-    		source: "(49:14) <CardTitle class=\\\"h2\\\">",
+    		source: "(50:14) <CardTitle class=\\\"h2\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (54:14) {:else}
-    function create_else_block_3$1(ctx) {
+    // (55:14) {:else}
+    function create_else_block_7(ctx) {
     	let span;
 
     	const block = {
@@ -32819,7 +35393,7 @@ var app = (function () {
     			span = element("span");
     			span.textContent = "Not active";
     			attr_dev(span, "class", "badge rounded-pill badge-soft-dark");
-    			add_location(span, file$i, 54, 16, 1367);
+    			add_location(span, file$i, 55, 16, 1458);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span, anchor);
@@ -32831,17 +35405,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_else_block_3$1.name,
+    		id: create_else_block_7.name,
     		type: "else",
-    		source: "(54:14) {:else}",
+    		source: "(55:14) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (50:14) {#if result}
-    function create_if_block_3$1(ctx) {
+    // (51:14) {#if result}
+    function create_if_block_7(ctx) {
     	let span;
 
     	const block = {
@@ -32849,7 +35423,7 @@ var app = (function () {
     			span = element("span");
     			span.textContent = "Complete";
     			attr_dev(span, "class", "badge rounded-pill badge-soft-primary");
-    			add_location(span, file$i, 50, 16, 1225);
+    			add_location(span, file$i, 51, 16, 1316);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span, anchor);
@@ -32861,17 +35435,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_3$1.name,
+    		id: create_if_block_7.name,
     		type: "if",
-    		source: "(50:14) {#if result}",
+    		source: "(51:14) {#if result}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (48:12) <Col sm={4} class="text-sm-end">
-    function create_default_slot_25$2(ctx) {
+    // (49:12) <Col sm={4} class="text-sm-end">
+    function create_default_slot_49$1(ctx) {
     	let cardtitle;
     	let t;
     	let if_block_anchor;
@@ -32880,15 +35454,15 @@ var app = (function () {
     	cardtitle = new CardTitle({
     			props: {
     				class: "h2",
-    				$$slots: { default: [create_default_slot_26$2] },
+    				$$slots: { default: [create_default_slot_50$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
     		});
 
     	function select_block_type(ctx, dirty) {
-    		if (/*result*/ ctx[1]) return create_if_block_3$1;
-    		return create_else_block_3$1;
+    		if (/*result*/ ctx[1]) return create_if_block_7;
+    		return create_else_block_7;
     	}
 
     	let current_block_type = select_block_type(ctx);
@@ -32911,7 +35485,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const cardtitle_changes = {};
 
-    			if (dirty & /*$$scope*/ 32) {
+    			if (dirty & /*$$scope*/ 512) {
     				cardtitle_changes.$$scope = { dirty, ctx };
     			}
 
@@ -32946,17 +35520,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_25$2.name,
+    		id: create_default_slot_49$1.name,
     		type: "slot",
-    		source: "(48:12) <Col sm={4} class=\\\"text-sm-end\\\">",
+    		source: "(49:12) <Col sm={4} class=\\\"text-sm-end\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (42:10) <Row class= "p-4">
-    function create_default_slot_24$2(ctx) {
+    // (43:10) <Row class= "p-4">
+    function create_default_slot_48$1(ctx) {
     	let col0;
     	let t;
     	let col1;
@@ -32965,7 +35539,7 @@ var app = (function () {
     	col0 = new Col({
     			props: {
     				sm: 8,
-    				$$slots: { default: [create_default_slot_27$2] },
+    				$$slots: { default: [create_default_slot_51$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -32975,7 +35549,7 @@ var app = (function () {
     			props: {
     				sm: 4,
     				class: "text-sm-end",
-    				$$slots: { default: [create_default_slot_25$2] },
+    				$$slots: { default: [create_default_slot_49$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -32996,14 +35570,14 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const col0_changes = {};
 
-    			if (dirty & /*$$scope*/ 32) {
+    			if (dirty & /*$$scope*/ 512) {
     				col0_changes.$$scope = { dirty, ctx };
     			}
 
     			col0.$set(col0_changes);
     			const col1_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 34) {
+    			if (dirty & /*$$scope, result*/ 514) {
     				col1_changes.$$scope = { dirty, ctx };
     			}
 
@@ -33029,17 +35603,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_24$2.name,
+    		id: create_default_slot_48$1.name,
     		type: "slot",
-    		source: "(42:10) <Row class= \\\"p-4\\\">",
+    		source: "(43:10) <Row class= \\\"p-4\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (66:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "1")}                 active={customActiveTab == "1"}               >
-    function create_default_slot_23$2(ctx) {
+    // (67:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "1")}                 active={customActiveTab == "1"}               >
+    function create_default_slot_47$1(ctx) {
     	let span0;
     	let i;
     	let t0;
@@ -33051,13 +35625,13 @@ var app = (function () {
     			i = element("i");
     			t0 = space();
     			span1 = element("span");
-    			span1.textContent = "1. Market Research Summary";
+    			span1.textContent = "1. Needs Analysis";
     			attr_dev(i, "class", "fas fa-home");
-    			add_location(i, file$i, 71, 18, 1934);
+    			add_location(i, file$i, 72, 18, 2025);
     			attr_dev(span0, "class", "d-block d-sm-none");
-    			add_location(span0, file$i, 70, 16, 1883);
+    			add_location(span0, file$i, 71, 16, 1974);
     			attr_dev(span1, "class", "d-none d-sm-block");
-    			add_location(span1, file$i, 73, 16, 2000);
+    			add_location(span1, file$i, 74, 16, 2091);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span0, anchor);
@@ -33075,17 +35649,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_23$2.name,
+    		id: create_default_slot_47$1.name,
     		type: "slot",
-    		source: "(66:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"1\\\")}                 active={customActiveTab == \\\"1\\\"}               >",
+    		source: "(67:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"1\\\")}                 active={customActiveTab == \\\"1\\\"}               >",
     		ctx
     	});
 
     	return block;
     }
 
-    // (65:12) <NavItem>
-    function create_default_slot_22$2(ctx) {
+    // (66:12) <NavItem>
+    function create_default_slot_46$1(ctx) {
     	let navlink;
     	let current;
 
@@ -33093,7 +35667,7 @@ var app = (function () {
     			props: {
     				style: "cursor: pointer",
     				active: /*customActiveTab*/ ctx[0] == "1",
-    				$$slots: { default: [create_default_slot_23$2] },
+    				$$slots: { default: [create_default_slot_47$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -33113,7 +35687,7 @@ var app = (function () {
     			const navlink_changes = {};
     			if (dirty & /*customActiveTab*/ 1) navlink_changes.active = /*customActiveTab*/ ctx[0] == "1";
 
-    			if (dirty & /*$$scope*/ 32) {
+    			if (dirty & /*$$scope*/ 512) {
     				navlink_changes.$$scope = { dirty, ctx };
     			}
 
@@ -33135,17 +35709,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_22$2.name,
+    		id: create_default_slot_46$1.name,
     		type: "slot",
-    		source: "(65:12) <NavItem>",
+    		source: "(66:12) <NavItem>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (78:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "2")}                 active={customActiveTab == "2"}               >
-    function create_default_slot_21$2(ctx) {
+    // (79:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "2")}                 active={customActiveTab == "2"}               >
+    function create_default_slot_45$1(ctx) {
     	let span0;
     	let i;
     	let t0;
@@ -33157,13 +35731,13 @@ var app = (function () {
     			i = element("i");
     			t0 = space();
     			span1 = element("span");
-    			span1.textContent = "2.Customer Journey";
-    			attr_dev(i, "class", "far fa-user");
-    			add_location(i, file$i, 83, 18, 2388);
+    			span1.textContent = "2. Market Trend Analysis";
+    			attr_dev(i, "class", "fas fa-home");
+    			add_location(i, file$i, 84, 18, 2470);
     			attr_dev(span0, "class", "d-block d-sm-none");
-    			add_location(span0, file$i, 82, 16, 2337);
+    			add_location(span0, file$i, 83, 16, 2419);
     			attr_dev(span1, "class", "d-none d-sm-block");
-    			add_location(span1, file$i, 85, 16, 2454);
+    			add_location(span1, file$i, 86, 16, 2536);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span0, anchor);
@@ -33181,17 +35755,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_21$2.name,
+    		id: create_default_slot_45$1.name,
     		type: "slot",
-    		source: "(78:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"2\\\")}                 active={customActiveTab == \\\"2\\\"}               >",
+    		source: "(79:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"2\\\")}                 active={customActiveTab == \\\"2\\\"}               >",
     		ctx
     	});
 
     	return block;
     }
 
-    // (77:12) <NavItem>
-    function create_default_slot_20$2(ctx) {
+    // (78:12) <NavItem>
+    function create_default_slot_44$1(ctx) {
     	let navlink;
     	let current;
 
@@ -33199,7 +35773,7 @@ var app = (function () {
     			props: {
     				style: "cursor: pointer",
     				active: /*customActiveTab*/ ctx[0] == "2",
-    				$$slots: { default: [create_default_slot_21$2] },
+    				$$slots: { default: [create_default_slot_45$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -33219,7 +35793,7 @@ var app = (function () {
     			const navlink_changes = {};
     			if (dirty & /*customActiveTab*/ 1) navlink_changes.active = /*customActiveTab*/ ctx[0] == "2";
 
-    			if (dirty & /*$$scope*/ 32) {
+    			if (dirty & /*$$scope*/ 512) {
     				navlink_changes.$$scope = { dirty, ctx };
     			}
 
@@ -33241,17 +35815,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_20$2.name,
+    		id: create_default_slot_44$1.name,
     		type: "slot",
-    		source: "(77:12) <NavItem>",
+    		source: "(78:12) <NavItem>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (90:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "3")}                 active={customActiveTab == "3"}               >
-    function create_default_slot_19$2(ctx) {
+    // (91:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "3")}                 active={customActiveTab == "3"}               >
+    function create_default_slot_43$1(ctx) {
     	let span0;
     	let i;
     	let t0;
@@ -33263,13 +35837,13 @@ var app = (function () {
     			i = element("i");
     			t0 = space();
     			span1 = element("span");
-    			span1.textContent = "3. Brand Position";
-    			attr_dev(i, "class", "far fa-user");
-    			add_location(i, file$i, 95, 18, 2833);
+    			span1.textContent = "3. Competitive Analysis";
+    			attr_dev(i, "class", "fas fa-home");
+    			add_location(i, file$i, 96, 18, 2923);
     			attr_dev(span0, "class", "d-block d-sm-none");
-    			add_location(span0, file$i, 94, 16, 2782);
+    			add_location(span0, file$i, 95, 16, 2872);
     			attr_dev(span1, "class", "d-none d-sm-block");
-    			add_location(span1, file$i, 97, 16, 2899);
+    			add_location(span1, file$i, 98, 16, 2989);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span0, anchor);
@@ -33287,17 +35861,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_19$2.name,
+    		id: create_default_slot_43$1.name,
     		type: "slot",
-    		source: "(90:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"3\\\")}                 active={customActiveTab == \\\"3\\\"}               >",
+    		source: "(91:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"3\\\")}                 active={customActiveTab == \\\"3\\\"}               >",
     		ctx
     	});
 
     	return block;
     }
 
-    // (89:12) <NavItem>
-    function create_default_slot_18$2(ctx) {
+    // (90:12) <NavItem>
+    function create_default_slot_42$1(ctx) {
     	let navlink;
     	let current;
 
@@ -33305,7 +35879,7 @@ var app = (function () {
     			props: {
     				style: "cursor: pointer",
     				active: /*customActiveTab*/ ctx[0] == "3",
-    				$$slots: { default: [create_default_slot_19$2] },
+    				$$slots: { default: [create_default_slot_43$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -33325,7 +35899,7 @@ var app = (function () {
     			const navlink_changes = {};
     			if (dirty & /*customActiveTab*/ 1) navlink_changes.active = /*customActiveTab*/ ctx[0] == "3";
 
-    			if (dirty & /*$$scope*/ 32) {
+    			if (dirty & /*$$scope*/ 512) {
     				navlink_changes.$$scope = { dirty, ctx };
     			}
 
@@ -33347,27 +35921,459 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_18$2.name,
+    		id: create_default_slot_42$1.name,
     		type: "slot",
-    		source: "(89:12) <NavItem>",
+    		source: "(90:12) <NavItem>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (63:10) <Nav tabs class="nav nav-tabs nav-tabs-custom justify-content-center pt-2"           role="tablist">
-    function create_default_slot_17$2(ctx) {
+    // (103:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "4")}                 active={customActiveTab == "4"}               >
+    function create_default_slot_41$1(ctx) {
+    	let span0;
+    	let i;
+    	let t0;
+    	let span1;
+
+    	const block = {
+    		c: function create() {
+    			span0 = element("span");
+    			i = element("i");
+    			t0 = space();
+    			span1 = element("span");
+    			span1.textContent = "4. Market Research Summary";
+    			attr_dev(i, "class", "fas fa-home");
+    			add_location(i, file$i, 108, 18, 3374);
+    			attr_dev(span0, "class", "d-block d-sm-none");
+    			add_location(span0, file$i, 107, 16, 3323);
+    			attr_dev(span1, "class", "d-none d-sm-block");
+    			add_location(span1, file$i, 110, 16, 3440);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, span0, anchor);
+    			append_dev(span0, i);
+    			insert_dev(target, t0, anchor);
+    			insert_dev(target, span1, anchor);
+    		},
+    		p: noop$1,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(span0);
+    			if (detaching) detach_dev(t0);
+    			if (detaching) detach_dev(span1);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_41$1.name,
+    		type: "slot",
+    		source: "(103:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"4\\\")}                 active={customActiveTab == \\\"4\\\"}               >",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (102:12) <NavItem>
+    function create_default_slot_40$1(ctx) {
+    	let navlink;
+    	let current;
+
+    	navlink = new NavLink({
+    			props: {
+    				style: "cursor: pointer",
+    				active: /*customActiveTab*/ ctx[0] == "4",
+    				$$slots: { default: [create_default_slot_41$1] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	navlink.$on("click", /*click_handler_3*/ ctx[5]);
+
+    	const block = {
+    		c: function create() {
+    			create_component(navlink.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(navlink, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const navlink_changes = {};
+    			if (dirty & /*customActiveTab*/ 1) navlink_changes.active = /*customActiveTab*/ ctx[0] == "4";
+
+    			if (dirty & /*$$scope*/ 512) {
+    				navlink_changes.$$scope = { dirty, ctx };
+    			}
+
+    			navlink.$set(navlink_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(navlink.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(navlink.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(navlink, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_40$1.name,
+    		type: "slot",
+    		source: "(102:12) <NavItem>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (115:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "5")}                 active={customActiveTab == "5"}               >
+    function create_default_slot_39$1(ctx) {
+    	let span0;
+    	let i;
+    	let t0;
+    	let span1;
+
+    	const block = {
+    		c: function create() {
+    			span0 = element("span");
+    			i = element("i");
+    			t0 = space();
+    			span1 = element("span");
+    			span1.textContent = "5. Customer Journey";
+    			attr_dev(i, "class", "fas fa-home");
+    			add_location(i, file$i, 120, 18, 3828);
+    			attr_dev(span0, "class", "d-block d-sm-none");
+    			add_location(span0, file$i, 119, 16, 3777);
+    			attr_dev(span1, "class", "d-none d-sm-block");
+    			add_location(span1, file$i, 122, 16, 3894);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, span0, anchor);
+    			append_dev(span0, i);
+    			insert_dev(target, t0, anchor);
+    			insert_dev(target, span1, anchor);
+    		},
+    		p: noop$1,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(span0);
+    			if (detaching) detach_dev(t0);
+    			if (detaching) detach_dev(span1);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_39$1.name,
+    		type: "slot",
+    		source: "(115:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"5\\\")}                 active={customActiveTab == \\\"5\\\"}               >",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (114:12) <NavItem>
+    function create_default_slot_38$1(ctx) {
+    	let navlink;
+    	let current;
+
+    	navlink = new NavLink({
+    			props: {
+    				style: "cursor: pointer",
+    				active: /*customActiveTab*/ ctx[0] == "5",
+    				$$slots: { default: [create_default_slot_39$1] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	navlink.$on("click", /*click_handler_4*/ ctx[6]);
+
+    	const block = {
+    		c: function create() {
+    			create_component(navlink.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(navlink, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const navlink_changes = {};
+    			if (dirty & /*customActiveTab*/ 1) navlink_changes.active = /*customActiveTab*/ ctx[0] == "5";
+
+    			if (dirty & /*$$scope*/ 512) {
+    				navlink_changes.$$scope = { dirty, ctx };
+    			}
+
+    			navlink.$set(navlink_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(navlink.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(navlink.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(navlink, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_38$1.name,
+    		type: "slot",
+    		source: "(114:12) <NavItem>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (127:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "6")}                 active={customActiveTab == "6"}               >
+    function create_default_slot_37$1(ctx) {
+    	let span0;
+    	let i;
+    	let t0;
+    	let span1;
+
+    	const block = {
+    		c: function create() {
+    			span0 = element("span");
+    			i = element("i");
+    			t0 = space();
+    			span1 = element("span");
+    			span1.textContent = "6. Brand Position";
+    			attr_dev(i, "class", "fas fa-home");
+    			add_location(i, file$i, 132, 18, 4275);
+    			attr_dev(span0, "class", "d-block d-sm-none");
+    			add_location(span0, file$i, 131, 16, 4224);
+    			attr_dev(span1, "class", "d-none d-sm-block");
+    			add_location(span1, file$i, 134, 16, 4341);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, span0, anchor);
+    			append_dev(span0, i);
+    			insert_dev(target, t0, anchor);
+    			insert_dev(target, span1, anchor);
+    		},
+    		p: noop$1,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(span0);
+    			if (detaching) detach_dev(t0);
+    			if (detaching) detach_dev(span1);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_37$1.name,
+    		type: "slot",
+    		source: "(127:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"6\\\")}                 active={customActiveTab == \\\"6\\\"}               >",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (126:12) <NavItem>
+    function create_default_slot_36$1(ctx) {
+    	let navlink;
+    	let current;
+
+    	navlink = new NavLink({
+    			props: {
+    				style: "cursor: pointer",
+    				active: /*customActiveTab*/ ctx[0] == "6",
+    				$$slots: { default: [create_default_slot_37$1] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	navlink.$on("click", /*click_handler_5*/ ctx[7]);
+
+    	const block = {
+    		c: function create() {
+    			create_component(navlink.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(navlink, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const navlink_changes = {};
+    			if (dirty & /*customActiveTab*/ 1) navlink_changes.active = /*customActiveTab*/ ctx[0] == "6";
+
+    			if (dirty & /*$$scope*/ 512) {
+    				navlink_changes.$$scope = { dirty, ctx };
+    			}
+
+    			navlink.$set(navlink_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(navlink.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(navlink.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(navlink, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_36$1.name,
+    		type: "slot",
+    		source: "(126:12) <NavItem>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (139:14) <NavLink                 style="cursor: pointer"                 on:click={() => (customActiveTab = "7")}                 active={customActiveTab == "7"}               >
+    function create_default_slot_35$1(ctx) {
+    	let span0;
+    	let i;
+    	let t0;
+    	let span1;
+
+    	const block = {
+    		c: function create() {
+    			span0 = element("span");
+    			i = element("i");
+    			t0 = space();
+    			span1 = element("span");
+    			span1.textContent = "7. Brand Position";
+    			attr_dev(i, "class", "fas fa-home");
+    			add_location(i, file$i, 144, 18, 4720);
+    			attr_dev(span0, "class", "d-block d-sm-none");
+    			add_location(span0, file$i, 143, 16, 4669);
+    			attr_dev(span1, "class", "d-none d-sm-block");
+    			add_location(span1, file$i, 146, 16, 4786);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, span0, anchor);
+    			append_dev(span0, i);
+    			insert_dev(target, t0, anchor);
+    			insert_dev(target, span1, anchor);
+    		},
+    		p: noop$1,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(span0);
+    			if (detaching) detach_dev(t0);
+    			if (detaching) detach_dev(span1);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_35$1.name,
+    		type: "slot",
+    		source: "(139:14) <NavLink                 style=\\\"cursor: pointer\\\"                 on:click={() => (customActiveTab = \\\"7\\\")}                 active={customActiveTab == \\\"7\\\"}               >",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (138:12) <NavItem>
+    function create_default_slot_34$2(ctx) {
+    	let navlink;
+    	let current;
+
+    	navlink = new NavLink({
+    			props: {
+    				style: "cursor: pointer",
+    				active: /*customActiveTab*/ ctx[0] == "7",
+    				$$slots: { default: [create_default_slot_35$1] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	navlink.$on("click", /*click_handler_6*/ ctx[8]);
+
+    	const block = {
+    		c: function create() {
+    			create_component(navlink.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(navlink, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const navlink_changes = {};
+    			if (dirty & /*customActiveTab*/ 1) navlink_changes.active = /*customActiveTab*/ ctx[0] == "7";
+
+    			if (dirty & /*$$scope*/ 512) {
+    				navlink_changes.$$scope = { dirty, ctx };
+    			}
+
+    			navlink.$set(navlink_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(navlink.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(navlink.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(navlink, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_34$2.name,
+    		type: "slot",
+    		source: "(138:12) <NavItem>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (64:10) <Nav tabs class="nav nav-tabs nav-tabs-custom justify-content-center pt-2"           role="tablist">
+    function create_default_slot_33$2(ctx) {
     	let navitem0;
     	let t0;
     	let navitem1;
     	let t1;
     	let navitem2;
+    	let t2;
+    	let navitem3;
+    	let t3;
+    	let navitem4;
+    	let t4;
+    	let navitem5;
+    	let t5;
+    	let navitem6;
     	let current;
 
     	navitem0 = new NavItem({
     			props: {
-    				$$slots: { default: [create_default_slot_22$2] },
+    				$$slots: { default: [create_default_slot_46$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -33375,7 +36381,7 @@ var app = (function () {
 
     	navitem1 = new NavItem({
     			props: {
-    				$$slots: { default: [create_default_slot_20$2] },
+    				$$slots: { default: [create_default_slot_44$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -33383,7 +36389,39 @@ var app = (function () {
 
     	navitem2 = new NavItem({
     			props: {
-    				$$slots: { default: [create_default_slot_18$2] },
+    				$$slots: { default: [create_default_slot_42$1] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	navitem3 = new NavItem({
+    			props: {
+    				$$slots: { default: [create_default_slot_40$1] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	navitem4 = new NavItem({
+    			props: {
+    				$$slots: { default: [create_default_slot_38$1] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	navitem5 = new NavItem({
+    			props: {
+    				$$slots: { default: [create_default_slot_36$1] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	navitem6 = new NavItem({
+    			props: {
+    				$$slots: { default: [create_default_slot_34$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -33396,6 +36434,14 @@ var app = (function () {
     			create_component(navitem1.$$.fragment);
     			t1 = space();
     			create_component(navitem2.$$.fragment);
+    			t2 = space();
+    			create_component(navitem3.$$.fragment);
+    			t3 = space();
+    			create_component(navitem4.$$.fragment);
+    			t4 = space();
+    			create_component(navitem5.$$.fragment);
+    			t5 = space();
+    			create_component(navitem6.$$.fragment);
     		},
     		m: function mount(target, anchor) {
     			mount_component(navitem0, target, anchor);
@@ -33403,42 +36449,86 @@ var app = (function () {
     			mount_component(navitem1, target, anchor);
     			insert_dev(target, t1, anchor);
     			mount_component(navitem2, target, anchor);
+    			insert_dev(target, t2, anchor);
+    			mount_component(navitem3, target, anchor);
+    			insert_dev(target, t3, anchor);
+    			mount_component(navitem4, target, anchor);
+    			insert_dev(target, t4, anchor);
+    			mount_component(navitem5, target, anchor);
+    			insert_dev(target, t5, anchor);
+    			mount_component(navitem6, target, anchor);
     			current = true;
     		},
     		p: function update(ctx, dirty) {
     			const navitem0_changes = {};
 
-    			if (dirty & /*$$scope, customActiveTab*/ 33) {
+    			if (dirty & /*$$scope, customActiveTab*/ 513) {
     				navitem0_changes.$$scope = { dirty, ctx };
     			}
 
     			navitem0.$set(navitem0_changes);
     			const navitem1_changes = {};
 
-    			if (dirty & /*$$scope, customActiveTab*/ 33) {
+    			if (dirty & /*$$scope, customActiveTab*/ 513) {
     				navitem1_changes.$$scope = { dirty, ctx };
     			}
 
     			navitem1.$set(navitem1_changes);
     			const navitem2_changes = {};
 
-    			if (dirty & /*$$scope, customActiveTab*/ 33) {
+    			if (dirty & /*$$scope, customActiveTab*/ 513) {
     				navitem2_changes.$$scope = { dirty, ctx };
     			}
 
     			navitem2.$set(navitem2_changes);
+    			const navitem3_changes = {};
+
+    			if (dirty & /*$$scope, customActiveTab*/ 513) {
+    				navitem3_changes.$$scope = { dirty, ctx };
+    			}
+
+    			navitem3.$set(navitem3_changes);
+    			const navitem4_changes = {};
+
+    			if (dirty & /*$$scope, customActiveTab*/ 513) {
+    				navitem4_changes.$$scope = { dirty, ctx };
+    			}
+
+    			navitem4.$set(navitem4_changes);
+    			const navitem5_changes = {};
+
+    			if (dirty & /*$$scope, customActiveTab*/ 513) {
+    				navitem5_changes.$$scope = { dirty, ctx };
+    			}
+
+    			navitem5.$set(navitem5_changes);
+    			const navitem6_changes = {};
+
+    			if (dirty & /*$$scope, customActiveTab*/ 513) {
+    				navitem6_changes.$$scope = { dirty, ctx };
+    			}
+
+    			navitem6.$set(navitem6_changes);
     		},
     		i: function intro(local) {
     			if (current) return;
     			transition_in(navitem0.$$.fragment, local);
     			transition_in(navitem1.$$.fragment, local);
     			transition_in(navitem2.$$.fragment, local);
+    			transition_in(navitem3.$$.fragment, local);
+    			transition_in(navitem4.$$.fragment, local);
+    			transition_in(navitem5.$$.fragment, local);
+    			transition_in(navitem6.$$.fragment, local);
     			current = true;
     		},
     		o: function outro(local) {
     			transition_out(navitem0.$$.fragment, local);
     			transition_out(navitem1.$$.fragment, local);
     			transition_out(navitem2.$$.fragment, local);
+    			transition_out(navitem3.$$.fragment, local);
+    			transition_out(navitem4.$$.fragment, local);
+    			transition_out(navitem5.$$.fragment, local);
+    			transition_out(navitem6.$$.fragment, local);
     			current = false;
     		},
     		d: function destroy(detaching) {
@@ -33447,27 +36537,35 @@ var app = (function () {
     			destroy_component(navitem1, detaching);
     			if (detaching) detach_dev(t1);
     			destroy_component(navitem2, detaching);
+    			if (detaching) detach_dev(t2);
+    			destroy_component(navitem3, detaching);
+    			if (detaching) detach_dev(t3);
+    			destroy_component(navitem4, detaching);
+    			if (detaching) detach_dev(t4);
+    			destroy_component(navitem5, detaching);
+    			if (detaching) detach_dev(t5);
+    			destroy_component(navitem6, detaching);
     		}
     	};
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_17$2.name,
+    		id: create_default_slot_33$2.name,
     		type: "slot",
-    		source: "(63:10) <Nav tabs class=\\\"nav nav-tabs nav-tabs-custom justify-content-center pt-2\\\"           role=\\\"tablist\\\">",
+    		source: "(64:10) <Nav tabs class=\\\"nav nav-tabs nav-tabs-custom justify-content-center pt-2\\\"           role=\\\"tablist\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (110:20) {:else}
-    function create_else_block_2$1(ctx) {
+    // (159:20) {:else}
+    function create_else_block_6(ctx) {
     	let t;
 
     	const block = {
     		c: function create() {
-    			t = text("No market research summary.");
+    			t = text("No Needs Analysis avaliable.");
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, t, anchor);
@@ -33480,18 +36578,18 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_else_block_2$1.name,
+    		id: create_else_block_6.name,
     		type: "else",
-    		source: "(110:20) {:else}",
+    		source: "(159:20) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (108:20) {#if result && result.market_research_summary!== null}
-    function create_if_block_2$1(ctx) {
-    	let t_value = /*result*/ ctx[1].market_research_summary + "";
+    // (157:20) {#if result && result.needs_analysis!== null}
+    function create_if_block_6(ctx) {
+    	let t_value = /*result*/ ctx[1].needs_analysis + "";
     	let t;
 
     	const block = {
@@ -33502,7 +36600,7 @@ var app = (function () {
     			insert_dev(target, t, anchor);
     		},
     		p: function update(ctx, dirty) {
-    			if (dirty & /*result*/ 2 && t_value !== (t_value = /*result*/ ctx[1].market_research_summary + "")) set_data_dev(t, t_value);
+    			if (dirty & /*result*/ 2 && t_value !== (t_value = /*result*/ ctx[1].needs_analysis + "")) set_data_dev(t, t_value);
     		},
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(t);
@@ -33511,22 +36609,22 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_2$1.name,
+    		id: create_if_block_6.name,
     		type: "if",
-    		source: "(108:20) {#if result && result.market_research_summary!== null}",
+    		source: "(157:20) {#if result && result.needs_analysis!== null}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (107:18) <CardText class="mb-0">
-    function create_default_slot_16$2(ctx) {
+    // (156:18) <CardText class="mb-0">
+    function create_default_slot_32$2(ctx) {
     	let if_block_anchor;
 
     	function select_block_type_1(ctx, dirty) {
-    		if (/*result*/ ctx[1] && /*result*/ ctx[1].market_research_summary !== null) return create_if_block_2$1;
-    		return create_else_block_2$1;
+    		if (/*result*/ ctx[1] && /*result*/ ctx[1].needs_analysis !== null) return create_if_block_6;
+    		return create_else_block_6;
     	}
 
     	let current_block_type = select_block_type_1(ctx);
@@ -33562,24 +36660,24 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_16$2.name,
+    		id: create_default_slot_32$2.name,
     		type: "slot",
-    		source: "(107:18) <CardText class=\\\"mb-0\\\">",
+    		source: "(156:18) <CardText class=\\\"mb-0\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (106:16) <Col sm="12">
-    function create_default_slot_15$2(ctx) {
+    // (155:16) <Col sm="12">
+    function create_default_slot_31$2(ctx) {
     	let cardtext;
     	let current;
 
     	cardtext = new CardText({
     			props: {
     				class: "mb-0",
-    				$$slots: { default: [create_default_slot_16$2] },
+    				$$slots: { default: [create_default_slot_32$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -33596,7 +36694,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const cardtext_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 34) {
+    			if (dirty & /*$$scope, result*/ 514) {
     				cardtext_changes.$$scope = { dirty, ctx };
     			}
 
@@ -33618,24 +36716,24 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_15$2.name,
+    		id: create_default_slot_31$2.name,
     		type: "slot",
-    		source: "(106:16) <Col sm=\\\"12\\\">",
+    		source: "(155:16) <Col sm=\\\"12\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (105:14) <Row>
-    function create_default_slot_14$2(ctx) {
+    // (154:14) <Row>
+    function create_default_slot_30$2(ctx) {
     	let col;
     	let current;
 
     	col = new Col({
     			props: {
     				sm: "12",
-    				$$slots: { default: [create_default_slot_15$2] },
+    				$$slots: { default: [create_default_slot_31$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -33652,7 +36750,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const col_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 34) {
+    			if (dirty & /*$$scope, result*/ 514) {
     				col_changes.$$scope = { dirty, ctx };
     			}
 
@@ -33674,23 +36772,23 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_14$2.name,
+    		id: create_default_slot_30$2.name,
     		type: "slot",
-    		source: "(105:14) <Row>",
+    		source: "(154:14) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (104:12) <TabPane tabId="1" class="{customActiveTab == "1" ? 'active': ''}">
-    function create_default_slot_13$3(ctx) {
+    // (153:12) <TabPane tabId="1" class="{customActiveTab == "1" ? 'active': ''}">
+    function create_default_slot_29$2(ctx) {
     	let row;
     	let current;
 
     	row = new Row({
     			props: {
-    				$$slots: { default: [create_default_slot_14$2] },
+    				$$slots: { default: [create_default_slot_30$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -33707,7 +36805,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const row_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 34) {
+    			if (dirty & /*$$scope, result*/ 514) {
     				row_changes.$$scope = { dirty, ctx };
     			}
 
@@ -33729,22 +36827,22 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_13$3.name,
+    		id: create_default_slot_29$2.name,
     		type: "slot",
-    		source: "(104:12) <TabPane tabId=\\\"1\\\" class=\\\"{customActiveTab == \\\"1\\\" ? 'active': ''}\\\">",
+    		source: "(153:12) <TabPane tabId=\\\"1\\\" class=\\\"{customActiveTab == \\\"1\\\" ? 'active': ''}\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (123:20) {:else}
-    function create_else_block_1$1(ctx) {
+    // (172:20) {:else}
+    function create_else_block_5(ctx) {
     	let t;
 
     	const block = {
     		c: function create() {
-    			t = text("No customer journey");
+    			t = text("No Market Size avalaible.");
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, t, anchor);
@@ -33757,18 +36855,18 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_else_block_1$1.name,
+    		id: create_else_block_5.name,
     		type: "else",
-    		source: "(123:20) {:else}",
+    		source: "(172:20) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (121:20) {#if result && result.customer_journey== null}
-    function create_if_block_1$1(ctx) {
-    	let t_value = /*result*/ ctx[1].customer_journey + "";
+    // (170:20) {#if result && result.market_size== null}
+    function create_if_block_5(ctx) {
+    	let t_value = /*result*/ ctx[1].market_size + "";
     	let t;
 
     	const block = {
@@ -33779,7 +36877,7 @@ var app = (function () {
     			insert_dev(target, t, anchor);
     		},
     		p: function update(ctx, dirty) {
-    			if (dirty & /*result*/ 2 && t_value !== (t_value = /*result*/ ctx[1].customer_journey + "")) set_data_dev(t, t_value);
+    			if (dirty & /*result*/ 2 && t_value !== (t_value = /*result*/ ctx[1].market_size + "")) set_data_dev(t, t_value);
     		},
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(t);
@@ -33788,22 +36886,22 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_1$1.name,
+    		id: create_if_block_5.name,
     		type: "if",
-    		source: "(121:20) {#if result && result.customer_journey== null}",
+    		source: "(170:20) {#if result && result.market_size== null}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (120:18) <CardText class="mb-0">
-    function create_default_slot_12$3(ctx) {
+    // (169:18) <CardText class="mb-0">
+    function create_default_slot_28$2(ctx) {
     	let if_block_anchor;
 
     	function select_block_type_2(ctx, dirty) {
-    		if (/*result*/ ctx[1] && /*result*/ ctx[1].customer_journey == null) return create_if_block_1$1;
-    		return create_else_block_1$1;
+    		if (/*result*/ ctx[1] && /*result*/ ctx[1].market_size == null) return create_if_block_5;
+    		return create_else_block_5;
     	}
 
     	let current_block_type = select_block_type_2(ctx);
@@ -33839,24 +36937,24 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_12$3.name,
+    		id: create_default_slot_28$2.name,
     		type: "slot",
-    		source: "(120:18) <CardText class=\\\"mb-0\\\">",
+    		source: "(169:18) <CardText class=\\\"mb-0\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (119:16) <Col sm="12">
-    function create_default_slot_11$3(ctx) {
+    // (168:16) <Col sm="12">
+    function create_default_slot_27$2(ctx) {
     	let cardtext;
     	let current;
 
     	cardtext = new CardText({
     			props: {
     				class: "mb-0",
-    				$$slots: { default: [create_default_slot_12$3] },
+    				$$slots: { default: [create_default_slot_28$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -33873,7 +36971,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const cardtext_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 34) {
+    			if (dirty & /*$$scope, result*/ 514) {
     				cardtext_changes.$$scope = { dirty, ctx };
     			}
 
@@ -33895,24 +36993,24 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_11$3.name,
+    		id: create_default_slot_27$2.name,
     		type: "slot",
-    		source: "(119:16) <Col sm=\\\"12\\\">",
+    		source: "(168:16) <Col sm=\\\"12\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (118:14) <Row>
-    function create_default_slot_10$4(ctx) {
+    // (167:14) <Row>
+    function create_default_slot_26$2(ctx) {
     	let col;
     	let current;
 
     	col = new Col({
     			props: {
     				sm: "12",
-    				$$slots: { default: [create_default_slot_11$3] },
+    				$$slots: { default: [create_default_slot_27$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -33929,7 +37027,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const col_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 34) {
+    			if (dirty & /*$$scope, result*/ 514) {
     				col_changes.$$scope = { dirty, ctx };
     			}
 
@@ -33951,23 +37049,23 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_10$4.name,
+    		id: create_default_slot_26$2.name,
     		type: "slot",
-    		source: "(118:14) <Row>",
+    		source: "(167:14) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (117:12) <TabPane tabId="2" class="{customActiveTab == "2" ? 'active': ''}">
-    function create_default_slot_9$4(ctx) {
+    // (166:12) <TabPane tabId="2" class="{customActiveTab == "2" ? 'active': ''}">
+    function create_default_slot_25$2(ctx) {
     	let row;
     	let current;
 
     	row = new Row({
     			props: {
-    				$$slots: { default: [create_default_slot_10$4] },
+    				$$slots: { default: [create_default_slot_26$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -33984,7 +37082,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const row_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 34) {
+    			if (dirty & /*$$scope, result*/ 514) {
     				row_changes.$$scope = { dirty, ctx };
     			}
 
@@ -34006,22 +37104,22 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_9$4.name,
+    		id: create_default_slot_25$2.name,
     		type: "slot",
-    		source: "(117:12) <TabPane tabId=\\\"2\\\" class=\\\"{customActiveTab == \\\"2\\\" ? 'active': ''}\\\">",
+    		source: "(166:12) <TabPane tabId=\\\"2\\\" class=\\\"{customActiveTab == \\\"2\\\" ? 'active': ''}\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (136:20) {:else}
-    function create_else_block$1(ctx) {
+    // (185:20) {:else}
+    function create_else_block_4$1(ctx) {
     	let t;
 
     	const block = {
     		c: function create() {
-    			t = text("No brand position");
+    			t = text("No Market Trend avaliable.");
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, t, anchor);
@@ -34034,18 +37132,18 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_else_block$1.name,
+    		id: create_else_block_4$1.name,
     		type: "else",
-    		source: "(136:20) {:else}",
+    		source: "(185:20) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (134:20) {#if result && result.brand_position!== null}
-    function create_if_block$2(ctx) {
-    	let t_value = /*result*/ ctx[1].brand_position + "";
+    // (183:20) {#if result && result.market_trend!== null}
+    function create_if_block_4$1(ctx) {
+    	let t_value = /*result*/ ctx[1].market_trend + "";
     	let t;
 
     	const block = {
@@ -34056,7 +37154,7 @@ var app = (function () {
     			insert_dev(target, t, anchor);
     		},
     		p: function update(ctx, dirty) {
-    			if (dirty & /*result*/ 2 && t_value !== (t_value = /*result*/ ctx[1].brand_position + "")) set_data_dev(t, t_value);
+    			if (dirty & /*result*/ 2 && t_value !== (t_value = /*result*/ ctx[1].market_trend + "")) set_data_dev(t, t_value);
     		},
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(t);
@@ -34065,22 +37163,22 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block$2.name,
+    		id: create_if_block_4$1.name,
     		type: "if",
-    		source: "(134:20) {#if result && result.brand_position!== null}",
+    		source: "(183:20) {#if result && result.market_trend!== null}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (133:18) <CardText class="mb-0">
-    function create_default_slot_8$4(ctx) {
+    // (182:18) <CardText class="mb-0">
+    function create_default_slot_24$2(ctx) {
     	let if_block_anchor;
 
     	function select_block_type_3(ctx, dirty) {
-    		if (/*result*/ ctx[1] && /*result*/ ctx[1].brand_position !== null) return create_if_block$2;
-    		return create_else_block$1;
+    		if (/*result*/ ctx[1] && /*result*/ ctx[1].market_trend !== null) return create_if_block_4$1;
+    		return create_else_block_4$1;
     	}
 
     	let current_block_type = select_block_type_3(ctx);
@@ -34116,16 +37214,1124 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_8$4.name,
+    		id: create_default_slot_24$2.name,
     		type: "slot",
-    		source: "(133:18) <CardText class=\\\"mb-0\\\">",
+    		source: "(182:18) <CardText class=\\\"mb-0\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (132:16) <Col sm="12">
+    // (181:16) <Col sm="12">
+    function create_default_slot_23$2(ctx) {
+    	let cardtext;
+    	let current;
+
+    	cardtext = new CardText({
+    			props: {
+    				class: "mb-0",
+    				$$slots: { default: [create_default_slot_24$2] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(cardtext.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(cardtext, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const cardtext_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 514) {
+    				cardtext_changes.$$scope = { dirty, ctx };
+    			}
+
+    			cardtext.$set(cardtext_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(cardtext.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(cardtext.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(cardtext, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_23$2.name,
+    		type: "slot",
+    		source: "(181:16) <Col sm=\\\"12\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (180:14) <Row>
+    function create_default_slot_22$2(ctx) {
+    	let col;
+    	let current;
+
+    	col = new Col({
+    			props: {
+    				sm: "12",
+    				$$slots: { default: [create_default_slot_23$2] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(col.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(col, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const col_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 514) {
+    				col_changes.$$scope = { dirty, ctx };
+    			}
+
+    			col.$set(col_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(col.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(col.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(col, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_22$2.name,
+    		type: "slot",
+    		source: "(180:14) <Row>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (179:12) <TabPane tabId="3" class="{customActiveTab == "3" ? 'active': ''}">
+    function create_default_slot_21$2(ctx) {
+    	let row;
+    	let current;
+
+    	row = new Row({
+    			props: {
+    				$$slots: { default: [create_default_slot_22$2] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(row.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(row, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const row_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 514) {
+    				row_changes.$$scope = { dirty, ctx };
+    			}
+
+    			row.$set(row_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(row.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(row.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(row, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_21$2.name,
+    		type: "slot",
+    		source: "(179:12) <TabPane tabId=\\\"3\\\" class=\\\"{customActiveTab == \\\"3\\\" ? 'active': ''}\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (198:20) {:else}
+    function create_else_block_3$1(ctx) {
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text("No Market Trend avaliable.");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		p: noop$1,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_else_block_3$1.name,
+    		type: "else",
+    		source: "(198:20) {:else}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (196:20) {#if result && result.competetive_analysis!== null}
+    function create_if_block_3$1(ctx) {
+    	let t_value = /*result*/ ctx[1].competetive_analysis + "";
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text(t_value);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		p: function update(ctx, dirty) {
+    			if (dirty & /*result*/ 2 && t_value !== (t_value = /*result*/ ctx[1].competetive_analysis + "")) set_data_dev(t, t_value);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_3$1.name,
+    		type: "if",
+    		source: "(196:20) {#if result && result.competetive_analysis!== null}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (195:18) <CardText class="mb-0">
+    function create_default_slot_20$2(ctx) {
+    	let if_block_anchor;
+
+    	function select_block_type_4(ctx, dirty) {
+    		if (/*result*/ ctx[1] && /*result*/ ctx[1].competetive_analysis !== null) return create_if_block_3$1;
+    		return create_else_block_3$1;
+    	}
+
+    	let current_block_type = select_block_type_4(ctx);
+    	let if_block = current_block_type(ctx);
+
+    	const block = {
+    		c: function create() {
+    			if_block.c();
+    			if_block_anchor = empty();
+    		},
+    		m: function mount(target, anchor) {
+    			if_block.m(target, anchor);
+    			insert_dev(target, if_block_anchor, anchor);
+    		},
+    		p: function update(ctx, dirty) {
+    			if (current_block_type === (current_block_type = select_block_type_4(ctx)) && if_block) {
+    				if_block.p(ctx, dirty);
+    			} else {
+    				if_block.d(1);
+    				if_block = current_block_type(ctx);
+
+    				if (if_block) {
+    					if_block.c();
+    					if_block.m(if_block_anchor.parentNode, if_block_anchor);
+    				}
+    			}
+    		},
+    		d: function destroy(detaching) {
+    			if_block.d(detaching);
+    			if (detaching) detach_dev(if_block_anchor);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_20$2.name,
+    		type: "slot",
+    		source: "(195:18) <CardText class=\\\"mb-0\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (194:16) <Col sm="12">
+    function create_default_slot_19$2(ctx) {
+    	let cardtext;
+    	let current;
+
+    	cardtext = new CardText({
+    			props: {
+    				class: "mb-0",
+    				$$slots: { default: [create_default_slot_20$2] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(cardtext.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(cardtext, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const cardtext_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 514) {
+    				cardtext_changes.$$scope = { dirty, ctx };
+    			}
+
+    			cardtext.$set(cardtext_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(cardtext.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(cardtext.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(cardtext, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_19$2.name,
+    		type: "slot",
+    		source: "(194:16) <Col sm=\\\"12\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (193:14) <Row>
+    function create_default_slot_18$2(ctx) {
+    	let col;
+    	let current;
+
+    	col = new Col({
+    			props: {
+    				sm: "12",
+    				$$slots: { default: [create_default_slot_19$2] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(col.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(col, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const col_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 514) {
+    				col_changes.$$scope = { dirty, ctx };
+    			}
+
+    			col.$set(col_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(col.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(col.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(col, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_18$2.name,
+    		type: "slot",
+    		source: "(193:14) <Row>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (192:12) <TabPane tabId="4" class="{customActiveTab == "4" ? 'active': ''}">
+    function create_default_slot_17$2(ctx) {
+    	let row;
+    	let current;
+
+    	row = new Row({
+    			props: {
+    				$$slots: { default: [create_default_slot_18$2] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(row.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(row, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const row_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 514) {
+    				row_changes.$$scope = { dirty, ctx };
+    			}
+
+    			row.$set(row_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(row.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(row.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(row, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_17$2.name,
+    		type: "slot",
+    		source: "(192:12) <TabPane tabId=\\\"4\\\" class=\\\"{customActiveTab == \\\"4\\\" ? 'active': ''}\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (211:20) {:else}
+    function create_else_block_2$1(ctx) {
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text("No Market Research Summary avaliable.");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		p: noop$1,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_else_block_2$1.name,
+    		type: "else",
+    		source: "(211:20) {:else}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (209:20) {#if result && result.market_research_summary!== null}
+    function create_if_block_2$1(ctx) {
+    	let t_value = /*result*/ ctx[1].market_research_summary + "";
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text(t_value);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		p: function update(ctx, dirty) {
+    			if (dirty & /*result*/ 2 && t_value !== (t_value = /*result*/ ctx[1].market_research_summary + "")) set_data_dev(t, t_value);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_2$1.name,
+    		type: "if",
+    		source: "(209:20) {#if result && result.market_research_summary!== null}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (208:18) <CardText class="mb-0">
+    function create_default_slot_16$2(ctx) {
+    	let if_block_anchor;
+
+    	function select_block_type_5(ctx, dirty) {
+    		if (/*result*/ ctx[1] && /*result*/ ctx[1].market_research_summary !== null) return create_if_block_2$1;
+    		return create_else_block_2$1;
+    	}
+
+    	let current_block_type = select_block_type_5(ctx);
+    	let if_block = current_block_type(ctx);
+
+    	const block = {
+    		c: function create() {
+    			if_block.c();
+    			if_block_anchor = empty();
+    		},
+    		m: function mount(target, anchor) {
+    			if_block.m(target, anchor);
+    			insert_dev(target, if_block_anchor, anchor);
+    		},
+    		p: function update(ctx, dirty) {
+    			if (current_block_type === (current_block_type = select_block_type_5(ctx)) && if_block) {
+    				if_block.p(ctx, dirty);
+    			} else {
+    				if_block.d(1);
+    				if_block = current_block_type(ctx);
+
+    				if (if_block) {
+    					if_block.c();
+    					if_block.m(if_block_anchor.parentNode, if_block_anchor);
+    				}
+    			}
+    		},
+    		d: function destroy(detaching) {
+    			if_block.d(detaching);
+    			if (detaching) detach_dev(if_block_anchor);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_16$2.name,
+    		type: "slot",
+    		source: "(208:18) <CardText class=\\\"mb-0\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (207:16) <Col sm="12">
+    function create_default_slot_15$2(ctx) {
+    	let cardtext;
+    	let current;
+
+    	cardtext = new CardText({
+    			props: {
+    				class: "mb-0",
+    				$$slots: { default: [create_default_slot_16$2] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(cardtext.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(cardtext, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const cardtext_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 514) {
+    				cardtext_changes.$$scope = { dirty, ctx };
+    			}
+
+    			cardtext.$set(cardtext_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(cardtext.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(cardtext.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(cardtext, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_15$2.name,
+    		type: "slot",
+    		source: "(207:16) <Col sm=\\\"12\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (206:14) <Row>
+    function create_default_slot_14$2(ctx) {
+    	let col;
+    	let current;
+
+    	col = new Col({
+    			props: {
+    				sm: "12",
+    				$$slots: { default: [create_default_slot_15$2] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(col.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(col, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const col_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 514) {
+    				col_changes.$$scope = { dirty, ctx };
+    			}
+
+    			col.$set(col_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(col.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(col.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(col, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_14$2.name,
+    		type: "slot",
+    		source: "(206:14) <Row>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (205:12) <TabPane tabId="5" class="{customActiveTab == "5" ? 'active': ''}">
+    function create_default_slot_13$3(ctx) {
+    	let row;
+    	let current;
+
+    	row = new Row({
+    			props: {
+    				$$slots: { default: [create_default_slot_14$2] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(row.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(row, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const row_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 514) {
+    				row_changes.$$scope = { dirty, ctx };
+    			}
+
+    			row.$set(row_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(row.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(row.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(row, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_13$3.name,
+    		type: "slot",
+    		source: "(205:12) <TabPane tabId=\\\"5\\\" class=\\\"{customActiveTab == \\\"5\\\" ? 'active': ''}\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (224:20) {:else}
+    function create_else_block_1$1(ctx) {
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text("No Customer Journey avaliable.");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		p: noop$1,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_else_block_1$1.name,
+    		type: "else",
+    		source: "(224:20) {:else}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (222:20) {#if result && result.customer_journey!== null}
+    function create_if_block_1$1(ctx) {
+    	let t_value = /*result*/ ctx[1].customer_journey + "";
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text(t_value);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		p: function update(ctx, dirty) {
+    			if (dirty & /*result*/ 2 && t_value !== (t_value = /*result*/ ctx[1].customer_journey + "")) set_data_dev(t, t_value);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_1$1.name,
+    		type: "if",
+    		source: "(222:20) {#if result && result.customer_journey!== null}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (221:18) <CardText class="mb-0">
+    function create_default_slot_12$3(ctx) {
+    	let if_block_anchor;
+
+    	function select_block_type_6(ctx, dirty) {
+    		if (/*result*/ ctx[1] && /*result*/ ctx[1].customer_journey !== null) return create_if_block_1$1;
+    		return create_else_block_1$1;
+    	}
+
+    	let current_block_type = select_block_type_6(ctx);
+    	let if_block = current_block_type(ctx);
+
+    	const block = {
+    		c: function create() {
+    			if_block.c();
+    			if_block_anchor = empty();
+    		},
+    		m: function mount(target, anchor) {
+    			if_block.m(target, anchor);
+    			insert_dev(target, if_block_anchor, anchor);
+    		},
+    		p: function update(ctx, dirty) {
+    			if (current_block_type === (current_block_type = select_block_type_6(ctx)) && if_block) {
+    				if_block.p(ctx, dirty);
+    			} else {
+    				if_block.d(1);
+    				if_block = current_block_type(ctx);
+
+    				if (if_block) {
+    					if_block.c();
+    					if_block.m(if_block_anchor.parentNode, if_block_anchor);
+    				}
+    			}
+    		},
+    		d: function destroy(detaching) {
+    			if_block.d(detaching);
+    			if (detaching) detach_dev(if_block_anchor);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_12$3.name,
+    		type: "slot",
+    		source: "(221:18) <CardText class=\\\"mb-0\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (220:16) <Col sm="12">
+    function create_default_slot_11$3(ctx) {
+    	let cardtext;
+    	let current;
+
+    	cardtext = new CardText({
+    			props: {
+    				class: "mb-0",
+    				$$slots: { default: [create_default_slot_12$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(cardtext.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(cardtext, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const cardtext_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 514) {
+    				cardtext_changes.$$scope = { dirty, ctx };
+    			}
+
+    			cardtext.$set(cardtext_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(cardtext.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(cardtext.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(cardtext, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_11$3.name,
+    		type: "slot",
+    		source: "(220:16) <Col sm=\\\"12\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (219:14) <Row>
+    function create_default_slot_10$4(ctx) {
+    	let col;
+    	let current;
+
+    	col = new Col({
+    			props: {
+    				sm: "12",
+    				$$slots: { default: [create_default_slot_11$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(col.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(col, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const col_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 514) {
+    				col_changes.$$scope = { dirty, ctx };
+    			}
+
+    			col.$set(col_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(col.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(col.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(col, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_10$4.name,
+    		type: "slot",
+    		source: "(219:14) <Row>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (218:12) <TabPane tabId="6" class="{customActiveTab == "6" ? 'active': ''}">
+    function create_default_slot_9$4(ctx) {
+    	let row;
+    	let current;
+
+    	row = new Row({
+    			props: {
+    				$$slots: { default: [create_default_slot_10$4] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(row.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(row, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const row_changes = {};
+
+    			if (dirty & /*$$scope, result*/ 514) {
+    				row_changes.$$scope = { dirty, ctx };
+    			}
+
+    			row.$set(row_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(row.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(row.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(row, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_9$4.name,
+    		type: "slot",
+    		source: "(218:12) <TabPane tabId=\\\"6\\\" class=\\\"{customActiveTab == \\\"6\\\" ? 'active': ''}\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (237:20) {:else}
+    function create_else_block$1(ctx) {
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text("No Customer Journey avaliable.");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		p: noop$1,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_else_block$1.name,
+    		type: "else",
+    		source: "(237:20) {:else}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (235:20) {#if result && result.brand_positioning!== null}
+    function create_if_block$2(ctx) {
+    	let t_value = /*result*/ ctx[1].brand_positioning + "";
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text(t_value);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		p: function update(ctx, dirty) {
+    			if (dirty & /*result*/ 2 && t_value !== (t_value = /*result*/ ctx[1].brand_positioning + "")) set_data_dev(t, t_value);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block$2.name,
+    		type: "if",
+    		source: "(235:20) {#if result && result.brand_positioning!== null}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (234:18) <CardText class="mb-0">
+    function create_default_slot_8$4(ctx) {
+    	let if_block_anchor;
+
+    	function select_block_type_7(ctx, dirty) {
+    		if (/*result*/ ctx[1] && /*result*/ ctx[1].brand_positioning !== null) return create_if_block$2;
+    		return create_else_block$1;
+    	}
+
+    	let current_block_type = select_block_type_7(ctx);
+    	let if_block = current_block_type(ctx);
+
+    	const block = {
+    		c: function create() {
+    			if_block.c();
+    			if_block_anchor = empty();
+    		},
+    		m: function mount(target, anchor) {
+    			if_block.m(target, anchor);
+    			insert_dev(target, if_block_anchor, anchor);
+    		},
+    		p: function update(ctx, dirty) {
+    			if (current_block_type === (current_block_type = select_block_type_7(ctx)) && if_block) {
+    				if_block.p(ctx, dirty);
+    			} else {
+    				if_block.d(1);
+    				if_block = current_block_type(ctx);
+
+    				if (if_block) {
+    					if_block.c();
+    					if_block.m(if_block_anchor.parentNode, if_block_anchor);
+    				}
+    			}
+    		},
+    		d: function destroy(detaching) {
+    			if_block.d(detaching);
+    			if (detaching) detach_dev(if_block_anchor);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_8$4.name,
+    		type: "slot",
+    		source: "(234:18) <CardText class=\\\"mb-0\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (233:16) <Col sm="12">
     function create_default_slot_7$5(ctx) {
     	let cardtext;
     	let current;
@@ -34150,7 +38356,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const cardtext_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 34) {
+    			if (dirty & /*$$scope, result*/ 514) {
     				cardtext_changes.$$scope = { dirty, ctx };
     			}
 
@@ -34174,14 +38380,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_7$5.name,
     		type: "slot",
-    		source: "(132:16) <Col sm=\\\"12\\\">",
+    		source: "(233:16) <Col sm=\\\"12\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (131:14) <Row>
+    // (232:14) <Row>
     function create_default_slot_6$5(ctx) {
     	let col;
     	let current;
@@ -34206,7 +38412,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const col_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 34) {
+    			if (dirty & /*$$scope, result*/ 514) {
     				col_changes.$$scope = { dirty, ctx };
     			}
 
@@ -34230,14 +38436,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_6$5.name,
     		type: "slot",
-    		source: "(131:14) <Row>",
+    		source: "(232:14) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (130:12) <TabPane tabId="3" class="{customActiveTab == "3" ? 'active': ''}">
+    // (231:12) <TabPane tabId="7" class="{customActiveTab == "7" ? 'active': ''}">
     function create_default_slot_5$5(ctx) {
     	let row;
     	let current;
@@ -34261,7 +38467,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const row_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 34) {
+    			if (dirty & /*$$scope, result*/ 514) {
     				row_changes.$$scope = { dirty, ctx };
     			}
 
@@ -34285,27 +38491,35 @@ var app = (function () {
     		block,
     		id: create_default_slot_5$5.name,
     		type: "slot",
-    		source: "(130:12) <TabPane tabId=\\\"3\\\" class=\\\"{customActiveTab == \\\"3\\\" ? 'active': ''}\\\">",
+    		source: "(231:12) <TabPane tabId=\\\"7\\\" class=\\\"{customActiveTab == \\\"7\\\" ? 'active': ''}\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (103:10) <TabContent activeTab={customActiveTab} class="p-3 text-muted">
+    // (152:10) <TabContent activeTab={customActiveTab} class="p-3 text-muted">
     function create_default_slot_4$5(ctx) {
     	let tabpane0;
     	let t0;
     	let tabpane1;
     	let t1;
     	let tabpane2;
+    	let t2;
+    	let tabpane3;
+    	let t3;
+    	let tabpane4;
+    	let t4;
+    	let tabpane5;
+    	let t5;
+    	let tabpane6;
     	let current;
 
     	tabpane0 = new TabPane({
     			props: {
     				tabId: "1",
     				class: /*customActiveTab*/ ctx[0] == "1" ? 'active' : '',
-    				$$slots: { default: [create_default_slot_13$3] },
+    				$$slots: { default: [create_default_slot_29$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -34315,7 +38529,7 @@ var app = (function () {
     			props: {
     				tabId: "2",
     				class: /*customActiveTab*/ ctx[0] == "2" ? 'active' : '',
-    				$$slots: { default: [create_default_slot_9$4] },
+    				$$slots: { default: [create_default_slot_25$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -34325,6 +38539,46 @@ var app = (function () {
     			props: {
     				tabId: "3",
     				class: /*customActiveTab*/ ctx[0] == "3" ? 'active' : '',
+    				$$slots: { default: [create_default_slot_21$2] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	tabpane3 = new TabPane({
+    			props: {
+    				tabId: "4",
+    				class: /*customActiveTab*/ ctx[0] == "4" ? 'active' : '',
+    				$$slots: { default: [create_default_slot_17$2] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	tabpane4 = new TabPane({
+    			props: {
+    				tabId: "5",
+    				class: /*customActiveTab*/ ctx[0] == "5" ? 'active' : '',
+    				$$slots: { default: [create_default_slot_13$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	tabpane5 = new TabPane({
+    			props: {
+    				tabId: "6",
+    				class: /*customActiveTab*/ ctx[0] == "6" ? 'active' : '',
+    				$$slots: { default: [create_default_slot_9$4] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	tabpane6 = new TabPane({
+    			props: {
+    				tabId: "7",
+    				class: /*customActiveTab*/ ctx[0] == "7" ? 'active' : '',
     				$$slots: { default: [create_default_slot_5$5] },
     				$$scope: { ctx }
     			},
@@ -34338,6 +38592,14 @@ var app = (function () {
     			create_component(tabpane1.$$.fragment);
     			t1 = space();
     			create_component(tabpane2.$$.fragment);
+    			t2 = space();
+    			create_component(tabpane3.$$.fragment);
+    			t3 = space();
+    			create_component(tabpane4.$$.fragment);
+    			t4 = space();
+    			create_component(tabpane5.$$.fragment);
+    			t5 = space();
+    			create_component(tabpane6.$$.fragment);
     		},
     		m: function mount(target, anchor) {
     			mount_component(tabpane0, target, anchor);
@@ -34345,13 +38607,21 @@ var app = (function () {
     			mount_component(tabpane1, target, anchor);
     			insert_dev(target, t1, anchor);
     			mount_component(tabpane2, target, anchor);
+    			insert_dev(target, t2, anchor);
+    			mount_component(tabpane3, target, anchor);
+    			insert_dev(target, t3, anchor);
+    			mount_component(tabpane4, target, anchor);
+    			insert_dev(target, t4, anchor);
+    			mount_component(tabpane5, target, anchor);
+    			insert_dev(target, t5, anchor);
+    			mount_component(tabpane6, target, anchor);
     			current = true;
     		},
     		p: function update(ctx, dirty) {
     			const tabpane0_changes = {};
     			if (dirty & /*customActiveTab*/ 1) tabpane0_changes.class = /*customActiveTab*/ ctx[0] == "1" ? 'active' : '';
 
-    			if (dirty & /*$$scope, result*/ 34) {
+    			if (dirty & /*$$scope, result*/ 514) {
     				tabpane0_changes.$$scope = { dirty, ctx };
     			}
 
@@ -34359,7 +38629,7 @@ var app = (function () {
     			const tabpane1_changes = {};
     			if (dirty & /*customActiveTab*/ 1) tabpane1_changes.class = /*customActiveTab*/ ctx[0] == "2" ? 'active' : '';
 
-    			if (dirty & /*$$scope, result*/ 34) {
+    			if (dirty & /*$$scope, result*/ 514) {
     				tabpane1_changes.$$scope = { dirty, ctx };
     			}
 
@@ -34367,23 +38637,63 @@ var app = (function () {
     			const tabpane2_changes = {};
     			if (dirty & /*customActiveTab*/ 1) tabpane2_changes.class = /*customActiveTab*/ ctx[0] == "3" ? 'active' : '';
 
-    			if (dirty & /*$$scope, result*/ 34) {
+    			if (dirty & /*$$scope, result*/ 514) {
     				tabpane2_changes.$$scope = { dirty, ctx };
     			}
 
     			tabpane2.$set(tabpane2_changes);
+    			const tabpane3_changes = {};
+    			if (dirty & /*customActiveTab*/ 1) tabpane3_changes.class = /*customActiveTab*/ ctx[0] == "4" ? 'active' : '';
+
+    			if (dirty & /*$$scope, result*/ 514) {
+    				tabpane3_changes.$$scope = { dirty, ctx };
+    			}
+
+    			tabpane3.$set(tabpane3_changes);
+    			const tabpane4_changes = {};
+    			if (dirty & /*customActiveTab*/ 1) tabpane4_changes.class = /*customActiveTab*/ ctx[0] == "5" ? 'active' : '';
+
+    			if (dirty & /*$$scope, result*/ 514) {
+    				tabpane4_changes.$$scope = { dirty, ctx };
+    			}
+
+    			tabpane4.$set(tabpane4_changes);
+    			const tabpane5_changes = {};
+    			if (dirty & /*customActiveTab*/ 1) tabpane5_changes.class = /*customActiveTab*/ ctx[0] == "6" ? 'active' : '';
+
+    			if (dirty & /*$$scope, result*/ 514) {
+    				tabpane5_changes.$$scope = { dirty, ctx };
+    			}
+
+    			tabpane5.$set(tabpane5_changes);
+    			const tabpane6_changes = {};
+    			if (dirty & /*customActiveTab*/ 1) tabpane6_changes.class = /*customActiveTab*/ ctx[0] == "7" ? 'active' : '';
+
+    			if (dirty & /*$$scope, result*/ 514) {
+    				tabpane6_changes.$$scope = { dirty, ctx };
+    			}
+
+    			tabpane6.$set(tabpane6_changes);
     		},
     		i: function intro(local) {
     			if (current) return;
     			transition_in(tabpane0.$$.fragment, local);
     			transition_in(tabpane1.$$.fragment, local);
     			transition_in(tabpane2.$$.fragment, local);
+    			transition_in(tabpane3.$$.fragment, local);
+    			transition_in(tabpane4.$$.fragment, local);
+    			transition_in(tabpane5.$$.fragment, local);
+    			transition_in(tabpane6.$$.fragment, local);
     			current = true;
     		},
     		o: function outro(local) {
     			transition_out(tabpane0.$$.fragment, local);
     			transition_out(tabpane1.$$.fragment, local);
     			transition_out(tabpane2.$$.fragment, local);
+    			transition_out(tabpane3.$$.fragment, local);
+    			transition_out(tabpane4.$$.fragment, local);
+    			transition_out(tabpane5.$$.fragment, local);
+    			transition_out(tabpane6.$$.fragment, local);
     			current = false;
     		},
     		d: function destroy(detaching) {
@@ -34392,6 +38702,14 @@ var app = (function () {
     			destroy_component(tabpane1, detaching);
     			if (detaching) detach_dev(t1);
     			destroy_component(tabpane2, detaching);
+    			if (detaching) detach_dev(t2);
+    			destroy_component(tabpane3, detaching);
+    			if (detaching) detach_dev(t3);
+    			destroy_component(tabpane4, detaching);
+    			if (detaching) detach_dev(t4);
+    			destroy_component(tabpane5, detaching);
+    			if (detaching) detach_dev(t5);
+    			destroy_component(tabpane6, detaching);
     		}
     	};
 
@@ -34399,14 +38717,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_4$5.name,
     		type: "slot",
-    		source: "(103:10) <TabContent activeTab={customActiveTab} class=\\\"p-3 text-muted\\\">",
+    		source: "(152:10) <TabContent activeTab={customActiveTab} class=\\\"p-3 text-muted\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (41:8) <CardBody>
+    // (42:8) <CardBody>
     function create_default_slot_3$b(ctx) {
     	let row;
     	let t0;
@@ -34418,7 +38736,7 @@ var app = (function () {
     	row = new Row({
     			props: {
     				class: "p-4",
-    				$$slots: { default: [create_default_slot_24$2] },
+    				$$slots: { default: [create_default_slot_48$1] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -34429,7 +38747,7 @@ var app = (function () {
     				tabs: true,
     				class: "nav nav-tabs nav-tabs-custom justify-content-center pt-2",
     				role: "tablist",
-    				$$slots: { default: [create_default_slot_17$2] },
+    				$$slots: { default: [create_default_slot_33$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -34464,14 +38782,14 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const row_changes = {};
 
-    			if (dirty & /*$$scope, result*/ 34) {
+    			if (dirty & /*$$scope, result*/ 514) {
     				row_changes.$$scope = { dirty, ctx };
     			}
 
     			row.$set(row_changes);
     			const nav_changes = {};
 
-    			if (dirty & /*$$scope, customActiveTab*/ 33) {
+    			if (dirty & /*$$scope, customActiveTab*/ 513) {
     				nav_changes.$$scope = { dirty, ctx };
     			}
 
@@ -34479,7 +38797,7 @@ var app = (function () {
     			const tabcontent_changes = {};
     			if (dirty & /*customActiveTab*/ 1) tabcontent_changes.activeTab = /*customActiveTab*/ ctx[0];
 
-    			if (dirty & /*$$scope, customActiveTab, result*/ 35) {
+    			if (dirty & /*$$scope, customActiveTab, result*/ 515) {
     				tabcontent_changes.$$scope = { dirty, ctx };
     			}
 
@@ -34511,14 +38829,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_3$b.name,
     		type: "slot",
-    		source: "(41:8) <CardBody>",
+    		source: "(42:8) <CardBody>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (40:6) <Card>
+    // (41:6) <Card>
     function create_default_slot_2$b(ctx) {
     	let cardbody;
     	let current;
@@ -34542,7 +38860,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const cardbody_changes = {};
 
-    			if (dirty & /*$$scope, customActiveTab, result*/ 35) {
+    			if (dirty & /*$$scope, customActiveTab, result*/ 515) {
     				cardbody_changes.$$scope = { dirty, ctx };
     			}
 
@@ -34566,14 +38884,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_2$b.name,
     		type: "slot",
-    		source: "(40:6) <Card>",
+    		source: "(41:6) <Card>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (39:4) <Col xl={12}>
+    // (40:4) <Col xl={12}>
     function create_default_slot_1$c(ctx) {
     	let card;
     	let current;
@@ -34597,7 +38915,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const card_changes = {};
 
-    			if (dirty & /*$$scope, customActiveTab, result*/ 35) {
+    			if (dirty & /*$$scope, customActiveTab, result*/ 515) {
     				card_changes.$$scope = { dirty, ctx };
     			}
 
@@ -34621,14 +38939,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_1$c.name,
     		type: "slot",
-    		source: "(39:4) <Col xl={12}>",
+    		source: "(40:4) <Col xl={12}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (37:2) <Container fluid>
+    // (38:2) <Container fluid>
     function create_default_slot$f(ctx) {
     	let breadcrumb;
     	let t;
@@ -34667,7 +38985,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const col_changes = {};
 
-    			if (dirty & /*$$scope, customActiveTab, result*/ 35) {
+    			if (dirty & /*$$scope, customActiveTab, result*/ 515) {
     				col_changes.$$scope = { dirty, ctx };
     			}
 
@@ -34695,7 +39013,7 @@ var app = (function () {
     		block,
     		id: create_default_slot$f.name,
     		type: "slot",
-    		source: "(37:2) <Container fluid>",
+    		source: "(38:2) <Container fluid>",
     		ctx
     	});
 
@@ -34721,7 +39039,7 @@ var app = (function () {
     			div = element("div");
     			create_component(container.$$.fragment);
     			attr_dev(div, "class", "page-flow");
-    			add_location(div, file$i, 35, 0, 622);
+    			add_location(div, file$i, 36, 0, 713);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -34734,7 +39052,7 @@ var app = (function () {
     		p: function update(ctx, [dirty]) {
     			const container_changes = {};
 
-    			if (dirty & /*$$scope, customActiveTab, result*/ 35) {
+    			if (dirty & /*$$scope, customActiveTab, result*/ 515) {
     				container_changes.$$scope = { dirty, ctx };
     			}
 
@@ -34788,6 +39106,10 @@ var app = (function () {
     	const click_handler = () => $$invalidate(0, customActiveTab = "1");
     	const click_handler_1 = () => $$invalidate(0, customActiveTab = "2");
     	const click_handler_2 = () => $$invalidate(0, customActiveTab = "3");
+    	const click_handler_3 = () => $$invalidate(0, customActiveTab = "4");
+    	const click_handler_4 = () => $$invalidate(0, customActiveTab = "5");
+    	const click_handler_5 = () => $$invalidate(0, customActiveTab = "6");
+    	const click_handler_6 = () => $$invalidate(0, customActiveTab = "7");
 
     	$$self.$capture_state = () => ({
     		Link,
@@ -34810,6 +39132,7 @@ var app = (function () {
     		customActiveTab,
     		Breadcrumb,
     		pipelineResults,
+    		getClosestAvailableLocale: dictionary.getClosestAvailableLocale,
     		result
     	});
 
@@ -34822,7 +39145,17 @@ var app = (function () {
     		$$self.$inject_state($$props.$$inject);
     	}
 
-    	return [customActiveTab, result, click_handler, click_handler_1, click_handler_2];
+    	return [
+    		customActiveTab,
+    		result,
+    		click_handler,
+    		click_handler_1,
+    		click_handler_2,
+    		click_handler_3,
+    		click_handler_4,
+    		click_handler_5,
+    		click_handler_6
+    	];
     }
 
     class MarketingResearch extends SvelteComponentDev {
@@ -54728,7 +59061,7 @@ var app = (function () {
     const { console: console_1 } = globals;
     const file$2 = "src/routes/VerticalLayout/PromptField.svelte";
 
-    // (171:20) <Col lg={4} >
+    // (170:20) <Col lg={4} >
     function create_default_slot_13(ctx) {
     	let h5;
     	let t1;
@@ -54755,15 +59088,15 @@ var app = (function () {
     			i1 = element("i");
     			t4 = text("\n                            Simple inputs for wealth generation.");
     			attr_dev(h5, "class", "font-size-15 headlines-global");
-    			add_location(h5, file$2, 171, 20, 5030);
+    			add_location(h5, file$2, 170, 20, 5029);
     			attr_dev(i0, "class", "mdi mdi-chevron-right text-primary me-1");
-    			add_location(i0, file$2, 176, 28, 5251);
-    			add_location(p0, file$2, 175, 28, 5219);
+    			add_location(i0, file$2, 175, 28, 5250);
+    			add_location(p0, file$2, 174, 28, 5218);
     			attr_dev(i1, "class", "mdi mdi-chevron-right text-primary me-1");
-    			add_location(i1, file$2, 180, 28, 5460);
-    			add_location(p1, file$2, 179, 28, 5428);
+    			add_location(i1, file$2, 179, 28, 5459);
+    			add_location(p1, file$2, 178, 28, 5427);
     			attr_dev(div, "class", "text-muted mt-4");
-    			add_location(div, file$2, 174, 20, 5161);
+    			add_location(div, file$2, 173, 20, 5160);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h5, anchor);
@@ -54789,14 +59122,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_13.name,
     		type: "slot",
-    		source: "(171:20) <Col lg={4} >",
+    		source: "(170:20) <Col lg={4} >",
     		ctx
     	});
 
     	return block;
     }
 
-    // (188:24) <CardTitle class="h4 mb-4">
+    // (187:24) <CardTitle class="h4 mb-4">
     function create_default_slot_12(ctx) {
     	let t;
 
@@ -54816,14 +59149,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_12.name,
     		type: "slot",
-    		source: "(188:24) <CardTitle class=\\\"h4 mb-4\\\">",
+    		source: "(187:24) <CardTitle class=\\\"h4 mb-4\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (187:20) <Col lg={8} class="text-sm-end">
+    // (186:20) <Col lg={8} class="text-sm-end">
     function create_default_slot_11(ctx) {
     	let cardtitle;
     	let t0;
@@ -54862,14 +59195,14 @@ var app = (function () {
     			attr_dev(textarea, "class", "form-control form-prompt");
     			attr_dev(textarea, "id", "formrow-prompt-input");
     			textarea.disabled = textarea_disabled_value = /*$pipelineResults*/ ctx[2].startPipeline;
-    			add_location(textarea, file$2, 190, 28, 5972);
+    			add_location(textarea, file$2, 189, 28, 5971);
     			attr_dev(div, "class", "mb-3");
-    			add_location(div, file$2, 189, 28, 5925);
+    			add_location(div, file$2, 188, 28, 5924);
     			button.disabled = button_disabled_value = !/*question*/ ctx[0] || /*$pipelineResults*/ ctx[2].startPipeline;
     			attr_dev(button, "class", "btn btn-primary w-md");
     			attr_dev(button, "type", "submit");
-    			add_location(button, file$2, 193, 28, 6308);
-    			add_location(form, file$2, 188, 24, 5842);
+    			add_location(button, file$2, 192, 28, 6307);
+    			add_location(form, file$2, 187, 24, 5841);
     		},
     		m: function mount(target, anchor) {
     			mount_component(cardtitle, target, anchor);
@@ -54947,14 +59280,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_11.name,
     		type: "slot",
-    		source: "(187:20) <Col lg={8} class=\\\"text-sm-end\\\">",
+    		source: "(186:20) <Col lg={8} class=\\\"text-sm-end\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (170:16) <Row class="p-4">
+    // (169:16) <Row class="p-4">
     function create_default_slot_10(ctx) {
     	let col0;
     	let t;
@@ -55030,14 +59363,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_10.name,
     		type: "slot",
-    		source: "(170:16) <Row class=\\\"p-4\\\">",
+    		source: "(169:16) <Row class=\\\"p-4\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (156:12) <AccordionItem active>
+    // (155:12) <AccordionItem active>
     function create_default_slot_9(ctx) {
     	let div;
     	let row;
@@ -55057,7 +59390,7 @@ var app = (function () {
     			div = element("div");
     			create_component(row.$$.fragment);
     			attr_dev(div, "class", "text-muted");
-    			add_location(div, file$2, 168, 16, 4917);
+    			add_location(div, file$2, 167, 16, 4916);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -55092,14 +59425,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_9.name,
     		type: "slot",
-    		source: "(156:12) <AccordionItem active>",
+    		source: "(155:12) <AccordionItem active>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (159:20) <Col sm={2}>
+    // (158:20) <Col sm={2}>
     function create_default_slot_8(ctx) {
     	let t;
 
@@ -55119,14 +59452,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_8.name,
     		type: "slot",
-    		source: "(159:20) <Col sm={2}>",
+    		source: "(158:20) <Col sm={2}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (162:20) <Col sm={8} class="text-sm-center "  >
+    // (161:20) <Col sm={8} class="text-sm-center "  >
     function create_default_slot_7(ctx) {
     	let h5;
     	let i;
@@ -55139,9 +59472,9 @@ var app = (function () {
     			i = element("i");
     			t = text("BUILDING RESULTS");
     			attr_dev(i, "class", "mdi mdi-alert-circle-outline me-3");
-    			add_location(i, file$2, 163, 24, 4738);
+    			add_location(i, file$2, 162, 24, 4737);
     			attr_dev(h5, "class", h5_class_value = "h6 " + (/*isLoading*/ ctx[1] ? "running-going" : "running-stop") + "");
-    			add_location(h5, file$2, 162, 20, 4652);
+    			add_location(h5, file$2, 161, 20, 4651);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h5, anchor);
@@ -55162,14 +59495,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_7.name,
     		type: "slot",
-    		source: "(162:20) <Col sm={8} class=\\\"text-sm-center \\\"  >",
+    		source: "(161:20) <Col sm={8} class=\\\"text-sm-center \\\"  >",
     		ctx
     	});
 
     	return block;
     }
 
-    // (158:16) <Row>
+    // (157:16) <Row>
     function create_default_slot_6(ctx) {
     	let col0;
     	let t;
@@ -55245,14 +59578,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_6.name,
     		type: "slot",
-    		source: "(158:16) <Row>",
+    		source: "(157:16) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (157:16) 
+    // (156:16) 
     function create_header_slot(ctx) {
     	let div;
     	let row;
@@ -55272,7 +59605,7 @@ var app = (function () {
     			create_component(row.$$.fragment);
     			attr_dev(div, "class", "header-prompt");
     			attr_dev(div, "slot", "header");
-    			add_location(div, file$2, 156, 16, 4415);
+    			add_location(div, file$2, 155, 16, 4414);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -55307,14 +59640,14 @@ var app = (function () {
     		block,
     		id: create_header_slot.name,
     		type: "slot",
-    		source: "(157:16) ",
+    		source: "(156:16) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (155:12) <Accordion class="custom-accordion">
+    // (154:12) <Accordion class="custom-accordion">
     function create_default_slot_5(ctx) {
     	let accordionitem;
     	let current;
@@ -55366,14 +59699,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_5.name,
     		type: "slot",
-    		source: "(155:12) <Accordion class=\\\"custom-accordion\\\">",
+    		source: "(154:12) <Accordion class=\\\"custom-accordion\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (150:8) <Col lg={12}>
+    // (149:8) <Col lg={12}>
     function create_default_slot_4(ctx) {
     	let h5;
     	let t1;
@@ -55401,9 +59734,9 @@ var app = (function () {
     			t3 = space();
     			create_component(accordion.$$.fragment);
     			attr_dev(h5, "class", "font-size-14");
-    			add_location(h5, file$2, 150, 12, 4144);
+    			add_location(h5, file$2, 149, 12, 4143);
     			attr_dev(p, "class", "card-title-desc");
-    			add_location(p, file$2, 151, 12, 4197);
+    			add_location(p, file$2, 150, 12, 4196);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h5, anchor);
@@ -55444,14 +59777,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_4.name,
     		type: "slot",
-    		source: "(150:8) <Col lg={12}>",
+    		source: "(149:8) <Col lg={12}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (149:8) <Row>
+    // (148:8) <Row>
     function create_default_slot_3$1(ctx) {
     	let col;
     	let current;
@@ -55500,14 +59833,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_3$1.name,
     		type: "slot",
-    		source: "(149:8) <Row>",
+    		source: "(148:8) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (148:4) <CardBody>
+    // (147:4) <CardBody>
     function create_default_slot_2$1(ctx) {
     	let row;
     	let current;
@@ -55555,14 +59888,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_2$1.name,
     		type: "slot",
-    		source: "(148:4) <CardBody>",
+    		source: "(147:4) <CardBody>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (147:4) <Card>
+    // (146:4) <Card>
     function create_default_slot_1$1(ctx) {
     	let cardbody;
     	let current;
@@ -55610,14 +59943,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_1$1.name,
     		type: "slot",
-    		source: "(147:4) <Card>",
+    		source: "(146:4) <Card>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (146:0) <Row>
+    // (145:0) <Row>
     function create_default_slot$2(ctx) {
     	let card;
     	let current;
@@ -55665,7 +59998,7 @@ var app = (function () {
     		block,
     		id: create_default_slot$2.name,
     		type: "slot",
-    		source: "(146:0) <Row>",
+    		source: "(145:0) <Row>",
     		ctx
     	});
 
@@ -57509,5 +61842,5 @@ var app = (function () {
 
     return app;
 
-})();
+})(dictionary);
 //# sourceMappingURL=bundle.js.map

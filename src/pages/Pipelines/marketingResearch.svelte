@@ -21,6 +21,7 @@
   let customActiveTab = "1";
   import Breadcrumb from "../../common/Breadcrumb.svelte";
   import { pipelineResults } from '../../helpers/store.js';
+  import { getClosestAvailableLocale } from "svelte-i18n/types/runtime/stores/dictionary";
 
   let result;
   pipelineResults.subscribe((value) => {
@@ -71,7 +72,7 @@
                 <span class="d-block d-sm-none">
                   <i class="fas fa-home" />
                 </span>
-                <span class="d-none d-sm-block"> 1. Market Research Summary</span>
+                <span class="d-none d-sm-block"> 1. Needs Analysis</span>
               </NavLink>
             </NavItem>
             <NavItem>
@@ -81,9 +82,9 @@
                 active={customActiveTab == "2"}
               >
                 <span class="d-block d-sm-none">
-                  <i class="far fa-user" />
+                  <i class="fas fa-home" />
                 </span>
-                <span class="d-none d-sm-block">2.Customer Journey</span>
+                <span class="d-none d-sm-block"> 2. Market Trend Analysis </span>
               </NavLink>
             </NavItem>
             <NavItem>
@@ -93,9 +94,57 @@
                 active={customActiveTab == "3"}
               >
                 <span class="d-block d-sm-none">
-                  <i class="far fa-user" />
+                  <i class="fas fa-home" />
                 </span>
-                <span class="d-none d-sm-block">3. Brand Position</span>
+                <span class="d-none d-sm-block"> 3. Competitive Analysis</span>
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                style="cursor: pointer"
+                on:click={() => (customActiveTab = "4")}
+                active={customActiveTab == "4"}
+              >
+                <span class="d-block d-sm-none">
+                  <i class="fas fa-home" />
+                </span>
+                <span class="d-none d-sm-block"> 4. Market Research Summary</span>
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                style="cursor: pointer"
+                on:click={() => (customActiveTab = "5")}
+                active={customActiveTab == "5"}
+              >
+                <span class="d-block d-sm-none">
+                  <i class="fas fa-home" />
+                </span>
+                <span class="d-none d-sm-block"> 5. Customer Journey</span>
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                style="cursor: pointer"
+                on:click={() => (customActiveTab = "6")}
+                active={customActiveTab == "6"}
+              >
+                <span class="d-block d-sm-none">
+                  <i class="fas fa-home" />
+                </span>
+                <span class="d-none d-sm-block"> 6. Brand Position</span>
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                style="cursor: pointer"
+                on:click={() => (customActiveTab = "7")}
+                active={customActiveTab == "7"}
+              >
+                <span class="d-block d-sm-none">
+                  <i class="fas fa-home" />
+                </span>
+                <span class="d-none d-sm-block"> 7. Brand Position</span>
               </NavLink>
             </NavItem>
           </Nav>
@@ -105,10 +154,10 @@
               <Row>
                 <Col sm="12">
                   <CardText class="mb-0">
-                    {#if result && result.market_research_summary!== null}
-                        {result.market_research_summary}
+                    {#if result && result.needs_analysis!== null}
+                        {result.needs_analysis}
                     {:else}
-                        No market research summary.
+                        No Needs Analysis avaliable.
                     {/if}
                   </CardText>
                 </Col>
@@ -118,10 +167,10 @@
               <Row>
                 <Col sm="12">
                   <CardText class="mb-0">
-                    {#if result && result.customer_journey== null}
-                        {result.customer_journey}
+                    {#if result && result.market_size== null}
+                        {result.market_size}
                     {:else}
-                        No customer journey
+                        No Market Size avalaible.
                     {/if}
                   </CardText>
                 </Col>
@@ -131,15 +180,67 @@
               <Row>
                 <Col sm="12">
                   <CardText class="mb-0">
-                    {#if result && result.brand_position!== null}
-                        {result.brand_position}
+                    {#if result && result.market_trend!== null}
+                        {result.market_trend}
                     {:else}
-                        No brand position
+                        No Market Trend avaliable.
+                    {/if}
+                  </CardText>
+                </Col>
+              </Row>
+            </TabPane> 
+            <TabPane tabId="4" class="{customActiveTab == "4" ? 'active': ''}">
+              <Row>
+                <Col sm="12">
+                  <CardText class="mb-0">
+                    {#if result && result.competetive_analysis!== null}
+                        {result.competetive_analysis}
+                    {:else}
+                        No Market Trend avaliable.
+                    {/if}
+                  </CardText>
+                </Col>
+              </Row>
+            </TabPane>  
+            <TabPane tabId="5" class="{customActiveTab == "5" ? 'active': ''}">
+              <Row>
+                <Col sm="12">
+                  <CardText class="mb-0">
+                    {#if result && result.market_research_summary!== null}
+                        {result.market_research_summary}
+                    {:else}
+                        No Market Research Summary avaliable.
                     {/if}
                   </CardText>
                 </Col>
               </Row>
             </TabPane>   
+            <TabPane tabId="6" class="{customActiveTab == "6" ? 'active': ''}">
+              <Row>
+                <Col sm="12">
+                  <CardText class="mb-0">
+                    {#if result && result.customer_journey!== null}
+                        {result.customer_journey}
+                    {:else}
+                        No Customer Journey avaliable.
+                    {/if}
+                  </CardText>
+                </Col>
+              </Row>
+            </TabPane>  
+            <TabPane tabId="7" class="{customActiveTab == "7" ? 'active': ''}">
+              <Row>
+                <Col sm="12">
+                  <CardText class="mb-0">
+                    {#if result && result.brand_positioning!== null}
+                        {result.brand_positioning}
+                    {:else}
+                        No Customer Journey avaliable.
+                    {/if}
+                  </CardText>
+                </Col>
+              </Row>
+            </TabPane> 
           </TabContent>
         </CardBody>
       </Card>

@@ -47,7 +47,6 @@
     }
 
 
-
     async function businessModel() {
         try {
             let audienceInfo = await queryTargetDB(projectId, 'target_audience');
