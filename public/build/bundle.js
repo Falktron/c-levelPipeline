@@ -65612,7 +65612,6 @@ var app = (function () {
         if (response.ok) {
           const jsonData = await response.json();
           const data = JSON.parse(jsonData);  
-          console.log(data);  
           return data[0];
         } else {
           throw new Error('Error fetching data from the API');
@@ -65660,7 +65659,8 @@ var app = (function () {
         });
         
         if (response.ok) {
-          const data = await response.json();
+          const jsonData = await response.json();
+          const data = JSON.parse(jsonData);    
           return data[0];
         } else {
           throw new Error('Error fetching data from the API');
@@ -65683,7 +65683,8 @@ var app = (function () {
         });
         
         if (response.ok) {
-          const data = await response.json();
+          const jsonData = await response.json();
+          const data = JSON.parse(jsonData);    
           return data[0];
         } else {
           throw new Error('Error fetching data from the API');
