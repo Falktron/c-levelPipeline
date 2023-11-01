@@ -62,7 +62,7 @@ async function queryMarketingResearch(prompt) {
     
     if (response.ok) {
       const data = await response.json();
-      return data[0].results[0];
+      return data[0];
     } else {
       throw new Error('Error fetching data from the API');
     }
@@ -85,7 +85,7 @@ async function queryBrandIdentity(prompt) {
     
     if (response.ok) {
       const data = await response.json();
-      return data[0].results[0];
+      return data[0];
     } else {
       throw new Error('Error fetching data from the API');
     }

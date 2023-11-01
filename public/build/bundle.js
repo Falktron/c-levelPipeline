@@ -65661,7 +65661,7 @@ var app = (function () {
         
         if (response.ok) {
           const data = await response.json();
-          return data[0].results[0];
+          return data[0];
         } else {
           throw new Error('Error fetching data from the API');
         }
@@ -65684,7 +65684,7 @@ var app = (function () {
         
         if (response.ok) {
           const data = await response.json();
-          return data[0].results[0];
+          return data[0];
         } else {
           throw new Error('Error fetching data from the API');
         }
@@ -65745,15 +65745,15 @@ var app = (function () {
     			i1 = element("i");
     			t4 = text("\n                            Simple inputs for wealth generation.");
     			attr_dev(h5, "class", "font-size-15 headlines-global");
-    			add_location(h5, file$2, 231, 20, 6850);
+    			add_location(h5, file$2, 231, 20, 6851);
     			attr_dev(i0, "class", "mdi mdi-chevron-right text-primary me-1");
-    			add_location(i0, file$2, 236, 28, 7071);
-    			add_location(p0, file$2, 235, 28, 7039);
+    			add_location(i0, file$2, 236, 28, 7072);
+    			add_location(p0, file$2, 235, 28, 7040);
     			attr_dev(i1, "class", "mdi mdi-chevron-right text-primary me-1");
-    			add_location(i1, file$2, 240, 28, 7280);
-    			add_location(p1, file$2, 239, 28, 7248);
+    			add_location(i1, file$2, 240, 28, 7281);
+    			add_location(p1, file$2, 239, 28, 7249);
     			attr_dev(div, "class", "text-muted mt-4");
-    			add_location(div, file$2, 234, 20, 6981);
+    			add_location(div, file$2, 234, 20, 6982);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h5, anchor);
@@ -65852,14 +65852,14 @@ var app = (function () {
     			attr_dev(textarea, "class", "form-control form-prompt");
     			attr_dev(textarea, "id", "formrow-prompt-input");
     			textarea.disabled = textarea_disabled_value = /*$pipelineResults*/ ctx[2].startPipeline;
-    			add_location(textarea, file$2, 250, 28, 7792);
+    			add_location(textarea, file$2, 250, 28, 7793);
     			attr_dev(div, "class", "mb-3");
-    			add_location(div, file$2, 249, 28, 7745);
+    			add_location(div, file$2, 249, 28, 7746);
     			button.disabled = button_disabled_value = !/*question*/ ctx[0] || /*$pipelineResults*/ ctx[2].startPipeline;
     			attr_dev(button, "class", "btn btn-primary w-md");
     			attr_dev(button, "type", "submit");
-    			add_location(button, file$2, 253, 28, 8128);
-    			add_location(form, file$2, 248, 24, 7662);
+    			add_location(button, file$2, 253, 28, 8129);
+    			add_location(form, file$2, 248, 24, 7663);
     		},
     		m: function mount(target, anchor) {
     			mount_component(cardtitle, target, anchor);
@@ -66047,7 +66047,7 @@ var app = (function () {
     			div = element("div");
     			create_component(row.$$.fragment);
     			attr_dev(div, "class", "text-muted");
-    			add_location(div, file$2, 228, 16, 6737);
+    			add_location(div, file$2, 228, 16, 6738);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -66129,9 +66129,9 @@ var app = (function () {
     			i = element("i");
     			t = text("BUILDING RESULTS");
     			attr_dev(i, "class", "mdi mdi-alert-circle-outline me-3");
-    			add_location(i, file$2, 223, 24, 6558);
+    			add_location(i, file$2, 223, 24, 6559);
     			attr_dev(h5, "class", h5_class_value = "h6 " + (/*isLoading*/ ctx[1] ? "running-going" : "running-stop") + "");
-    			add_location(h5, file$2, 222, 20, 6472);
+    			add_location(h5, file$2, 222, 20, 6473);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h5, anchor);
@@ -66262,7 +66262,7 @@ var app = (function () {
     			create_component(row.$$.fragment);
     			attr_dev(div, "class", "header-prompt");
     			attr_dev(div, "slot", "header");
-    			add_location(div, file$2, 216, 16, 6235);
+    			add_location(div, file$2, 216, 16, 6236);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -66391,9 +66391,9 @@ var app = (function () {
     			t3 = space();
     			create_component(accordion.$$.fragment);
     			attr_dev(h5, "class", "font-size-14");
-    			add_location(h5, file$2, 210, 12, 5964);
+    			add_location(h5, file$2, 210, 12, 5965);
     			attr_dev(p, "class", "card-title-desc");
-    			add_location(p, file$2, 211, 12, 6017);
+    			add_location(p, file$2, 211, 12, 6018);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h5, anchor);

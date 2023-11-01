@@ -69,7 +69,7 @@
                 response = await queryTargetUsers(data);
                 updateVariable("targetAudience", response);
                 console.log(response);
-            } catch (error) {
+            } catch (error) { 
                 throw error;
             }
 
